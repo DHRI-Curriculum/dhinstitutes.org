@@ -1,0 +1,8 @@
+main-menu:
+    - ["/pages/about.html", "About"]
+    - ["/pages/people.html", "People"]
+    - ["/pages/curriculum.html", "Curriculum"]
+    - ["/pages/network.html", "Network"]
+    - ["/pages/dhri_gc.html", "DHRI@GC"]
+    - ["/pages/partners.html", "Partners"]
+    - ["/pages/reports.html", "Reports"]

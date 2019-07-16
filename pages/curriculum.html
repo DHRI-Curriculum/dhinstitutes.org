@@ -1,53 +1,63 @@
 ---
+title: Digital Humanities Research Institute
+
 headers:
-    - ["header-1","Header 1"]
-    - ["header-2","Header 2"]
-    - ["header-3","Header 3"]
+    - ["#header-1","Header 1"]
+
+internal-path:
+    - ["/", "Home"]
+    - ["/pages/curriculum.html", "Curriculum"]
 ---
 
-{% if page.headers.size > 0 %}
-<div id="pagenav-group" class="list-group position-fixed">
-{% for p in page.headers %}
-    <a class="list-group-item list-group-item-action" href="#{{ p[0] }}">{{ p[1] }}</a>
-{% endfor %}
-</div>
-{% endif %}
+{% include head.html %}
 
-<!-- Curriculum here -->
+	<body data-spy="scroll" data-target="#pagenav-group" data-offset="10">
 
-[Intro of curriculum]
+        {% include nav.html %}
 
-<!-- [Reminder] -->
-Remember that the workshops below provide more than open-access workshops. DHRI is a holistic approach to digital skill development that seeks to address a difficult and often elusive challenge in digital humanities training: combining critical, theoretically-engaged pedagogy with hands-on skill workshops, enabling emerging digital practitioners to become confident and flexible autodidacts through face-to-face workshops, centering contextual and localized knowledge production over the exoticism of “centers of expertise,” and doing so while supporting a robust human network of emerging DH leaders by connecting them with one another and external resources.
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2">
+                    {% include page-nav.html %}
+                    
+                </div>
+                <div class="col-7">
+                    
+                    {% include breadcrumbs.html %}
+                    
+                    <section id="page-content">
+                        <div class="row clearfix">
+                            <div class="col">
+                                <!-- Curriculum here -->
 
-Thus, we combine inclusive and critical pedagogy with a flexible set of workshops that foreground humanities skepticism and inquiry in form and content. We urge you to consider how your local context, pedagogical expectations, and professional responsibilities can and should impact the workshops below in your local contexts.
+                                <p class="lead">Our curriculum places great emphasis on foundational technical skills, and roughly one-third of all sessions at the Institute could be described as foundational. These skills—the command line, Git, Python, and data—represent flexible technologies predicated on fundamental concepts in computational literacy. We emphasize foundational skills because we believe that it is the most effective path toward enabling digital humanities researchers to become self-teachers and mentors in their own right. Many bootcamp-style intensives prioritize instrumental outcomes, such as whether students can write a for loop or build a map. While immediate results are desirable, we have found that students who know how to use the command line, read technical documentation, and reason about simple systems are more self-sufficient and better able to approach technology (and technological rhetoric) with a critical eye. This leads to second- and third-order effects as students teach themselves and teach others, and also provides a common conceptual vocabulary and skill set that serves as a basis for collaboration within the community.</p>
 
-Remember to not divide the skills learning below from humanistic inquiry. We all come to the learning experience as equals in our teaching and pedagogical questions, and these, in turn, should motivate the workshops. The approach is centered on celebrating the unique domains of knowledge that each participant and each institutional setting offers. Through explicit attention to inclusive language, instruction, and discussion, we encourage you to implement the digital skills workshops with a purposeful pedagogical approach.
+                                
 
-[Curriculum]
+                                [Curriculum]
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col">
+                    <section id="extra">
+                        <!-- extra space -->
+                        
+                        <!-- [Reminder] -->
+                                <p>Remember that the workshops below provide more than open-access workshops. DHRI is a holistic approach to digital skill development that seeks to address a difficult and often elusive challenge in digital humanities training: combining critical, theoretically-engaged pedagogy with hands-on skill workshops, enabling emerging digital practitioners to become confident and flexible autodidacts through face-to-face workshops, centering contextual and localized knowledge production over the exoticism of “centers of expertise,” and doing so while supporting a robust human network of emerging DH leaders by connecting them with one another and external resources.</p>
 
-<!-- below is just a test - can be deleted -->
+                                <p>Thus, we combine inclusive and critical pedagogy with a flexible set of workshops that foreground humanities skepticism and inquiry in form and content. We urge you to consider how your local context, pedagogical expectations, and professional responsibilities can and should impact the workshops below in your local contexts.</p>
 
-<h1 id="header-1" class="jumptarget">Header 1</h1>
-Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
+                                <p>Remember to not divide the skills learning below from humanistic inquiry. We all come to the learning experience as equals in our teaching and pedagogical questions, and these, in turn, should motivate the workshops. The approach is centered on celebrating the unique domains of knowledge that each participant and each institutional setting offers. Through explicit attention to inclusive language, instruction, and discussion, we encourage you to implement the digital skills workshops with a purposeful pedagogical approach.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+		
 
-<h1 id="header-2" class="jumptarget">Header 2</h1>
-Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
+        {% include scripts.html %}
+        {% include _fix-page-nav-scroll.html %}
+	</body>
+</html>
 
-<h1 id="header-3" class="jumptarget">Header 3</h1>
-Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
 
-<h1 id="list-item-4" class="jumptarget">Item 4</h1>
-Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.

@@ -1,0 +1,20 @@
+{% if page.internal-path.size > 0 %}
+<section id="breadcrumb">
+    <div class="row clearfix">
+        <div class="col"
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    {% for p in page.internal-path %}
+                        {% if forloop.length == forloop.index %}
+                            <li class="breadcrumb-item active" aria-current="page">{{ p[1] }}</li>
+                        {% else %}
+                            <li class="breadcrumb-item"><a href="{{ p[0] }}">{{ p[1] }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+
+                </ol>
+            </nav>
+        </div>
+    </div>
+</section>
+{% endif %}

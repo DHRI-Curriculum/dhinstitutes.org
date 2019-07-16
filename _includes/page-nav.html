@@ -1,0 +1,9 @@
+{% if page.headers.size > 0 %}
+    <section id="page-nav">
+        <div id="pagenav-group" class="list-group position-fixed">
+        {% for p in page.headers %}
+            <a class="list-group-item list-group-item-action" href="#{{ p[0] }}">{{ p[1] }}</a>
+        {% endfor %}
+        </div>
+    </section>
+{% endif %}

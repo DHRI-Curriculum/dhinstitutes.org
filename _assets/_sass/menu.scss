@@ -1,0 +1,30 @@
+/* ----- megamenu ------------------------------------------ */
+
+.megamenu {
+  position: static !important;
+
+  .dropdown-menu {
+    background: none;
+    border: none;
+    width: 100%;
+  }
+
+}
+
+/* only lg */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .menu-display {
+    max-width:100vw;
+  }
+}
+
+/* only xl */
+@media (min-width: 1200px) {
+  .menu-display {
+    max-width:75vw;
+  }
+}
+
+/* ----- // megamenu ---------------------------------------- */
+
+

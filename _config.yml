@@ -11,8 +11,14 @@ main-menu:
 
 
 sass:
-  style: compressed
+  sass_dir: _assets/_sass
+  # style: compressed
 
 plugins:
   - jekyll-sitemap
-  - autoprefixer-rails
+
+collections:
+  assets:
+    output: true
+
+exclude: ['README.md', "Gemfile", "Gemfile.lock"]

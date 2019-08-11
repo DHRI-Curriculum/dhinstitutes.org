@@ -1,0 +1,27 @@
+
+
+// used for our popup on top, if visitors have
+#ie-warning {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+body {
+  background-color: $dark-blue !important;
+  min-height: 2000px;
+
+  &::before {
+  display: block;
+  content: '';
+  height: 72px; /* or whatever */
+  }
+
+}
+
+.nav-link-header {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+

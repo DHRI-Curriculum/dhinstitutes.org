@@ -1,73 +1,89 @@
 ---
-title: Digital Humanities Research Institute
-headers:
-    - ["#header-1","Header 1"]
-    - ["#header-2","Header 2"]
-    - ["#header-3","Header 3"]
-    - ["#header-4","Header 4"]
-    - ["/pages/another-page.html","Separate page"]
+title: "Digital Humanities Research Institute"
+title_short: "DH Research Institute"
 ---
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- todo: insert -->
 
-{% include head.html %}
+    <title>{{ page.title }}</title>
 
-	<body data-spy="scroll" data-target="#pagenav-group" data-offset="10">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
 
-        {% include nav.html %}
+    <!-- DHRI Fonts and icons -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fc335a03bd.js"></script>
 
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    {% include page-nav.html %}
-                    
-                </div>
-                <div class="col-8">
-                    <section id="page-content">
-                        <div class="row clearfix">
-                            <div class="col-xl-4 col-sm-12" style="background-color:#ddd">
-                                <h1 id="header-1" class="jumptarget">Header 1</h1>
-                                Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-                                Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-                                Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-                                Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-                                
-                                <h1 id="header-2" class="jumptarget">Header 2</h1>
-                                Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-                                Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-                                Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-                                Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-                                
-                                <h1 id="header-3" class="jumptarget">Header 3</h1>
-                                Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-                                Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-                                Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-                                Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-                                
-                                <h1 id="header-4" class="jumptarget">Header 4</h1>
-                                Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-                                Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-                                Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-                                Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
-                                
-                            </div>
-                            <div class="col-xl-4 col-sm-12" style="background-color:#eee">
-                                CONTENT
-                            </div>
-                            <div class="col-xl-4 col-sm-12" style="background-color:#eef">
-                                CONTENT
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="col">
-                    <section id="extra">
-                        <!-- extra space -->
-                    </section>
-                </div>
-            </div>
-        </div>
-		
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ 'styles.css' | prepend: site.dirs.css }}">
+    <link rel="stylesheet" href="{{ 'states.css' | prepend: site.dirs.css }}">
 
-        {% include scripts.html %}
-        {% include _fix-page-nav-scroll.html %}
-	</body>
+    <!-- Icon -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ 'apple-touch-icon-57x57.png' | prepend: site.dirs.icon }}" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ 'apple-touch-icon-114x114.png' | prepend: site.dirs.icon }}" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ 'apple-touch-icon-72x72.png' | prepend: site.dirs.icon }}" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ 'apple-touch-icon-144x144.png' | prepend: site.dirs.icon }}" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ 'apple-touch-icon-60x60.png' | prepend: site.dirs.icon }}" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ 'apple-touch-icon-120x120.png' | prepend: site.dirs.icon }}" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ 'apple-touch-icon-76x76.png' | prepend: site.dirs.icon }}" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ 'apple-touch-icon-152x152.png' | prepend: site.dirs.icon }}" />
+    <link rel="icon" type="image/png" href="{{ 'favicon-196x196.png' | prepend: site.dirs.icon }}" sizes="196x196" />
+    <link rel="icon" type="image/png" href="{{ 'favicon-96x96.png' | prepend: site.dirs.icon }}" sizes="96x96" />
+    <link rel="icon" type="image/png" href="{{ 'favicon-32x32.png' | prepend: site.dirs.icon }}" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{ 'favicon-16x16.png' | prepend: site.dirs.icon }}" sizes="16x16" />
+    <link rel="icon" type="image/png" href="{{ 'favicon-128.png' | prepend: site.dirs.icon }}" sizes="128x128" />
+    <meta name="application-name" content="DHRI"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+  </head>
+  <body>
+    <script type="text/javascript">
+      var isIE = /*@cc_on!@*/false || !!document.documentMode;
+      if (isIE) {
+        var ie_div = document.createElement("div");
+        ie_div.innerHTML = "<div class=\"col p-1 mb-3\">Warning: You are using Internet Explorer, which is not entirely supported by our website. Why not try a different browser?</div>";
+        ie_div.setAttribute("id", "ie-warning");
+        ie_div.setAttribute("class", "text-center bg-warning row");
+        document.body.appendChild(ie_div);
+      }
+    </script>
+    
+    {% include megamenu.html %}
+
+
+    <!-- Jumbotron for smaller screens (xs, sm, md): -->
+    <section class="jumbotron text-center">
+      <div class="container">
+      <img src="{{ 'dhri-round.png' | prepend: site.dirs.logo }}" class="img-fluid mb-1" style="height:150px;">
+        <h1 class="jumbotron-heading">Further Expanding Digital Humanities Communities of Practice</h1>
+        <p class="lead text-left">The Digital Humanities Research Institute is an intensive, community-oriented, and foundational approach to learning technical skills in service of humanities teaching and learning.</p>
+        <p class="text-left">Through seminar-style discussions with leading scholars in digital humanities, hands-on workshops on core technical competencies, and project development labs, participants will become familiar with working from the command line, collaborating with git, programming with Python, querying structured data, creating maps, and analyzing texts computationally. You will also become part of a growing network of institute leaders by developing your own DHRI based on our open, core curriculum to be led at your home institution or organization.</p>
+      </div>
+    </section>
+
+    <section id="" class="bg-dark-blue">
+      <div class="container-fluid text-white" style="min-height:300px;">
+        <p>This is the intro</p>
+      </div>
+    </section>
+
+
+
+    {% include footer.html %}
+
+    <!-- Optional JavaScript: jQuery needs to load first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>

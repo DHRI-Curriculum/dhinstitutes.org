@@ -63,59 +63,7 @@ title_short: "DH Research Institute"
     {% include megamenu.html %}
 
 
-    <!-- Jumbotron for smaller screens (xs, sm, md): -->
-    <section class="jumbotron text-center">
-      <div class="container">
-      <img src="{{ 'dhri-round.png' | prepend: site.dirs.logo }}" class="img-fluid mb-1" style="height:150px;">
-        <h1 class="jumbotron-heading">Further Expanding Digital Humanities Communities of Practice</h1>
-        <p class="lead text-left">The Digital Humanities Research Institute is an intensive, community-oriented, and foundational approach to learning technical skills in service of humanities teaching and learning.</p>
-        <p class="text-left">Through seminar-style discussions with leading scholars in digital humanities, hands-on workshops on core technical competencies, and project development labs, participants will become familiar with working from the command line, collaborating with git, programming with Python, querying structured data, creating maps, and analyzing texts computationally. You will also become part of a growing network of institute leaders by developing your own DHRI based on our open, core curriculum to be led at your home institution or organization.</p>
-      </div>
-    </section>
-
-    <section id="" class="bg-dark-blue">
-      <div class="container-fluid text-white" style="min-height:300px;">
-        <p>This is the intro</p>
-      </div>
-    </section>
-
-
-
-    <!-- Footer: Small screen (xs, sm) -->
-    <footer class="text-muted bg-white pt-4 d-md-none">
-      <div class="container text-center">
-      <p><small>The Digital Humanities Research Institute are funded through a generous grant from the National Endowment for the Humanities and with support from The Graduate Center's Provost's Office.</small></p>
-      <a href="http://www.neh.gov/" target="_blank"><img src="{{ 'neh.png' | prepend: site.dirs.logo }}" class="w-75 py-4" /></a>
-      <a href="https://gcdi.commons.gc.cuny.edu/" target="_blank"><img src="{{ 'gcdi.png' | prepend: site.dirs.logo }}" class="w-50 py-4" /></a>
-      <div class="row py-4">
-        <table class="w-75 mx-auto">
-        <tr>
-          <td class="pr-3 align-bottom"><a href="http://www.gc.cuny.edu/" target="_blank"><img src="{{ 'gc.png' | prepend: site.dirs.logo }}" class="w-100" /></a></td>
-          <td class="align-bottom"><a href="http://www.cuny.edu/" target="_blank"><img src="{{ 'cuny.png' | prepend: site.dirs.logo }}" height="75" /></a></td>
-        </tr>
-        </table>
-      </div>
-      </div>
-    </footer>
-
-    <!-- Footer: Larger screen (md, lg, xl) -->
-    <footer class="text-muted bg-white pt-4 d-none d-md-block">
-      <div class="container">
-      <table class="w-75 mx-auto">
-        <tr>
-        <td class="align-bottom text-center pb-4" colspan="3"><a href="http://www.neh.gov/" target="_blank"><img src="{{ 'neh.png' | prepend: site.dirs.logo }}" style="height:100px;" /></a></td>
-        </tr>
-        <tr>
-        <td class="pr-5 align-bottom text-left"><a href="http://www.gc.cuny.edu/" target="_blank"><img src="{{ 'gc.png' | prepend: site.dirs.logo }}" height="200" /></a></td>
-        <td class="pr-5 align-bottom text-center"><a href="https://gcdi.commons.gc.cuny.edu/" target="_blank"><img src="{{ 'gcdi.png' | prepend: site.dirs.logo }}" style="height:50px;" /></a></td>
-        <td class="align-bottom text-right"><a href="http://www.cuny.edu/" target="_blank"><img src="{{ 'cuny.png' | prepend: site.dirs.logo }}" height="75" /></a></td>
-        </tr>
-      </table>
-      <div class="d-flex justify-content-around py-4">
-        <small>The Digital Humanities Research Institute is funded through a generous grant from the National Endowment for the Humanities and with support from The Graduate Center's Provost's Office.</small>
-      </div>
-      </div>
-    </footer>
+    {% include footer.html %}
 
     <!-- Optional JavaScript: jQuery needs to load first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

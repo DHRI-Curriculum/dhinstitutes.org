@@ -1,0 +1,38 @@
+- header: About
+  link:
+  items:
+    - header: Grant History
+      link: 
+    - header: News
+      link: 
+    - header: Media
+      link: 
+    - header: Contact
+      link: 
+
+- header: People
+  link:
+  items:
+    - header: Leadership
+      link: 
+    - header: Faculty & Fellows
+      link: 
+    - header: Community Leaders
+      link: 
+    - header: Team Alumni
+      link: 
+
+- header: Curricula
+  link:
+
+- header: Curricula
+  link:
+  items:
+    - header: Leadership
+      link: 
+    - header: Faculty & Fellows
+      link: 
+    - header: Community Leaders
+      link: 
+    - header: Team Alumni
+      link: 

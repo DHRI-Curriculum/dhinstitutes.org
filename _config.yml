@@ -1,3 +1,5 @@
+url: "http://www.dhinstitutes.org"
+
 main-menu:
     - ["/pages/about.html", "About"]
     - ["/pages/people.html", "People"]
@@ -10,3 +12,7 @@ main-menu:
 
 sass:
   style: compressed
+
+plugins:
+  - jekyll-sitemap
+  - autoprefixer-rails

@@ -22,7 +22,8 @@ title: "Digital Humanities Research Institute"
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="includes/css/custom.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/states.css">
 
     <!-- Icon -->
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="includes/img/icon/apple-touch-icon-57x57.png" />
@@ -45,43 +46,6 @@ title: "Digital Humanities Research Institute"
     <meta name="msapplication-square150x150logo" content="includes/img/icon/mstile-150x150.png" />
     <meta name="msapplication-wide310x150logo" content="includes/img/icon/mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="includes/img/icon/mstile-310x310.png" />
-    <style type="text/css">
-      #ie-warning {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-      }
-      .megamenu {
-        position: static;
-      }
-      .megamenu .dropdown-menu {
-        background: none;
-        border: none;
-        width: 100%;
-      }
-      body {
-        background-color: rgba(39, 49, 66, 1) !important;
-        min-height: 2000px;
-      }
-      body::before {
-        display: block;
-        content: '';
-        height: 72px; /* or whatever */
-      }
-      .nav-link-header {
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-      }
-
-
-      .all_states { fill-opacity:.1 !important; }
-                          .all_states #DHRI { fill-opacity:1 !important; fill: #cf00e6; }
-                          .all_states #DHRI:hover { fill-opacity:.5 !important; }
-                          .highlight { fill:rgba(39, 49, 66, 1) !important; }
-                          #ME, #NY, #MS, #PR, #MI, #PA, #IN, #NC, #GA, #AZ, #TX, #AR, #KY, #MN { fill-opacity:.7; fill: #83a6e3; }
-                          #ME:hover, #NY:hover, #MS:hover, #PR:hover, #MI:hover, #PA:hover, #IN:hover, #NC:hover, #GA:hover, #AZ:hover, #TX:hover, #AR:hover, #KY:hover, #MN:hover, #DHRI:hover { cursor: pointer; fill-opacity:.5 !important; }
-    </style>
   </head>
   <body>
     <script type="text/javascript">
@@ -101,8 +65,8 @@ title: "Digital Humanities Research Institute"
         <ul class="navbar-nav">
           <li class="nav-item dropdown megamenu">
             <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
-              <div class="container-fluid">
-                <div class="row bg-white m-0 shadow-sm">
+              <div class="container-fluid px-0">
+                <div class="row bg-white m-0 shadow-sm menu-display">
                   <div class="col-lg-7 col-xl-8">
                     <div class="row p-4">
                       {% for item in site.data.megamenu %}

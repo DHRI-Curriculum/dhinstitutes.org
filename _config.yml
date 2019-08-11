@@ -6,3 +6,7 @@ main-menu:
     - ["/pages/dhri_gc.html", "DHRI@GC"]
     - ["/pages/partners.html", "Partners"]
     - ["/pages/reports.html", "Reports"]
+
+
+sass:
+  style: compressed

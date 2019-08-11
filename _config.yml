@@ -1,10 +1,12 @@
 url: "http://www.dhinstitutes.org"
+
 dirs:
   img: "/assets/images/"
   icon: "/assets/images/icons/"
   css: "/assets/css/"
   js: "/assets/js/"
   logo: "/assets/images/logos/"
+
 
 main-menu:
     - ["/pages/about.html", "About"]

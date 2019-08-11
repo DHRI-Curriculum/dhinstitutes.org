@@ -29,7 +29,6 @@ dhinstitutes.org version 2.0
         - Poster for DH2018 conference
         - ACH 2019 micro website
         - One-pager [and/or maybe that goes under media]
-- [ ] Blog post: "What to expect from the ACH 2019 session" (**Lisa**)
         
 ## Wishlist
 - [ ] Integrate hypothesis on website

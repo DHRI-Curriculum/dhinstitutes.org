@@ -5,11 +5,13 @@ $(document).ready(function () {
     var idleInterval = setInterval(timerIncrement, 30000); // 30 secs
 
     //Zero the idle timer on mouse movement.
-    $(this).mousemove(function (e) {
-        idleTime = 0;
+    $('html').mousemove(function (e) {
+      console.log("Mouse movement, resetting idle time...");
+      idleTime = 0;
     });
-    $(this).keypress(function (e) {
-        idleTime = 0;
+    $('html').keydown(function (e) {
+      console.log("Keypress, resetting idle time...");
+      idleTime = 0;
     });
 });
 

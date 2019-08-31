@@ -67,6 +67,98 @@ title_short: "DH Research Institute"
     </section>
 
 
+    <section id="testing-bios-again">
+<style>
+          /* Main */
+        #menu {
+            list-style: none;  
+        }
+        
+        #menu li {
+            float: left;
+            padding: 0 0 10px 0;
+            position: relative;
+        }
+        
+        #menu a {
+            float: left;
+            height: 25px;
+            padding: 0 25px;
+        }
+        
+        #menu li:hover > ul {
+            display: block;
+        }
+        
+        /* Sub-menu */
+        #menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: block;
+            position: absolute;
+            top: 35px;
+            left: 0;
+            z-index: 99999;    
+            background-color: #444;   
+            background-image: linear-gradient(#444, #111);    
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+        #menu ul a {    
+            padding: 10px;
+            height: auto;
+            line-height: 1;
+            display: block;
+            white-space: nowrap;
+            float: none;
+            text-transform: none;
+        }
+        
+        #menu ul li:first-child a:after {
+            content: '';
+            position: absolute;
+            left: 30px;
+            top: -8px;
+            width: 0;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-bottom: 8px solid #444;
+        }
+        
+        /* Clear floated elements */
+        #menu:after {
+            visibility: hidden;
+            display: block;
+            font-size: 0;
+            content: " ";
+            clear: both;
+            height: 0;
+        }
+      </style>
+
+
+<ul id="menu">
+    <li><a href="#">Home</a></li>
+    <li>
+        <a href="#">Categories</a>
+        <ul>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Graphic design</a></li>
+            <li><a href="#">Development tools</a></li>
+            <li><a href="#">Web design</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Work</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+
+
+    </section>
+
     <div class="container-fluid">
       <div class="row border-top border-bottom" style="height: 500px; overflow: scroll; background-color:#afb3b6;">
         <div class="col-lg-7 mx-auto py-3">

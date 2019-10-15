@@ -2,198 +2,45 @@
 title: "Digital Humanities Research Institute"
 title_short: "DH Research Institute"
 ---
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- todo: insert -->
 
-    <title>{{ page.title }}</title>
+{% include header.html %}
+{% include nav.html %}
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
-
-    <!-- DHRI Fonts and icons -->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/fc335a03bd.js"></script>
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ 'styles.css' | prepend: site.dirs.css }}">
-    <link rel="stylesheet" href="{{ 'states.css' | prepend: site.dirs.css }}">
-
-    <!-- Icon -->
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ 'apple-touch-icon-57x57.png' | prepend: site.dirs.icon }}" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ 'apple-touch-icon-114x114.png' | prepend: site.dirs.icon }}" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ 'apple-touch-icon-72x72.png' | prepend: site.dirs.icon }}" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ 'apple-touch-icon-144x144.png' | prepend: site.dirs.icon }}" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ 'apple-touch-icon-60x60.png' | prepend: site.dirs.icon }}" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ 'apple-touch-icon-120x120.png' | prepend: site.dirs.icon }}" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ 'apple-touch-icon-76x76.png' | prepend: site.dirs.icon }}" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ 'apple-touch-icon-152x152.png' | prepend: site.dirs.icon }}" />
-    <link rel="icon" type="image/png" href="{{ 'favicon-196x196.png' | prepend: site.dirs.icon }}" sizes="196x196" />
-    <link rel="icon" type="image/png" href="{{ 'favicon-96x96.png' | prepend: site.dirs.icon }}" sizes="96x96" />
-    <link rel="icon" type="image/png" href="{{ 'favicon-32x32.png' | prepend: site.dirs.icon }}" sizes="32x32" />
-    <link rel="icon" type="image/png" href="{{ 'favicon-16x16.png' | prepend: site.dirs.icon }}" sizes="16x16" />
-    <link rel="icon" type="image/png" href="{{ 'favicon-128.png' | prepend: site.dirs.icon }}" sizes="128x128" />
-    <meta name="application-name" content="DHRI"/>
-    <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
-    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
-    <script src="{{ 'check_ie.js' | prepend: site.dirs.js }}"></script>
-
-  </head>
-  <body>
-    {% include megamenu.html %}
-
-    <!-- Jumbotron for smaller screens (xs, sm, md): -->
-    <section class="jumbotron text-center">
-      <div class="container">
-      <img src="{{ 'dhri-round.png' | prepend: site.dirs.logo }}" class="img-fluid mb-1" style="height:150px;">
-        <h1 class="jumbotron-heading">Further Expanding Digital Humanities Communities of Practice</h1>
-        <p class="lead text-left">The Digital Humanities Research Institute is an intensive, community-oriented, and foundational approach to learning technical skills in service of humanities teaching and learning.</p>
-        <p class="text-left">Through seminar-style discussions with leading scholars in digital humanities, hands-on workshops on core technical competencies, and project development labs, participants will become familiar with working from the command line, collaborating with git, programming with Python, querying structured data, creating maps, and analyzing texts computationally. You will also become part of a growing network of institute leaders by developing your own DHRI based on our open, core curriculum to be led at your home institution or organization.</p>
-      </div>
-    </section>
-
-    <section id="" class="bg-dark-blue">
-      <div class="container-fluid text-white" style="min-height:300px;">
-        <p>This is the intro</p>
-      </div>
-    </section>
+<section class="jumbotron text-center">
+  <div class="container">
+  <img src="{{ 'dhri-round.png' | prepend: site.dirs.logo }}" class="img-fluid mb-1" style="height:150px;">
+    <h1 class="jumbotron-heading">Further Expanding Digital Humanities Communities of Practice</h1>
+    <p class="lead text-left">The Digital Humanities Research Institute is an intensive, community-oriented, and foundational approach to learning technical skills in service of humanities teaching and learning.</p>
+    <!-- <p class="text-left">Through seminar-style discussions with leading scholars in digital humanities, hands-on workshops on core technical competencies, and project development labs, participants will become familiar with working from the command line, collaborating with git, programming with Python, querying structured data, creating maps, and analyzing texts computationally. You will also become part of a growing network of institute leaders by developing your own DHRI based on our open, core curriculum to be led at your home institution or organization.</p> -->
+  </div>
+</section><!-- ./ Jumbotron -->
 
 
-    <section id="testing-bios-again">
-<style>
-          /* Main */
-        #menu {
-            list-style: none;  
-        }
-        
-        #menu li {
-            float: left;
-            padding: 0 0 10px 0;
-            position: relative;
-        }
-        
-        #menu a {
-            float: left;
-            height: 25px;
-            padding: 0 25px;
-        }
-        
-        #menu li:hover > ul {
-            display: block;
-        }
-        
-        /* Sub-menu */
-        #menu ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: block;
-            position: absolute;
-            top: 35px;
-            left: 0;
-            z-index: 99999;    
-            background-color: #444;   
-            background-image: linear-gradient(#444, #111);    
-            -moz-border-radius: 5px;
-            border-radius: 5px;
-        }
-
-        #menu ul a {    
-            padding: 10px;
-            height: auto;
-            line-height: 1;
-            display: block;
-            white-space: nowrap;
-            float: none;
-            text-transform: none;
-        }
-        
-        #menu ul li:first-child a:after {
-            content: '';
-            position: absolute;
-            left: 30px;
-            top: -8px;
-            width: 0;
-            height: 0;
-            border-left: 5px solid transparent;
-            border-right: 5px solid transparent;
-            border-bottom: 8px solid #444;
-        }
-        
-        /* Clear floated elements */
-        #menu:after {
-            visibility: hidden;
-            display: block;
-            font-size: 0;
-            content: " ";
-            clear: both;
-            height: 0;
-        }
-      </style>
+<section id="" class="bg-dark-blue">
+  <div class="container-fluid text-white" style="min-height:300px;">
+    <p>This is the intro</p>
+  </div>
+</section>
 
 
-<ul id="menu">
-    <li><a href="#">Home</a></li>
-    <li>
-        <a href="#">Categories</a>
-        <ul>
-            <li><a href="#">CSS</a></li>
-            <li><a href="#">Graphic design</a></li>
-            <li><a href="#">Development tools</a></li>
-            <li><a href="#">Web design</a></li>
-        </ul>
-    </li>
-    <li><a href="#">Work</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
-</ul>
-
-
-    </section>
-
-    <div class="container-fluid">
-      <div class="row border-top border-bottom" style="height: 500px; overflow: scroll; background-color:#afb3b6;">
-        <div class="col-lg-7 mx-auto py-3">
-          <h4>Events</h4>
-            <ul class="timeline">
+<section id="timeline">
+  <div class="container-fluid">
+    <div class="row border-top border-bottom" style="height: 500px; overflow: scroll; background-color:#afb3b6;">
+      <div class="col-lg-7 mx-auto py-3">
+        <h4>Events</h4>
+          <ul class="timeline">
+              {% assign sorted = site.data.events | sort: 'date' | reverse %}
+              {% for item in sorted %}
                 <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                     <div class="timeline-arrow"></div>
-                    <h2 class="h5 mb-0">Title of section 1</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>21 March, 2019</span>
-                    <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                    <h2 class="h5 mb-0">{{ item.header }}</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>{{ item.date }}</span>
+                    <p class="text-small mt-2 font-weight-light">{{ item.text }}</p>
                 </li>
-                <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-                    <div class="timeline-arrow"></div>
-                    <h2 class="h5 mb-0">Title of section 2</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>5 April, 2019</span>
-                    <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper.</p>
-                    <p class="text-small mt-2 font-weight-light">Libero expedita explicabo eius fugiat quia aspernatur autem laudantium error architecto recusandae natus sapiente sit nam eaque, consectetur porro molestiae ipsam! Deleniti.</p>
-                </li>
-                <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-                    <div class="timeline-arrow"></div>
-                    <h2 class="h5 mb-0">Title of section 3</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>18 August, 2019</span>
-                    <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-                </li>
-                <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-                    <div class="timeline-arrow"></div>
-                    <h2 class="h5 mb-0">Title of section 4</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>10 October, 2019</span>
-                    <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-                    <p class="text-small mt-2 font-weight-light">Voluptatibus temporibus esse illum eum aspernatur, fugiat suscipit natus! Eum corporis illum nihil officiis tempore. Excepturi illo natus libero sit doloremque, laborum molestias rerum pariatur quam ipsam necessitatibus incidunt, explicabo.</p>
-                </li>
-            </ul><!-- End -->
-          </div>
-      </div>
+              {% endfor %}
+          </ul><!-- End -->
+        </div>
     </div>
+  </div>
+</section>
 
-
-    {% include footer.html %}
-    {% include _scripts.html %}
-    {% include _development-scripts.html %}<!-- todo: remove on production -->
-  </body>
-</html>
+{% include footer.html %}

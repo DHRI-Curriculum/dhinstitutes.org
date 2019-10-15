@@ -1,0 +1,263 @@
+# make sure image-directory ends with trailing slash
+settings:
+  image-directory: /assets/images/people/
+
+leadership:
+  - first-name: Lisa
+    last-name: Rhody
+    short: lisarhody
+    title: Project Director, DHRI and Deputy Director of Digital Initiatives at The Graduate Center (CUNY)
+    twitter: lmrhody
+    github: lmrhody
+    website: lisarhody.com
+    bio: "As Director of Digital Fellowship Programs, she leads 3 cohorts of graduate students: the GC Digital Fellows, Program Social Media Fellows, and Videography Fellows who work to extend and improve the critical use of digital technologies in research and teaching. Lisa is on the faculties of the M.A. in Liberal Studies, M.A. in Digital Humanities, and M.S. in Data Analytics and Visualization programs, and serves as Director of Research Projects for the CUNY Academic Commons, an academic social network designed to support faculty initiatives and build community through the use of technology in teaching and learning. Previously, she was Associate Director of Research Projects at the Roy Rosenzweig Center for History and New Media. Lisa holds a Ph.D in English from the University of Maryland, College Park. Her research, which uses computational methods such as text mining and machine learning to explore 21st century poetry, has appeared in the <em>Journal of Digital Humanities</em>, <em>Debates in the Digital Humanities 2016</em>, and <em>PMLA</em>."
+    img: lisa-rhody.png
+    alumni: false
+
+  - first-name: Matthew K.
+    last-name: Gold
+    short: mattgold
+    title: Associate Professor of English and Digital Humanities and Advisor to the Provost for Digital Initiatives, The Graduate Center (CUNY)
+    twitter: mkgold
+    github: mkgold
+    website: mkgold.net
+    bio: "Matthew K. Gold holds teaching appointments in the Ph.D. Program in English, the M.A. Program in Liberal Studies, and the doctoral certificate programs in Interactive Technology and Pedagogy and American Studies. He serves as Advisor to the Provost for Digital Initiatives, Director of the CUNY Academic Commons, Director of the GC Digital Scholarship Lab, and Director of the M.A. Program in Digital Humanities and the M.S. Program in Data Analysis and Visualization. He edited <em>Debates in the Digital Humanities</em> (Minnesota, 2012) and, with Lauren F. Klein (with whom he is co-editor of the <em>Debates in the Digital Humanities</em> book series), recently co-edited <em>Debates in the Digital Humanities</em> 2016 (Minnesota). His collaborative digital humanities projects include Manifold Scholarship (with Doug Armato), Looking for Whitman, Commons In A Box, Social Paper (with Erin Glass), and DH Box (with Stephen Zweibel). He is Vice President/President-Elect of the Association for Computers and the Humanities."
+    img: matt-gold.png
+    alumni: false
+
+  - first-name: Kalle
+    last-name: Westerling
+    short: kallewesterling
+    title: Project Coordinator, DHRI and Ph.D. Candidate, Theatre and Performance, The Graduate Center (CUNY)
+    twitter: kallewesterling
+    github: kallewesterling
+    website: westerling.nu
+    bio: "Kalle Westerling is completing a dissertation on the history and aesthetics of male-identified dancers in 20th-century burlesque and 21st-century boylesque. He is also an Instructional Technology Fellow at Macaulay Honors College and Queens College, where he assists faculty and students to link technology and learning in a technology-across-the-curriculum initiative."
+    img: kalle-westerling.png
+    alumni: false
+
+  - first-name: Stephen
+    last-name: Zweibel
+    short: stevezweibel
+    title: Digital Scholarship Librarian, The Graduate Center (CUNY)
+    twitter: SteveZweibel
+    github: szweibel
+    website: zweibel.net
+    bio: "Stephen Zweibel supports digital project creation by GC researchers across the disciplines, helps preserve those projects, and supports faculty and students with their data-based research and data management needs. He also coordinates the library’s growing series of workshops on research skills and tools. Steve earned his master’s degree in library and information science from Long Island University in 2010, and received a master’s degree in the Digital Humanities track of the GC’s MALS program. As a MALS student, he built DH Box, a cloud-based computer lab for digital humanities research (including the tools Omeka, NLTK, IPython, R Studio, and Mallet). DH Box won a National Endowment for the Humanities Start-Up grant. Before coming to the Graduate Center, Steve was a visiting lecturer at Hunter College, where he built several useful library tools, including Augur, a web application to track reference question data; a mobile app for the CUNY library catalog; and Know Thy Shelf, a radio frequency identification (RFID)-based library inventory system."
+    img: stephen-zweibel.png
+    alumni: false
+
+fellows:
+  - first-name: Jojo
+    last-name: Karlin
+    short: jojokarlin
+    title: Digital Fellow and Ph.D. Candidate, English, The Graduate Center (CUNY)
+    twitter: jojokarlin
+    github: jojokarlin
+    website: jojokarlin.com
+    bio: "Jojo Karlin researches transmissions of memory after periods of rapid technological transformation. Coming from a theater background, Jojo loves the intersection of disciplines, multiple media, and diverse expertises she finds in Digital Humanities. For her first big DH project, she did outreach for TANDEM, a web tool that gathers text and image data, and she now proudly coordinates outreach for DH Box, the GC's NEH-funded DH cloud laboratory. She is a freelance editor for the Tow Center for Digital Journalism at Columbia, and is developing a digital interface for a collection of historical letters. Jojo is deeply interested in digital editions preserving past materiality while exploring new materials."
+    img: jojo-karlin.jpg
+    alumni: false
+
+  - first-name: Patrick
+    last-name: Smyth
+    short: psm
+    title: Research Computing Coordinator, Columbia University and Ph.D. Candidate, English as well as former Digital Fellow, The Graduate Center (CUNY)
+    twitter: psmyth01
+    github: smythp
+    bio: "Patrick Smyth's research focuses on Utopian thought and the history of science in 18th and 19th century British literature. As a digital humanist, Patrick is concerned with digital platforms for research and pedagogy. He is currently a developer on the NEH-funded DH Box, a cloud-based platform for accessing digital humanities tools, and has received a Provost's Digital Innovation grant for an online archive of science fiction works. His most recent publication is “Ebooks and the Digital Paratext: Emerging Trends in the Interpretation of Digital Media” in Examining Paratextual Theory and Its Applications in Digital Culture. Patrick was a 2010 Fulbright Teaching Fellow in Berlin, Germany, and teaches composition and literature at Queens College."
+    img: patrick-smyth.jpg
+    alumni: false
+
+  - first-name: Olivia
+    last-name: Ildefonso
+    short: oliviaildefonso
+    title: Digital Fellow and Ph.D. Student, Earth and Environmental Sciences, The Graduate Center (CUNY)
+    twitter: oildefon
+    github: oildefon
+    website: cuny.is/oildefon
+    bio: "Olivia Ildefonso is a Ph.D. Student in Earth and Environmental Sciences with a specialization in Human Geography at the Graduate Center (CUNY). She studies the political economy of school segregation. Her research focuses on Long Island, New York. Olivia is a Long Island native and has worked as a racial justice activist on Long Island for the past ten years. She has worked for civil rights organization, ERASE Racism since 2010 and she has served on the board of directors for STRONG Youth since 2013. Olivia is currently a GC Digital Fellow. She specializes in GIS Mapping, website management, and multi-media storytelling. Before becoming a GC Digital Fellow, Olivia was an Adjunct Lecturer at Queens College and a Writing Across the Curriculum (WAC) fellow at John Jay College."
+    img: olivia-ildefonso.jpg
+    alumni: false
+
+  - first-name: Javier
+    last-name: Otero Peña
+    short: javioteropena
+    title: Digital Fellow and Ph.D. Candidate, Environmental Psychology, The Graduate Center (CUNY)
+    twitter: javo01
+    github: javo0101
+    bio: "Javier Otero Peña is a GC Digital Fellow since 2016 and a member of the Public Space Research Group, and currently works as a research assistant for the PARCS study in the CUNY School for Public Health. His dissertation will study the contextual impacts of park renovations in New York City, and will involve a map analysis using GIS technologies, a mini-ethnography using Qualitative Data Analysis (QDA) software, and natural language analysis of social media posts. Javier’s field research paper studied the politicization of public spaces through a participatory mural in East Harlem. In 2016, he took part in the CUNY-Humboldt University Summer School in Berlin, and in 2017 he participated in the Digital Humanities Research Institute in Victoria University, Canada. He also received the 2017 Provost’s Digital Innovation Grant. Javier holds a Master in Environmental Policies and Sustainable Development, and taught a class on Sustainable Development in Latin America and the Caribbean at the Paris Catholic University. He also studied Urban Planning and Management at UCV, and Sustainable Urban Mobility in Developing Countries (UNITAR). Javier worked as a consultant for the United Nations Environment Programme for three years."
+    img: javier-otero-pena.png
+    alumni: false
+
+  - first-name: Kristen
+    last-name: Hackett
+    short: kristenhackett
+    title: Digital Fellow and Ph.D. Candidate, Environmental Psychology, The Graduate Center (CUNY)
+    twitter: ka_hackett
+    github: hackettka
+    website: kristenhackett.org
+    bio: "Kristen Hackett is a scholar, activist and educator living and working in New York City. She is a Ph.D. Candidate in Environmental Psychology Program at the Graduate Center of the City of New York, a Digital Fellow with the GC Digital Scholarship Lab, a Digital Pedagogy Fellow with the OpenLab at City Tech, a Coordinator of OpenCUNY, and a member of the Executive Committee of the Justice For All Coalition. Her research interests are in housing and community development in NYC, political and social responses to increasing insecurity and precarity and how art and technology can be used in consciousness-raising and resistance efforts and to advocate for community/human-centered policy development. For her dissertation, Kristen is exploring these themes through the lens a proposed rezoning in Long Island City, NY."
+    img: kristen-hackett.png
+    alumni: false
+
+  - first-name: Filipa
+    last-name: Calado
+    short: filipacalado
+    title: Digital Fellow and Ph.D. Candidate, English
+    twitter: caladoscope
+    github: gofilipa
+    website: cuny.is/gofilipa
+    bio: "Filipa Calado is a Ph.D. student in the English program at the Graduate Center. She focuses on queer modernist literature, theories of cognition and aesthetics, and digital methodologies. Currently, she is interested in conversations about digital methods and hermeneutics, especially those that engage affect and feeling within a queer context. She is also interested in histories of composition and experimental writing by queer authors, and in the digitization and transcription of print artifacts. As an English instructor, she incorporates social reading practices, particularly digital annotation, to teach close reading. Most recently, she uses and develops annotation tools that engage affect and feeling as part of larger critical interventions in the classroom."
+    img: filipa-calado.jpg
+    alumni: false
+
+  - first-name: Stefano
+    last-name: Morello
+    short: stefanomorello
+    title: Digital Fellow and Ph.D. Candidate, English
+    twitter: steomor
+    github: smorello87
+    website: commons.gc.cuny.edu/members/smorello/
+    bio: "Stefano Morello is a Ph.D. candidate in English. He holds an M.A. in American Literature from the University of Naples \"L'Orientale” and an M.A. in American Studies from the University of Torino.  His academic interests include American Studies, pop culture, poetics, queer theory, and transnational screen cultures. Oh, and punk-rock."
+    img: stefano-morello.jpg
+    alumni: false
+
+  - first-name: Rafael
+    last-name: Davis Portela
+    short: rafadavisportela
+    title: Digital Fellow and Ph.D. Student, History, The Graduate Center (CUNY)
+    twitter: davis_portela
+    github: rafadavis
+    website: cuny.is/rdp01
+    bio: "Rafael Davis Portela is a Ph.D. student in the History department, where he researches the role of transnational capital in the urban development in Latin America. He is also a member of the Center for Latin American, Caribbean and Latino Studies–CLACLS, and Adjunct Professor at the John Jay College of Criminal Justice, where he teaches courses on Latin American History. He is also into digital tools, and interested in anything related to teaching."
+    img: rafael-davis-portela.jpg
+    alumni: false
+
+  - first-name: Tom
+    last-name: Ribitzky
+    short: tomribitzky
+    title: Coordinator, Graduate Center Digital Initiatives
+    github: tomribitzky
+    website: cuny.is/tribitzky
+    bio: 
+    img: tom-ribitzky.jpg
+    alumni: false
+
+  - first-name: Patrick
+    last-name: Sweeney
+    short: patricksweeney
+    bio: Patrick Sweeney was a Ph.D. Candidate in Psychology and a Digital Fellow at the Graduate Center, CUNY, while working on the DHRI team. His dissertation traces the historical development of methods for quantifying human experience in psychology, business, and politics; and shows how their entwined histories animate current controversies surrounding the use of personal digital data in research, propaganda, and marketing. He has published on topics including the ethics of social media data in psychological research, media representations of social identities and urban change after trauma, and the theory and praxis of ethics and methods pedagogy. His work as a GC Digital Fellow has focused on workshop development, ethics in digital research, and supporting social media and web tools. He has previously taught at Hunter College, CUNY, and served as a Writing Across the Curriculum fellow at Kingsborough Community College, CUNY.
+    github: pswee001
+    twitter: pswee
+    title: Former Digital Fellow and Ph.D. Candidate, Psychology, The Graduate Center (CUNY)
+    img: patrick-sweeney.png
+    alumni: true
+
+  - first-name: Rachel
+    last-name: Rakov
+    short: rachelrakov
+    title: Former Digital Fellow and Ph.D. in Linguistics
+    bio: Rachel Rakov was a doctoral student in the Linguistics Department, with a focus in Computational Linguistics, when she worked on the DHRI team. Her dissertation research is on using prosody modeling to train computational models that can distinguishing between native and non-native English questions. She has also worked on building tools for automatic language identification, and tools for automatic detection of sarcastic speech. She has presented her research at Interspeech and ASRU. In addition, Rachel has helped develop and teach courses in Python programming and Natural Language Processing for the Computational Linguistics M.A. program at The Graduate Center. She was also a consultant on O\'Reilly book <em>Introduction to Machine Learning</em>, where she provided input on how to make the content of the book more accessible to readers without a math or CS background. Rachel has been an intern with the Speech-Language Technology team at Interactions, and taught at Hunter College.
+    github: rachelrakov
+    twitter: rachelrakov
+    img: rachel-rakov.png
+    alumni: true
+
+  - first-name: Hannah
+    last-name: Aizenman
+    short: hannahaizenman
+    title: Digital Fellow and Ph.D. Candidate, Computer Science, The Graduate Center (CUNY)
+    bio: "Hannah Aizenman was a doctoral student in Computer Science and a Digital Fellow at the Graduate Center, CUNY, while working on the DHRI team. Her research is in using machine learning to make sense of and visualize multivariate spatio-temporal, mostly climate, datasets and the algorithms run on them. At the City College of New York, she taught multiple variants of introduction to programming a and piloted peer led team learning for the Computer Science department. She also teaches data science using Python and mentors high school stunds for the CREST HIRES earth science and remote sensing REU at CCNY. She is an organizer of the New York City Linux User's Group, is on the planning committee for the American Meteorology Society's Python Symposium, and a core contributor to the matplotlib Python visualization library."
+    github: story645
+    twitter: story645
+    img: hannah-aizenman.png
+    alumni: true
+
+  - first-name: Kelsey
+    last-name: Chatlosh
+    short: kelseychatlosh
+    title: Digital Fellow and Ph.D. Candidate, Anthropology, The Graduate Center (CUNY)
+    bio: "Kelsey Chatlosh is a cultural anthropology Ph.D. student and Digital Fellow at the Graduate Center of the City University of New York (CUNY). Her future dissertation research focuses on Afro-Chilean activism for state recognition, territory and alternative discourses of memory and history, and how they are contesting dominant narratives of Chilean history and nationhood. Her work as a Digital Fellow is focused on digital tools and platforms for qualitative research and oral interviews, with an emphasis on ethics, political economy and decolonizing and feminist methods."
+    img: kelsey-chatlosh.jpg
+    alumni: true
+
+faculty:
+  - first-name: Luke
+    last-name: Waltzer
+    short: lukewaltzer
+    title: Director, Teaching and Learning Center, The Graduate Center (CUNY)
+    twitter: lwaltzer
+    website: lukewaltzer.com
+    bio: "Luke Waltzer is the Director of the Teaching and Learning Center at the CUNY Graduate Center, where he supports GC students in their teaching across the CUNY system and beyond, and works on a variety of pedagogy and digital projects. He previously was the director for the Center for Teaching and Learning at Baruch College. He holds a Ph.D. in History from the CUNY Graduate Center, serves as a Community Advisor to the CUNY Academic Commons and on the editorial collective of the Journal of Interactive Technology and Pedagogy, and has contributed essays to Matthew K. Gold's <em>Debates in the Digital Humanities</em> and, with Thomas Harbison, to Jack Dougherty and Kristen Nawrotzki's <em>Writing History in the Digital Age</em>."
+    img: luke-waltzer.jpg
+    alumni: false
+
+  - first-name: Katina
+    last-name: Rogers
+    short: katinarogers
+    title: Director, Programs and Administration, The Futures Initiative, The Graduate Center (CUNY)
+    bio: "Katina Rogers is the Director of Administration and Programs of the Futures Initiative and HASTAC at the Graduate Center, City University of New York. Rogers' work focuses on many aspects of higher education reform, including scholarly communication practices, professionalization and career development, public scholarship, and advocacy for fair labor policies. She previously worked with the Modern Language Association as managing editor of MLA Commons, the MLA’s online platform for collaboration, discussion, and new modes of scholarly publishing. Her study on perceptions of career preparedness, which she conducted as senior research specialist for the Scholarly Communication Institute, provided valuable data on the skillsets and career paths of humanities graduate students. While at SCI, she contributed to the development of the Praxis Network, a multi-institutional and international effort geared toward sharing model programs and experiments in humanities methodological training. Katina is the editor of #Alt-Academy, a digital publication dedicated to exploring the career paths of humanities scholars in and around the academy. She holds a Ph.D. in Comparative Literature from the University of Colorado at Boulder."
+    twitter: katinalynn
+    website: katinarogers.com
+    img: katina-rogers.jpg
+    alumni: false
+
+  - first-name: Jill
+    last-name: Cirasella
+    short: jillcirasella
+    title: Associate Librarian for Public Services and Scholarly Communication at The Graduate Center, CUNY
+    twitter: jillasella
+    website: cuny.is/cirasella
+    bio: "Jill Cirasella is Associate Professor and Associate Librarian for Public Services and Scholarly Communication at the Graduate Center of the City University of New York. In this position, she oversees reference, instruction, outreach, circulation, interlibrary loan, thesis/dissertation services, and scholarly communication initiatives. A vocal advocate of open access (OA), Jill spurred the creation of the CUNY Academic Works repository, and she continues to promote understanding of OA at CUNY and beyond. Her research also centers on OA, including the anxieties surrounding OA dissertations, and she serves on the boards of three OA journals, including the <em>Journal of Librarianship and Scholarly Communication</em>."
+    img: jill-cirasella.png
+    alumni: false
+
+  - first-name: Nicky
+    last-name: Agate
+    short: nickyagate
+    title: Assistant Director of Scholarly Communication and Projects, Columbia University Libraries
+    bio: 'Nicky Agate is the assistant director of scholarly communication and projects at Columbia University, where she leads a team that works on digital humanities initiatives, digital publishing, and the institutional repository. Until February of this year, she was head of digital initiatives at the MLA, where she was responsible for <em>Humanities Commons</em> (hcommons.org)</a>, <em>MLA Commons</em> (mla.hcommons.org), and <em>CORE</em> (hcommons.org/core). She is a co-PI on the <em>HuMetricsHSS</em> initiative (medium.com/tag/humetrics), which seeks to establish a framework for values-based assessment and evaluation in the humanities and social sciences and a founding editor of <em>The Idealis</em>, an overlay journal that promotes quality open-access scholarship about scholarly communications issues (theidealis.org). She serves on the research committee of the Library Publishing Coalition and the editorial board of the <em>Journal of Librarianship and Scholarly Communication</em> (jlsc-pub.org). Nicky holds a Ph.D. in French Literature from NYU and an M.F.A. in Literary Translation from the University of Iowa.'
+    img: nicky-agate.png
+    alumni: true
+
+  - first-name: Patricia
+    last-name: Hswe
+    short: patriciahswe
+    title: Program Officer, Andrew W. Mellon Foundation
+    bio: "Patricia Hswe is the program officer for Scholarly Communications at the Foundation, which she joined in August 2016. In this role she works on a range of grants and initiatives supporting libraries, archives, museums, universities, presses, and other institutions that further the world's collective knowledge of the humanities. Previously, Patricia was digital content strategist and co-department head of Publishing and Curation Services at the Penn State University Libraries and, at the University of Illinois at Urbana-Champaign, program manager for several digital preservation projects funded by the Library of Congress. Originally a Russian literature scholar, she holds a Ph.D. from Yale University in Slavic languages and literatures. She also received an A.B. in Russian language and literature from Mount Holyoke College and an M.S. in library and information science from the University of Illinois. Patricia is currently a member of the Executive Council of the Association for Computers and the Humanities."
+    img: patricia-hswe.png
+    alumni: true
+
+  - first-name: Kelly
+    last-name: Baker Josephs
+    short: kellyjosephs
+    title: Associate Professor of English at York College, CUNY
+    bio: "Kelly Baker Josephs is Associate Professor of English at York College, City University of New York. She specializes in Caribbean literature, with forays into the digital humanities and women's studies. Her book, Disturbers of the Peace: Representations of Insanity in Anglophone Caribbean Literature (University of Virginia Press, 2013), considers the ubiquity of madmen and madwomen in Caribbean literature between 1959 and 1980. She is the editor of <em>sx salon: a small axe</em> literary platform (smallaxe.net/sxsalon), manages <em>The Caribbean Commons</em> website (caribbean.commons.gc.cuny.edu), and co-organizes the annual Caribbean Digital conference (caribbeandigitalnyc.net). Her current book project, <em>Caribbean Articulations: Storytelling in a Digital Age</em>, explores the intersections between new technologies and Caribbean cultural production."
+    img: kelly-josephs.png
+    alumni: true
+
+  - first-name: Shana
+    last-name: Kimball
+    short: shanakimball
+    title: Managing Director of Research, Data & Society
+    bio: 'Shana brings ten years of experience working in higher ed / research settings as an academic publisher, project and people manager, strategist, communicator, and public speaker on open access, alternative academic careers, and more. Most recently, at NYPL Labs, she led the development of a new initiative to engage technologists, scholars, and other digital practitioners in new uses of the Library’s digital collections and data sources, and to host conversations and incubate experimental projects that explore the future of public knowledge.'
+    img: shana-kimball.png
+    alumni: true
+
+  - first-name: Michelle
+    last-name: McSweeney
+    short: michellemcsweeney
+    title: Postdoctoral Fellow at Columbia University’s Center for Spatial Research
+    bio: 'Michelle A. McSweeney is a Research Scholar in the Center for Spatial Research at Columbia University. She is the author of <em>The Pragmatics of Texting: Making Meaning in Messages</em> (Routledge 2018), and co-host of the podcast Subtext (subtextpod.github.io). Her research focuses on digital writing in romantic relationships, particularly how we establish intimacy and trust through text messaging. She uses Natural Language Processing and Machine Learning techniques to identify key features that distinguish romantic from platonic conversations. Recently, she has expanded her research to investigate how politically polarized media outlets discuss politically charged topics such as gun control and immigration, and the linguistic strategies they use to build trust with their audiences. She received her Ph.D. in Linguistics and a certificate in Interactive Technology and Pedagogy from the Graduate Center of the City University of New York in 2016.'
+    img: michelle-mcsweeney.png
+    alumni: true
+
+  - first-name: Julia
+    last-name: Miele Rodas
+    short: juliarodas
+    title: Professor of English at Bronx Community College, CUNY
+    bio: 'Julia Miele Rodas is Professor of English, teaching writing, literature, and disability studies at Bronx Community College. She holds a Ph.D. in English from the CUNY Graduate Center. A disability studies scholar and Victorianist, Julia is co-editor of a collection on disability in Jane Eyre (<em>The Madwoman and the Blindman</em>, The Ohio State University Press, 2012) and co-edit​​or of the <em>Literary Disability Studies</em> book series for Palgrave Macmillan. Her writing has appeared in numerous books and journals, including <em>Victorian Literature &amp; Culture</em>, <em>Dickens Studies Annual</em>, the <em>Victorian Review</em>, the <em>Journal of Literary &amp; Cultural Disability Studies</em>, <em>Disability Studies Quarterly</em>. Her monograph, <em>Autistic Disturbances</em>, is forthcoming from University of Michigan Press.'
+    img: julia-rodas.png
+    website: juliamielerodas.com
+    alumni: true

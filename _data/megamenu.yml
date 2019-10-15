@@ -1,38 +1,45 @@
 - header: About
-  link:
+  link: /about/
   items:
     - header: Grant History
-      link: 
+      link: /about/grant-history/
     - header: News
-      link: 
+      link: /about/news/
     - header: Media
-      link: 
+      link: /about/media/
     - header: Contact
-      link: 
+      link: /about/contact/
 
 - header: People
-  link:
+  link: /people/
   items:
     - header: Leadership
-      link: 
+      link: /people/leadership/
     - header: Faculty & Fellows
-      link: 
+      link: /people/faculty-fellows/
     - header: Community Leaders
-      link: 
+      link: /people/community-leaders/
     - header: Team Alumni
-      link: 
+      link: /people/alumni/
 
-- header: Curricula
-  link:
-
-- header: Curricula
-  link:
+- header: Partners
+  link: /partners/
   items:
-    - header: Leadership
-      link: 
-    - header: Faculty & Fellows
-      link: 
-    - header: Community Leaders
-      link: 
-    - header: Team Alumni
-      link: 
+    - header: NEH
+      link: /partners/neh/
+    - header: How to become a partner
+      link: /partners/become-a-partner/
+
+- header: DHRI@GC
+  link: /graduate-center/
+  items:
+    - header: Past schedule
+      link: /graduate-center/schedule/
+    - header: Participate
+      link: /graduate-center/participate/
+
+- header: Reports
+  link: /reports/
+
+- header: Curricula
+  link: /curricula/

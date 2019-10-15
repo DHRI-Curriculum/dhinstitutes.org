@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- todo: insert -->
+
+    <title>{{ page.title }}</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+
+    <!-- DHRI Fonts and icons -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fc335a03bd.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ 'styles.css' | prepend: site.dirs.css }}">
+    <link rel="stylesheet" href="{{ 'states.css' | prepend: site.dirs.css }}">
+
+    <!-- Icon -->
+    {% include header/icons.html %}
+
+    {% include header/scripts.html %}
+  </head>
+  <body>
+    {% include dev/_breakpoints.html %}

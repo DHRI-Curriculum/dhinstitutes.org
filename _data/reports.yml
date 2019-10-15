@@ -1,0 +1,15 @@
+page-info:
+  header: "Reports"
+  text: "Text"
+
+reports:
+  - title: "Variety, Revue, and Cabaret Entertainment"
+    description: "Text"
+    published: 2019-10-15
+    file: /assets/reports/report-01.pdf
+    preview: /assets/reports/report-01-preview.png
+  - title: "Variety, Revue, and Cabaret Entertainment"
+    description: "Text"
+    published: 2019-10-22
+    file: /assets/reports/report-01.pdf
+    preview: /assets/reports/report-01-preview.png

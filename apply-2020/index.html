@@ -1,0 +1,74 @@
+---
+title: "Digital Humanities Research Institute"
+title_short: "DH Research Institute"
+---
+
+{% include header.html %}
+{% include nav.html %}
+
+<div class="container-fluid bg-light text-dark">
+  <div class="container">
+    <div class="row">
+      {% for section in site.data.apply-2020.sections %}
+        <section id="" class="col-xs-12 col-sm-{{ section.col }}">
+            <div class="h1"><i class="text-center text-muted fas {{ section.icon }}"></i></div>
+            <h2 style="{% if section.small-header %}min-height:7rem;{% endif %}{% if section.color %}color:{{section.color}};{% endif %}">{% if section.small-header %}<small><strong class="text-muted">{{ section.small-header }}</strong></small><br />{% endif %}{{ section.header }}</h2>
+            <p>{{ section.text }}</p>
+        </section>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="container text-white pt-4 mb-4">
+    <div class="row">
+      <section id="" class="col-12">
+        <h2 style="color:#ec9521;">What is needed to apply?</h2>
+        <h4 style="color:#ec9521;">1. Application form</h3>
+        <p class="lead">The form includes questions about:</p>
+        <ul>
+        {% for q in site.data.apply-2020.application-questions %}
+          <li>{{ q.details-requested }}&nbsp;<small class="text-muted">{{ q.why }}</small></li>
+        {% endfor %}
+        </ul>
+        <h4 style="color:#ec9521;">2. 2-page CV/resume</h3>
+        <p class="lead">We request a CV/resume in order to better understand where you are situated within your institution as well as in your larger field of research and digital humanities (if at all).</p>
+        <p><em>The application form will ask for your 2-page CV/resume.</em></p>
+        <h4 style="color:#ec9521;">3. Letter of support</h3>
+        <p class="lead">We require a letter of agreement from the group the applicant proposes to run a DHRI for, which acknowledges the relationship and the group's willingness to publicize and run the workshop. It needs to be signed by a person in a decision-making role in the organization (and not be yourself). If you intend to run a DHRI at your place of employment, please include a letter from your direct supervisor stating their agreement and support of your efforts.</p>
+        <p><em>The application form will ask for your 2-page CV/resume.</em></p>
+      </section>
+    </div>
+  </div>
+  
+<div class="container-fluid text-dark pt-4 pb-4" style="background-color:#ec9521;">
+  <div class="container">
+    <div class="row">
+      <section id="" class="col-12">
+        <div class="row">
+            <div class="col-xs-12 col-sm-2">
+              <h2>FAQ</h2>
+            </div>
+            <div class="col-xs-12 col-sm-10">
+              <div class="accordion" id="faq">
+                
+                {% for qa in site.data.apply-2020-faq %}
+                <div class="card">
+                    <div class="card-header" id="heading{{ forloop.index }}"><h2 class="mb-0"><button class="text-left text-dark btn btn-link stretched-link" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="{% if forloop.index == 1 %}true{% else %}false{% endif %}" aria-controls="#collapse{{ forloop.index }}">Q: {{ qa.q1 }}</button></h2></div>              
+                    <div id="collapse{{ forloop.index }}" class="collapse {% if forloop.index == 100 %}show{% endif %}" aria-labelledby="heading{{ forloop.index }}" data-parent="#faq">
+                      <div class="card-body text-dark">{{ qa.a }}</div>
+                    </div>
+
+                </div>
+                {% endfor %}
+              
+              </div>
+            </div>
+          </div><!--/row-->
+
+      </section>
+    </div>
+  </div>
+</div>
+  
+{% include footer.html %}

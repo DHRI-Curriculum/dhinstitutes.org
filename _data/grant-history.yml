@@ -1,0 +1,19 @@
+header: "DHRI's Grant History"
+main-text: "<p class=\"lead\">Initially supported by a CUNY-wide Strategic Investment Initiative grant with continued funding from the Provost’s Office, the GC Digital Initiatives hosted <a href=\"http://cuny.is/gcdri\" target=\"_blank\">three week-long, interdisciplinary Digital Research Institutes between January 2016 and February 2017</a>, which provided 85 total workshop sessions for participants who ranged from first year master’s students to adjuncts, librarians to senior tenured faculty from across CUNY. The proposed Digital Humanities Research Institute would adapt the administrative, curricular, and pedagogical successes of previous efforts to meet the needs of humanities scholars and to provide participants with resources that make it easier and more cost-effective to offer similar institutes at their home institutions.</p>
+<p>The Digital Research Institutes built on four years of successful workshops run by the GC Digital Fellows at the Graduate Center, informing core pedagogical principles derived from teaching technical skills to graduate student and faculty researchers. These principles include challenge-based learning, theory through practice, multimodal delivery, a pragmatic approach to computer literacy, and an emphasis on foundational rather than instrumental learning.</p>
+<p>Read more about the GC Digital Research Institutes, upon which the DHRI model is built by reading first-person accounts from students and faculty across the City University of New York: <a target=\"_blank\" href=\"https://digitalfellows.commons.gc.cuny.edu/2016/02/15/drb-porter/\">Lavelle Porter</a>, <a target=\"_blank\" href=\"https://digitalfellows.commons.gc.cuny.edu/2016/02/08/drb-lipkins/\">Julia Lipkins</a>, <a target=\"_blank\" href=\"https://gcdi.commons.gc.cuny.edu/2018/04/02/how-participating-in-the-gcdri-can-develop-your-research/\">Sofia Sedergren</a>, <a target=\"_blank\" href=\"https://gcdi.commons.gc.cuny.edu/2018/03/05/my-experience-at-the-digital-research-institute-2018/\">Manuel C. Co Jr.</a>, and <a target=\"_blank\" href=\"https://gcdi.commons.gc.cuny.edu/2018/03/29/i-wish-i-had-participated-in-the-digital-research-institute-sooner/\">Ayşenur Benevento</a>.</p>
+<p>\"Digital Humanities Research Institute: Expanding Communities of Practice,\" the national DHRI model, was funded through a generous grant from the National Endowment for the Humanities in the form of an <a href=\"https://www.neh.gov/grants/odh/institutes-advanced-topics-in-the-digital-humanities\" target=\"_blank\">Institutes for Advanced Topics in the Digital Humanities grant</a> and with support from The Graduate Center's Provost's Office.</p>
+"
+timeline:
+  - date: 2019-09-20
+    header: this happened
+    text: and a little bit of text here
+  - date: 2019-09-13
+    header: that happened
+    text: some text here
+  - date: 2019-09-09
+    header: this happened
+    text: more text here
+  - date: 2019-10-03
+    header: that happened
+    text: here's some text about what happened

@@ -1,3 +1,6 @@
+#- header: Home
+#  link: /
+
 - header: About
   link: /about/
   items:

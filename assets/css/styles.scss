@@ -1,0 +1,75 @@
+---
+---
+
+
+
+.tabs {
+  list-style: none;
+  padding: none;
+  display: box;
+  padding-inline-start: 0;
+}
+
+.tabs li:not(:last-child):after {
+  content: "/";
+  display: inline-block;
+  margin: 0 0.3em 0 0.6em;
+  font-weight: 300;
+  color: #666;
+}
+
+.tabs li {
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffc107;
+  text-decoration: none;
+  font-family: 'Titillium Web', serif;
+  cursor: pointer;
+}
+
+.tabs li.active {
+  color: white !important;
+}
+
+
+
+
+
+$font-stack:    Helvetica, sans-serif;
+$dark-blue: rgba(39, 49, 66, 1);
+$logo-colors: (
+  "dark": #231f20,
+  "light": #766f66,
+  "purple": #6155a5,
+  "cyan": #12b4bf,
+  "red": #ee3b3b,
+  "orange": #ec9521,
+  "green": #9abc50
+);
+
+@function logo-color($color) {
+  @return map-get($logo-colors, $color);
+}
+
+
+// customizing bootstrap here:
+// $body-color: $dark-blue;
+$theme-colors: (
+  "primary": $dark-blue,
+  "secondary": #6c757d,
+  "danger": logo-color("red"),
+  "success": logo-color("green"),
+  "warning": logo-color("orange"),
+  "info": logo-color("cyan"), //$dark-blue
+  "light": logo-color("light"),
+  "dark": logo-color("dark")
+);
+
+
+@import "main";
+@import "menu";
+@import "map";
+@import "timeline";
+
+@import "bootstrap/scss/bootstrap";

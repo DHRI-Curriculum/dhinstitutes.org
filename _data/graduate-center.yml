@@ -1,0 +1,15 @@
+sections:
+  - header: "Schedule"
+    content: "<p>DHRI’s curriculum provides an accessible introduction to foundational technology skills that support digital humanities research. You can read more about <a href=\"/graduate-center/schedule/\">the 2018 DHRI schedule here</a>, and more about <a href=\"/curricula/\">the curriculum in general here</a>.</p>"
+
+schedule:
+  header: "Schedule DHRI 2018"
+  content: "<p>DHRI’s curriculum provides an accessible introduction to foundational technology skills that support digital humanities research.</p>
+    <p>During the first week, the Community Leaders learned how to work from the command line, database concepts and management, the Python programming language, and the git version control system. Building on core skills such as these, sessions later in the first week focused on more specialized approaches. Those sessions included natural language processing, machine learning, mapping, and data collection with APIs. In the last three days of the institute, the sessions offered the Community Leaders opportunities for project management and development skill development, as well as time to continue planning their local institutes.</p>
+    <p>Our emphasis on fundamental skills during the first week demonstrates our commitment to cultivating resilience that empower humanities researchers to become self-teachers and mentors in their own right. While intensive lessons prioritize instrumental outcomes, such as whether students can write a “for loop” or build a map, our focus is on a longer arc of professional development. While immediate results help pique interest and help scholars see the potential for digital research methods in their own work, confidence in core computational skills and concepts help to develop resilience that lasts beyond a single project or tool’s lifespan. Better prepared to approach technology (and technological rhetoric) with a critical eye, scholars comfortable with core computational literacy and a common technical vocabulary are more likely to participate in local communities of practice.</p>
+    <p>The second week’s workshops improved their confidence as learners, teachers, researchers, and leaders, as they were able to reflect on their pedagogical process in the first week. This emphasis on meta-cognition helped strengthen the institute participants’ leadership role in their local DH environments. They reported in evaluations, that they had understood what it meant to “know enough” without needing to “know everything.” Many of the Community Leaders later reported that the skills built in the second week, had led to an increase in title or recognition, additional funding, and greater clout among colleagues and administrators. Additional professional development outcomes noted by the cohort included: new pedagogical strategies to integrate into their teaching, new ideas about graduate education and open access to share with their local institution, and an increased ability to locate and leverage alternative resources locally.</p>
+    <p><img src=\"/assets/images/2018-dhri/schedule.png\" class=\"img-fluid\" />"
+
+participate:
+  header: ""
+  content: ""

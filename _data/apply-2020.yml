@@ -1,0 +1,70 @@
+sections:
+  - header: "What to Expect?"
+    color: "#ec9521"
+    text: "<p>Three phases...</p>"
+    col: 12
+  - small-header: "Phase 1"
+    header: "10-day Institute in New York City"
+    color: "#ec9521"
+    icon: fa-users
+    text: "
+      <p>You will attend a ten day in-person meeting in New York City. In the first five days, you will attend skill workshops where you learn foundational tools in service of humanities research questions:       
+        <a href=\"/curricula/#command-line\" class=\"text-muted\">using the command line</a>, 
+        <a href=\"/curricula/#git\" class=\"text-muted\">track versions of your work and collaborate using git</a>, 
+        <a href=\"/curricula/\" class=\"text-muted\">identify and manipulate humanities data types</a>, 
+        <a href=\"/curricula/#omeka\" class=\"text-muted\">create digital collections</a>, 
+        <a href=\"/curricula/#python\" class=\"text-muted\">write and run basic Python scripts</a>, 
+        <a href=\"/curricula/#text-analysis\" class=\"text-muted\">analyze text</a>, 
+        <a href=\"/curricula\" class=\"text-muted\">create open educational resources</a></p>
+      <p>After the first week, you will know how each of the foundational skills taught are necessary in order to build specific DH projects. In other words, understanding the command line will make website development easier and familiarity with data types in Python will make collecting and querying data from the archive more time effective.</p>
+      <p>In the institute’s second week, a “train the trainer” approach will provide dedicated time and resources for you to begin developing your own institutes.</p>
+    "
+    col: 4
+  - small-header: "Phase 2"
+    header: "Hosting Your Own Institute"
+    color: "#ec9521"
+    icon: fa-chalkboard-teacher
+    text: "
+      <p>You will lead a local institute based on the DHRI model but adjusted to your local context some time between August 2020 and April 2021.</p>
+      <p>During this time, you will receive 20 hours of dedicated support from our Institutes Coordinator Kalle Westerling, the GC’s Digital Fellows, and the project's Director Lisa Rhody.</p>
+      <p>Over the course of the year, you will also have the ability to attend bi-monthly virtual meetings, “follow-up workshops,” facilitated by the GC’s staff. The workshops will enhance activities from our in-person meeting. These meetings will be hosted on Zoom, include a guest “mentor” speaker, and will also include a review of a workshop module of participants’ choice.</p>
+    "
+    col: 4
+  - small-header: "Phase 3"
+    header: "Evaluation"
+    color: "#ec9521"
+    icon: fa-newspaper
+    text: "
+      <p>At the end of the Spring semester 2021, as you have hosted your institute, you will be invited to participate in a remote conference with all the other participants from the June 2020 institute.</p>
+      <p>You will also contribute with a “white paper-style” evaluation of your institute, which will aid us in the final report from the grant, <em>Guide to Leading Digital Research Institutes</em>.</p>
+    "
+    col: 4
+
+application-questions:
+  - header: "Required personal information"
+    details-requested: "Full name, email address, phone number, mailing address (in the U.S.)."
+    why: "Collecting all this information makes it easier for us to make sure that your submission is legitimate as well as ensure that we have all of your information immediately available if you are selected and we need to set up stipend payments etc. to you."
+  - header: "Voluntary personal information"
+    details-requested: "Gender identity, pronouns, ethnic origin."
+    why: "We want to make sure that we address you in a manner is respectful and that feels authentic to you and your lived experience. It also aids our efforts to support diversity, equity, and inclusion. We have based this demographic section on work done by the HumetricsHSS (http://humetricshss.org/) project, which included studying industry best practices and surveying peers of various identities. We are continuing to work on and refine the choices and welcome your commentary and feedback—especially any observations you may have on how to improve these question-and-answer options for future applications."
+  - header: "Communication evaluation"
+    details-requested: "A selection of options about where you heard about DHRI."
+    why: "We want to know (approximately) what percentages of our applicants heard about the application from which source, in order to better evaluate our communication strategies and make sure, for future projects, that we know how to best communicate our application and any other information about the Institute."
+  - header: "Institutional/organizational affiliation and position"
+    details-requested: "Your job title, professional role, or the nature of your relationship with the local DH organization where you intend to run a future DHRI."
+    why: "Since we are looking to put together a diverse cross-section of humanities professionals, we want to make sure that we fully understand what your job entails at the relevant organization for the DHRI. You are asked to fill out a long answer text field with this information, so try to keep it longer than only your title."
+  - header: "Professional role"
+    details-requested: "Your current professional role, especially relating to community building, pedagogy, mentoring, research, technical support, or administration; or, a description of the role you would like to grow into using the skills learned at DHRI."
+    why: "The questions in this section are to make sure that we are drawing from a diverse range of professional experiences and from a similarly diverse range of organization or institutional types."
+  - header: "Benefit to your research"
+    details-requested: "Your research interests as well as a description of how your participation in DHRI will benefit your personal research and professional goals."
+    why: "We want to have a good sense of the kind of digital projects you might be interested in working on and how we can help you achieve those with your participation in the DHRI."
+  - header: "Institutional affiliation"
+    details-requested: "A description of the institutional need and/or interest for a week-long institute to promote foundational technical learning, and a description of your orientation towards that need and how you will be able to identify collaborators and lead participants through a Digital Humanities Research Institute in 2020-2021."
+    why: "We want to make sure that you have a community who is interested in and committed to supporting your efforts to run a local DHRI."
+  - header: "Group dynamics"
+    details-requested: "A description of a technical problem that you once ran into and how you overcame it, as well as what type of role you feel most comfortable taking on when working in a group."
+    why: "We ask those two questions to make sure that we gauge where you are standing in terms of collaborating in a larger group as well as what your current approach is to solving technical issues. The DHRI model is built on a particular pedagogical idea and in order for us to be able to evaluate whether our pedagogical model works, we want to see what your response is to this question in advance of participation in the DHRI."
+  - header: "Commitment to DHRI"
+    details-requested: "Commitment to all days of in-person DHRI meeting in June 2020."
+    why: "DHRI participants are expected to commit to the full 10-day experience from June 15–24, 2020 and to attend all of the workshops, seminars, and events during this time. If, for some reason, you have a scheduling conflict, we want to make sure we know about it as early as possible."

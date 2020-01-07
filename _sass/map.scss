@@ -1,0 +1,12 @@
+.all_states {
+  fill-opacity:.1 !important;
+
+  #DHRI {
+    fill-opacity:1 !important; fill: #cf00e6;
+  }
+
+  #DHRI:hover {
+    fill-opacity:.5 !important;
+  }
+}
+.highlight { fill: $dark-blue !important; }

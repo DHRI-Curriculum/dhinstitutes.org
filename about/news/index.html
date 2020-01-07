@@ -6,10 +6,78 @@ title_short: "DH Research Institute"
 {% include header.html %}
 {% include nav.html %}
 
-<section id="" class="">
-  <div class="container-fluid text-white" style="min-height:300px;">
-    <p>This is the intro</p>
+<section id="" class="bg-light pt-4">
+  <div class="container-fluid text-dark">
+    <h1>{{ site.data.news.header }}</h1>
+    {{ site.data.news.main-text }}
+    <div class="row">
+      <div class="col-6 py-4">
+        <h3 class="m-0 p-0">Get More Information</h3>
+        <p>Use the form below to sign up for more information from the DHRI. We promise to not send many updates but will keep the volume low.</p>
+        <form action="https://dhinstitutes.us12.list-manage.com/subscribe/post?u=2e6e86b7eb2df9970a196caf4&amp;id=6e04b02b5b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+          <div class="form-row align-items-start text-left">
+            <div class="col-6 my-1">
+              <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME" placeholder="First name" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+            </div>
+            <div class="col-6 my-1">
+              <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME" placeholder="Last name">
+            </div>
+            <div class="col-9 my-1">
+              <input type="email" value="" name="EMAIL" class="form-control required email" id="mce-EMAIL" placeholder="Email address">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="col-3 my-1">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success mb-2 w-100">
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2e6e86b7eb2df9970a196caf4_6e04b02b5b" tabindex="-1" value=""></div>
+          </div>
+        </form>
+      </div>
+    </div>
   </div>
 </section>
+
+<section id="" class="pt-4">
+  <div class="container text-white">
+  <h2>Updates</h2>
+</div>
+
+<hr />
+
+{% assign updates = site.data.news-updates | reverse %}
+{% assign all_fellows = site.data.people.fellows %}
+{% assign all_leadership = site.data.people.leadership %}
+{% assign all_faculty = site.data.people.faculty %}
+
+{% for u in updates %}
+  {% for update in u %}
+      {% if update[1].author-short %}{% assign author = all_fellows | where:"short", update[1].author-short  | first %}
+      {% if author.size > 1 %}{% else %}{% assign author = all_leadership | where:"short", update[1].author-short  | first %}{% endif %}
+      {% if author.size > 1 %}{% else %}{% assign author = all_faculty | where:"short", update[1].author-short  | first %}{% endif %}
+      {% endif %}
+    <section id="" class="py-2">
+      <div class="container text-white">
+        <div class="row">
+          <div class="d-none d-sm-flex col-sm-2 align-self-end"><h5>{{ update[0] | date: "%B %d, %Y" }}</h5></div>
+          <div class="col-12 col-sm-10 align-self-end">
+            <h2>{{ update[1].header }}<small class="text-muted d-sm-none"> {{ update[0] | date: "%B %d, %Y" }}</small></h2>
+          </div>
+        </div>
+        <div class="row">
+            <div class="d-none d-sm-flex col-sm-2"></div>
+            <div class="col-12 col-sm-10">
+              {{ update[1].text }}
+              <div class="d-flex justify-content-end py-2"><i class="px-2 fas fa-quote-right"></i><a href="/people/" class="text-white">{{ author.first-name }} {{ author.last-name }}</a></div>
+            </div>
+        </div>
+      </div>
+    </section>
+  {% endfor %}
+{% endfor %}
 
 {% include footer.html %}

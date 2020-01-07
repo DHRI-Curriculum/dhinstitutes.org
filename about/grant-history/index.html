@@ -6,10 +6,32 @@ title_short: "DH Research Institute"
 {% include header.html %}
 {% include nav.html %}
 
-<section id="" class="">
-  <div class="container-fluid text-white" style="min-height:300px;">
-    <p>This is the intro</p>
+<section id="" class="py-4">
+  <div class="container-fluid text-white">
+    <h1>{{ site.data.grant-history.header }}</h1>
+    {{ site.data.grant-history.main-text }}
   </div>
 </section>
+
+<section id="timeline">
+  <div class="container-fluid">
+    <div class="row border-top border-bottom" style="height: 500px; overflow: scroll; background-color:#afb3b6;">
+      <div class="col-lg-7 mx-auto py-3">
+        <h4>Grant timeline</h4>
+          <ul class="timeline">
+              {% assign sorted = site.data.grant-history.timeline | sort: 'date' | reverse %}
+              {% for item in sorted %}
+                <li class="timeline-item bg-white rounded ml-3 p-4 shadow text-dark">
+                    <div class="timeline-arrow"></div>
+                    <h2 class="h5 mb-0">{{ item.header }}</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>{{ item.date }}</span>
+                    <p class="text-small mt-2 font-weight-light">{{ item.text }}</p>
+                </li>
+              {% endfor %}
+          </ul><!-- End -->
+        </div>
+    </div>
+  </div>
+</section>
+  
 
 {% include footer.html %}

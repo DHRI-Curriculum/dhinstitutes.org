@@ -10,7 +10,7 @@
               <div class="col-lg-7 col-xl-8">
                 <div class="row p-4">
                   {% for item in site.data.megamenu %}
-                    <div class="col-lg-6 mb-4">
+                    <div class="col-6 mb-4">
                       <h6 class="font-weight-bold text-uppercase"><a href="{{ item.link }}" class="nav-link nav-link-header">{{ item.header }}</a></h6>
                       {% if item.items %}
                           <ul class="list-unstyled">{% for subitem in item.items %}

@@ -6,10 +6,15 @@ title_short: "DH Research Institute"
 {% include header.html %}
 {% include nav.html %}
 
-<section id="" class="">
-  <div class="container-fluid text-white" style="min-height:300px;">
-    <p>This is the intro</p>
+<section id="" class="py-4">
+  <div class="container-fluid text-white">
+    <h1>{{ site.data.contact.header }}</h1>
+    <p>{{ site.data.contact.main-text }}</p>
   </div>
 </section>
+
+{% if site.data.contact.gc-map %}
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6079016681215!2d-73.98620104888522!3d40.748652543207584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9c6c0cfed%3A0x6e762b3df1696ae2!2s365+5th+Ave%2C+New+York%2C+NY+10016!5e0!3m2!1sen!2sus!4v1453063683238" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+{% endif %}
 
 {% include footer.html %}

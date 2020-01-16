@@ -30,8 +30,8 @@
   items:
     - header: NEH
       link: /partners/neh/
-    - header: How to become a partner
-      link: /partners/become-a-partner/
+    #- header: How to become a partner
+    #  link: /partners/become-a-partner/
 
 - header: DHRI@GC
   link: /graduate-center/

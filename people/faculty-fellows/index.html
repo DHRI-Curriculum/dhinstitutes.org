@@ -5,10 +5,23 @@ title_short: "DH Research Institute"
 
 {% include header.html %}
 {% include nav.html %}
+{% include people/_build.html %}
 
-<section id="" class="">
-  <div class="container-fluid text-white" style="min-height:300px;">
-    <p>This is the intro</p>
+
+<section id="" class="pt-4">
+  <div class="container-fluid text-dark">
+    <h1 class="text-white">Fellows</h1>
+    <div class="row">
+      {% for person in fellows_current %}{% include people/_card.html person=person %}{% endfor %}
+    </div>
+
+    <hr style="border-top: 1px solid rgba(255, 255, 255, 0.1)" />
+
+    <h1 class="text-white">Faculty</h1>
+    <div class="row">
+      {% for person in faculty_current %}{% include people/_card.html person=person %}{% endfor %}
+    </div>
+
   </div>
 </section>
 

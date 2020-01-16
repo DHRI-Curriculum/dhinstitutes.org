@@ -7,6 +7,7 @@
 {% assign fellows_alumni = fellows_alumni | sort: 'last-name' %}
 
 
+{% assign leadership_current_short = "ehlo" %}
 {% assign leadership_current = site.data.people.leadership | where: "alumni", "false" %}
 {% assign leadership_current = leadership_current | sort: 'last-name' %}
 

@@ -7,78 +7,45 @@ title_short: "DH Research Institute"
 {% include nav.html %}
 {% include people/_build.html %}
 
+
 <section id="" class="bg-white">
-  <div class="container-fluid" style="min-height:300px;">
-
+  <div class="container-fluid pt-4">
+       
     <ul class="nav nav-pills mb-3" id="people-pills-tab" role="tablist">
-        <li class="nav-item"><a class="nav-link active" id="team-current-tab" data-toggle="pill" href="#team-current" role="tab" aria-controls="team-current" aria-selected="true">Current team</a></li>
-        <li class="nav-item"><a class="nav-link" id="team-current-tab" data-toggle="pill" href="#team-current" role="tab" aria-controls="team-current" aria-selected="true">Current team</a></li>
+      {% for x in site.data.people.settings.categories %}
         <li class="nav-item">
-          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+          <a class="nav-link" id="pills-{{ x.short }}-tab" data-toggle="pill" href="#{{ x.short }}" role="tab" aria-controls="pills-{{ x.short }}" aria-selected="false">{{ x. title }}</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
-        </li>
-      </ul>
-      <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
-      
+      {% endfor %}
+    </ul>
 
-
-    <!-- /current-team -->
-    <div class="tab-pane fade show active" id="team-current" role="tabpanel" aria-labelledby="team-current-tab">
+    <div class="tab-content" id="pills-tabContent">
+      <!-- Leadership -->
+      <div class="tab-pane text-dark" id="pills-leadership" role="tabpanel" aria-labelledby="pills-leadership-tab">
         <div class="row">
-          {% for member in current_team %}
-            <div class="col-6 col-md-4 col-lg-3 py-3 px-3 team-members">
-              <img
-                id="{{ member.short }}"
-                src="{{ settings.image-directory }}{{ member.img }}"
-                class="team img-fluid rounded-circle"
-                role="button"
-                data-toggle="popover"
-                data-trigger="focus"
-                title="{{ member.name }}"
-                data-short="{{ member.short }}"
-                data-content="<em>{{ member.title }}</em><br /><br />{{ member.bio | truncate: 400, '' }}"
-                data-long="{{ member.bio | slice: 400, 1000 }}"
-                data-social='{"twitter": "{{ member.twitter }}", "website": "{{ member.website }}", "github": "{{ member.github }}"}'
-                data-html="true" />
-            </div>
+          {% for person in leadership_current %}
+              {% include people/_card.html person=person %}
           {% endfor %}
         </div>
-        {% for member in current_team %}
-          <div class="member-bio container" id="bio-{{ member.short }}">
-            <hr style="border-top: 1px solid rgba(255,255,255,.1)" />
-            <div class="row d-flex align-items-end">
-              <div class="col-4">
-                <img src="{{ settings.image-directory }}{{ member.img }}" class="img-fluid rounded-circle" title="{{ member.name }}" />
-              </div>
-              <div class="col-8">
-                <h3>{{ member.name }}</h3>
-                <h4 style="font-size:1.2em; line-height: 1.4em;" class="text-muted">{{member.title}}</h4>
-              </div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-12">
-                <p>{{ member.bio }}</p>
-                <hr style="border-top: 1px solid rgba(255,255,255,.1)" />
-                <p>
-                  {% if member.twitter %}<a href="http://www.twitter.com/{{ member.twitter }}" style="padding-right:10px;">
-                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#twitter"></use></svg>
-                  </a>{% endif %}
-                  {% if member.github %}<a href="http://www.github.com/{{ member.github }}" style="padding-right:10px;">
-                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#github"></use></svg>
-                  </a>{% endif %}
-                  {% if member.website %}<a href="http://www.{{ member.website }}" style="padding-right:10px;">
-                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#website"></use></svg>
-                  </a>{% endif %}
-                </p>
-              </div>
-            </div>
-          </div>
-        {% endfor %}
-      </div><!-- ./current team -->
+      </div>
+
+      <!-- Fellows -->
+      <div class="tab-pane text-dark" id="pills-fellows" role="tabpanel" aria-labelledby="pills-fellows-tab">
+        <div class="row">
+          {% for person in fellows_current %}
+            {% include people/_card.html person=person %}
+          {% endfor %}
+        </div>
+      </div>
+
+      <!-- Faculty -->
+      <div class="tab-pane text-dark" id="pills-faculty" role="tabpanel" aria-labelledby="pills-faculty-tab">
+        <div class="row">
+          {% for person in faculty_current %}
+            {% include people/_card.html person=person %}
+          {% endfor %}
+        </div>
+      </div>
 
     </div>
   </div>

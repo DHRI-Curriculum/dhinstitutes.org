@@ -1,0 +1,15 @@
+<div class="col-12 col-sm-6 col-md-4 col-xl-3">
+  <div class="card mb-3">
+    <img src="{{ site.data.people.settings.image-directory }}{{ person.img }}" class="card-img-top" alt="Picture of {{ person.first-name }} {{ person.last-name }}">
+    <div class="card-body">
+      <h5 class="card-title">{{ person.first-name }} {{ person.last-name }}</h5>
+      <h6 class="text-muted">{{ person.title }}</h6>
+      <p class="card-text">{{ person.bio }}</p>
+      <div class="text-center w-100">
+        {% if person.twitter %}<a href="http://www.twitter.com/{{ person.twitter }}" style="padding-right:10px;"><i class="fab fa-twitter-square"></i></a>{% endif %}
+        {% if person.github %}<a href="http://www.github.com/{{ person.github }}" style="padding-right:10px;"><i class="fab fa-github-square"></i></a>{% endif %}
+        {% if person.website %}<a href="http://www.{{ person.website }}" style="padding-right:10px;"><i class="far fa-window-restore"></i></a>{% endif %}
+      </div>
+    </div>
+  </div>
+</div>

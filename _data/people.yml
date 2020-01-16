@@ -1,6 +1,13 @@
 # make sure image-directory ends with trailing slash
 settings:
   image-directory: /assets/images/people/
+  categories:
+    - title: "Leadership"
+      short: "leadership"
+    - title: "Fellows"
+      short: "fellows"
+    - title: "Faculty"
+      short: "faculty"
 
 leadership:
   - first-name: Lisa

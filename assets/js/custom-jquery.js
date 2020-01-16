@@ -1,6 +1,13 @@
 $('#people-pills-tab a').on('click', function (e) {
-  e.preventDefault()
-  $(this).tab('show')
+  if ($(this).hasClass("active")) { e.preventDefault() } else {
+  
+    $(this).tab('show')
+    console.log($(this))
+    target = $( "#" + $(this).attr('aria-controls') );
+    $(".tab-pane:not("+$(this).attr('aria-controls')+")").slideUp();	// hide all tab-pane
+    target.slideDown();
+    $(this).addClass("active");
+  }
 })
 
 $( ".tab-toggle", ).click(function() {
@@ -15,3 +22,6 @@ $( ".tab-toggle", ).click(function() {
 
 $("[aria-controls=professional-development]").addClass('active')
 $('#professional-development').show()
+
+$("[aria-controls=pills-leadership]").addClass('active')
+$('#pills-leadership').show()

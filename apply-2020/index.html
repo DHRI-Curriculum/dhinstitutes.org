@@ -41,13 +41,21 @@ title_short: "DH Research Institute"
     </div>
   </div>
 
+  <div class="container-fluid text-dark pt-4 pb-4" style="background-color:#ec9521;">
+    <div class="text-center w-100">
+      <p class="lead m-0 font-weight-bold">Applications are due March 2, 2020.</p>
+    </div>
+  </div>
 
-  <div class="container-fluid bg-light text-dark">
+
+  <div class="container-fluid bg-light text-dark pt-4 mb-4">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-3">Evaluation of Applications</div>
+        <div class="col-12 col-sm-3">
+          <h2 style="color:#ec9521;">Evaluation of Applications</h2>
+        </div>
         <div class="col-12 col-sm-9">
-          <p>Applications will be evaluated according to the following criteria:</p>
+          <p class="lead">Applications will be evaluated according to the following criteria:</p>
           <ul>
             <li>Commitment to attending all 10 days of the June 2020 institute and the virtual follow-ups throughout the year;</li>
             <li>Demonstrated interest in and responsibility for “digital humanities community building” (This can be through a regional digital humanities group as a volunteer, as a post-doc in a university library, a visiting scholar at a liberal arts college, a faculty member creating a DH reading group, a curator or archivist at a historical society, library, or other humanities-oriented organization. Position title is not important. What is important is your ability to explain your responsibility or interest in building communities of DH practice.);</li>
@@ -57,7 +65,7 @@ title_short: "DH Research Institute"
             <li>An explanation of how you confront and overcome technical difficulties you have experienced in the past.</li>
           </ul>
           <p>We are looking for participants who represent diverse DH areas of interest (disciplines, methods, project-types), who work at a wide range of institutional types (universities, community colleges, libraries, archives, museums, historical associations), and who reflect an array of professional roles from graduate students to experienced faculty to librarians, administrators, museum curators, archivists and more. Ideal participants will be able to demonstrate strong communication and collaboration skills and a willingness to confront and overcome frustration. No previous technical experience is required. Applications will not be evaluated based on familiarity with existing technologies, though we are happy to hear about your aspirations and the skills you would like to develop for future work.</p>
-          <p>Applications must be received by February 26, 2018.</p>
+          <p>Applications must be received by March 2, 2020.</p>
           <p>Questions and comments can be directed to info@dhinstitutes.org.</p>
         </div>
       </div>
@@ -78,7 +86,7 @@ title_short: "DH Research Institute"
                 
                 {% for qa in site.data.apply-2020-faq %}
                 <div class="card">
-                    <div class="card-header" id="heading{{ forloop.index }}"><h2 class="mb-0"><button class="text-left text-dark btn btn-link stretched-link" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="{% if forloop.index == 1 %}true{% else %}false{% endif %}" aria-controls="#collapse{{ forloop.index }}">Q: {{ qa.q1 }}</button></h2></div>              
+                    <div class="card-header" id="heading{{ forloop.index }}"><h2 class="mb-0"><button class="text-left text-dark btn btn-link stretched-link" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="{% if forloop.index == 1 %}true{% else %}false{% endif %}" aria-controls="#collapse{{ forloop.index }}"><p class="lead mb-0">Q: {{ qa.q1 }}</p></button></h2></div>              
                     <div id="collapse{{ forloop.index }}" class="collapse {% if forloop.index == 100 %}show{% endif %}" aria-labelledby="heading{{ forloop.index }}" data-parent="#faq">
                       <div class="card-body text-dark">{{ qa.a }}</div>
                     </div>

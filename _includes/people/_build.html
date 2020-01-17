@@ -24,3 +24,8 @@
 
 {% assign current_team = leadership_current | concat: fellows_current | concat: faculty_current %}
 {% assign current_team = current_team | sort: 'last-name' %}
+
+
+
+{% assign community_leaders = site.data.people.community-leaders | where: "alumni", "false" %}
+{% assign community_leaders = community_leaders | sort: 'last-name' %}

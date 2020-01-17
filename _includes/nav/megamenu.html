@@ -1,7 +1,9 @@
 <!-- MegaMenu modified from https://bootstrapious.com/p/bootstrap-mega-menu -->
 <nav class="navbar fixed-top navbar-expand navbar-light bg-white py-3 shadow-sm d-flex"><!-- d-lg-none -->
-  <button type="button" id="megamneu" data-toggle="dropdown" aria-expanded="false" class=""><span class="navbar-toggler-icon"></span></button><a href="#" data-toggle="dropdown" class="navbar-brand ml-2"><span class="d-inline d-sm-none">{{ page.title_short }}</span><span class="d-sm-inline d-none">{{ page.title }}</span></a>
+  <button type="button" id="megamneu" data-toggle="dropdown" aria-expanded="false" class=""><span class="navbar-toggler-icon"></span></button>
+  <a href="#" data-toggle="dropdown" class="navbar-brand ml-2"><span class="d-inline d-sm-none">{{ page.title_short }}</span><span class="d-sm-inline d-none">{{ page.title }}</span></a>
   <div id="navbarContent" class="collapse navbar-collapse d-flex justify-content-end">
+    {% if page.application-page %}{% else %}<a href="/apply-2020/" class="btn btn-outline-danger my-2 my-sm-0 apply-button">Apply now</a>{% endif %}
     <ul class="navbar-nav">
       <li class="nav-item dropdown megamenu">
         <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
@@ -25,7 +27,7 @@
                 <div class="row p-4">
                   <div class="col d-none d-lg-block">
                     <h6 class="font-weight-bold text-uppercase pb-0"><a href="" class="nav-link nav-link-header">Network</a></h6>
-                    <p class="pb-1"><small>Explanatory text here</small></p>
+                    <p class="pb-1 text-dark"><small class="text-muted">Explanatory text here</small></p>
                     <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 959 600" id="us_map">
                     <defs>
                       <style type="text/css"><!-- --></style>
@@ -93,7 +95,7 @@
                   </div>
                   <div class="col d-block d-lg-none">
                     <h6 class="font-weight-bold text-uppercase mb-0"><a href="" class="nav-link nav-link-header">Network</a></h6>
-                    <p><small>Explanatory text here</small></p>
+                    <p class="text-dark"><small class="text-muted">Explanatory text here</small></p>
                   </div>
                 </div>
               </div>

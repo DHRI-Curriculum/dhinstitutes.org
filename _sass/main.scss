@@ -1,4 +1,5 @@
-
+a.apply-button { @extend .btn-outline-danger; @extend .text-danger; } 
+a.apply-button:hover { color: #fff !important; }
 
 // used for our popup on top, if visitors have
 #ie-warning {

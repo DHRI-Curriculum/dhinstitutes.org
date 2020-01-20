@@ -15,6 +15,30 @@ title_short: "DH Research Institute"
 
 <!-- Todo: add quick access to reports here + maybe quotes and personal narratives about why DRI is helpful to participants -->
 
+{% if site.data.grant-history.testimonies-active %}
+<section id="timeline" class="py-4">
+  <div class="container">
+    <h2>{{ site.data.grant-history.testimonies-header }}</h2>
+    {{ site.data.grant-history.testimonies-text }}
+    <div class="accordion" id="testimonies">
+                
+      {% for testimony in site.data.grant-history.testimonies %}
+      <div class="card">
+          <div class="card-header" id="heading{{ forloop.index }}"><h2 class="mb-0"><button class="text-left text-dark btn btn-link" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="{% if forloop.index == 1 %}true{% else %}false{% endif %}" aria-controls="#collapse{{ forloop.index }}"><p class="lead mb-0">{{ testimony.name }}</p></button></h2></div>              
+          <div id="collapse{{ forloop.index }}" class="collapse {% if forloop.index == 100 %}show{% endif %}" aria-labelledby="heading{{ forloop.index }}" data-parent="#testimonies">
+            <div class="card-body text-dark">
+              {{ testimony.text }}
+              <div><i class="fas fa-arrow-alt-circle-right"></i> <a href="{{ testimony.original-link }}" target="_blank">Read original post</a></div>
+            </div>
+          </div>
+      </div>
+      {% endfor %}
+    
+    </div>
+  </div>
+</section>
+{% endif %}
+
 {% if site.data.grant-history.timeline-active %}
 <section id="timeline">
   <div class="container-fluid">

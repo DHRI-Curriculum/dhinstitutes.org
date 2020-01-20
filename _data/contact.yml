@@ -1,8 +1,10 @@
 header: "Contact DHRI"
-main-text: "<p class=\"lead\">Situated at the heart of Manhattan in New York City, adjacent to the Morgan Library and Museum, and only seven short blocks from the New York Public Library’s Stephen A. Schwarzman Building, The Digital Humanities Research Institute's offices are located at The Graduate Center, CUNY.</p>"
+main-text: 
 address: "365 Fifth Avenue, New York, NY"
 gc-map: true
+gc-map-header: "Find Us"
+gc-map-text: "<p class=\"lead\">Situated at the heart of Manhattan in New York City, adjacent to the Morgan Library and Museum, and only seven short blocks from the New York Public Library’s Stephen A. Schwarzman Building, The Digital Humanities Research Institute's offices are located at The Graduate Center, CUNY.</p>"
+
 email-form: true
-email:
-  - short: kallewesterling
-  - short: lisarhody
+email-form-header: "Email Us"
+email-form-text: ""

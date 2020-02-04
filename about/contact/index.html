@@ -1,14 +1,28 @@
 ---
 title: "Digital Humanities Research Institute"
 title_short: "DH Research Institute"
+breadcrumbs:
+  - label: "About"
+    link: "/about/"
+  - label: "Contact"
+    link: "/contact/"
 ---
 
 {% include header.html %}
 {% include nav.html %}
 
-<section id="" class="py-4">
+
+
+<section id="header" class="jumbotron mb-0 shadow-md">
+  <div class="container text-center text-dark">
+    <div class="row justify-content-md-center">
+      <h1>{{ site.data.contact.header }}</h1>
+    </div>
+  </div>
+</section>
+
+<section id="main-text" class="py-4">
   <div class="container text-white">
-    <h1>{{ site.data.contact.header }}</h1>
     {{ site.data.contact.main-text }}
   </div>
 </section>

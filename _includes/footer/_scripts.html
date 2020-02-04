@@ -7,3 +7,108 @@
 
 <!-- Custom jQuery for this page-->
 <script src="/assets/js/custom-jquery.js"></script>
+
+<script>
+
+
+
+
+
+
+{% if page.is_front %}
+{% else %}
+  $("[aria-controls=professional-development]").addClass('active')
+  $('#professional-development').show()
+{% endif %}
+
+var quotes = [
+  {
+    'quote': 'With the DHRI and NEH behind me, I was able to gain institutional legitimacy on my campus. My previous DH advocacy efforts had always been understood as my “personal” project, or my pet interest. Now with this training under my belt, I can assert more confidence and authority as well.',
+    'credit': 'DHRI Community Leader, 2018'
+  },
+  {
+    'quote': 'Specifically, the institute has generated great interest among faculty and administrators at my institution, and I was subsequently invited to participate in a campus-wide Digital Literacy Planning Committee where we have proposed to build a center and create an interdisciplinary digital studies program.',
+    'credit': 'DHRI Community Leader, 2018'
+  },
+  {
+    'quote': 'DHRI has has supported my efforts to build and expand upon my university’s recently established digital humanities program.',
+    'credit': 'DHRI Community Leader, 2018'
+  },
+  {
+    'quote': 'There has been increased awareness on campus regarding the newly offered digital scholarship services through the libraries (thanks to our own DHRI promotion); learning that there are more people interested (and hungry) for DH on campus than we originally thought; and a solid network of people who I can meet up with at conferences and share ideas with for feedback and suggestions (and vice versa).',
+    'credit': 'DHRI Community Leader, 2018'
+  },
+  {
+    'quote': 'Learning the foundational skills <b>helped with so many things that I was working on in the past year</b>—things that I would have tried to do, but probably just given up on after a few failed attempts. But the foundational training of the DHRI sustained my resilience and ability to figure things out (even if it took a few tries and a few Google queries).',
+    'credit': 'DHRI Community Leader, 2018'
+  },
+  {
+    'quote': 'The DHRI <b>demystified programming and coding</b> language for me. It has given me a <b>new confidence</b> in my ability to pursue a greater understanding of DH.',
+    'credit': 'DHRI Community Leader, 2018'
+  },
+  {
+    'quote': 'It was valuable for me to receive more in-depth learning of certain digital tools that I do not always have the time to squeeze in to a busy work day.',
+    'credit': 'DHRI Community Leader, 2018'
+  },
+  {
+    'quote': 'As a digital humanist, I am grateful to now be connected to a larger community of like-minded advocates.',
+    'credit': 'DHRI Community Leader, 2018'
+  },
+  {
+    'quote': 'Though digital researchers collaborate pretty well, especially for the humanities, we needlessly duplicate efforts and miss opportunities by overlooking talented people across the university, the town, and the region. In short, I think DHRI can provide a locus for better, more connected training, research, and project development.',
+    'credit': 'DHRI Community Leader, 2018'
+  },
+  {
+    'quote': 'With the DHRI and NEH behind me, I was able to gain <b>institutional legitimacy</b> on my campus. My previous DH advocacy efforts had always been understood as my “personal” project, or my pet interest. Now with this training under my belt, <b>I can assert more confidence and authority</b> as well.',
+    'credit': 'DHRI Community Leader, 2018'
+  },
+  {
+    'quote': 'Specifically, the institute has generated great interest among faculty and administrators at my institution, and I was subsequently <b>invited to participate in a campus-wide digital literacy project</b> where we have proposed to build a center and create an interdisciplinary digital studies program.',
+    'credit': 'DHRI Community Leader, 2018'
+  },
+  {
+    'quote': 'DHRI has <b>supported my efforts to build and expand upon my university’s recently established digital humanities program</b>.',
+    'credit': 'DHRI Community Leader, 2018'
+  },
+  {
+    'quote': 'We are very grateful to the CUNY DHRI program for giving us the resources we need to begin to build up DH infrastructure here as well as an <b>intra-institutional network of like-minded scholars</b>.',
+    'credit': 'DHRI Community Leader, 2018'
+  },
+  {
+    'quote': 'Attending the DHRI help me push the <b>importance of community-building and outreach to my unit and the library</b> more generally.',
+    'credit': 'DHRI Community Leader, 2018'
+  },
+  {
+    'quote': 'As a digital humanist, I am grateful to now be <b>connected to a larger community of like-minded advocates</b>.',
+    'credit': 'DHRI Community Leader, 2018'
+  },
+  {
+    'quote': 'Though digital researchers collaborate pretty well, especially for the humanities, we needlessly duplicate efforts and miss opportunities by overlooking talented people across the university, the town, and the region. In short, I think DHRI can <b>provide a locus for better, more connected training, research, and project development</b>.',
+    'credit': 'DHRI Community Leader, 2018'
+  }
+];
+
+
+function switch_quote(e) {
+  console.log(e)
+  var num = Math.floor(Math.random() * (quotes.length));
+  $("#quote").html(quotes[num]['quote']);
+  $("#quote_by").html(quotes[num]['credit']);
+  quotes.splice(num, 1);
+}
+
+switch_quote();
+
+var id = setInterval(function()
+{
+  try {
+    switch_quote();
+    console.log(quotes);
+  } catch(err) {
+    console.log("done with quotes")
+    clearInterval(id);
+  }
+}, 15000);
+
+
+</script>

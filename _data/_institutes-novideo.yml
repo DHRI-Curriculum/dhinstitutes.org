@@ -1,0 +1,245 @@
+  - short: digital-humanities-research-institute
+    name: Tri-Co DHRI
+    state: PA
+    state-full: Pennsylvania
+    image: /assets/images/temp-institutes/trico.png
+    image-alt: "Image depicts: Blackboard with drawings in white chalk of Tri-Co DHRI's participants' digital research projects"
+    tags:
+        - institutional collaboration
+        - liberal arts college
+    text: "The Digital Scholarship Research Institute was a two-day intensive institute for Tri-Co faculty to explore interdisciplinary digital scholarship research and teaching methods through hands-on workshops and guided practices. Faculty new to digital scholarship and those interested in taking their skills to the next level were invited to participate. Participants gained experience with fundamental digital scholarship tools and methods including navigating their computers via the command line, cleaning messy data, practicing version control, and sharing their work publicly, while also learning about local digital scholarship communities and support."
+    institute:
+        from: 2019-05-06
+        to: 2019-05-07
+        cosponsors:
+            - name: Bryn Mawr College’s LITS
+              website:
+            - name: Haverford College Libraries
+              website:
+            - name: Swarthmore Libraries
+              website:
+        website: http://ds.swarthmore.edu/dsri/
+        twitter:
+        lat: 40.0281065
+        lng: -75.3174228
+        participants:
+            number: 8
+            disciplines:
+                - History
+                - History of Art
+                - Linguistics
+                - Spanish
+                - Modern Languages
+                - Literatures/Arabic
+                - Anthropology
+                - Growth and Structure of Cities
+        workshops:
+            - name: Command Line
+              url: https://github.com/tri-cods/command-line
+            - name: Tidy(ish) Data
+              url: https://github.com/tri-cods/tidy-data
+            - name: Github
+              url: https://github.com/tri-cods/github
+            - name: Install
+              url: https://github.com/tri-cods/install
+            - name: Glossary
+              url: https://github.com/tri-cods/glossary
+            - name: DS in the classroom
+              url: https://github.com/tri-cods/Ed-Minimal-Editions
+    community-leaders:
+        - name: Alicia Peaker
+          bio: "Alicia Peaker (PhD, Northeastern University) is the Digital Scholarship Specialist at Bryn Mawr College. Previously, she completed a CLIR/DLF Mellon Postdoctoral Fellowship in the Digital Liberal Arts at Middlebury College. While in graduate school, she served as the Co-Director of <em>Our Marathon: The Boston Bombing Digital Archive</em>, which won an award as the Best DH Project for Public Audiences in 2013. She has also worked as the Project Manager for The Women Writers Project and as the Managing Editor for <em>GradHacker</em>, a collaborative blog published through <em>Inside Higher Ed</em>. Her current research project explores ways of visualizing the botanical worlds of novels."
+          img: alicia-peaker.jpg
+
+  - short: evangelical-seminary-puerto-rico-dhri
+    name: Evangelical Seminary of Puerto Rico DHRI
+    state: PR
+    state-full: Puerto Rico
+    image: /assets/images/temp-institutes/evangelical-seminary.png
+    tags:
+        - multi-denominational theological college
+    text:
+    institute:
+        from:
+        to:
+        cosponsors:
+            - name:
+              website:
+        website:
+        twitter:
+        lat:
+        lng:
+    community-leaders:
+        - name: Rosín Torres
+          bio: "Rosín Torres-Medina is a Professional Librarian at Juan De Valdes Library of the Evangelical Seminary of Puerto Rico (SEPR) after graduating from the University of Puerto Rico. Her Master's capstone project explored open journals system technology. She has attended continued education workshops in transdisciplinary research, editing scientific journals in electronic format, and technology for online education. She is mostly passionate in collaborating and promoting learning of library resources such as the OPAC, the databases, Mendeley reference manager, digital tools and skills among faculty and students. She is engaged in promoting collaboration and open access projects at the library and regularly participate in workshops and courses around the latest research techniques and enhancement of research and writing skills. Academically, she is interested in Digital Humanities, in the areas of Bible and religion. Her career revolves around technology, as she loves to inspire change as a means for challenge and opportunities. The capacity of libraries to help people achieve their common and academic goals has always been an interest of hers."
+          img: rosa-maria-torres.png
+
+  - short: triangle-digital-humanities-institute
+    name: Triangle Digital Humanities Institute
+    state: NC
+    state-full: North Carolina
+    image: /assets/images/temp-institutes/university-of-north-carolina.png
+    image-credit: "Image above by Ildar Sagdejev at English Wikipedia, licensed under the <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.en' target='_blank'>Creative Commons Attribution-Share Alike 4.0 International license</a>. Cropped."
+    tags:
+        - public R1
+    text: "The three-day event Triangle Digital Humanities Institute aimed to help practitioners build digital skills, share work, and meet new collaborators. TDHI invited anyone interested in the digital humanities community, including academics, cultural heritage specialists, civic hackers, and others to participate in two days of skill-building workshops followed by a day-long unconference. Participants could register for one, two, or all three days."
+    institute:
+        from: 2019-05-22
+        to: 2019-05-24
+        cosponsors:
+            - name: UNC University Libraries
+              website:
+        website: http://triangledh.org/unc-chapel-hill-tdhi-may-2019
+        twitter: triangledh
+        lat:
+        lng:
+        workshops:
+            - name: Twitter Analytics in the Humanities Classroom
+              url: http://triangledh.org/wp-content/uploads/2019/06/TDHI-Twitter-Analytics-Keynote.pdf
+            - name: Historical Maps in GIS
+              url: http://go.ncsu.edu/tdhi-may19
+            - name: Beginner Python
+              url: https://triangle-digital-humanities-institute.github.io/Python/
+            - name: Leaflet Maps
+              url: https://drive.google.com/drive/folders/1I0Mo67AMRXHoliz4YaA3JxWlvcpK7qEA
+            - name: Tropy for Archival Research
+              url:
+            - name: AR and VR
+              url: http://triangledh.org/wp-content/uploads/2019/06/XR-Digital-Humanities.pdf
+            - name: Advanced Beginner Python
+              url: https://triangle-digital-humanities-institute.github.io/Python/
+            - name: Developing websites with VR for use in the classroom
+              url:
+            - name: Teaching with Scalar
+              url:
+            - name: Mobile Storytelling
+              url:
+            - name: Tenable Media Projects
+              url:
+            - name: Free Tools to Introduce Undergraduates to DH
+              url:
+    community-leaders:
+        - name: Nathan Kelber
+          bio: "Nathan Kelber is the Digital Scholarship Specialist at the University Libraries, University of North Carolina at Chapel Hill. He comes from Detroit where he worked as a professor, public historian, and community organizer. Kelber is most well-known for his work on Detroit 67, a citywide campaign to commemorate the 1967 Detroit Uprising and encourage racial harmony, as well as his other project Network Detroit, a regional digital humanities conference. At UNC, Kelber helps faculty and graduate students with digital projects and serves as a library point of contact for local digital humanities communities and initiatives."
+          img: nathan-kelber.jpg
+
+  - short: digital-humanities-graduate-course-clark-atlanta-university
+    name: Digital Humanities (Graduate Course)
+    state: GA
+    state-full: Georgia
+    image: /assets/images/temp-institutes/clark-atlanta-university.png
+    image-credit: "Image above by Hildabast at English Wikipedia, licensed under the <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.en' target='_blank'>Creative Commons Attribution-Share Alike 4.0 International license</a>. Cropped."
+    tags:
+        - private R2
+        - historically black colleges and universities
+    text: "The Clark Atlanta University's Digital Humanities Research Institute was ran as a graduate course titled Digital Humanities by the Humanities PhD program in the Fall 2018 semester. This course centered around the <a href=\"http://www.cascadecommunitytour.org\" target=\"_blank\">Cascade Oral History project</a>, which provided students with  training in digital archiving, metadata creation, video editing, web development, and GIS mapping. The DH Oral History project demonstrates how partnerships between municipalities, non-profit organizations, and higher education institutions can foster cooperation and promote intergenerational dialogue within communities that experience rapid demographic changes."
+    institute:
+        from: 2018-09-15
+        to: 2018-12-15
+        cosponsors:
+            - name: AUC Robert W. Woodruff Library, Clark Atlanta University
+              website:
+        website:
+        twitter:
+        lat: 33.7505221
+        lng: -84.414318
+    community-leaders:
+        - name: Rico Chapman
+          bio: "Dr. Rico D. Chapman received his PhD in African Studies from Howard University. He is currently an Associate Professor of History at Clark Atlanta University. He also serves as Assistant Dean of the School of Arts and Sciences and Director of the Humanities PhD program. His most recent book is titled <em>Student Resistance to Apartheid at the University of Fort Hare: Freedom Now, A Degree Tomorrow</em> (Lexington, 2016)."
+          img: rico-chapman.jpg
+
+  - short: digital-humanities-research-institute-southern-methodist-university
+    name: Digital Humanities Research Institute at Southern Methodist University
+    state: TX
+    state-full: Texas
+    image: /assets/images/temp-institutes/smu.png
+    image-credit: "Image above by Jeffrey Beall at English Wikipedia, licensed under the <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.en' target='_blank'>Creative Commons Attribution-Share Alike 3.0 Unported license</a>. Cropped."
+    tags:
+        - private R2
+    text: "DHRI at SMU was a pilot program that worked towards building and sustaining an active community around the shared idea of Digital Humanities and Digital Scholarship. The goal for DHRI@SMU was to create an intensive, community-oriented, and foundational approach to learning technical skills in service of humanities teaching and learning."
+    institute:
+        from: 2019-08-19
+        to: 2019-08-22
+        cosponsors:
+            - name: SMU Libraries
+              website: https://www.smu.edu/libraries
+        website: https://dhrismu.github.io/home/
+        twitter:
+        lat: 32.8412178
+        lng: -96.7867062
+        workshops:
+            - name: Intro
+              url: https://github.com/DHRISMU/intro
+            - name: Command Line
+              url: https://github.com/DHRISMU/command-line
+            - name: R
+              url: https://github.com/DHRISMU/r
+            - name: Data in the Humanities
+              url: https://github.com/DHRISMU/data
+            - name: Geospatial Data
+              url: https://github.com/DHRISMU/geospatialdata
+    community-leaders:
+        - name: Rafia Mirza
+          bio: "Rafia Mirza is a Humanities Research Librarian at SMU. She received her MSI from the University of Michigan. Her research interests include digital humanities, digital project planning, and issues around labor and community in digital humanities and digital pedagogy."
+          img: rafia-mirza.jpg
+
+  - short: dhri-arkansas-state
+    name: DHRI@A-State
+    state: AR
+    state-full: Arkansas
+    image: /assets/images/temp-institutes/arkansas_state.png
+    image-alt: "Image depicts: The promotional material distributed digitally before the DHRI@A-State institute."
+    tags:
+        - public R2
+    text: "DHRI@A-State was a three-day workshop, hosted by the Arkansas State University Faculty Center. During the institute, participants explored digital humanities research and pedagogy, developed computational skills through hands-on workshops, and began designing their own digital humanities projects for research or teaching."
+    institute:
+        from: 2019-03-29
+        to: 2019-03-31
+        cosponsors:
+            - name: Arkansas State University Faculty Center
+              website:
+        website: http://scalar.usc.edu/works/dhriastate/index
+        twitter:
+        lat: 35.8430861
+        lng: -90.6770476
+        workshops:
+            - name: Data for Humanists
+              url: http://scalar.usc.edu/works/dhriastate/data-for-humanists
+            - name: Distant Reading
+              url: http://scalar.usc.edu/works/dhriastate/distant-reading
+            - name: 3D Presentation and Preservation
+              url: http://scalar.usc.edu/works/dhriastate/3d-presentation-and-preservation
+            - name: Changing Your Reality
+              url: http://scalar.usc.edu/works/dhriastate/change-your-reality
+            - name: Digital Ethics
+              url: http://scalar.usc.edu/works/dhriastate/astate-dhri-digital-ethics
+            - name: Project Laboratory
+              url: http://scalar.usc.edu/works/dhriastate/project-laboratory
+    community-leaders:
+        - name: Andrea Davis
+          bio: "Andrea Davis is Assistant Professor of Modern European and Digital History at Arkansas State University. Her research examines the urban social movements and memory cultures of twentieth century Spain, and has been supported by the the Fulbright Foundation and the University of California Humanities Network, among others. In addition to her position at the university, Andrea currently serves as the Associate Director of the Spanish Civil War Memory Project: Audiovisual Archive of the Francoist Repression and the book review editor of the <em>Bulletin for Spanish and Portuguese Historical Studies</em>."
+          img: andrea-davis.jpg
+
+  - short: wayne-state-university-digital-humanities-research-institute
+    name: Wayne State University DHRI
+    state: MI
+    state-full: Michigan
+    image: /assets/images/temp-institutes/wayne_state.png
+    image-credit: "Image above by Del arte at English Wikipedia, licensed under the <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.en' target='_blank'>Creative Commons Attribution-Share Alike 3.0 Unported license</a>. Cropped."
+    tags:
+        - public R1
+    text: "Wayne State University Library's DHRI emphasized that digital humanities methods has become increasingly important in scholarly research, classroom teaching, and also provide transferrable technology skills to students in all disciplines. Additionally, cultural heritage professionals can learn how to extend collections and understand the needs of researchers using collections for digital humanities work. Wayne State University's DHRI aimed at supporting this work on campus and in the greater Detroit metro area, and invited all interested to a free, 4-day series of training workshops. The course was taught by WSU Librarians and SIS faculty, and was based on the curriculum developed by the Digital Initiatives at The Graduate Center, CUNY. The DHRI provided basic training in areas of digital humanities computing that humanists interested in digital work are likely to encounter. The course was offered to build a resilient community of DH practitioners who can turn to one another for networking and support, to familiarize participants with basic DH methods they might be hesitant to explore on their own (answering \"where do I start?\" questions), and to empower humanists, librarians, graduate and undergraduate students, and cultural heritage professionals to conduct DH work in southeast Michigan. Participants were challenged and worked hard to build community with others creating digital work, and came away with new knowledge and skills to move their project on to the next step."
+    institute:
+        from: 2019-07-16
+        to: 2019-07-19
+        cosponsors:
+            - name: Wayne State University Library
+              website:
+        website: https://guides.lib.wayne.edu/c.php?g=944478&p=6808064
+        twitter: dhriatwayne
+        lat: 42.3591388
+        lng: -83.0687349
+    community-leaders:
+        - name: Alexandra Sarkozy
+          bio: "Alexandra Sarkozy is a science and digital scholarship librarian at Wayne State University in Detroit, MI. She has been working with faculty and librarians to incorporate digital tools into humanities classrooms, and to build digital infrastructure for humanities computing within the library. She is a also a graduate student in American History at Wayne State University. Her research interests include history of medicine, historical mapping, and data sharing and preservation."
+          img: alexandra-sarkozy.jpg

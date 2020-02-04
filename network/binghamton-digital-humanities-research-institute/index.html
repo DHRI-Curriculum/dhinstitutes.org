@@ -1,0 +1,33 @@
+---
+title: "Digital Humanities Research Institute"
+title_short: "DH Research Institute"
+breadcrumbs:
+  - label: "Network"
+    link: "/network/"
+  - label: "Binghamton DHRI"
+    link: "/network/binghamton-digital-humanities-research-institute/"
+---
+
+{% include header.html %}
+{% include nav.html %}
+
+<!-- Jumbotron for larger screens (lg, xl): -->
+<section class="jumbotron mb-0 shadow-md">
+  <div class="container text-center text-dark">
+    <div class="row justify-content-md-center">
+      <h1>{{ page.breadcrumbs.last.label }}</h1>
+    </div>
+  </div>
+</section>
+
+{% comment %}
+<section id="" class="py-4 bg-dark">
+  <div class="container text-white" style="min-height:300px;">
+    <h2>More information</h2>
+    <p class="lead">Intro paragraph.</p>
+    <p>More information...</p>
+  </div>
+</section>
+{% endcomment %}
+
+{% include footer.html %}

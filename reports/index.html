@@ -1,24 +1,32 @@
 ---
 title: "Digital Humanities Research Institute"
 title_short: "DH Research Institute"
+breadcrumbs:
+  - label: "Reports"
+    link: "/reports/"
 ---
 
 {% include header.html %}
 {% include nav.html %}
 
-<section id="reports-intro" class="bg-white">
-  <div class="container" style="min-height:300px;">
+
+
+<section class="jumbotron mb-0 shadow-lg jumbotron-background-image" id="jumbotron-reports"></section>
+
+<section id="reports-intro" class="bg-light py-4">
+  <div class="container text-dark">
     <h1>{{ site.data.reports.page-info.header}}</h1>
     <p>{{ site.data.reports.page-info.text}}</p>
   </div>
 </section>
 
 {% if site.data.reports.reports.size > 0 %}
-<section id="report" class="bg-white">
-  <div class="container mb-3 border-bottom"><h2>Downloads</h2></div>
+<section id="report" class="bg-white py-4">
+  <!--<div class="container mb-3 border-bottom text-dark"><h2>Downloads</h2></div>-->
   {% assign sorted = site.data.reports.reports | sort: 'published' | reverse %}
   {% for item in sorted %}
-    <div class="container pb-3">
+    
+    <div class="container text-dark pb-3">
       <div class="row border-bottom rounded-bottom" style="background-color:rgb(248, 249, 250);">
         <div class="col-md-6 mb-md-0 p-md-4">
             <a href="{{ item.file }}" class="stretched-link"><img src="{{ item.preview }}" class="w-100" alt="Preview for {{ item.title }}"></a>
@@ -27,7 +35,7 @@ title_short: "DH Research Institute"
           <h5 class="mt-0">{{ item.title }}</h5>
           <h6><small class="text-muted">{{ item.published | date: "%B %Y" }}</small></h6>
           <p>{{ item.description }}</p>
-          <a href="{{ item.file }}" class="stretched-link">Download</a>
+          <a href="{{ item.file }}" class="stretched-link">{% if item.button %}{{ item.button }}{% else %}Download{% endif %}</a>
         </div>
       </div>
     </div>

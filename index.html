@@ -1,51 +1,385 @@
 ---
 title: "Digital Humanities Research Institute"
 title_short: "DH Research Institute"
+is_front: true
+breadcrumbs: []
 ---
 
 {% include header.html %}
 {% include nav.html %}
 
-<section class="jumbotron text-center" style="background-color:#e9ecef00;">
-  <div class="container">
-  <img src="/assets/images/logos/{{ 'dhri-round.png' }}" class="img-fluid mb-1" style="height:150px;">
+<!-- Jumbotron for smaller screens (xs, sm, md): -->
+<section class="jumbotron d-lg-none mb-0 shadow-md">
+  <div class="container text-center text-dark">
+    <img src="/assets/images/logos/dhri-round.png" class="img-fluid mb-1" style="height:150px;" alt="Graphic that depicts: Digital Humanities Research Institute logotype" />
     <h1 class="jumbotron-heading">Further Expanding Digital Humanities Communities of Practice</h1>
-    <p class="lead text-left">The Digital Humanities Research Institute is an intensive, community-oriented, and foundational approach to learning technical skills in service of humanities teaching and learning.</p>
-    <!-- <p class="text-left">Through seminar-style discussions with leading scholars in digital humanities, hands-on workshops on core technical competencies, and project development labs, participants will become familiar with working from the command line, collaborating with git, programming with Python, querying structured data, creating maps, and analyzing texts computationally. You will also become part of a growing network of institute leaders by developing your own DHRI based on our open, core curriculum to be led at your home institution or organization.</p> -->
-  </div>
-</section><!-- ./ Jumbotron -->
-
-{% include apply-now.html %}
-
-<!--
-<section id="" class="bg-dark-blue">
-  <div class="container-fluid text-white" style="min-height:300px;">
-    <p>This is the intro</p>
+    <p class="lead text-left">The Digital Humanities Research Institute (DHRI) is an intensive, community-oriented, and foundational approach to learning technical skills in service of humanities teaching and learning.</p>
+    <!--<p class="text-left">Through seminar-style discussions with leading scholars in digital humanities, hands-on workshops on core technical competencies, and project development labs, participants will become familiar with working from the command line, collaborating with git, programming with Python, querying structured data, creating maps, and analyzing texts computationally. You will also become part of a growing network of institute leaders by developing your own DHRI based on our open, core curriculum to be led at your home institution or organization.</p>-->
   </div>
 </section>
--->
-<!--
-{% include nav/test.html %}
--->
-<!--
-<section id="timeline">
-  <div class="container-fluid">
-    <div class="row border-top border-bottom" style="height: 500px; overflow: scroll; background-color:#afb3b6;">
-      <div class="col-lg-7 mx-auto py-3">
-        <h4>Events</h4>
-          <ul class="timeline">
-              {% assign sorted = site.data.events | sort: 'date' | reverse %}
-              {% for item in sorted %}
-                <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-                    <div class="timeline-arrow"></div>
-                    <h2 class="h5 mb-0">{{ item.header }}</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>{{ item.date }}</span>
-                    <p class="text-small mt-2 font-weight-light">{{ item.text }}</p>
-                </li>
-              {% endfor %}
-          </ul>
-        </div>
+
+<!-- Jumbotron for larger screens (lg, xl): -->
+<section class="jumbotron d-none d-lg-block mb-0 shadow-md">
+  <div class="container text-center text-dark">
+    <div class="row justify-content-md-center">
+      <div class="text-right col-2">
+          <img src="/assets/images/logos/dhri-round.png" class="img-fluid" style="max-height:200px;" alt="Graphic that depicts: Digital Humanities Research Institute logotype" />
+      </div>
+      <div class="col-10 text-center">
+        <h1 class="jumbotron-heading">Further Expanding Digital Humanities Communities of Practice</h1>
+        <p class="lead text-left">The Digital Humanities Research Institute (DHRI) is an intensive, community-oriented, and foundational approach to learning technical skills in service of humanities teaching and learning.</p>
+        <!--<p class="text-left">Through seminar-style discussions with leading scholars in digital humanities, hands-on workshops on core technical competencies, and project development labs, participants will become familiar with working from the command line, collaborating with git, programming with Python, querying structured data, creating maps, and analyzing texts computationally. You will also become part of a growing network of institute leaders by developing your own DHRI based on our open, core curriculum to be led at your home institution or organization.</p>-->
+      </div>
     </div>
   </div>
 </section>
--->
+
+
+{% include apply-now.html %}
+
+
+<section id="about" class="bg-light"><!-- w-100 d-block bg-dark-blue text-white -->
+  <div class="container text-dark">
+    <div class="row justify-content-md-center">
+      <div class="col-12 py-4">
+        <h3>About the Digital Humanities Research Institute</h3>
+      </div>
+      <div class="col-12 col-md-6">
+        <p class="lead">Through seminar-style discussions with leading scholars in digital humanities, hands-on workshops on core technical competencies, and project development labs, participants will become familiar with working from the command line, collaborating with git, programming with Python, querying structured data, creating maps, and analyzing texts computationally. You will also become part of a growing network of institute leaders by developing your own DHRI based on our open, core curriculum to be led at your home institution or organization.</p>
+      </div>
+      {% include get-more-information.html %}
+      {% comment %}
+      <div class="col-12">
+        <p>In June 2018, GC Digital Initiatives hosted sixteen faculty, librarians, museum administrators, and staff at The Graduate Center, CUNY, for a ten-day, in-person institute. Funded through an NEH Institutes in Advanced Topics in Digital Humanities award, the Digital Humanities Research Institute (DHRI) provided professional development training that combined a pedagogical approach and core set of curricular materials. Participants organized local versions of DHRI using our core curriculum or creating their own lessons, reflecting their communities' interests and needs. Applicants to the program were asked to provide letters of support from their home institution committing to the local event, and GC Digital Initiatives committed to providing 20 hours of individual support to participants throughout the academic year.</p>
+      </div>
+      {% endcomment %}
+    </div>
+  </div>
+</section>
+
+
+<section class="jumbotron mb-0 shadow-md jumbotron-background-image" id="jumbotron-home"></section>
+
+
+
+<section id="principles" class="bg-orange">
+  <div class="container text-dark">
+    <div class="row">
+      <div class="col-12 py-4 text-dark">
+        <h3>DHRI Principles</h3>
+        <ul class="tabs">
+          <li class="tab-toggle text-dark" role="tab" aria-controls="professional-development" aria-selected="false">Professional Development</li>
+          <li class="tab-toggle text-dark" role="tab" aria-controls="pedagogy" aria-selected="false">Shared Pedagogy</li>
+          <li class="tab-toggle text-dark" role="tab" aria-controls="curricula" aria-selected="false">Shared Curricula</li>
+          <li class="tab-toggle text-dark" role="tab" aria-controls="network" aria-selected="false">Support Network</li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane" id="professional-development" role="tabpanel" aria-labelledby="profdev-tab">
+            <div class="row">
+              <div class="col-12">
+                <p>When the first DHRI cohort returned to The Graduate Center in June 2019, they shared reflections about how their experience as part of the project impacted their professional development and future career goals. DHRI's ambition was to help humanities practitioners tasked with "building DH community" in their local organizations emerge as leaders. The feedback we received overwhelmingly demonstrated that every member of the cohort felt that their participation in the project helped to establish or strengthen their leadership role in DH locally. More significantly, the cohort reported feeling that their participation in the network of DHRI organizations was also an opportunity for leadership. As a collective, we agreed that a title change from "participant" to "Community Leader" better reflected the role that they wished to play in expanding DH communities of practice. Additionally, the cohort described that the experience improved their confidence as learners, teachers, researchers, and leaders, because they understood what it meant to know <em>enough</em> without needing to know <em>everything</em>. Many attendees reported an increase in title or recognition, additional funding, and greater clout among colleagues and administrators. Additional professional development outcomes noted by the cohort included: new pedagogical strategies to integrate into their teaching, new ideas about graduate education and open access to share with their local institution, and an increased ability to locate and leverage alternative resources locally.</p>
+              </div>
+              <div class="col-12 col-md-6 pb-3">
+                <img src="/assets/images/2018-dhri/photo-by-lisa-m-rhody/presentations.png" class="img-fluid" />
+              </div>
+              <div class="col-12 col-md-6 pb-3">
+                <img src="/assets/images/2018-dhri/photo-by-lisa-m-rhody/presentations-2.png" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="pedagogy" role="tabpanel" aria-labelledby="pedagogy-tab">
+            <div class="row">
+              <div class="col-12">
+                <p>DHRI's pedagogical approach combines inclusive and critical pedagogy with a flexible set of workshops in foundational technical concepts, foregrounding humanities skepticism and inquiry in form and content. Through hands-on workshops that model peer-to-peer learning communities in the humanities, DHRI is designed to value and further develop local expertise rather than reproduce the myth that digital humanities training is best when it happens at "centers of expertise."</p>
+              </div>
+              <div class="d-none d-md-block col-md-6 pb-3">
+                <img src="/assets/images/2018-dhri/photo-by-lisa-m-rhody/collaboration.png" class="img-fluid" />
+              </div>
+              <div class="d-none d-md-block col-md-6 pb-3">
+                <img src="/assets/images/2018-dhri/photo-by-kalle-westerling/7-python-3.png" class="img-fluid" />
+              </div>
+              <div class="col-12">
+                <p>We believe that transformative and sustainable learning is most possible when it is community-based. Our workshops begin by introducing each participant as a domain expert with valuable experience to contribute to the learning community. The approach is centered on celebrating the unique domains of knowledge that each participant and each institutional setting offers. Through explicit attention to inclusive language, instruction, and discussion, we encourage instructors to implement a similar pedagogical approach in their local institutes. Our community-based approach has scaled well: the first cohort of NEH participants has become local institute leaders who in turn have fostered local communities of DH practice.</p>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="curricula" role="tabpanel" aria-labelledby="curricula-tab">
+            <div class="row">
+              <div class="col-12 col-md-8">
+                <p>Our curriculum focuses on technical skills and concepts upon which additional technologies and tools rely. Approximately one-third of all sessions at the Institute could be described as foundational: they introduce the command line, version control & data collaboration, data & databases, and Python using flexible, open source technologies that are accessible to the widest possible audience. Our emphasis on fundamental skills demonstrates our commitment to cultivating resilience that empower humanities researchers to become self-teachers and mentors in their own right. While intensive lessons prioritize instrumental outcomes, such as whether students can write for a loop or build a map, our focus is on a longer arc of professional development. While immediate results help pique interest and help scholars see the potential for digital research methods in their own work, confidence in core computational skills and concepts help to develop resilience that lasts beyond a single project or tool's lifespan. Better prepared to approach technology (and technological rhetoric) with a critical eye, scholars comfortable with core computational literacy and a common technical vocabulary are more likely to participate in local communities of practice.</p>
+              </div>
+              <div class="d-none d-md-block col-md-4">
+                <img src="/assets/images/2018-dhri/photo-by-kalle-westerling/7-python.png" class="img-fluid" />
+              </div>
+              <div class="col-12">
+                <p>Read more about the <a target="_blank" href="http://archive.dhinstitutes.org/june_2018_curriculum.html" class="text-dark bottom-dashed">DHRI curriculum</a>, including the following workshops offered at the <a target="_blank" href="http://archive.dhinstitutes.org/schedule.html" class="text-dark bottom-dashed">June 2018 DHRI</a> hosted by <a target="_blank" href="https://gcdi.commons.gc.cuny.edu/" class="text-dark bottom-dashed">GC Digital Initiatives</a> at <a target="_blank" href="https://gc.cuny.edu" class="text-dark bottom-dashed">The Graduate Center, CUNY.</a></p>
+                <span class="badge badge-light mx-1 my-1" style="font-size:1rem;"><i class="fab fa-github"></i>&nbsp;<a target="_blank" href="http://www.github.com/DHRI-Curriculum/command-line" class="text-dark">Command Line</a></span>
+                <span class="badge badge-light mx-1 my-1" style="font-size:1rem;"><i class="fab fa-github"></i>&nbsp;<a target="_blank" href="http://www.github.com/DHRI-Curriculum/git" class="text-dark">Git and GitHub</a></span>
+                <span class="badge badge-light mx-1 my-1" style="font-size:1rem;"><i class="fab fa-github"></i>&nbsp;<a target="_blank" href="http://www.github.com/DHRI-Curriculum/python" class="text-dark">Python</a></span>
+                <span class="badge badge-light mx-1 my-1" style="font-size:1rem;"><i class="fab fa-github"></i>&nbsp;<a target="_blank" href="http://www.github.com/DHRI-Curriculum/databases" class="text-dark">Databases</a></span>
+                <span class="badge badge-light mx-1 my-1" style="font-size:1rem;"><i class="fab fa-github"></i>&nbsp;<a target="_blank" href="http://www.github.com/DHRI-Curriculum/text-analysis" class="text-dark">Text Analysis</a></span>
+                <span class="badge badge-light mx-1 my-1" style="font-size:1rem;"><i class="fab fa-github"></i>&nbsp;<a target="_blank" href="http://www.github.com/DHRI-Curriculum/html-css" class="text-dark">HTML/CSS</a></span>
+                <span class="badge badge-light mx-1 my-1" style="font-size:1rem;"><i class="fab fa-github"></i>&nbsp;<a target="_blank" href="http://www.github.com/DHRI-Curriculum/machine-learning" class="text-dark">Machine Learning</a></span>
+                <span class="badge badge-light mx-1 my-1" style="font-size:1rem;"><i class="fab fa-github"></i>&nbsp;<a target="_blank" href="http://www.github.com/DHRI-Curriculum/mapping" class="text-dark">Mapping</a></span>
+                <span class="badge badge-light mx-1 my-1" style="font-size:1rem;"><i class="fab fa-github"></i>&nbsp;<a target="_blank" href="http://www.github.com/DHRI-Curriculum/ethics" class="text-dark">Ethics</a></span>
+                <span class="badge badge-light mx-1 my-1" style="font-size:1rem;"><i class="fab fa-github"></i>&nbsp;<a target="_blank" href="http://www.github.com/DHRI-Curriculum/twitter-api" class="text-dark">Twitter API</a></span>
+                <span class="badge badge-light mx-1 my-1" style="font-size:1rem;"><i class="fab fa-github"></i>&nbsp;<a target="_blank" href="http://www.github.com/DHRI-Curriculum/project-lab" class="text-dark">Project Lab</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="network" role="tabpanel" aria-labelledby="network-tab">
+            <div class="row">
+              <div class="col-12">
+                <p>The cohort consistently reported that the most significant value came from the connections they made at the June 2018 meeting in New York, and the network of support that has developed since. Exit interviews in June 2018 demonstrate a significant change from the anxieties reported by the same cohort a year earlier. Before attending DHRI, many reported they felt isolated, saying, "I'm the only one doing this on my campus," and they felt anxious about whether or not there would be interest or if they could find collaborators. However, intergroup connections among the DHRI Network Community Leaders and with the CUNY Graduate Center fellows and staff resulted in a completely different response in 2019. Combined with the support pledged by their local organizations and the prestige of attending an NEH-funded institute, Community Leaders felt confident making connections within and outside their home institutions. For example, the South Bend DHRI combined efforts from <a class="text-dark bottom-dashed slideOpen scrollTo" data-scroll="IN" data-slide="south_bendInstitute" href="javascript:void(0)">St. Mary's College and the University of Notre Dame</a>, which led to applications for additional funding through the Indiana State Humanities Council and matching funds from their institutions. Those funds allowed them to hire graduate students from nearby Loyola University of Chicago and University of Illinois at Chicago. Those whose institutions were unable to provide additional funding or local collaborators could turn to their DHRI Network partners for encouragement, advice, and help.</p>
+              </div>
+              <div class="col-12 col-md-6 pb-3">
+                <img src="/assets/images/2018-dhri/photo-by-lisa-m-rhody/whats-next-session.png" class="img-fluid" />
+              </div>
+              <div class="col-12 col-md-6 pb-3">
+                <img src="/assets/images/2018-dhri/photo-by-kalle-westerling/9-panel.png" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="meet-the-community-leaders" class="jumbotron mb-0 shadow-md">
+  <div class="row text-dark">
+    <div class="col-12">
+      <h1>Opportunity to Join the DHRI Network</h1>
+    </div>
+    <div class="col-12 col-sm-6">
+      <p class="lead">
+        In 2020, we will continue expanding the Digital Humanities Research Institutes with a new group of 15 participants. We invite participants to join us in New York City, participate in an introductory ten-day institute, and join our network of more than 30 community leaders of grassroots digital humanities research institutes at universities, libraries, archives, museums, and scholarly organizations across the United States.
+      </p>
+      <p>
+        During the June 2020 workshop in New York City, participants will receive intensive training on foundational digital research methods, assistance with planning local digital humanities workshops, and mentorship from past participants. Over the following academic year, participants will develop their own local digital humanities research institutes and contribute reflections on their experiences to a Guide to Leading Digital Humanities Research Institutes.
+      </p>
+      <p>
+        In addition to digital skill training, the DHRI connects participants with mentors and a network of community leaders, supporting participants’ professional growth in their local contexts. Our goal is to expand access to digital humanities training, effectively lowering the barrier to entry that some scholars experience when using digital tools.
+      </p>
+      <hr />
+      <p>
+        Are you interested in joining us in 2020–22? <a href="/apply-2020/"><strong>Read more on our application page.</strong></a>
+      </p>
+    </div>
+    <div class="col-12 col-sm-6 d-flex align-items-center justify-content-center">
+      <div class="d-flex flex-column align-items-center">
+        <p class="quote switchQuote text-center" id="quote"></p>
+        <p class="switchQuote pt-4 border-top border-dark" id="quote_by"></p>
+      </div>
+    </div>
+</section>
+
+
+{% include apply-now.html %}
+
+
+<section class="jumbotron mb-0 shadow-md jumbotron-background-image" id="jumbotron-collaboration"></section>
+
+
+{% assign all_institutes = site.data._institutes | concat: site.data._institutes-novideo %}
+
+<section id="showcase" class="album py-4 bg-dark-blue">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4"><h2>Current DHRI Network</h2></div>
+    </div>
+    <div class="row">
+      {% for p in all_institutes %}
+        <!-- Capture the correct date (n.b. in the Liquid template; not visible in HTML code) -->
+        {% if p.institute.from == p.institute.to %}
+          {% capture full_date %}{{ p.institute.from | date: "%b %-d, %Y" }}{% endcapture %}
+        {% else %}
+          {% capture from_month %}{{ p.institute.from | date: "%b" }}{% endcapture %}
+          {% capture to_month %}{{ p.institute.to | date: "%b" }}{% endcapture %}
+          {% if from_month == to_month %}
+            {% capture full_date %}{{ p.institute.from | date: "%b %-d" }}-{{ p.institute.to | date: "%-d" }}, {{ p.institute.from | date: "%Y" }}{% endcapture %}
+          {% else %}
+            {% capture full_date %}{{ p.institute.from | date: "%b %-d" }}-{{ p.institute.to | date: "%b %-d" }}, {{ p.institute.from | date: "%Y" }}{% endcapture %}
+          {% endif %}
+        {% endif %}
+
+        <div class="col-lg-6 col-md-12 mb-10 text-dark" id="{{ p.state }}">
+          <a name="{{ p.short }}"></a>
+          <div class="card mb-4 box-shadow">
+
+            {% if p.youtube %}
+              {% if page.load_local %}
+                <a class="toggleInstitute" data-toggle="institute" data-institute="#{{ p.short }}Institute" data-transcript="#{{ p.short }}Transcript" aria-expanded="false" aria-controls="{{ p.short }}Institute"><svg class="bd-placeholder-img card-img-top" style="width:100%; min-height:300px; max-height:400px;" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: {{ p.name }}"><title>{{ p.name }}</title><rect width="100%" height="100%" fill="#ccc"/><text x="20%" y="20%" fill="#666" dy=".3em">{{ p.name }}</text></svg></a>
+              {% else %}
+                <div class="card-img-top embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ p.youtube.shortcode }}?rel=0&cc_load_policy=1" allowfullscreen></iframe></div>
+              {% endif %}
+            {% elsif p.image %}
+              <div class="embed-responsive embed-responsive-16by9">
+                <a class="toggleInstitute" data-toggle="institute" data-institute="#{{ p.short }}Institute" data-transcript="#{{ p.short }}Transcript" aria-expanded="false" aria-controls="{{ p.short }}Institute"><img class="lazy card-img-top embed-responsive-item" src="{{ p.image }}" alt="{{ p.image-alt }}" /></a>
+              </div>
+            {% else %}
+              <a class="toggleInstitute" data-toggle="institute" data-institute="#{{ p.short }}Institute" data-transcript="#{{ p.short }}Transcript" aria-expanded="false" aria-controls="{{ p.short }}Institute"><svg class="bd-placeholder-img card-img-top" style="width:100%; min-height:300px; max-height:400px;" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: {{ p.name }}"><title>{{ p.name }}</title><rect width="100%" height="100%" fill="#ccc"/><text x="20%" y="20%" fill="#666" dy=".3em">{{ p.name }}</text></svg></a>
+            {% endif %}
+
+            <div class="card-body">
+
+              <!-- Title on small screens: -->
+              <div class="d-none d-sm-block">
+                <h5 class="card-title clearfix">
+                  {{ p.name }} <span class="small text-muted">{{ p.state-full }}</span>
+                  {% for tag in p.tags %}<span class="badge badge-light float-right mr-1 ml-1">{{ tag }}</span>{% endfor %}
+                </h5>
+              </div>
+
+              <!-- Title on larger screens: -->
+              <div class="d-sm-none">
+                <h5 class="card-title clearfix">{{ p.name }} <span class="small text-muted">{{ p.state-full }}</span></h5>
+                <div style="display:block;width:100%;margin-top:-.75rem !important;margin-bottom:.75rem;">
+                  {% for tag in p.tags %}
+                    <span class="badge badge-light mr-1 ml-1">{{ tag }}</span>
+                  {% endfor %}
+                </div>
+              </div>
+
+              <!-- Button group -->
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  {% if p.transcript %}
+                      <a class="toggleInstitute btn btn-sm btn-outline-secondary" data-toggle="institute" data-institute="#{{ p.short }}Institute" data-transcript="#{{ p.short }}Transcript" aria-expanded="false" aria-controls="{{ p.short }}Institute">About Institute</a>
+                      <a class="toggleInstitute btn btn-sm btn-outline-secondary" data-toggle="transcript" data-institute="#{{ p.short }}Institute" data-transcript="#{{ p.short }}Transcript" aria-expanded="false" aria-controls="{{ p.short }}Institute">Video Transcript</a>
+                  {% else %}
+                  <a class="toggleInstitute btn btn-sm btn-outline-secondary" data-toggle="institute" data-institute="#{{ p.short }}Institute" data-transcript="#{{ p.short }}Transcript" aria-expanded="false" aria-controls="{{ p.short }}Institute">About Institute</a>
+                  {% endif %}
+                </div>
+                {% if p.youtube.mins %}<div class="d-none d-sm-block"><small class="text-muted">{{ p.youtube.mins }} mins</small></div>{% endif %}
+              </div>
+
+              <div id="collapsing{{ p.short }}">
+
+                <!-- Institute details -->
+                <div class="mt-3 instituteDetails" id="{{ p.short }}Institute">
+                  {% if p.text %}<div class="card-text lead">{{ p.text }}</div><hr />{% endif %}
+
+                  <h5>Institute Summary</h5>
+
+                  {% if full_date.size > 0 %}
+                    <div class="row" id="institute-details">
+                      <div class="col-12 col-lg-3"><h6>Dates</h6></div>
+                      <div class="col-12 col-lg-9"><p>{{ full_date }}</p></div>
+                    </div>
+                  {% endif %}
+
+                  {% if p.institute.cosponsors.size > 1 %}
+                    <!-- spacing --><div id="institute-details-spacing"></div>
+                    <div class="row" id="institute-details">
+                      <div class="col-12 col-lg-3"><h6>Cosponsor{% if p.institute.cosponsors.size > 1 %}s{% endif %}</h6></div>
+                      <div class="col-12 col-lg-9">
+                        {% for cosponsor in p.institute.cosponsors %}
+                          <p>
+                          {% if cosponsor.website.size > 0 %}<a href="{{ cosponsor.website }}" target="_blank" class="text-dark">{% endif %}
+                          {{ cosponsor.name }}
+                          {% if cosponsor.website.size > 0 %}</a>{% endif %}
+                          </p>
+                        {% endfor %}
+                      </div>
+                    </div>
+                  {% endif %}
+
+                  {% if p.institute.twitter.size > 0 %}
+                    <!-- spacing --><div id="institute-details-spacing"></div>
+                    <div class="row" id="institute-details">
+                      <div class="col-12 col-lg-3"><h6>Twitter hashtag</h6></div>
+                      <div class="col-12 col-lg-9"><p><a href="https://twitter.com/search?f=tweets&vertical=default&q=%23{{ p.institute.twitter }}&src=typd" target="_blank">#{{ p.institute.twitter }}</a></p></div>
+                    </div>
+                  {% endif %}
+
+                  {% if p.institute.participants %}
+                    <!-- spacing --><div id="institute-details-spacing"></div>
+                    <div class="row" id="institute-details">
+                      <div class="col-12 col-lg-3"><h6>Participants</h6></div>
+                      <div class="col-12 col-lg-9">
+                        <p>{{ p.institute.participants.number }}{% if p.institute.participants.disciplines %}, <em>from disciplines:</em></p>
+                        {% for discipline in p.institute.participants.disciplines %}
+                        <li>{{ discipline }}</li>
+                        {% endfor %}{% endif %}
+                      </div>
+                    </div>
+                  {% endif %}
+
+                  {% if p.institute.workshops %}
+                    <!-- spacing --><div id="institute-details-spacing"></div>
+                    <div class="row" id="institute-details">
+                      <div class="col-12 col-lg-3"><h6>New/Edited Workshop{% if p.institute.workshops.size > 1 %}s{% endif %}</h6></div>
+                      <div class="col-12 col-lg-9">
+                        <p>{% for workshop in p.institute.workshops %}
+                          <span class="badge badge-dark mx-1" style="font-size: 0.9rem;">
+                            {% if workshop.url.size > 0 %}<i class="fas fa-code-branch"></i> <a href="{{ workshop.url }}" target="_blank" class="text-light">{% endif %}
+                            {{ workshop.name }}
+                            {% if workshop.url.size > 0 %}</a>{% endif %}
+                          </span>
+                        {% endfor %}</p>
+                      </div>
+                    </div>
+                  {% endif %}
+
+                  {% if p.institute.website.size > 0 %}
+                    <!-- spacing --><div id="institute-details-spacing"></div>
+                    <div class="row" id="institute-details">
+                      <div class="col-12 col-lg-3"><h6>More information</h6></div>
+                      <div class="col-12 col-lg-9"><p><a href="{{ p.institute.website }}" target="_blank">Website</a></p></div>
+                    </div>
+                  {% endif %}
+
+                  {% if p.community-leaders.size > 0 %}
+                    <!-- spacing --><div id="institute-details-spacing"></div>
+                    {% for organizer in p.community-leaders %}
+                      <div class="row" id="institute-details">
+                        <div class="col-12 col-lg-3"><h6>{% if forloop.first %}Community Leader{% endif %}{% if p.community-leaders.size > 1 and forloop.first %}s{% endif %}</h6></div>
+                          <div class="col-12 col-lg-9">{% unless forloop.first %}<div id="institute-details-spacing" class="d-sm-none"></div>{% endunless %}
+                            <p class="leader-name">{{ organizer.name }}</p><div class="leader-bio">{{ organizer.bio }}</div>
+                          </div>
+                      </div>
+                    {% endfor %}
+                  {% endif %}
+
+                  {% if p.workshop-instructors.size > 0 %}
+                    <!-- spacing --><div id="institute-details-spacing"></div>
+                    {% for instructor in p.workshop-instructors %}
+                      <div class="row" id="institute-details">
+                        <div class="col-12 col-lg-3"><h6>{% if forloop.first %}Workshop Instructor{% endif %}{% if p.workshop-instructors.size > 1 and forloop.first %}s{% endif %}</h6></div>
+                          <div class="col-12 col-lg-9">{% unless forloop.first %}<div id="institute-details-spacing" class="d-sm-none"></div>{% endunless %}
+                            <p>{{ instructor.name }}&nbsp;<span class="text-muted">{{ instructor.affiliation }}</span></p>
+                          </div>
+                      </div>
+                    {% endfor %}
+                  {% endif %}
+
+                  {% if p.image-credit %}<p class="image-credit">{{ p.image-credit }}</p>{% endif %}
+
+                </div>
+                <!-- // Institute details -->
+
+                {% if p.transcript %}
+                  <div class="mt-3 instituteTranscript" id="{{ p.short }}Transcript">
+                    <h5 class="card-title">Transcript</h5>
+                    <div id="transcript">{% include_relative _{{ p.transcript }} %}</div>
+                  </div>
+                {% endif %}
+
+              </div>
+
+            </div><!-- // Card body -->
+
+          </div><!-- // Card -->
+        </div><!-- // Institute column -->
+      {% endfor %}
+    </div><!-- // row -->
+  </div><!-- // container-fluid -->
+</section><!-- // section (showcase) -->
+
+
+
 {% include footer.html %}

@@ -8,3 +8,7 @@ exclude:
   - package.json
   - package-lock.json
   - Makefile
+  - README.md
+
+dirs:
+  icons: /assets/icons/

@@ -1,5 +1,60 @@
-a.apply-button { @extend .btn-outline-danger; @extend .text-danger; } 
-a.apply-button:hover { color: #fff !important; }
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Titillium Web', serif;
+  font-weight: 400;
+}
+
+
+
+.nav-link.active {
+  background-color: $dark-blue !important;
+  color: #fff !important;
+}
+
+a.nav-link.active {
+  color: #fff !important;
+}
+
+a.nav-link {
+  color: $dark-blue !important;
+}
+
+a.nav-link:hover {
+  color: #fff !important;
+}
+
+
+.apply-button {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+.apply-button:hover {
+  color: #fff !important;
+}
+
+.nav-link-header {
+  font-weight: 600;
+}
+
+.no-underline {
+  border: none !important;
+  text-decoration: none !important;
+}
+.no-underline:hover {
+  border: none !important;
+  text-decoration: none !important;
+}
+.no-transition:hover {
+  transition: none !important;
+}
+
+
+
 
 // used for our popup on top, if visitors have
 #ie-warning {
@@ -33,3 +88,167 @@ body {
 .logo-row {
   @extend .py-3;
 }
+
+.jumbotron {
+  background-color: rgba(168, 192, 236, 0.2);
+  background-image: url('/assets/images/bg-pattern.png');
+  padding: 1.5rem 1.5rem;
+}
+
+.bg-dark-blue {
+  background-color: rgba(39, 49, 66, 1) !important;
+}
+
+.bg-orange {
+  background-color: #ffc107 !important;
+}
+
+.text-orange {
+  color: #ffc107 !important;
+}//  style="color:#ec9521;"
+
+.bg-special-warning {
+  background-color: rgba(220, 53, 69, 0.3);
+}
+
+.bottom-dashed {
+  border-bottom: 1px dashed rgba(39, 49, 66, 0.7);
+}
+
+.bottom-dashed:hover {
+  text-decoration: none;
+}
+
+
+
+
+.instituteDetails {
+  display: none;
+}
+.instituteTranscript {
+display: none;
+}
+
+
+
+.quote {
+  font-family: Vollkorn, serif !important;
+  font-style: italic !important;
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
+}
+.quote b {
+  font-family: Vollkorn, serif !important;
+  font-weight: 700 !important;
+  font-style: italic !important;
+}
+
+
+
+.jumbotron-background-image {
+  min-height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+}
+
+#jumbotron-apply-2020 {
+  background-image: url('/assets/images/2018-dhri/photo-by-kalle-westerling/introduction-lisa-m-rhody-2.png');
+}
+
+#jumbotron-home {
+  background-image: url('/assets/images/2018-dhri/photo-by-kalle-westerling/introduction-matthew-k-gold.png');
+}
+
+#jumbotron-collaboration {
+  background-image: url('/assets/images/2018-dhri/photo-by-kalle-westerling/collaboration-2.png');
+}
+
+#jumbotron-reports {
+  background-image: url('/assets/images/2018-dhri/photo-by-lisa-m-rhody/stickers.png');
+}
+
+#about-bg {
+  background-image: url('/assets/images/2018-dhri/photo-by-kalle-westerling/intro.png');
+}
+
+.flexible-background-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+}
+
+
+
+
+
+
+
+
+#press-release-list li:hover {
+  cursor: pointer;
+}
+
+
+.download-image:hover {
+  box-shadow: 0 0 0.4rem 0.1rem rgba(0, 0, 0, 0.1) !important
+}
+
+
+
+
+
+
+
+
+
+
+// Animate
+// thanks to https://startbootstrap.com/snippets/animated-navbar-dropdown/
+
+.animate {
+  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.3s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform:translateY(0rem);
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+
+
+

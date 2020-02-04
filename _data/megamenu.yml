@@ -25,24 +25,24 @@
     - header: Team Alumni
       link: /people/alumni/
 
-- header: Partners
-  link: /partners/neh/
-  items:
-    - header: NEH
-      link: /partners/neh/
-    #- header: How to become a partner
-    #  link: /partners/become-a-partner/
-
 - header: DHRI@GC
   link: /graduate-center/
   items:
     - header: Past schedule
       link: /graduate-center/schedule/
-    - header: Participate
-      link: /graduate-center/participate/
+    #- header: Participate
+    #  link: /graduate-center/participate/
 
-- header: Reports
-  link: /reports/
+- header: Partners
+  link: /partners/neh/
+  items:
+    - header: National Endowment for the Humanities
+      link: /partners/neh/
+    #- header: How to become a partner
+    #  link: /partners/become-a-partner/
 
 - header: Curricula
   link: /curricula/
+
+- header: Reports
+  link: /reports/

@@ -1,0 +1,328 @@
+  - short: maine-digital-humanities-institute
+    name: ME.Digital Humanities Institute
+    state: ME
+    state-full: Maine
+    tags:
+        - community college
+        - online
+    text: "The ME.Digital Humanities Institute was offered as a free, seven-week, online workshop with the intention of creating a collaborative space for humanities professionals across Maine, who would work with one another while developing digital projects."
+    youtube:
+        shortcode: cqFG_VZGjw4
+        mins: 7
+    transcript: transcripts/Dianne
+    institute:
+        from: 2019-01-22
+        to: 2019-03-08
+        cosponsors:
+            - name:
+              website:
+        website: https://virtual.yccc.edu/MEDigitalHumanitiesInstitute
+        twitter:
+        lat: 47.247586
+        lng: -68.171618
+    community-leaders:
+        - name: Dianne Fallon
+          bio: "Dr. Dianne Fallon is the English Department Chair at York County Community College. Currently, she is involved with integrating more digital tools into English and Humanities classes, both to stimulate interest in humanities subjects and to boost student confidence in using digital technologies. At York County Community College, Dianne teaches a variety of writing courses, including College Composition, Creative Writing and Creative Non-Fiction, as well as Humanities courses such as Multicultural America. In spring 2019, she will teach a new course, \"Witches and War, on the Web\", in which students will investigate the connection between the Salem Witch trials and Abenaki-colonial warfare in Maine, and will develop their own local history research and digital presentation projects."
+          img: dianne-fallon.jpg
+
+  - short: binghamton-digital-humanities-research-institute
+    name: Binghamton DHRI
+    state: NY
+    state-full: New York
+    tags:
+        - public R1
+    text: "The Binghamton Digital Humanities Research Institute was offered as a 4-day intensive workshop for university faculty and graduate students who are interested in the digital humanities. The institute included seminar-type sessions oriented around critical discussion and hands-on workshops that introduced the foundational skills and tools that are central to digital humanities practices. Sessions treated topics such as the command line, data visualization, digital mapping, Python, text analysis, platforms for the digital presentation of research, open access and ethics. The goal for the Institute was to foster a dynamic, robust and generative community of digital humanities researchers and teachers at Binghamton University."
+    youtube:
+        shortcode: l8BEF9h47-Y
+        mins: 12
+    transcript: transcripts/Nancy
+    institute:
+        from: 2019-05-28
+        to: 2019-05-31
+        cosponsors:
+            - name: Binghamton University Libraries
+              website: https://www.binghamton.edu/libraries/services/digitalhumanities-ri.html
+            - name: Center for Learning and Teaching, Binghamton University
+              website:
+            - name: Institute for Advanced Studies in the Humanities, Binghamton University
+              website:
+            - name: The Graduate School, Binghamton University
+              website:
+            - name: Harpur College of Art &amp; Sciences, Binghamton University
+              website:
+            - name: Office of Undergraduate Education, Binghamton University
+              website:
+        website: http://scalar.usc.edu/works/digital-humanities-research-institute/index
+        twitter: BingDHRI
+        lat: -75.9718936
+        lng: 42.0893553
+        workshops:
+            - name: Introduction to DH
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/introduction-to-the-digital-humanities
+            - name: Metadata for the Humanist
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/metadata-for-the-humanist
+            - name: Command Line
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/introduction-to-the-command-line
+            - name: Perspectives on Digital Scholarship
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/the-middle-distance-perspectives-on-digital-scholarship
+            - name: Data and the Humanities
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/data-visualization
+            - name: Data Structuring
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/data-structuring
+            - name: Tableau
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/small-groups-your-data-with-tableau
+            - name: Metadata Schema
+            - name: ArcGIS Online
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/arcgisonline
+            - name: Consult with GIS Facility
+            - name: Georectification
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/georectification
+            - name: ArcGIS Online Advanced
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/small-groups-more-arcgis-online
+            - name: Intro to Python
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/intro-to-python
+            - name: Pandas
+            - name: "Data Cleaning: OpenRefine"
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/data-cleaning-open-refine
+            - name: VR Experience
+            - name: Text Analysis
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/introduction-to-text-analysis
+            - name: Visualizing Text Analysis with Tableau
+            - name: Advanced Python and NLTK
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/nltk
+            - name: DH at Binghamton
+            - name: Platforms for Digital Scholarship
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/platforms-for-digital-scholarship
+            - name: Scalar
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/scalar-workshop
+            - name: Funding Trends
+            - name: Moving Forward with DS and DH
+            - name: Openness, Ethics, and Evaluation
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/openness-ethics-and-evaluation-the-evolving-landscape-of-scholarly-communication-in-the-humanitie
+            - name: Advanced Scalar
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/small-groups-advanced-scalar
+            - name: ESRI Story Maps
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/small-groups-esri-story-maps
+            - name: HTML and CSS
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/html--and-css
+    community-leaders:
+        - name: Nancy Um
+          bio: "Nancy Um is Professor in the Department of Art History and co-director of the Middle East and North Africa Studies Program at Binghamton University. Her research explores the Islamic world from the perspective of the coast, with a focus on material, visual, and built culture on the Arabian Peninsula and around the rims of the Red Sea and the Indian Ocean. She is the author of <em>The Merchant Houses of Mocha: Trade and Architecture in an Indian Ocean Port</em> (University of Washington Press, 2009) and <em>Shipped but not Sold: Material Culture and the Social Protocols of Trade during Yemen’s Age of Coffee</em> (University of Hawai’i Press, 2017). She recently co-edited (with Carrie Anderson), \"Coordinates: Digital Mapping and 18th-C Visual, Material and Built Cultures,\" <em>Journal18: a journal of eighteenth-century art and culture</em> (Spring 2018)."
+          img: nancy-um.jpg
+        - name: Amy Gay
+          bio: "Amy Gay recently joined Binghamton University Libraries as their first Digital Scholarship Librarian, where she is leading the implementation of digital scholarship initiatives for the Libraries, works to help strengthen programs related to digital scholarship services, and supports and serves as a resource to faculty developing digital scholarship projects. Before coming to Binghamton University, Amy was part of the National Digital Stewardship Residency (NDSR) D.C. cohort in 2016, which is administered by the Library of Congress and funded by the Institute of Museum and Library Services. During this time, she managed projects at the U.S. Food & Drug Administration that focused on enabling open science, including the creation of a publicly searchable science data catalog for the Office of Science and Engineering Laboratories within the Center for Devices and Radiological Health. She received her MLIS from Syracuse University, and her research interests include primary source literacy, interactive technology and pedagogy, war history and cultural heritage preservation. In her free time, Amy enjoys attending trivia nights, hiking along the Upstate gorges, and trying out local eateries and diners."
+          img: amy-gay.png
+
+  - short: digital-humanities-research-institute-south-bend
+    name: DHRI South Bend
+    state: IN
+    state-full: Indiana
+    tags:
+        - R1
+        - liberal arts college
+        - co-organized DHRI
+        - institutional collaboration
+        - libraries
+    text: "The University of Notre Dame and Saint Mary’s College, with grant support from Indiana Humanities, collaborated to host a Digital Humanities Research Institute in May 2019. Using the curriculum developed by The Graduate Center, CUNY, they provided 26 participants with the opportunity to gain foundational computing skills that allowed them to advance their own digital projects, assist others in the creation and maintenance of digital research, and/or instruct others in digital methodologies."
+    youtube:
+        shortcode: 54RWltG2jkE
+        mins: 8
+    transcript: transcripts/Dan
+    institute:
+        from: 2019-05-14
+        to: 2019-05-17
+        cosponsors:
+            - name: University of Notre Dame
+              website:
+            - name: Saint Mary’s College
+              website:
+        website: http://dhsouthbend.org/
+        twitter: INdhri
+        lat: -86.244450
+        lng: 41.702616
+        workshops:
+            - name: Databases
+              url: https://github.com/dhsouthbend/databases
+            - name: Twitter API
+              url: https://github.com/dhsouthbend/twitter_api
+            - name: Text Analysis
+              url: https://github.com/dhsouthbend/text-analysis
+            - name: Ethics for Digital Projects and Research
+              url: https://github.com/dhsouthbend/ethics
+            - name: HTML and CSS
+              url: https://github.com/dhsouthbend/html-css
+            - name: Python
+              url: https://github.com/dhsouthbend/python
+            - name: Git and GitHub
+              url: https://github.com/dhsouthbend/git
+            - name: Mapping using QGIS
+              url: https://github.com/dhsouthbend/mapping
+            - name: The Command Line
+              url: https://github.com/dhsouthbend/command-line
+            - name: Installations
+              url: https://github.com/dhsouthbend/install
+    community-leaders:
+        - name: Daniel Johnson
+          bio: "Daniel Johnson is subject specialist for English literature and digital humanities at the University of Notre Dame's Hesburgh Libraries System. He has graduate degrees in English from Wake Forest University (MA) and Princeton University (PhD), where he specialized in literature of the long eighteenth-century."
+          img: daniel-johnson.jpg
+        - name: Sarah Noonan
+          bio: "Sarah Noonan received her Ph.D. in medieval English literature from Washington University in St. Louis. As an Assistant Professor at Saint Mary’s College, she teaches courses in early British literature, book history, and the history of the English language. She is the author of essays on manuscript studies, medieval reading practices, devotional literature, and pedagogical practice. She is currently working on a project entitled “Peripheral Manuscripts” that seeks to assist non-R1, manuscript-holding institutions in digitizing their respective holdings and displaying them in a collective digital repository in order to increase that material’s visibility among the scholarly community."
+          img: sarah-noonan.png
+    workshop-instructors:
+        - name: Amy Cavender
+          affiliation: Saint Mary's College
+        - name: Ericka Christie
+          affiliation: Loyola University Chicago
+        - name: Alexis Grant
+          affiliation: University of Illinois Chicago
+        - name: Caroline McCraw
+          affiliation: Loyola University Chicago
+        - name: Rebecca Parker
+          affiliation: Loyola University Chicago
+
+  - short: digital-humanities-afrofuturism-workshop
+    name: Digital Humanities Afrofuturism Workshop
+    state: MS
+    state-full: Mississippi
+    tags:
+        - museums
+        - archives
+    text: "The Digital Humanities Afrofuturism Workshop was designed to provide an intensive, community-oriented, and foundational approach to learning technical skills in service of historically African American institutions and affiliated organizations focused on the care, collection, and preservation of Black culture. Advancing digital learning, alliance-building, and resource sharing through highly interactive discussions with leading Digital Humanities scholars and practitioners in Digital Humanities was at the center of the Institute."
+    youtube:
+        shortcode: KZoAod8QZoQ
+        mins: 8.5
+    transcript: transcripts/Missy
+    institute:
+        from: 2019-08-06
+        to: 2019-08-07
+        cosponsors:
+            - name: Association of African American Museums
+              website:
+        website: https://blackmuseums.org/docs/2019_AAAM_Conf_Program.pdf
+        twitter:
+        lat: -90.2085852
+        lng: 32.2968847
+        workshops:
+            - name: What is a Digital Humanist?
+            - name: An Afro-futurist Viewpoint of Digital Humanities
+            - name: Preparing to Launch Your Digitization Project
+            - name: Technology for Community Impact
+            - name: The Revolution Will Be Digitized
+            - name: Funding Futurism
+            - name: Project Advisement Sessions
+    community-leaders:
+        - name: Marion McGee
+          bio: "Marion “Missy” McGee is a servant leader who believes in creative problem solving through the embrace of failure, experimentation and innovation. Marion is on the Association of African American Museums (AAAM) Board of Directors where she chairs the Communications Committee. She also serves as a Museum Program Specialist in the Office of Strategic Partnerships at the National Museum of African American History and Culture (NMAAHC). She is responsible for the design, implementation and evaluation of key collaborative initiatives, multi-state programs for the only national museum congressionally mandated to strengthen and elevate the profile of African American museums, Historically Black Colleges and Universities, and other institutions promoting the study or appreciation of African American history and African diaspora cultural heritage in the United States. She is currently pursuing a PhD in Leadership and Change to investigate methods of preserving the leadership legacy of Black Museum Movement pioneers. As a scholar-practitioner, Marion is working to identify best practices for advancing, growing and sustaining organizations founded by or on behalf of persons of African descent. Her areas of expertise include long-term strategic planning and prudent financial management through participatory leadership."
+          img: marion-mcgee.png
+
+  - short: africana-dhi
+    name: Africana DHi 2019
+    state: AZ
+    state-full: Arizona
+    tags:
+        - public R1
+        - online
+    text: "Africana DHi was offered as a three week online workshop between May and June 2019 in association with the Center for Digital Humanities at the University of Arizona. The Africana DHi centered the question: How do we define and implement digital Africana Studies demonstrative of the unique black context for digital usage? Studies in the digital humanities often assume and/or reinforce certain universal frameworks and biases. However, Black cultural practices demonstrate unique epistemologies regarding the digital. Recently, scholars have written extensively on digital hush harbors, Black Twitter, and hashtag activism like #MuteRKelly, #BlackLivesMatter, #SayHerName. During this Institute, participants explored interdisciplinary, digital humanities research and teaching with DH scholars, developed core computational research skills through online workshops, and began developing their own digital humanities projects. When participants completed the workshop, they were invited to share their reflections in a publication of the Spring 2020 Special Issue of <em>Fire!!!</em>, the peer-reviewed digital journal for the Association for the Study of African American Life and History (ASALH)."
+    youtube:
+        shortcode: pH7A6ZOpGNY
+        mins: 6
+    transcript: transcripts/Erika
+    institute:
+        from: 2019-05-28
+        to: 2019-06-11
+        cosponsors:
+            - name: The Center for Digital Humanities at the University of Arizona
+              website:
+            - name: Africana Studies at the University of Arizona
+              website:
+        website: https://africanadhi.com/
+        twitter:
+        lat: -110.9522981
+        lng: 32.2318851
+    community-leaders:
+        - name: Erika Gault
+          bio: "Erika Gault is an Assistant Professor of Africana Studies at the University of Arizona. Erika Gault’s scholarly work focuses on the intersection of religious history, technology, and urban black life in post-industrial America.On the topic of hip hop, religion, and digital ethnography she has delivered and published a number of papers regionally, nationally, and internationally. She is an ordained elder at Elim Christian Fellowship in Buffalo, NY and an award winning slam poet. She is currently working on her first book project titled <em>Being Christian, Doin' Hip Hop: A Digital Ethnography of Black Millennial Christianity</em> and a co-edited volume entitled <em>You Gon' Learn Today: The Aesthetics of Christians in Hip Hop</em>."
+          img: erika-gault.jpg
+
+  - short: digital-humanities-research-institute-university-louisville
+    name: Digital Humanities Research Institute at University of Louisville
+    state: KY
+    state-full: Kentucky
+    tags:
+        - public R1
+    text: "University of Louisville's Digital Humanities Research Institute was offered as a two-day residential workshop in the digital humanities. This event provided a space for a diverse set of scholars interested in the digital humanities to practice core skills in storymapping, GIS, machine learning, and NLTK. No prior knowledge was assumed—the goal was not to master but to experience the tools, and to then participate in inventive and capacious discussions that imagine how such a tool might be put to use in the contexts of research, teaching, and service."
+    youtube:
+        shortcode: 6WIjldptjQY
+        mins: 3
+    transcript: transcripts/Fran
+    institute:
+        from: 2019-05-08
+        to: 2019-05-09
+        cosponsors:
+            - name: Commonwealth Center for the Humanities and Society, University of Louisville
+              website: http://louisville.edu/cchs
+            - name: Department of English, University of Louisville
+              website: http://louisville.edu/english/
+            - name: Department of History, University of Louisville
+              website: https://louisville.edu/history/
+            - name: Department of Comparative Humanities, University of Louisville
+              website: https://louisville.edu/humanities
+        website: http://louisville.edu/digital-humanities/projects/dhri
+        twitter:
+        lat: -85.7613734
+        lng: 38.2281135
+    community-leaders:
+        - name: Frances McDonald
+          bio: "Frances McDonald is Assistant Professor of English at the University of Louisville where she works on critical theory and twentieth-century American literature and film. Her current book project examines the textual forms that laughter takes in twentieth-century literature and philosophy. Her work has appeared in <em>American Literature</em>, <em>LA Review of Books</em>, and <em>The Atlantic</em>, among other venues. She is also the co-editor and co-designer of <em>thresholds</em>, an occasional digital zine for creative/critical scholarship."
+          img: fran-mcdonald.jpg
+
+  - short: digital-technologies-conference
+    name: Digital Technologies Conference
+    state: MN
+    state-full: Minnesota
+    tags:
+        - private liberal arts college
+    text: "This Digital Humanities Research Institute was organized as the first ever Digital Technologies in the Humanities and Social Sciences Conference at the College of Saint Benedict and Saint John's University. The objectives of the conference were two-fold: (1) to share with interested faculty, staff, and students valuable resources on digital research and learning from the Digital Humanities Research Institute at The Graduate Center, CUNY in June 2018; (2) to create a space for faculty, staff and students to share their experiences working with digital technologies, as well as share insights on how to apply these technologies to enhance teaching excellence."
+    youtube:
+        shortcode: VhHpN-q29no
+        mins: 9
+    transcript: transcripts/Sophia
+    institute:
+        from: 2019-05-28
+        to: 2019-05-28
+        cosponsors:
+            - name: Clemens and Alcuin Libraries, College of Saint Benedict and Saint John's University
+              website:
+            - name: Instructional Technology, Clemens and Alcuin Libraries, College of Saint Benedict and Saint John's University
+              website:
+            - name: Academic Affairs, Clemens and Alcuin Libraries, College of Saint Benedict and Saint John's University
+              website:
+        website:
+        twitter:
+        lat: -94.3964769
+        lng: 45.5813035
+        workshops:
+            - name: Python
+              url:
+            - name: Open Education Resources
+              url:
+            - name: Digital Publishing
+              url:
+            - name: HMML
+              url:
+            - name: Bright Global Futures
+              url:
+            - name: Podcasts
+              url:
+            - name: Digital Artifacts/Museums
+              url:
+            - name: Advanced Canvas
+              url:
+            - name: Finding, Using, and Citing Images
+              url:
+            - name: Analyzing US Trade Patterns
+              url:
+    community-leaders:
+        - name: Sophia Geng
+          bio: "Growing up in Shandong, China, Dr. Sophia Geng obtained her MA from Beijing Foreign Studies University and her Ph.D. from the University of Minnesota-Twin Cities, U.S.A. Dr. Geng’s academic interests lie in oral history, the safeguarding of cultural heritage and East Asian literature. Joining the College of Saint Benedict and Saint John’s University (CSB/SJU) in 2007, Dr. Geng currently is an Associate Professor at the Department of Languages and Cultures. She also served as the Director of the Asian Studies Program from 2013 to 2017. CSB/SJU are two top-ranked liberal arts colleges in Minnesota, U.S.A., that share an integrated academic partnership. With a combined enrollment of 4,000 students, CSB/SJU are the largest liberal arts colleges in the U.S."
+          img: sophia-geng.png

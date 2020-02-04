@@ -1,20 +1,29 @@
 ---
 title: "Digital Humanities Research Institute"
 title_short: "DH Research Institute"
+breadcrumbs:
+  - label: "Curricula"
+    link: "/curricula/"
 ---
 
 {% include header.html %}
 {% include nav.html %}
 
-<section id="" class="pt-4">
-  <div class="container-fluid text-white">
-    <h1>{{ site.data.curricula-master.header }}</h1>
-    {{ site.data.curricula-master.text }}
-    <hr />
+
+
+<section id="header" class="jumbotron mb-0 shadow-md">
+  <div class="container text-center text-dark">
+    <div class="row justify-content-md-center">
+      <h1>{{ site.data.curricula-master.header }}</h1>
+    </div>
   </div>
+</section>
+
+
+
+<section id="main-text" class="pt-4">
   <div class="container text-white">
-      <h2>DHRI Workshops</h2>
-      <hr />
+    {{ site.data.curricula-master.text }}
   </div>
 </section>
 
@@ -23,17 +32,24 @@ title_short: "DH Research Institute"
 {% assign all_leadership = site.data.people.leadership %}
 {% assign all_faculty = site.data.people.faculty %}
 
-{% for curricula in site.data.curricula-master.curricula %}
 
-  <section id="" class="">
-    <div class="container text-white">
+
+<section id="header" class="jumbotron mb-0 shadow-md">
+  <div class="container text-dark">
+    <h2>DHRI Workshops</h2>
+  </div>
+</section>
+
+{% for curricula in site.data.curricula-master.curricula %}
+  <section class="bg-light py-3" style="filter:brightness({% cycle '100', '85' %}%);">
+    <div class="container text-dark">
       <div class="row">
         <div class="col-12">
           <h3><div class="d-inline d-md-none text-muted"><!-- visible on xs, sm --><i class="{% if site.data.curricula[curricula].fab-icon %}fab{% else %}fas{% endif %} {{ site.data.curricula[curricula].icon }}"></i> </div>{{ site.data.curricula[curricula].title }}<small class="text-muted"> {{ site.data.curricula[curricula].subtitle }}</small></h3>
         </div>
         <div class="col-12 col-md-3">
           <div class="h1 d-none d-md-block py-2 text-muted"><!-- hidden on xs, sm --><i class="{% if site.data.curricula[curricula].fab-icon %}fab{% else %}fas{% endif %} {{ site.data.curricula[curricula].icon }}"></i></div>
-          <p>Workshop developed by:</p>
+          <p class="m-0">Developed by:</p>
           <ul>
             {% for credit in site.data.curricula[curricula].credits %}
               {% if credit.short %}{% assign fellow = all_fellows | where:"short", credit.short  | first %}
@@ -49,10 +65,9 @@ title_short: "DH Research Institute"
         </div>
         <div class="col-12 col-md-9">
           {{ site.data.curricula.introductions[curricula] }}
-          <p><a href="{{ site.data.curricula[curricula].github-link }}"><i class="fab fa-github"></i> <em>Follow along with the entire curriculum</em></a></p>
+          <p><a href="{{ site.data.curricula[curricula].github-link }}"><i class="fab fa-github"></i> <em>Participate in the workshop via GitHub</em></a></p>
         </div>
       </div>
-      <hr />
     </div>
   </section>
 

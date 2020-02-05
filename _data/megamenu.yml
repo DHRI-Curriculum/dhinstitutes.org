@@ -26,7 +26,8 @@
       link: /people/alumni/
 
 - header: DHRI@GC
-  link: /graduate-center/
+  #link: /graduate-center/
+  link: /graduate-center/schedule/
   items:
     - header: Past schedule
       link: /graduate-center/schedule/

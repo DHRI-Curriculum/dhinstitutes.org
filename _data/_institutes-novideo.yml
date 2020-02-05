@@ -1,4 +1,4 @@
-  - short: digital-humanities-research-institute
+  - short: tri-co-digital-humanities-research-institute
     name: Tri-Co DHRI
     state: PA
     state-full: Pennsylvania
@@ -47,9 +47,8 @@
             - name: DS in the classroom
               url: https://github.com/tri-cods/Ed-Minimal-Editions
     community-leaders:
-        - name: Alicia Peaker
-          bio: "Alicia Peaker (PhD, Northeastern University) is the Digital Scholarship Specialist at Bryn Mawr College. Previously, she completed a CLIR/DLF Mellon Postdoctoral Fellowship in the Digital Liberal Arts at Middlebury College. While in graduate school, she served as the Co-Director of <em>Our Marathon: The Boston Bombing Digital Archive</em>, which won an award as the Best DH Project for Public Audiences in 2013. She has also worked as the Project Manager for The Women Writers Project and as the Managing Editor for <em>GradHacker</em>, a collaborative blog published through <em>Inside Higher Ed</em>. Her current research project explores ways of visualizing the botanical worlds of novels."
-          img: alicia-peaker.jpg
+        - aliciapeaker
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218102.2643440609!2d-75.38275524309742!3d40.021857653265215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6bf8d707e3c6b%3A0x4dcaa14e223ee044!2sBryn%20Mawr%20College!5e0!3m2!1sen!2sus!4v1580921621867!5m2!1sen!2sus
 
   - short: evangelical-seminary-puerto-rico-dhri
     name: Evangelical Seminary of Puerto Rico DHRI
@@ -70,9 +69,8 @@
         lat:
         lng:
     community-leaders:
-        - name: Rosín Torres
-          bio: "Rosín Torres-Medina is a Professional Librarian at Juan De Valdes Library of the Evangelical Seminary of Puerto Rico (SEPR) after graduating from the University of Puerto Rico. Her Master's capstone project explored open journals system technology. She has attended continued education workshops in transdisciplinary research, editing scientific journals in electronic format, and technology for online education. She is mostly passionate in collaborating and promoting learning of library resources such as the OPAC, the databases, Mendeley reference manager, digital tools and skills among faculty and students. She is engaged in promoting collaboration and open access projects at the library and regularly participate in workshops and courses around the latest research techniques and enhancement of research and writing skills. Academically, she is interested in Digital Humanities, in the areas of Bible and religion. Her career revolves around technology, as she loves to inspire change as a means for challenge and opportunities. The capacity of libraries to help people achieve their common and academic goals has always been an interest of hers."
-          img: rosa-maria-torres.png
+        - rosintorres
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150690.97740494914!2d-66.11644972458159!3d18.41972822658263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c036884a3cfef19%3A0x9da3a27453b3ed43!2sSeminario%20Evang%C3%A9lico%20de%20Puerto%20Rico!5e0!3m2!1sen!2sus!4v1580921640571!5m2!1sen!2sus
 
   - short: triangle-digital-humanities-institute
     name: Triangle Digital Humanities Institute
@@ -119,9 +117,8 @@
             - name: Free Tools to Introduce Undergraduates to DH
               url:
     community-leaders:
-        - name: Nathan Kelber
-          bio: "Nathan Kelber is the Digital Scholarship Specialist at the University Libraries, University of North Carolina at Chapel Hill. He comes from Detroit where he worked as a professor, public historian, and community organizer. Kelber is most well-known for his work on Detroit 67, a citywide campaign to commemorate the 1967 Detroit Uprising and encourage racial harmony, as well as his other project Network Detroit, a regional digital humanities conference. At UNC, Kelber helps faculty and graduate students with digital projects and serves as a library point of contact for local digital humanities communities and initiatives."
-          img: nathan-kelber.jpg
+        - nathankelber
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160552.36775212095!2d-79.14287290107183!3d35.92691363701316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89acc2d2cb17aaeb%3A0xb33bf0976497e0e0!2sUniversity%20of%20North%20Carolina%20at%20Chapel%20Hill!5e0!3m2!1sen!2sus!4v1580921661531!5m2!1sen!2sus
 
   - short: digital-humanities-graduate-course-clark-atlanta-university
     name: Digital Humanities (Graduate Course)
@@ -144,9 +141,8 @@
         lat: 33.7505221
         lng: -84.414318
     community-leaders:
-        - name: Rico Chapman
-          bio: "Dr. Rico D. Chapman received his PhD in African Studies from Howard University. He is currently an Associate Professor of History at Clark Atlanta University. He also serves as Assistant Dean of the School of Arts and Sciences and Director of the Humanities PhD program. His most recent book is titled <em>Student Resistance to Apartheid at the University of Fort Hare: Freedom Now, A Degree Tomorrow</em> (Lexington, 2016)."
-          img: rico-chapman.jpg
+        - ricochapman
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46551.34602534622!2d-84.43357877686523!3d33.7583617007251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50368a1300001%3A0x7513df876537e9c8!2sClark%20Atlanta%20University!5e0!3m2!1sen!2sus!4v1580921694378!5m2!1sen!2sus
 
   - short: digital-humanities-research-institute-southern-methodist-university
     name: Digital Humanities Research Institute at Southern Methodist University
@@ -179,9 +175,8 @@
             - name: Geospatial Data
               url: https://github.com/DHRISMU/geospatialdata
     community-leaders:
-        - name: Rafia Mirza
-          bio: "Rafia Mirza is a Humanities Research Librarian at SMU. She received her MSI from the University of Michigan. Her research interests include digital humanities, digital project planning, and issues around labor and community in digital humanities and digital pedagogy."
-          img: rafia-mirza.jpg
+        - rafiamirza
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105588.79040146193!2d-96.84482843581647!3d32.80682310342055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e9f0447c04e15%3A0xc05fcab81b99542e!2sSouthern%20Methodist%20University!5e0!3m2!1sen!2sus!4v1580921713997!5m2!1sen!2sus
 
   - short: dhri-arkansas-state
     name: DHRI@A-State
@@ -216,9 +211,8 @@
             - name: Project Laboratory
               url: http://scalar.usc.edu/works/dhriastate/project-laboratory
     community-leaders:
-        - name: Andrea Davis
-          bio: "Andrea Davis is Assistant Professor of Modern European and Digital History at Arkansas State University. Her research examines the urban social movements and memory cultures of twentieth century Spain, and has been supported by the the Fulbright Foundation and the University of California Humanities Network, among others. In addition to her position at the university, Andrea currently serves as the Associate Director of the Spanish Civil War Memory Project: Audiovisual Archive of the Francoist Repression and the book review editor of the <em>Bulletin for Spanish and Portuguese Historical Studies</em>."
-          img: andrea-davis.jpg
+        - andreadavis
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47232.29113047264!2d-90.71727422886313!3d35.8463339463608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d42be1a2aab939%3A0x7b91d1246765d49a!2sArkansas%20State%20University!5e0!3m2!1sen!2sus!4v1580921741161!5m2!1sen!2sus
 
   - short: wayne-state-university-digital-humanities-research-institute
     name: Wayne State University DHRI
@@ -240,6 +234,5 @@
         lat: 42.3591388
         lng: -83.0687349
     community-leaders:
-        - name: Alexandra Sarkozy
-          bio: "Alexandra Sarkozy is a science and digital scholarship librarian at Wayne State University in Detroit, MI. She has been working with faculty and librarians to incorporate digital tools into humanities classrooms, and to build digital infrastructure for humanities computing within the library. She is a also a graduate student in American History at Wayne State University. Her research interests include history of medicine, historical mapping, and data sharing and preservation."
-          img: alexandra-sarkozy.jpg
+        - alexandrasarkozy
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d177814.54482365618!2d-83.1737069143618!3d42.385909046783354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d2bc9d42d843%3A0xb688968949df5e4e!2sWayne%20State%20University!5e0!3m2!1sen!2sus!4v1580921760146!5m2!1sen!2sus

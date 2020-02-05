@@ -4,14 +4,14 @@
         Applications are due {{ site.data.apply-2020.due-date | date: "%A, %B %e, %Y" }}.
       </p>
       <p class="{% if page.application-page %}mb-0{% else %}mb-2{% endif %} mx-2">
-        <a href={% if page.application-page %}"http://bit.ly/apply-to-dhri" target="_blank"{% else %}"/apply-2020"{% endif %}" class="btn btn-danger">{% if page.application-page %}Application form{% else %}Apply now{% endif %}</a>
+        <a href={% if page.application-page %}"http://bit.ly/apply-to-dhri" target="_blank"{% else %}"/apply"{% endif %}" class="btn btn-danger">{% if page.application-page %}Application form{% else %}Apply now{% endif %}</a>
       </p>
   </div>
   {% if page.application-page %}
   {% else %}
   <div class="pb-3 d-flex flex-column align-items-center justify-content-center bg-special-warning">
     <p class="m-0">
-      <small class="text-muted">Questions? <a href="/apply-2020/" class="text-muted"><u>This page</u></a> contains many answers.</small>
+      <small class="text-muted">Questions? <a href="/apply/" class="text-muted"><u>This page</u></a> contains many answers.</small>
     </p>
     <p class="m-0">
       <small class="text-muted">If you can't find an answer, reach out to <a class="text-muted" href="mailto:info@dhinstitutes.org">info@dhinstitutes.org</a class="text-muted">.</small>

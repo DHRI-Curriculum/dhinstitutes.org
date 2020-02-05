@@ -72,3 +72,14 @@
   color: #6c757d;
 }
 
+.navbar-text a:not(:last-child):after {
+  content: "/";
+  display: inline-block;
+  margin: 0 0.3em 0 0.6em;
+  font-weight: 300;
+  color: #666;
+}
+
+a.btn.disabled:hover {
+  cursor: not-allowed !important;
+}

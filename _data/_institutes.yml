@@ -21,9 +21,8 @@
         lat: 47.247586
         lng: -68.171618
     community-leaders:
-        - name: Dianne Fallon
-          bio: "Dr. Dianne Fallon is the English Department Chair at York County Community College. Currently, she is involved with integrating more digital tools into English and Humanities classes, both to stimulate interest in humanities subjects and to boost student confidence in using digital technologies. At York County Community College, Dianne teaches a variety of writing courses, including College Composition, Creative Writing and Creative Non-Fiction, as well as Humanities courses such as Multicultural America. In spring 2019, she will teach a new course, \"Witches and War, on the Web\", in which students will investigate the connection between the Salem Witch trials and Abenaki-colonial warfare in Maine, and will develop their own local history research and digital presentation projects."
-          img: dianne-fallon.jpg
+        - diannefallon
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111635.8352019451!2d-70.59248243022135!3d43.30953420587712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e2a83e1569b925%3A0x495ca36fb5e601fa!2sYork%20County%20Community%20College!5e0!3m2!1sen!2sus!4v1580921355571!5m2!1sen!2sus
 
   - short: binghamton-digital-humanities-research-institute
     name: Binghamton DHRI
@@ -106,12 +105,9 @@
             - name: HTML and CSS
               url: http://scalar.usc.edu/works/digital-humanities-research-institute/html--and-css
     community-leaders:
-        - name: Nancy Um
-          bio: "Nancy Um is Professor in the Department of Art History and co-director of the Middle East and North Africa Studies Program at Binghamton University. Her research explores the Islamic world from the perspective of the coast, with a focus on material, visual, and built culture on the Arabian Peninsula and around the rims of the Red Sea and the Indian Ocean. She is the author of <em>The Merchant Houses of Mocha: Trade and Architecture in an Indian Ocean Port</em> (University of Washington Press, 2009) and <em>Shipped but not Sold: Material Culture and the Social Protocols of Trade during Yemen’s Age of Coffee</em> (University of Hawai’i Press, 2017). She recently co-edited (with Carrie Anderson), \"Coordinates: Digital Mapping and 18th-C Visual, Material and Built Cultures,\" <em>Journal18: a journal of eighteenth-century art and culture</em> (Spring 2018)."
-          img: nancy-um.jpg
-        - name: Amy Gay
-          bio: "Amy Gay recently joined Binghamton University Libraries as their first Digital Scholarship Librarian, where she is leading the implementation of digital scholarship initiatives for the Libraries, works to help strengthen programs related to digital scholarship services, and supports and serves as a resource to faculty developing digital scholarship projects. Before coming to Binghamton University, Amy was part of the National Digital Stewardship Residency (NDSR) D.C. cohort in 2016, which is administered by the Library of Congress and funded by the Institute of Museum and Library Services. During this time, she managed projects at the U.S. Food & Drug Administration that focused on enabling open science, including the creation of a publicly searchable science data catalog for the Office of Science and Engineering Laboratories within the Center for Devices and Radiological Health. She received her MLIS from Syracuse University, and her research interests include primary source literacy, interactive technology and pedagogy, war history and cultural heritage preservation. In her free time, Amy enjoys attending trivia nights, hiking along the Upstate gorges, and trying out local eateries and diners."
-          img: amy-gay.png
+        - nancyum
+        - amygay
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d132666.7010708259!2d-76.0096826255313!3d42.097273254219786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89daeeb8741e3169%3A0x73e79cf1ee693edf!2sBinghamton%20University!5e0!3m2!1sen!2sus!4v1580921403058!5m2!1sen!2sus
 
   - short: digital-humanities-research-institute-south-bend
     name: DHRI South Bend
@@ -162,12 +158,8 @@
             - name: Installations
               url: https://github.com/dhsouthbend/install
     community-leaders:
-        - name: Daniel Johnson
-          bio: "Daniel Johnson is subject specialist for English literature and digital humanities at the University of Notre Dame's Hesburgh Libraries System. He has graduate degrees in English from Wake Forest University (MA) and Princeton University (PhD), where he specialized in literature of the long eighteenth-century."
-          img: daniel-johnson.jpg
-        - name: Sarah Noonan
-          bio: "Sarah Noonan received her Ph.D. in medieval English literature from Washington University in St. Louis. As an Assistant Professor at Saint Mary’s College, she teaches courses in early British literature, book history, and the history of the English language. She is the author of essays on manuscript studies, medieval reading practices, devotional literature, and pedagogical practice. She is currently working on a project entitled “Peripheral Manuscripts” that seeks to assist non-R1, manuscript-holding institutions in digitizing their respective holdings and displaying them in a collective digital repository in order to increase that material’s visibility among the scholarly community."
-          img: sarah-noonan.png
+        - danieljohnson
+        - sarahnoonan
     workshop-instructors:
         - name: Amy Cavender
           affiliation: Saint Mary's College
@@ -179,6 +171,7 @@
           affiliation: Loyola University Chicago
         - name: Rebecca Parker
           affiliation: Loyola University Chicago
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1933368.9364961102!2d-86.35071101653837!3d41.63742406380847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8816cd576bfc35cd%3A0x5a2be3cb659fd9b7!2sUniversity%20of%20Notre%20Dame!5e0!3m2!1sen!2sus!4v1580921463791!5m2!1sen!2sus
 
   - short: digital-humanities-afrofuturism-workshop
     name: Digital Humanities Afrofuturism Workshop
@@ -211,9 +204,8 @@
             - name: Funding Futurism
             - name: Project Advisement Sessions
     community-leaders:
-        - name: Marion McGee
-          bio: "Marion “Missy” McGee is a servant leader who believes in creative problem solving through the embrace of failure, experimentation and innovation. Marion is on the Association of African American Museums (AAAM) Board of Directors where she chairs the Communications Committee. She also serves as a Museum Program Specialist in the Office of Strategic Partnerships at the National Museum of African American History and Culture (NMAAHC). She is responsible for the design, implementation and evaluation of key collaborative initiatives, multi-state programs for the only national museum congressionally mandated to strengthen and elevate the profile of African American museums, Historically Black Colleges and Universities, and other institutions promoting the study or appreciation of African American history and African diaspora cultural heritage in the United States. She is currently pursuing a PhD in Leadership and Change to investigate methods of preserving the leadership legacy of Black Museum Movement pioneers. As a scholar-practitioner, Marion is working to identify best practices for advancing, growing and sustaining organizations founded by or on behalf of persons of African descent. Her areas of expertise include long-term strategic planning and prudent financial management through participatory leadership."
-          img: marion-mcgee.png
+        - missymcgee
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d431624.73435110966!2d-90.47328808556533!3d32.31002043097536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86282b7f90741b21%3A0x713cde441f038a0!2sJackson%2C%20MS!5e0!3m2!1sen!2sus!4v1580921510563!5m2!1sen!2sus
 
   - short: africana-dhi
     name: Africana DHi 2019
@@ -240,9 +232,8 @@
         lat: -110.9522981
         lng: 32.2318851
     community-leaders:
-        - name: Erika Gault
-          bio: "Erika Gault is an Assistant Professor of Africana Studies at the University of Arizona. Erika Gault’s scholarly work focuses on the intersection of religious history, technology, and urban black life in post-industrial America.On the topic of hip hop, religion, and digital ethnography she has delivered and published a number of papers regionally, nationally, and internationally. She is an ordained elder at Elim Christian Fellowship in Buffalo, NY and an award winning slam poet. She is currently working on her first book project titled <em>Being Christian, Doin' Hip Hop: A Digital Ethnography of Black Millennial Christianity</em> and a co-edited volume entitled <em>You Gon' Learn Today: The Aesthetics of Christians in Hip Hop</em>."
-          img: erika-gault.jpg
+        - erikagault
+    google-map:
 
   - short: digital-humanities-research-institute-university-louisville
     name: Digital Humanities Research Institute at University of Louisville
@@ -272,9 +263,8 @@
         lat: -85.7613734
         lng: 38.2281135
     community-leaders:
-        - name: Frances McDonald
-          bio: "Frances McDonald is Assistant Professor of English at the University of Louisville where she works on critical theory and twentieth-century American literature and film. Her current book project examines the textual forms that laughter takes in twentieth-century literature and philosophy. Her work has appeared in <em>American Literature</em>, <em>LA Review of Books</em>, and <em>The Atlantic</em>, among other venues. She is also the co-editor and co-designer of <em>thresholds</em>, an occasional digital zine for creative/critical scholarship."
-          img: fran-mcdonald.jpg
+        - francesmcdonald
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d275963.2002244585!2d-85.89211506940275!3d38.21662869245374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88690d66685ec4a5%3A0x36287230b1f98953!2sUniversity%20of%20Louisville!5e0!3m2!1sen!2sus!4v1580921552522!5m2!1sen!2sus
 
   - short: digital-technologies-conference
     name: Digital Technologies Conference
@@ -323,6 +313,5 @@
             - name: Analyzing US Trade Patterns
               url:
     community-leaders:
-        - name: Sophia Geng
-          bio: "Growing up in Shandong, China, Dr. Sophia Geng obtained her MA from Beijing Foreign Studies University and her Ph.D. from the University of Minnesota-Twin Cities, U.S.A. Dr. Geng’s academic interests lie in oral history, the safeguarding of cultural heritage and East Asian literature. Joining the College of Saint Benedict and Saint John’s University (CSB/SJU) in 2007, Dr. Geng currently is an Associate Professor at the Department of Languages and Cultures. She also served as the Director of the Asian Studies Program from 2013 to 2017. CSB/SJU are two top-ranked liberal arts colleges in Minnesota, U.S.A., that share an integrated academic partnership. With a combined enrollment of 4,000 students, CSB/SJU are the largest liberal arts colleges in the U.S."
-          img: sophia-geng.png
+        - sophiageng
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d372871.5254281929!2d-94.5495762518642!3d45.542416822294506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b456c611fc43eb%3A0x8bd1eb72ae741514!2sSaint%20John&#39;s%20University!5e0!3m2!1sen!2sus!4v1580921589779!5m2!1sen!2sus

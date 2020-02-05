@@ -20,6 +20,8 @@ sections:
         <a href=\"/curricula\" class=\"text-muted\">create open educational resources</a></p>
       <p>After the first week, you will know how each of the foundational skills taught are necessary in order to build specific DH projects. In other words, understanding the command line will make website development easier and familiarity with data types in Python will make collecting and querying data from the archive more time effective.</p>
       <p>In the institute’s second week, a “train the trainer” approach will provide dedicated time and resources for you to begin developing your own institutes.</p>
+      <hr />
+      <p><em>Want to see an example of what the schedule will look like? <a href=\"/graduate-center/schedule/\">See last cycle’s schedule here</a>.</em></p>
     "
     col: 4
   - small-header: "Phase 2"
@@ -30,6 +32,8 @@ sections:
       <p>You will lead a local institute based on the DHRI model but adjusted to your local context some time between August 2020 and April 2021.</p>
       <p>During this time, you will receive 20 hours of dedicated support from our Institutes Coordinator Kalle Westerling, the GC’s Digital Fellows, and the project's Director Lisa Rhody.</p>
       <p>Over the course of the year, you will also have the ability to attend bi-monthly virtual meetings, “follow-up workshops,” facilitated by the GC’s staff. The workshops will enhance activities from our in-person meeting. These meetings will be hosted on Zoom, include a guest “mentor” speaker, and will also include a review of a workshop module of participants’ choice.</p>
+      <hr />
+      <p><em>Want to see examples of what past participants’ institutes have looked like? <a href=\"/network/\">Read about past institutes on our Network page</a>.</em></p>
     "
     col: 4
   - small-header: "Phase 3"

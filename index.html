@@ -7,6 +7,8 @@ breadcrumbs: []
 
 {% include header.html %}
 {% include nav.html %}
+{% include people/_build.html %}
+
 
 <!-- Jumbotron for smaller screens (xs, sm, md): -->
 <section class="jumbotron d-lg-none mb-0 shadow-md">
@@ -22,10 +24,10 @@ breadcrumbs: []
 <section class="jumbotron d-none d-lg-block mb-0 shadow-md">
   <div class="container text-center text-dark">
     <div class="row justify-content-md-center">
-      <div class="text-right col-2">
+      <div class="col-2 text-right">
           <img src="/assets/images/logos/dhri-round.png" class="img-fluid" style="max-height:200px;" alt="Graphic that depicts: Digital Humanities Research Institute logotype" />
       </div>
-      <div class="col-10 text-center">
+      <div class="col-8 text-center">
         <h1 class="jumbotron-heading">Further Expanding Digital Humanities Communities of Practice</h1>
         <p class="lead text-left">The Digital Humanities Research Institute (DHRI) is an intensive, community-oriented, and foundational approach to learning technical skills in service of humanities teaching and learning.</p>
         <!--<p class="text-left">Through seminar-style discussions with leading scholars in digital humanities, hands-on workshops on core technical competencies, and project development labs, participants will become familiar with working from the command line, collaborating with git, programming with Python, querying structured data, creating maps, and analyzing texts computationally. You will also become part of a growing network of institute leaders by developing your own DHRI based on our open, core curriculum to be led at your home institution or organization.</p>-->
@@ -45,14 +47,9 @@ breadcrumbs: []
         <h3>About the Digital Humanities Research Institute</h3>
       </div>
       <div class="col-12 col-md-6">
-        <p class="lead">Through seminar-style discussions with leading scholars in digital humanities, hands-on workshops on core technical competencies, and project development labs, participants will become familiar with working from the command line, collaborating with git, programming with Python, querying structured data, creating maps, and analyzing texts computationally. You will also become part of a growing network of institute leaders by developing your own DHRI based on our open, core curriculum to be led at your home institution or organization.</p>
+        <p class="lead">Through seminar-style discussions with <a href="/people/" class="bottom-dashed text-dark">leading scholars in digital humanities</a>, <a href="/curricula" class="bottom-dashed text-dark">hands-on workshops</a> on core technical competencies, and project development labs, participants in the Digital Humanities Research Institute become familiar with working from the command line, collaborating with git, programming with Python, querying structured data, creating maps, and analyzing texts computationally. Participants also become part of <a href="/network/" class="bottom-dashed text-dark">a growing network of institute leaders</a> by developing their own DHRI based on <a href="/curricula/" class="bottom-dashed text-dark">our open, core curriculum</a> to be led at their home institutions or organizations.</p>
       </div>
       {% include get-more-information.html %}
-      {% comment %}
-      <div class="col-12">
-        <p>In June 2018, GC Digital Initiatives hosted sixteen faculty, librarians, museum administrators, and staff at The Graduate Center, CUNY, for a ten-day, in-person institute. Funded through an NEH Institutes in Advanced Topics in Digital Humanities award, the Digital Humanities Research Institute (DHRI) provided professional development training that combined a pedagogical approach and core set of curricular materials. Participants organized local versions of DHRI using our core curriculum or creating their own lessons, reflecting their communities' interests and needs. Applicants to the program were asked to provide letters of support from their home institution committing to the local event, and GC Digital Initiatives committed to providing 20 hours of individual support to participants throughout the academic year.</p>
-      </div>
-      {% endcomment %}
     </div>
   </div>
 </section>
@@ -149,7 +146,7 @@ breadcrumbs: []
 
 
 
-<section id="meet-the-community-leaders" class="jumbotron mb-0 shadow-md">
+<section id="join-us" class="jumbotron mb-0 shadow-md">
   <div class="row text-dark">
     <div class="col-12">
       <h1>Opportunity to Join the DHRI Network</h1>
@@ -165,15 +162,20 @@ breadcrumbs: []
         In addition to digital skill training, the DHRI connects participants with mentors and a network of community leaders, supporting participants’ professional growth in their local contexts. Our goal is to expand access to digital humanities training, effectively lowering the barrier to entry that some scholars experience when using digital tools.
       </p>
       <hr />
-      <p>
-        Are you interested in joining us in 2020–22? <a href="/apply-2020/"><strong>Read more on our application page.</strong></a>
-      </p>
-    </div>
-    <div class="col-12 col-sm-6 d-flex align-items-center justify-content-center">
-      <div class="d-flex flex-column align-items-center">
-        <p class="quote switchQuote text-center" id="quote"></p>
-        <p class="switchQuote pt-4 border-top border-dark" id="quote_by"></p>
+      <p>Want to see an example of what the schedule will look like? <a href="/graduate-center/schedule/">See last cycle's schedule here</a>.</p>
+      <hr />
+      <div class="mx-auto text-center mw-75">
+        <p class="lead">Are you interested in joining us in 2020–22?</p>
+        <p><a class="btn btn-success" href="/apply/"><strong>Read more on our application page.</strong></a></p>
       </div>
+    </div>
+    <div class="col-12 col-sm-6 d-flex align-items-center justify-content-center pt-5 pt-sm-0">
+      <div class="d-flex flex-column align-items-center col-11" id="quote-container">
+        <p class="quote-header">how did the dhri benefit previous participants?</p>
+        <p class="quote text-center" id="quote"></p>
+        <p class="pt-4 border-top border-dark" id="quote_by"></p>
+      </div>
+      <div class="d-flex col-1 switchQuote" id="quoteCaret"></div>
     </div>
 </section>
 
@@ -183,202 +185,68 @@ breadcrumbs: []
 
 <section class="jumbotron mb-0 shadow-md jumbotron-background-image" id="jumbotron-collaboration"></section>
 
-
-{% assign all_institutes = site.data._institutes | concat: site.data._institutes-novideo %}
-
-<section id="showcase" class="album py-4 bg-dark-blue">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 mb-4"><h2>Current DHRI Network</h2></div>
+<section id="meet-the-community-leaders" class="d-none d-sm-block bg-pattern" style="background-color: #e9ecef;">
+  <div class="bg-light-blue py-4">
+    <div class="container text-dark text-center">
+      <h1>Meet the Community Leaders</h1>
+      <p class="lead">Here are a few of our current Community Leaders.</p>
+      <p class="small text-muted">To see a full list of our current Community Leaders, visit <a href="/people/community-leaders/">their People page</a>.</p>
     </div>
-    <div class="row">
-      {% for p in all_institutes %}
-        <!-- Capture the correct date (n.b. in the Liquid template; not visible in HTML code) -->
-        {% if p.institute.from == p.institute.to %}
-          {% capture full_date %}{{ p.institute.from | date: "%b %-d, %Y" }}{% endcapture %}
-        {% else %}
-          {% capture from_month %}{{ p.institute.from | date: "%b" }}{% endcapture %}
-          {% capture to_month %}{{ p.institute.to | date: "%b" }}{% endcapture %}
-          {% if from_month == to_month %}
-            {% capture full_date %}{{ p.institute.from | date: "%b %-d" }}-{{ p.institute.to | date: "%-d" }}, {{ p.institute.from | date: "%Y" }}{% endcapture %}
-          {% else %}
-            {% capture full_date %}{{ p.institute.from | date: "%b %-d" }}-{{ p.institute.to | date: "%b %-d" }}, {{ p.institute.from | date: "%Y" }}{% endcapture %}
-          {% endif %}
-        {% endif %}
 
-        <div class="col-lg-6 col-md-12 mb-10 text-dark" id="{{ p.state }}">
-          <a name="{{ p.short }}"></a>
-          <div class="card mb-4 box-shadow">
-
-            {% if p.youtube %}
-              {% if page.load_local %}
-                <a class="toggleInstitute" data-toggle="institute" data-institute="#{{ p.short }}Institute" data-transcript="#{{ p.short }}Transcript" aria-expanded="false" aria-controls="{{ p.short }}Institute"><svg class="bd-placeholder-img card-img-top" style="width:100%; min-height:300px; max-height:400px;" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: {{ p.name }}"><title>{{ p.name }}</title><rect width="100%" height="100%" fill="#ccc"/><text x="20%" y="20%" fill="#666" dy=".3em">{{ p.name }}</text></svg></a>
-              {% else %}
-                <div class="card-img-top embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ p.youtube.shortcode }}?rel=0&cc_load_policy=1" allowfullscreen></iframe></div>
-              {% endif %}
-            {% elsif p.image %}
-              <div class="embed-responsive embed-responsive-16by9">
-                <a class="toggleInstitute" data-toggle="institute" data-institute="#{{ p.short }}Institute" data-transcript="#{{ p.short }}Transcript" aria-expanded="false" aria-controls="{{ p.short }}Institute"><img class="lazy card-img-top embed-responsive-item" src="{{ p.image }}" alt="{{ p.image-alt }}" /></a>
-              </div>
-            {% else %}
-              <a class="toggleInstitute" data-toggle="institute" data-institute="#{{ p.short }}Institute" data-transcript="#{{ p.short }}Transcript" aria-expanded="false" aria-controls="{{ p.short }}Institute"><svg class="bd-placeholder-img card-img-top" style="width:100%; min-height:300px; max-height:400px;" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: {{ p.name }}"><title>{{ p.name }}</title><rect width="100%" height="100%" fill="#ccc"/><text x="20%" y="20%" fill="#666" dy=".3em">{{ p.name }}</text></svg></a>
-            {% endif %}
-
-            <div class="card-body">
-
-              <!-- Title on small screens: -->
-              <div class="d-none d-sm-block">
-                <h5 class="card-title clearfix">
-                  {{ p.name }} <span class="small text-muted">{{ p.state-full }}</span>
-                  {% for tag in p.tags %}<span class="badge badge-light float-right mr-1 ml-1">{{ tag }}</span>{% endfor %}
-                </h5>
-              </div>
-
-              <!-- Title on larger screens: -->
-              <div class="d-sm-none">
-                <h5 class="card-title clearfix">{{ p.name }} <span class="small text-muted">{{ p.state-full }}</span></h5>
-                <div style="display:block;width:100%;margin-top:-.75rem !important;margin-bottom:.75rem;">
-                  {% for tag in p.tags %}
-                    <span class="badge badge-light mr-1 ml-1">{{ tag }}</span>
-                  {% endfor %}
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div id="carouselLeaders" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              {% for i in (0..2) %}
+              <li data-target="#carouselLeaders" data-slide-to="{{ i }}" {% if forloop.first %}class="active"{%endif %}></li>
+              {% endfor %}
+            </ol>
+            <div class="carousel-inner">
+              {% for i in (0..2) %}
+              <div class="carousel-item{% if forloop.first %} active{%endif %}" id="leader-{{ i }}">
+                <div class="position-relative profile-card">
+                  <div class="profile-pic" id="profile-pic" style="background-position: center;background-repeat: no-repeat;"></div>
+                  <div class="profile-name-container">
+                      <div class="user-name" id="name"></div>
+                    </div>
+                    <div class="m-3 p-3">
+                      <div class="user-desc" id="desc"></div>
+                    </div>
+                    <hr />
+                    <div class="row m-2 p-2">
+                      <div class="col-12 text-center">
+                        <div class="user-desc" id="inst"></div>
+                        <div class="user-desc" id="dates"></div>
+                      </div>
+                    </div>
+                    <div class="row m-2 p-2 pb-5">
+                      <div class="col-12 col-sm-12 col-md-6">
+                        <div class="user-desc" id="text"></div>
+                      </div>
+                      <div class="col-12 col-sm-12 col-md-6 pt-sm-4">
+                        <div class="user-desc" id="map"></div>
+                      </div>
+                    </div>
                 </div>
               </div>
+              {% endfor %}
+            </div>
+            <a class="carousel-control-prev" href="#carouselLeaders" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselLeaders" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-              <!-- Button group -->
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  {% if p.transcript %}
-                      <a class="toggleInstitute btn btn-sm btn-outline-secondary" data-toggle="institute" data-institute="#{{ p.short }}Institute" data-transcript="#{{ p.short }}Transcript" aria-expanded="false" aria-controls="{{ p.short }}Institute">About Institute</a>
-                      <a class="toggleInstitute btn btn-sm btn-outline-secondary" data-toggle="transcript" data-institute="#{{ p.short }}Institute" data-transcript="#{{ p.short }}Transcript" aria-expanded="false" aria-controls="{{ p.short }}Institute">Video Transcript</a>
-                  {% else %}
-                  <a class="toggleInstitute btn btn-sm btn-outline-secondary" data-toggle="institute" data-institute="#{{ p.short }}Institute" data-transcript="#{{ p.short }}Transcript" aria-expanded="false" aria-controls="{{ p.short }}Institute">About Institute</a>
-                  {% endif %}
-                </div>
-                {% if p.youtube.mins %}<div class="d-none d-sm-block"><small class="text-muted">{{ p.youtube.mins }} mins</small></div>{% endif %}
-              </div>
-
-              <div id="collapsing{{ p.short }}">
-
-                <!-- Institute details -->
-                <div class="mt-3 instituteDetails" id="{{ p.short }}Institute">
-                  {% if p.text %}<div class="card-text lead">{{ p.text }}</div><hr />{% endif %}
-
-                  <h5>Institute Summary</h5>
-
-                  {% if full_date.size > 0 %}
-                    <div class="row" id="institute-details">
-                      <div class="col-12 col-lg-3"><h6>Dates</h6></div>
-                      <div class="col-12 col-lg-9"><p>{{ full_date }}</p></div>
-                    </div>
-                  {% endif %}
-
-                  {% if p.institute.cosponsors.size > 1 %}
-                    <!-- spacing --><div id="institute-details-spacing"></div>
-                    <div class="row" id="institute-details">
-                      <div class="col-12 col-lg-3"><h6>Cosponsor{% if p.institute.cosponsors.size > 1 %}s{% endif %}</h6></div>
-                      <div class="col-12 col-lg-9">
-                        {% for cosponsor in p.institute.cosponsors %}
-                          <p>
-                          {% if cosponsor.website.size > 0 %}<a href="{{ cosponsor.website }}" target="_blank" class="text-dark">{% endif %}
-                          {{ cosponsor.name }}
-                          {% if cosponsor.website.size > 0 %}</a>{% endif %}
-                          </p>
-                        {% endfor %}
-                      </div>
-                    </div>
-                  {% endif %}
-
-                  {% if p.institute.twitter.size > 0 %}
-                    <!-- spacing --><div id="institute-details-spacing"></div>
-                    <div class="row" id="institute-details">
-                      <div class="col-12 col-lg-3"><h6>Twitter hashtag</h6></div>
-                      <div class="col-12 col-lg-9"><p><a href="https://twitter.com/search?f=tweets&vertical=default&q=%23{{ p.institute.twitter }}&src=typd" target="_blank">#{{ p.institute.twitter }}</a></p></div>
-                    </div>
-                  {% endif %}
-
-                  {% if p.institute.participants %}
-                    <!-- spacing --><div id="institute-details-spacing"></div>
-                    <div class="row" id="institute-details">
-                      <div class="col-12 col-lg-3"><h6>Participants</h6></div>
-                      <div class="col-12 col-lg-9">
-                        <p>{{ p.institute.participants.number }}{% if p.institute.participants.disciplines %}, <em>from disciplines:</em></p>
-                        {% for discipline in p.institute.participants.disciplines %}
-                        <li>{{ discipline }}</li>
-                        {% endfor %}{% endif %}
-                      </div>
-                    </div>
-                  {% endif %}
-
-                  {% if p.institute.workshops %}
-                    <!-- spacing --><div id="institute-details-spacing"></div>
-                    <div class="row" id="institute-details">
-                      <div class="col-12 col-lg-3"><h6>New/Edited Workshop{% if p.institute.workshops.size > 1 %}s{% endif %}</h6></div>
-                      <div class="col-12 col-lg-9">
-                        <p>{% for workshop in p.institute.workshops %}
-                          <span class="badge badge-dark mx-1" style="font-size: 0.9rem;">
-                            {% if workshop.url.size > 0 %}<i class="fas fa-code-branch"></i> <a href="{{ workshop.url }}" target="_blank" class="text-light">{% endif %}
-                            {{ workshop.name }}
-                            {% if workshop.url.size > 0 %}</a>{% endif %}
-                          </span>
-                        {% endfor %}</p>
-                      </div>
-                    </div>
-                  {% endif %}
-
-                  {% if p.institute.website.size > 0 %}
-                    <!-- spacing --><div id="institute-details-spacing"></div>
-                    <div class="row" id="institute-details">
-                      <div class="col-12 col-lg-3"><h6>More information</h6></div>
-                      <div class="col-12 col-lg-9"><p><a href="{{ p.institute.website }}" target="_blank">Website</a></p></div>
-                    </div>
-                  {% endif %}
-
-                  {% if p.community-leaders.size > 0 %}
-                    <!-- spacing --><div id="institute-details-spacing"></div>
-                    {% for organizer in p.community-leaders %}
-                      <div class="row" id="institute-details">
-                        <div class="col-12 col-lg-3"><h6>{% if forloop.first %}Community Leader{% endif %}{% if p.community-leaders.size > 1 and forloop.first %}s{% endif %}</h6></div>
-                          <div class="col-12 col-lg-9">{% unless forloop.first %}<div id="institute-details-spacing" class="d-sm-none"></div>{% endunless %}
-                            <p class="leader-name">{{ organizer.name }}</p><div class="leader-bio">{{ organizer.bio }}</div>
-                          </div>
-                      </div>
-                    {% endfor %}
-                  {% endif %}
-
-                  {% if p.workshop-instructors.size > 0 %}
-                    <!-- spacing --><div id="institute-details-spacing"></div>
-                    {% for instructor in p.workshop-instructors %}
-                      <div class="row" id="institute-details">
-                        <div class="col-12 col-lg-3"><h6>{% if forloop.first %}Workshop Instructor{% endif %}{% if p.workshop-instructors.size > 1 and forloop.first %}s{% endif %}</h6></div>
-                          <div class="col-12 col-lg-9">{% unless forloop.first %}<div id="institute-details-spacing" class="d-sm-none"></div>{% endunless %}
-                            <p>{{ instructor.name }}&nbsp;<span class="text-muted">{{ instructor.affiliation }}</span></p>
-                          </div>
-                      </div>
-                    {% endfor %}
-                  {% endif %}
-
-                  {% if p.image-credit %}<p class="image-credit">{{ p.image-credit }}</p>{% endif %}
-
-                </div>
-                <!-- // Institute details -->
-
-                {% if p.transcript %}
-                  <div class="mt-3 instituteTranscript" id="{{ p.short }}Transcript">
-                    <h5 class="card-title">Transcript</h5>
-                    <div id="transcript">{% include_relative _{{ p.transcript }} %}</div>
-                  </div>
-                {% endif %}
-
-              </div>
-
-            </div><!-- // Card body -->
-
-          </div><!-- // Card -->
-        </div><!-- // Institute column -->
-      {% endfor %}
-    </div><!-- // row -->
-  </div><!-- // container-fluid -->
-</section><!-- // section (showcase) -->
 
 
 

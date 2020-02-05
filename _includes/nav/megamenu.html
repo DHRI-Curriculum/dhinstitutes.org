@@ -7,7 +7,7 @@
     </a>
 
     <div id="navbarContent" class="collapse navbar-collapse d-flex justify-content-end">
-      {% if page.application-page %}{% else %}<a href="/apply-2020/" class="btn btn-outline-danger mx-3 my-2 my-sm-0 apply-button">Apply now</a>{% endif %}
+      {% if page.application-page %}{% else %}<a href="/apply/" class="btn btn-outline-danger mx-3 my-2 my-sm-0 apply-button">Apply now</a>{% endif %}
       <button type="button" id="megamneu" data-toggle="dropdown" aria-expanded="false" class="btn btn-semi-light">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -129,8 +129,9 @@
 <div class="nav-scroller bg-white shadow-sm d-none d-sm-block">
   <div class="container">
     <nav class="nav nav-underline">
-      <p class="navbar-text pt-1" style="margin-left:-10px">
-        <a class="btn btn-link no-transition no-underline text-dark" href="/">Home</a> / {% for x in page.breadcrumbs %}<a class="btn no-transition no-underline text-dark btn-link {% if forloop.last %}disabled{% endif %}" href="{{ x.link }}">{{ x.label }}</a> / {% endfor %}
+      <p class="navbar-text">
+        <a class="btn btn-link no-transition no-underline text-dark p-0 m-0" href="/">Home</a>
+        {% for x in page.breadcrumbs %}<a class="btn no-transition no-underline text-dark btn-link p-0 m-0 {% if forloop.last %}disabled{% endif %} {% if x.disabled %}disabled{% endif %}" href="{{ x.link }}">{{ x.label }}</a>{% endfor %}
       </p>
     </nav>
   </div>

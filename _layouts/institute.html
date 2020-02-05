@@ -1,0 +1,110 @@
+
+
+{% if p.institute.from == p.institute.to %}
+  {% capture full_date %}{{ p.institute.from | date: "%b %-d, %Y" }}{% endcapture %}
+{% else %}
+  {% capture from_month %}{{ p.institute.from | date: "%b" }}{% endcapture %}
+  {% capture to_month %}{{ p.institute.to | date: "%b" }}{% endcapture %}
+  {% if from_month == to_month %}
+    {% capture full_date %}{{ p.institute.from | date: "%b %-d" }}-{{ p.institute.to | date: "%-d" }}, {{ p.institute.from | date: "%Y" }}{% endcapture %}
+  {% else %}
+    {% capture full_date %}{{ p.institute.from | date: "%b %-d" }}-{{ p.institute.to | date: "%b %-d" }}, {{ p.institute.from | date: "%Y" }}{% endcapture %}
+  {% endif %}
+{% endif %}
+
+
+
+<!-- Jumbotron for larger screens (lg, xl): -->
+<section class="jumbotron mb-0 shadow-md">
+  <div class="container text-center text-dark">
+    <div class="row justify-content-md-center flex-column">
+      <h1>{{ p.name }} <small class="text-muted">{{ p.state-full }}</small></h1>
+      {% if full_date.size > 0 %}<h2><small class="text-muted">{{ full_date }}</small></h2>{% endif %}
+      <div>{% for tag in p.tags %}<span class="badge badge-light mx-1">{{ tag }}</span>{% endfor %}</div>
+    </div>
+  </div>
+</section>
+
+
+
+{% if p.text.size > 0 %}
+<section id="" class="py-4 bg-dark-blue">
+  <div class="container text-white">
+    <p class="lead">{{ p.text }}</p>
+  </div>
+</section>
+{% endif %}
+
+
+
+<section id="" class="py-4 bg-light">
+  <div class="container text-dark">
+    <div class="row">
+      <div class="col-12 col-md-5">
+        <h2>Facts</h2>
+        <div class="row">
+          {% if p.institute.website.size > 1 %}
+          <div class="col-12 col-xl-4"><h5>Website</h5></div>
+          <div class="col-12 col-xl-8"><p><a href="{{ p.institute.website }}">{{ p.institute.website }}</a></p></div>
+          {% endif %}
+
+          <div class="col-12 col-xl-4"><h5>Category/ies</h5></div>
+          <div class="col-12 col-xl-8"><p>{% for tag in p.tags %}<span class="badge badge-dark mx-1">{{ tag }}</span>{% endfor %}</p></div>
+
+          {% if p.institute.cosponsors.size > 1 %}
+          <div class="col-12 col-xl-4"><h5>Co-sponsors</h5></div>
+          <div class="col-12 col-xl-8">  {% for cosponsor in p.institute.cosponsors %}<p>{% if cosponsor.website.size > 0 %}<a href="{{ cosponsor.website }}" target="_blank" class="text-dark">{% endif %}{{ cosponsor.name }}{% if cosponsor.website.size > 0 %}</a>{% endif %}</p>{% endfor %}</div>
+          {% endif %}
+
+          {% if p.institute.twitter.size > 1 %}
+          <div class="col-12 col-xl-4"><h5>Twitter hashtag</h5></div>
+          <div class="col-12 col-xl-8"><p><a href="https://twitter.com/search?f=tweets&vertical=default&q=%23{{ p.institute.twitter }}&src=typd" target="_blank">#{{ p.institute.twitter }}</a></p></div>
+          {% endif %}
+
+          {% if p.institute.participants.size > 1 %}
+          <div class="col-12 col-xl-4"><h5>Participants</h5></div>
+          <div class="col-12 col-xl-8"><p>{{ p.institute.participants }}</p></div>
+          {% endif %}
+
+          {% if p.institute.community-leaders.size > 1 %}
+          <div class="col-12 col-xl-4"><h5>Community Leader/s</h5></div>
+          <div class="col-12 col-xl-8">{{ p.institute.community-leaders }}</div>
+          {% endif %}
+
+          {% if p.institute.workshop-instructors.size > 1 %}
+          <div class="col-12 col-xl-4"><h5>Workshop Instructor/s</h5></div>
+          <div class="col-12 col-xl-8">{{ p.institute.workshop-instructors }}</div>
+          {% endif %}
+
+          {% if p.institute.workshops.size > 1 %}
+          <div class="col-12 col-xl-4"><h5>Workshops</h5></div>
+          <div class="col-12 col-xl-8"><p>{% for workshop in p.institute.workshops %}<span class="badge badge-dark mx-1" style="font-size: 0.9rem;">{% if workshop.url.size > 0 %}<i class="fas fa-code-branch"></i> <a href="{{ workshop.url }}" target="_blank" class="text-light">{% endif %}{{ workshop.name }}{% if workshop.url.size > 0 %}</a>{% endif %}</span>{% endfor %}</p></div>
+          {% endif %}
+
+        </div>
+      </div>
+
+      <div class="col-12 col-md-7">
+        <h2>Video <small class="text-muted">{{ p.youtube.mins }} minutes</small></h2>
+        <div class="row">
+          <div class="col-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{p.youtube.shortcode}}?rel=0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-12">
+            <h5>Transcript</h5>
+            <div id="transcript">{% include _{{ p.transcript }} %}</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+{% if p.image-credit %}<p class="image-credit">{{ p.image-credit }}</p>{% endif %}
+
+

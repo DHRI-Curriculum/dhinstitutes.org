@@ -279,6 +279,7 @@ community-leaders:
     img: dianne-fallon.jpg
     website: 
     alumni: false
+    institute-short: maine-digital-humanities-institute
 
   - first-name: Nancy
     last-name: Um
@@ -288,6 +289,7 @@ community-leaders:
     img: nancy-um.jpg
     website: 
     alumni: false
+    institute-short: binghamton-digital-humanities-research-institute
     
   - first-name: Amy
     last-name: Gay
@@ -297,6 +299,7 @@ community-leaders:
     img: amy-gay.png
     website: 
     alumni: false
+    institute-short: binghamton-digital-humanities-research-institute
     
   - first-name: Daniel
     last-name: Johnson
@@ -306,6 +309,7 @@ community-leaders:
     img: daniel-johnson.jpg
     website: 
     alumni: false
+    institute-short: digital-humanities-research-institute-south-bend
     
   - first-name: Sarah
     last-name: Noonan
@@ -315,15 +319,17 @@ community-leaders:
     img: sarah-noonan.png
     website: 
     alumni: false
+    institute-short: digital-humanities-research-institute-south-bend
 
   - first-name: Marion
     last-name: McGee
-    short: 
+    short: missymcgee
     title: Digital Humanities Afrofuturism Workshop at Association of African American Museums annual conference
     bio: "Marion “Missy” McGee is a servant leader who believes in creative problem solving through the embrace of failure, experimentation and innovation. Marion is on the Association of African American Museums (AAAM) Board of Directors where she chairs the Communications Committee. She also serves as a Museum Program Specialist in the Office of Strategic Partnerships at the National Museum of African American History and Culture (NMAAHC). She is responsible for the design, implementation and evaluation of key collaborative initiatives, multi-state programs for the only national museum congressionally mandated to strengthen and elevate the profile of African American museums, Historically Black Colleges and Universities, and other institutions promoting the study or appreciation of African American history and African diaspora cultural heritage in the United States. She is currently pursuing a PhD in Leadership and Change to investigate methods of preserving the leadership legacy of Black Museum Movement pioneers. As a scholar-practitioner, Marion is working to identify best practices for advancing, growing and sustaining organizations founded by or on behalf of persons of African descent. Her areas of expertise include long-term strategic planning and prudent financial management through participatory leadership."
     img: marion-mcgee.png
     website: 
     alumni: false
+    institute-short: digital-humanities-afrofuturism-workshop
     
   - first-name: Erika
     last-name: Gault
@@ -333,6 +339,7 @@ community-leaders:
     img: erika-gault.jpg
     website: 
     alumni: false
+    institute-short: africana-dhi
 
   - first-name: Frances
     last-name: McDonald
@@ -342,6 +349,7 @@ community-leaders:
     img: fran-mcdonald.jpg
     website: 
     alumni: false
+    institute-short: digital-humanities-research-institute-university-louisville
 
   - first-name: Sophia
     last-name: Geng
@@ -351,7 +359,8 @@ community-leaders:
     img: sophia-geng.png
     website: 
     alumni: false
-    
+    institute-short: digital-technologies-conference
+
   - first-name: Alicia
     last-name: Peaker
     short: aliciapeaker
@@ -360,6 +369,7 @@ community-leaders:
     img: alicia-peaker.jpg
     website: 
     alumni: false
+    institute-short: tri-co-digital-humanities-research-institute
 
   - first-name: Rosín
     last-name: Torres
@@ -369,6 +379,7 @@ community-leaders:
     img: rosa-maria-torres.png
     website: 
     alumni: false
+    institute-short: evangelical-seminary-puerto-rico-dhri
 
   - first-name: Nathan
     last-name: Kelber
@@ -378,6 +389,7 @@ community-leaders:
     img: nathan-kelber.jpg
     website: 
     alumni: false
+    institute-short: triangle-digital-humanities-institute
 
   - first-name: Rico
     last-name: Chapman
@@ -387,6 +399,7 @@ community-leaders:
     img: rico-chapman.jpg
     website: 
     alumni: false
+    institute-short: digital-humanities-graduate-course-clark-atlanta-university
 
   - first-name: Rafia
     last-name: Mirza
@@ -396,6 +409,7 @@ community-leaders:
     img: rafia-mirza.jpg
     website: 
     alumni: false
+    institute-short: digital-humanities-research-institute-southern-methodist-university
 
   - first-name: Andrea
     last-name: Davis
@@ -405,6 +419,7 @@ community-leaders:
     img: andrea-davis.jpg
     website: 
     alumni: false
+    institute-short: dhri-arkansas-state
 
   - first-name: Alexandra
     last-name: Sarkozy
@@ -414,3 +429,4 @@ community-leaders:
     img: alexandra-sarkozy.jpg
     website: 
     alumni: false
+    institute-short: wayne-state-university-digital-humanities-research-institute

@@ -1,0 +1,40 @@
+---
+title: "Digital Humanities Research Institute"
+title_short: "DH Research Institute"
+is_front: true
+breadcrumbs: []
+sitemap:
+  exclude: "yes"
+redirect: '/about/'
+---
+
+{% include header.html %}
+{% include nav.html %}
+{% include people/_build.html %}
+
+
+<!-- Jumbotron for smaller screens (xs, sm, md): -->
+<section class="jumbotron d-lg-none mb-0 shadow-md">
+  <div class="container text-center text-dark">
+    <img src="/assets/images/logos/dhri-round.png" class="img-fluid mb-1" style="height:150px;" alt="Graphic that depicts: Digital Humanities Research Institute logotype" />
+    <h1 class="jumbotron-heading">Further Expanding Digital Humanities Communities of Practice</h1>
+  </div>
+</section>
+
+<!-- Jumbotron for larger screens (lg, xl): -->
+<section class="jumbotron d-none d-lg-block mb-0 shadow-md">
+  <div class="container text-center text-dark">
+    <div class="row justify-content-md-center">
+      <div class="col-2 text-right">
+          <img src="/assets/images/logos/dhri-round.png" class="img-fluid" style="max-height:200px;" alt="Graphic that depicts: Digital Humanities Research Institute logotype" />
+      </div>
+      <div class="col-8 text-center">
+        <h1 class="jumbotron-heading">Further Expanding Digital Humanities Communities of Practice</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include redirect.html %}
+
+{% include footer.html %}

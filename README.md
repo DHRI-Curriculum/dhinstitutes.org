@@ -2,7 +2,11 @@
 
 dhinstitutes.org version 2.0
 
-## Still todo:
+## Updates
+
+*2/7/19*: Website active
+
+## Still todo
 
 - [ ] add to reports
   - Mid-year/one-year report

@@ -1,4 +1,4 @@
-<footer id="logo-adjustment" class="bg-white">
+<footer id="logo-adjustment" class="bg-white pt-5 pb-2">
   <div class="container">
 
     <!-- NEH logo -->
@@ -42,6 +42,81 @@
 </footer>
 
 {% include footer/_scripts.html %}
+
+{% if page.is_404 %}
+<script>
+// for production
+var search_query = '<!--#echo var="REQUEST_URI" -->'
+
+/* // for internal testing, uncomment this
+$.urlParam = function(name){
+	var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+	return results[1] || 0;
+}
+var search_query = $.urlParam('search_query');
+*/
+
+if (search_query) {
+  var add = []
+  options_apply = ['apply-2020', ];
+  options_about = [];
+  options_grant_history = ['grant', 'history', 'funding', 'granthistory'];
+  options_news = ['news', 'new'];
+  options_media = ['media', 'mdia'];
+  options_contact = ['contacts'];
+  options_past_schedule = ['shedule', 'scedule', 'schedules', 'scheme'];
+  options_curricula = ['curriculum', 'workshops'];
+  options_people = ['people', 'poeple'];
+  options_leadership = ['leaders', 'leadershpi'];
+  options_faculty_fellows = ['fellow', 'facultyfellows'];
+  options_community_leaders = ['comunity', 'community-leader', 'communityleader', 'communityleaders'];
+  options_team_alumni = ['alumns'];
+  options_partners = ['partner'];
+  options_neh = ['national', 'endowment', 'humanities'];
+  options_reports = ['report'];
+  options_network = ['networks'];
+  var elems = search_query.split("/");
+  for (elem in elems) {
+    elems2 = elems[elem].split("-");
+    for (elem2 in elems2) {
+      var sdata = "";
+      var term = elems2[elem2];
+      if(options_apply.indexOf(term) !== -1) { var sdata = {"page": "Apply", "link": "/apply/"} }
+      if(options_about.indexOf(term) !== -1) { var sdata = {"page": "About", "link": "/about/"} }
+      if(options_grant_history.indexOf(term) !== -1) { var sdata = {"page": "About > Grant History", "link": "/about/grant-history/"} }
+      if(options_news.indexOf(term) !== -1) { var sdata = {"page": "About > News", "link": "/about/news/"} }
+      if(options_media.indexOf(term) !== -1) { var sdata = {"page": "About > Media", "link": "/about/media/"} }
+      if(options_contact.indexOf(term) !== -1) { var sdata = {"page": "About > Contact", "link": "/about/contact/"} }
+      if(options_past_schedule.indexOf(term) !== -1) { var sdata = {"page": "Past Schedule", "link": "/graduate-center/schedule/"} }
+      if(options_curricula.indexOf(term) !== -1) { var sdata = {"page": "Curricula", "link": "/curricula/"} }
+      if(options_people.indexOf(term) !== -1) { var sdata = {"page": "People", "link": "/people/"} }
+      if(options_leadership.indexOf(term) !== -1) { var sdata = {"page": "People > Leadership", "link": "/people/leadership/"} }
+      if(options_faculty_fellows.indexOf(term) !== -1) { var sdata = {"page": "People > Faculty &amp; Fellows", "link": "/people/faculty-fellows/"} }
+      if(options_community_leaders.indexOf(term) !== -1) { var sdata = {"page": "People > Community Leaders", "link": "/people/community-leaders/"} }
+      if(options_team_alumni.indexOf(term) !== -1) { var sdata = {"page": "People > Team Alumni", "link": "/people/team-alumni/"} }
+      if(options_partners.indexOf(term) !== -1) { var sdata = {"page": "Partners", "link": "/partners/"} }
+      if(options_neh.indexOf(term) !== -1) { var sdata = {"page": "Partners > National Endowment for the Humanities", "link": "/partners/neh/"} }
+      if(options_reports.indexOf(term) !== -1) { var sdata = {"page": "Reports", "link": "/reports/"} }
+      if(options_network.indexOf(term) !== -1) { var sdata = {"page": "Network", "link": "/network/"} }
+      if (sdata) {
+        if(add.indexOf(sdata) <= -1) {
+          // add the data to our push array for adding HTML below
+          add.push(sdata);
+        }
+      }
+    }
+  }
+
+  if (add.length) {
+    console.log(add)
+    $("#suggestion").show();
+    for (i in add) {
+      $("#suggestion-links").append('<li><a href="'+add[i].link+'"><strong>'+add[i].page+'</strong></a></li>');
+    }
+  }
+}
+</script>
+{% endif %}
 
 {% comment %}
 {% include dev/_development-scripts.html %}

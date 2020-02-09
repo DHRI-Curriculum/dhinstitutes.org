@@ -1,6 +1,10 @@
 ---
+sitemap:
+  exclude: 'yes'
 ---
 {% include people/_build.html %}
+
+const DEBUG_OUTPUT = false;
 
 
 // Set up custom function: Simple sleep function
@@ -19,10 +23,41 @@ function shuffle(array) { array.sort(() => Math.random() - 0.5); }
 $(document).ready(function () {
 
 
+  $('#contactform').submit(function(e) {
+    var name = $('#contactform #name');
+    var email = $('#contactform #email');
+    var message = $('#contactform #message');
+
+    if(name.val() == "" || email.val() == "" || message.val() == "") {
+      $('.submit-fail').fadeToggle(400);
+      return false;
+    }
+    else {
+      $.ajax({
+        method: 'POST',
+        url: '//formspree.io/info@dhinstitutes.org',
+        data: $('#contactform').serialize(),
+        datatype: 'json'
+      });
+      e.preventDefault();
+      $(this).get(0).reset();
+      $('.submit-success').fadeToggle(400);
+      $('#contactform').hide();
+    }
+  });
+
+  $('.submit-fail, .submit-success').click(function() {
+    $(this).hide();
+  })
+
+
+
+  $('.more-information-form').ajaxChimp();
+
   $('#people-pills-tab a').on('click', function (e) {
     if ($(this).hasClass("active")) { e.preventDefault() } else {
       $(this).tab('show')
-      console.log($(this))
+      if (DEBUG_OUTPUT) { console.log($(this)); }
       target = $( "#" + $(this).attr('aria-controls') );
       $(".tab-pane:not("+$(this).attr('aria-controls')+")").slideUp();	// hide all tab-pane
       target.slideDown();
@@ -41,50 +76,50 @@ $(document).ready(function () {
   });
 
 
-  {% assign all_institutes = site.data._institutes | concat: site.data._institutes-novideo %}
-  {% for institute in all_institutes %}$('.states-menu #{{ institute.state }}').click(() => { window.location.href = "/network/{{ institute.short }}/"; })
+{% assign all_institutes = site.data._institutes | concat: site.data._institutes-novideo %}
+{% for institute in all_institutes %}$('.states-menu #{{ institute.state }}').click(() => { window.location.href = "/network/{{ institute.short }}/"; })
+{% endfor %}
+
+
+$("[aria-controls=pills-leadership]").addClass('active')
+$('#pills-leadership').show()
+
+{% assign all_institutes = site.data._institutes | concat: site.data._institutes-novideo %}
+data = [{% for leader in community_leaders %}{% assign _ = all_institutes | where: "short", leader.institute-short %}{% assign p = _[0] %}{% if p.institute.from == p.institute.to %}{% capture full_date %}{{ p.institute.from | date: "%b %-d, %Y" }}{% endcapture %}{% else %}{% capture from_month %}{{ p.institute.from | date: "%b" }}{% endcapture %}{% capture to_month %}{{ p.institute.to | date: "%b" }}{% endcapture %}{% if from_month == to_month %}{% capture full_date %}{{ p.institute.from | date: "%b %-d" }}-{{ p.institute.to | date: "%-d" }}, {{ p.institute.from | date: "%Y" }}{% endcapture %}{% else %}{% capture full_date %}{{ p.institute.from | date: "%b %-d" }}-{{ p.institute.to | date: "%b %-d" }}, {{ p.institute.from | date: "%Y" }}{% endcapture %}{% endif %}{% endif %}{% assign new_bio = leader.bio | strip_html | split: " " %}{% assign short_bio = new_bio | slice: 0, 50 | join: " " %}{% capture tags %}{% for tag in p.tags %}<span class="badge badge-dark mb-1 mr-1">{{ tag }}</span>{% endfor %}{% endcapture %}{% assign new_text = p.text | strip_html | split: " " %}{% assign short_text = new_text | slice: 0, 80 | join: " " %}
+      {
+        "institute-short": "{{ leader.institute-short }}",
+        "img": "/assets/images/people/{{ leader.img }}",
+        "short": "/assets/images/people/{{ leader.short }}",
+        "institute-name": "{{ p.name }}",
+        "leader-name": "{{ leader.first-name }} {{ leader.last-name }}",
+        "full-date": "{{ full_date }}",
+        "youtube": "{{ p.youtube.shortcode }}",
+        "tags": '{{ tags }}',
+        "text": "{{ short_text }}... (<a class=\"text-light\" href=\"/network/{{ p.short }}\">continue reading)",
+        "map": '{{ p.google-map }}',
+        "short-bio": "{{ short_bio }}... (<a class=\"text-light\" href=\"/people/community-leaders/#{{ leader.short }}\">continue reading)"
+      }{% if forloop.last %}{% else %},{% endif %}
+      {% endfor %}
+  ]
+  shuffle(data);
+
+  {% for i in (0..2) %}
+  $("#leader-{{ i }} #profile-pic").css("background-image", "url('"+data[{{ i }}]['img']+"')");
+  $("#leader-{{ i }} #name").html(data[{{ i }}]['leader-name']);
+  $("#leader-{{ i }} #text").html(data[{{ i }}]['text']);
+  $("#leader-{{ i }} #map").html(
+    '<iframe src="'+data[{{ i }}]['map']+'" width="100%" height="200px" frameborder="0" style="border:0" allowfullscreen=""></iframe>'
+  );
+  $("#leader-{{ i }} #desc").html(data[{{ i }}]['short-bio']);
+  $("#leader-{{ i }} #inst").html(
+    '<h4 class="p-0 m-0"><a href="/network/'+ data[{{ i }}]['institute-short'] +'" class="text-light">' + data[{{ i }}]['institute-name'] + '</a></h4>' +
+    data[{{ i }}]['tags']
+  );
+  $("#leader-{{ i }} #dates").html(data[{{ i }}]['full-date']);
   {% endfor %}
 
-
-  $("[aria-controls=pills-leadership]").addClass('active')
-  $('#pills-leadership').show()
-
-  {% assign all_institutes = site.data._institutes | concat: site.data._institutes-novideo %}
-  data = [{% for leader in community_leaders %}{% assign _ = all_institutes | where: "short", leader.institute-short %}{% assign p = _[0] %}{% if p.institute.from == p.institute.to %}{% capture full_date %}{{ p.institute.from | date: "%b %-d, %Y" }}{% endcapture %}{% else %}{% capture from_month %}{{ p.institute.from | date: "%b" }}{% endcapture %}{% capture to_month %}{{ p.institute.to | date: "%b" }}{% endcapture %}{% if from_month == to_month %}{% capture full_date %}{{ p.institute.from | date: "%b %-d" }}-{{ p.institute.to | date: "%-d" }}, {{ p.institute.from | date: "%Y" }}{% endcapture %}{% else %}{% capture full_date %}{{ p.institute.from | date: "%b %-d" }}-{{ p.institute.to | date: "%b %-d" }}, {{ p.institute.from | date: "%Y" }}{% endcapture %}{% endif %}{% endif %}{% assign new_bio = leader.bio | strip_html | split: " " %}{% assign short_bio = new_bio | slice: 0, 50 | join: " " %}{% capture tags %}{% for tag in p.tags %}<span class="badge badge-dark mb-1 mr-1">{{ tag }}</span>{% endfor %}{% endcapture %}{% assign new_text = p.text | strip_html | split: " " %}{% assign short_text = new_text | slice: 0, 80 | join: " " %}
-        {
-          "institute-short": "{{ leader.institute-short }}",
-          "img": "/assets/images/people/{{ leader.img }}",
-          "short": "/assets/images/people/{{ leader.short }}",
-          "institute-name": "{{ p.name }}",
-          "leader-name": "{{ leader.first-name }} {{ leader.last-name }}",
-          "full-date": "{{ full_date }}",
-          "youtube": "{{ p.youtube.shortcode }}",
-          "tags": '{{ tags }}',
-          "text": "{{ short_text }}... (<a class=\"text-light\" href=\"/network/{{ p.short }}\">continue reading)",
-          "map": '{{ p.google-map }}',
-          "short-bio": "{{ short_bio }}... (<a class=\"text-light\" href=\"/people/community-leaders/#{{ leader.short }}\">continue reading)"
-        }{% if forloop.last %}{% else %},{% endif %}
-        {% endfor %}
-    ]
-    shuffle(data);
-
-    {% for i in (0..2) %}
-    $("#leader-{{ i }} #profile-pic").css("background-image", "url('"+data[{{ i }}]['img']+"')");
-    $("#leader-{{ i }} #name").html(data[{{ i }}]['leader-name']);
-    $("#leader-{{ i }} #text").html(data[{{ i }}]['text']);
-    $("#leader-{{ i }} #map").html(
-      '<iframe src="'+data[{{ i }}]['map']+'" width="100%" height="200px" frameborder="0" style="border:0" allowfullscreen=""></iframe>'
-    );
-    $("#leader-{{ i }} #desc").html(data[{{ i }}]['short-bio']);
-    $("#leader-{{ i }} #inst").html(
-      '<h4 class="p-0 m-0"><a href="/network/'+ data[{{ i }}]['institute-short'] +'" class="text-light">' + data[{{ i }}]['institute-name'] + '</a></h4>' +
-      data[{{ i }}]['tags']
-    );
-    $("#leader-{{ i }} #dates").html(data[{{ i }}]['full-date']);
-    {% endfor %}
-
-    $("[aria-controls=professional-development]").addClass('active')
-    $('#professional-development').show()
+  $("[aria-controls=professional-development]").addClass('active')
+  $('#professional-development').show()
 
   var quotes = [
     {
@@ -144,8 +179,10 @@ $(document).ready(function () {
     if (quotes.length) {
       var num = Math.floor(Math.random() * (quotes.length - 1));
       $("#quote-container").fadeOut(300, () => {
-        console.log(quotes);
-        console.log(num);
+        if (DEBUG_OUTPUT) { 
+          console.log(quotes);
+          console.log(num);
+        }
         try {
           $("#quote").html(quotes[num]['quote']);
           $("#quote_by").html(quotes[num]['credit']);
@@ -169,8 +206,10 @@ $(document).ready(function () {
     try {
       switch_quote();
     } catch(err) {
-      console.log("Error while switching quotes:")
-      console.log(err)
+      if (DEBUG_OUTPUT) {
+        console.log("Error while switching quotes:")
+        console.log(err)
+      }
     }
   }, 15000);
 

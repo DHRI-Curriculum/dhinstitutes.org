@@ -3,10 +3,10 @@ due-date: 2020-03-02
 sections:
   - header: "What to Expect?"
     color: "#ec9521"
-    text: '<p class="lead">As a participant in the DHRI, you will receive a stipend of $3,600. We ask that you participate in all three phases of the DHRI. They are explained in detail below, but include (1) an in-person institute in New York City in June 2020, (2) hosting your own instance of the DHRI that you attend in NYC, and (3) reporting back on your experiences, challenges, and lessons learned in a final report.</p>'
+    text: '<p class="lead">As a participant in the DHRI, you will receive a stipend of $3,600. We ask that you participate in all three phases of the DHRI. They are explained in detail below, but include (1) an in-person institute in New York City on June 15–24, 2020, (2) hosting your own instance of the DHRI that you attend in NYC, and (3) reporting back on your experiences, challenges, and lessons learned in a final report.</p>'
     col: 12
   - small-header: "Phase 1"
-    header: "10-day Institute in New York City"
+    header: "Institute in New York City, June 15–24, 2020"
     color: "#ec9521"
     icon: fa-users
     text: "

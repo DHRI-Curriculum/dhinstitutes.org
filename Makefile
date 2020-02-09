@@ -35,4 +35,4 @@ build: include-npm-deps
 	$(JEKYLL) build
 
 serve: include-npm-deps
-	JEKYLL_ENV=production $(JEKYLL) serve --host 0.0.0.0
+	JEKYLL_ENV=production $(JEKYLL) serve

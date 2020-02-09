@@ -8,6 +8,7 @@ breadcrumbs:
 
 {% include header.html %}
 {% include nav.html %}
+{% include people/_build.html %}
 
 <!-- Jumbotron for smaller screens (> md): -->
 <section class="jumbotron mb-0 d-lg-none shadow-md jumbotron-background-image" id="jumbotron-network" style="height: 300px !important; background-size: 200% !important; background-position: 25% 13% !important;">
@@ -260,7 +261,8 @@ breadcrumbs:
 
                   {% if p.community-leaders.size > 0 %}
                     <!-- spacing --><div id="institute-details-spacing"></div>
-                    {% for organizer in p.community-leaders %}
+                    {% for short in p.community-leaders %}
+                      {% assign _ = community_leaders | where: "short", short %}{% assign organizer = _[0] %}
                       <div class="row" id="institute-details">
                         <div class="col-12 col-lg-3"><h6>{% if forloop.first %}Community Leader{% endif %}{% if p.community-leaders.size > 1 and forloop.first %}s{% endif %}</h6></div>
                           <div class="col-12 col-lg-9">{% unless forloop.first %}<div id="institute-details-spacing" class="d-sm-none"></div>{% endunless %}

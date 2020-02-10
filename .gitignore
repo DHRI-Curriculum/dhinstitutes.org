@@ -1,2 +1,6 @@
 .jekyll-cache/
 _site/
+.sass-cache/
+_menu-test.html
+_test-script.html
+_test_twitter.html

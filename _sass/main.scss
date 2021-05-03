@@ -356,3 +356,14 @@ display: none;
 .user-desc a {
   font-weight: 400 !important;
 }
+
+.funding-text {
+  font-size: 0.9rem !important;
+  color: #7b8a8b !important;
+}
+
+@media (max-width: 576px) {
+  .funding-text {
+      font-size: 2vh !important;
+  }
+}

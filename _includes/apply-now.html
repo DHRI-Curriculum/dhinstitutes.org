@@ -1,10 +1,10 @@
 <div class="bg-white">
   <div class="{% if page.application-page %}py-3{% else %}pt-3{% endif %} d-flex align-items-center justify-content-center bg-special-warning">
       <p class="{% if page.application-page %}mb-0{% else %}mb-2{% endif %} lead mx-2 font-weight-bold text-danger">
-        Applications are due {{ site.data.apply-2020.due-date | date: "%A, %B %e, %Y" }}.
+        Applications are due {{ site.data.apply-2021.due-date | date: "%A, %B %e, %Y" }}.
       </p>
       <p class="{% if page.application-page %}mb-0{% else %}mb-2{% endif %} mx-2">
-        <a href={% if page.application-page %}"http://bit.ly/apply-to-dhri" target="_blank"{% else %}"/apply"{% endif %}" class="btn btn-danger">{% if page.application-page %}Application form{% else %}Apply now{% endif %}</a>
+        <a href={% if page.application-page %}"{{ site.data.apply-2021.link }}" target="_blank"{% else %}"/apply"{% endif %}" class="btn btn-danger">{% if page.application-page %}Application form{% else %}Apply now{% endif %}</a>
       </p>
   </div>
   {% if page.application-page %}

@@ -55,27 +55,6 @@ leadership:
     alumni: false
 
 fellows:
-  - first-name: Jojo
-    last-name: Karlin
-    short: jojokarlin
-    title: Digital Fellow and Ph.D. Candidate, English, The Graduate Center (CUNY)
-    twitter: jojokarlin
-    github: jojokarlin
-    website: jojokarlin.com
-    bio: "Jojo Karlin researches transmissions of memory after periods of rapid technological transformation. Coming from a theater background, Jojo loves the intersection of disciplines, multiple media, and diverse expertises she finds in Digital Humanities. For her first big DH project, she did outreach for TANDEM, a web tool that gathers text and image data, and she now proudly coordinates outreach for DH Box, the GC's NEH-funded DH cloud laboratory. She is a freelance editor for the Tow Center for Digital Journalism at Columbia, and is developing a digital interface for a collection of historical letters. Jojo is deeply interested in digital editions preserving past materiality while exploring new materials."
-    img: jojo-karlin.jpg
-    alumni: false
-
-  - first-name: Patrick
-    last-name: Smyth
-    short: psm
-    title: Research Computing Coordinator, Columbia University and Ph.D. Candidate, English as well as former Digital Fellow, The Graduate Center (CUNY)
-    twitter: psmyth01
-    github: smythp
-    bio: "Patrick Smyth's research focuses on Utopian thought and the history of science in 18th and 19th century British literature. As a digital humanist, Patrick is concerned with digital platforms for research and pedagogy. He is currently a developer on the NEH-funded DH Box, a cloud-based platform for accessing digital humanities tools, and has received a Provost's Digital Innovation grant for an online archive of science fiction works. His most recent publication is “Ebooks and the Digital Paratext: Emerging Trends in the Interpretation of Digital Media” in Examining Paratextual Theory and Its Applications in Digital Culture. Patrick was a 2010 Fulbright Teaching Fellow in Berlin, Germany, and teaches composition and literature at Queens College."
-    img: patrick-smyth.jpg
-    alumni: false
-
   - first-name: Olivia
     last-name: Ildefonso
     short: oliviaildefonso
@@ -87,26 +66,6 @@ fellows:
     img: olivia-ildefonso.jpg
     alumni: false
 
-  - first-name: Javier
-    last-name: Otero Peña
-    short: javioteropena
-    title: Digital Fellow and Ph.D. Candidate, Environmental Psychology, The Graduate Center (CUNY)
-    twitter: javo01
-    github: javo0101
-    bio: "Javier Otero Peña is a GC Digital Fellow since 2016 and a member of the Public Space Research Group, and currently works as a research assistant for the PARCS study in the CUNY School for Public Health. His dissertation will study the contextual impacts of park renovations in New York City, and will involve a map analysis using GIS technologies, a mini-ethnography using Qualitative Data Analysis (QDA) software, and natural language analysis of social media posts. Javier’s field research paper studied the politicization of public spaces through a participatory mural in East Harlem. In 2016, he took part in the CUNY-Humboldt University Summer School in Berlin, and in 2017 he participated in the Digital Humanities Research Institute in Victoria University, Canada. He also received the 2017 Provost’s Digital Innovation Grant. Javier holds a Master in Environmental Policies and Sustainable Development, and taught a class on Sustainable Development in Latin America and the Caribbean at the Paris Catholic University. He also studied Urban Planning and Management at UCV, and Sustainable Urban Mobility in Developing Countries (UNITAR). Javier worked as a consultant for the United Nations Environment Programme for three years."
-    img: javier-otero-pena.png
-    alumni: false
-
-  - first-name: Kristen
-    last-name: Hackett
-    short: kristenhackett
-    title: Digital Fellow and Ph.D. Candidate, Environmental Psychology, The Graduate Center (CUNY)
-    twitter: ka_hackett
-    github: hackettka
-    website: kristenhackett.org
-    bio: "Kristen Hackett is a scholar, activist and educator living and working in New York City. She is a Ph.D. Candidate in Environmental Psychology Program at the Graduate Center of the City of New York, a Digital Fellow with the GC Digital Scholarship Lab, a Digital Pedagogy Fellow with the OpenLab at City Tech, a Coordinator of OpenCUNY, and a member of the Executive Committee of the Justice For All Coalition. Her research interests are in housing and community development in NYC, political and social responses to increasing insecurity and precarity and how art and technology can be used in consciousness-raising and resistance efforts and to advocate for community/human-centered policy development. For her dissertation, Kristen is exploring these themes through the lens a proposed rezoning in Long Island City, NY."
-    img: kristen-hackett.png
-    alumni: false
 
   - first-name: Filipa
     last-name: Calado
@@ -141,6 +100,48 @@ fellows:
     img: rafael-davis-portela.jpg
     alumni: false
 
+  - first-name: Jojo
+    last-name: Karlin
+    short: jojokarlin
+    title: Digital Fellow and Ph.D. Candidate, English, The Graduate Center (CUNY)
+    twitter: jojokarlin
+    github: jojokarlin
+    website: jojokarlin.com
+    bio: "Jojo Karlin researches transmissions of memory after periods of rapid technological transformation. Coming from a theater background, Jojo loves the intersection of disciplines, multiple media, and diverse expertises she finds in Digital Humanities. For her first big DH project, she did outreach for TANDEM, a web tool that gathers text and image data, and she now proudly coordinates outreach for DH Box, the GC's NEH-funded DH cloud laboratory. She is a freelance editor for the Tow Center for Digital Journalism at Columbia, and is developing a digital interface for a collection of historical letters. Jojo is deeply interested in digital editions preserving past materiality while exploring new materials."
+    img: jojo-karlin.jpg
+    alumni: true
+
+  - first-name: Patrick
+    last-name: Smyth
+    short: psm
+    title: Research Computing Coordinator, Columbia University and Ph.D. Candidate, English as well as former Digital Fellow, The Graduate Center (CUNY)
+    twitter: psmyth01
+    github: smythp
+    bio: "Patrick Smyth's research focuses on Utopian thought and the history of science in 18th and 19th century British literature. As a digital humanist, Patrick is concerned with digital platforms for research and pedagogy. He is currently a developer on the NEH-funded DH Box, a cloud-based platform for accessing digital humanities tools, and has received a Provost's Digital Innovation grant for an online archive of science fiction works. His most recent publication is “Ebooks and the Digital Paratext: Emerging Trends in the Interpretation of Digital Media” in Examining Paratextual Theory and Its Applications in Digital Culture. Patrick was a 2010 Fulbright Teaching Fellow in Berlin, Germany, and teaches composition and literature at Queens College."
+    img: patrick-smyth.jpg
+    alumni: true
+
+  - first-name: Javier
+    last-name: Otero Peña
+    short: javioteropena
+    title: Digital Fellow and Ph.D. Candidate, Environmental Psychology, The Graduate Center (CUNY)
+    twitter: javo01
+    github: javo0101
+    bio: "Javier Otero Peña is a GC Digital Fellow since 2016 and a member of the Public Space Research Group, and currently works as a research assistant for the PARCS study in the CUNY School for Public Health. His dissertation will study the contextual impacts of park renovations in New York City, and will involve a map analysis using GIS technologies, a mini-ethnography using Qualitative Data Analysis (QDA) software, and natural language analysis of social media posts. Javier’s field research paper studied the politicization of public spaces through a participatory mural in East Harlem. In 2016, he took part in the CUNY-Humboldt University Summer School in Berlin, and in 2017 he participated in the Digital Humanities Research Institute in Victoria University, Canada. He also received the 2017 Provost’s Digital Innovation Grant. Javier holds a Master in Environmental Policies and Sustainable Development, and taught a class on Sustainable Development in Latin America and the Caribbean at the Paris Catholic University. He also studied Urban Planning and Management at UCV, and Sustainable Urban Mobility in Developing Countries (UNITAR). Javier worked as a consultant for the United Nations Environment Programme for three years."
+    img: javier-otero-pena.png
+    alumni: true
+
+  - first-name: Kristen
+    last-name: Hackett
+    short: kristenhackett
+    title: Digital Fellow and Ph.D. Candidate, Environmental Psychology, The Graduate Center (CUNY)
+    twitter: ka_hackett
+    github: hackettka
+    website: kristenhackett.org
+    bio: "Kristen Hackett is a scholar, activist and educator living and working in New York City. She is a Ph.D. Candidate in Environmental Psychology Program at the Graduate Center of the City of New York, a Digital Fellow with the GC Digital Scholarship Lab, a Digital Pedagogy Fellow with the OpenLab at City Tech, a Coordinator of OpenCUNY, and a member of the Executive Committee of the Justice For All Coalition. Her research interests are in housing and community development in NYC, political and social responses to increasing insecurity and precarity and how art and technology can be used in consciousness-raising and resistance efforts and to advocate for community/human-centered policy development. For her dissertation, Kristen is exploring these themes through the lens a proposed rezoning in Long Island City, NY."
+    img: kristen-hackett.png
+    alumni: true
+
   - first-name: Tom
     last-name: Ribitzky
     short: tomribitzky
@@ -149,7 +150,7 @@ fellows:
     website: cuny.is/tribitzky
     bio: 
     img: tom-ribitzky.jpg
-    alumni: false
+    alumni: true
 
   - first-name: Patrick
     last-name: Sweeney

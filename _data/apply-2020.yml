@@ -11,13 +11,13 @@ sections:
     icon: fa-users
     text: "
       <p>You will attend a ten day in-person meeting in New York City. In the first five days, you will attend skill workshops where you learn foundational tools in service of humanities research questions:       
-        <a href=\"/curricula/#command-line\" class=\"text-muted\">using the command line</a>, 
-        <a href=\"/curricula/#git\" class=\"text-muted\">track versions of your work and collaborate using git</a>, 
-        <a href=\"/curricula/\" class=\"text-muted\">identify and manipulate humanities data types</a>, 
-        <a href=\"/curricula/#omeka\" class=\"text-muted\">create digital collections</a>, 
-        <a href=\"/curricula/#python\" class=\"text-muted\">write and run basic Python scripts</a>, 
-        <a href=\"/curricula/#text-analysis\" class=\"text-muted\">analyze text</a>, 
-        <a href=\"/curricula\" class=\"text-muted\">create open educational resources</a></p>
+        <a href=\"https://curriculum.dhinstitutes.org/\" class=\"text-muted\">using the command line</a>, 
+        <a href=\"https://curriculum.dhinstitutes.org/\" class=\"text-muted\">track versions of your work and collaborate using git</a>, 
+        <a href=\"https://curriculum.dhinstitutes.org/\" class=\"text-muted\">identify and manipulate humanities data types</a>, 
+        <a href=\"https://curriculum.dhinstitutes.org/\" class=\"text-muted\">create digital collections</a>, 
+        <a href=\"https://curriculum.dhinstitutes.org/\" class=\"text-muted\">write and run basic Python scripts</a>, 
+        <a href=\"https://curriculum.dhinstitutes.org/\" class=\"text-muted\">analyze text</a>, 
+        <a href=\"https://curriculum.dhinstitutes.org/\" class=\"text-muted\">create open educational resources</a></p>
       <p>After the first week, you will know how each of the foundational skills taught are necessary in order to build specific DH projects. In other words, understanding the command line will make website development easier and familiarity with data types in Python will make collecting and querying data from the archive more time effective.</p>
       <p>In the institute’s second week, a “train the trainer” approach will provide dedicated time and resources for you to begin developing your own institutes.</p>
       <hr />

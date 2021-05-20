@@ -1,6 +1,6 @@
 sections:
   - header: "Schedule"
-    content: "<p>DHRI’s curriculum provides an accessible introduction to foundational technology skills that support digital humanities research. You can read more about <a href=\"/graduate-center/schedule/\">the 2018 DHRI schedule here</a>, and more about <a href=\"/curricula/\">the curriculum in general here</a>.</p>"
+    content: "<p>DHRI’s curriculum provides an accessible introduction to foundational technology skills that support digital humanities research. You can read more about <a href=\"/graduate-center/schedule/\">the 2018 DHRI schedule here</a>, and more about <a href=\"https://curriculum.dhinstitutes.org/\">the curriculum in general here</a>.</p>"
 
 schedule:
   header: "Schedule DHRI 2018"

@@ -58,11 +58,11 @@ fellows:
   - first-name: Filipa
     last-name: Calado
     short: filipacalado
-    title: DHRI Program Coordinator and Ph.D. Candidate, English
+    title: DHRI Program Coordinator and Ph.D. Candidate, English (CUNY)
     twitter: caladoscope
     github: gofilipa
     website: filipacalado.com
-    bio: "Filipa Calado is a Ph.D. candidate in the English program at the Graduate Center. Her research explores the interface between digital media and queer studies. Her dissertation, 'Queer Tools,' takes a critical look at digital tools to see how they work in unexpected ways to study life writing by queer authors."
+    bio: "Filipa Calado is a Ph.D. candidate in the English program at the Graduate Center. Her research explores the interface between digital media and queer studies. Her dissertation, 'Queer Tools,' takes a critical look at digital tools like text analysis, text encoding, and digital archiving to see how they work in unexpected ways to study queer literature. As a Digital Fellow, she teaches workshops on Intro to DH Tools, Text Encoding with TEI, Digital Annotation, Introduction to Python, and Web Scraping. As an undergraduate instructor, she has taught English and Latinx Literature at Hunter College and now teaches Writing and Critical Thinking courses at NYU."
     img: filipa-calado.jpg
     alumni: false
 
@@ -80,7 +80,7 @@ fellows:
   - first-name: Stefano
     last-name: Morello
     short: stefanomorello
-    title: Digital Fellow and Ph.D. Candidate, English
+    title: Digital Fellow and Ph.D. Candidate, English (CUNY)
     twitter: steomor
     github: smorello87
     website: stefanomorello.com
@@ -109,8 +109,18 @@ fellows:
     img: di-yoong.jpg
     alumni: false
 
-  - first_name: Connor
-    last_name: French
+  - first-name: Yuxiao
+    last-name: Luo
+    short: yuxiaoluo
+    title: Digital Fellow and Ph.D. Candidate,Business (Information Systems), The Graduate Center (CUNY)
+    github: YuxiaoLuo
+    website: yuxiaoluo.github.io/
+    bio: "Yuxiao Luo is a Ph.D. candidate in Business (Information Systems). He studies the dark side of artificial intelligence and its impact on the consumers in e-commerce. He has aslo done some research in the application of machine learning in portfolio management. As a GC Digital Fellow, Yuxiao teaches workshops in the R programming language and its application in predictive modeling. He is also interested in topic modeling and data mining with R. As an undergraduate instructor, he teaches Intro to Stats and Intro to Information Systems at Baruch College, CUNY."
+    img: yuxiao-luo.jpg
+    alumni: false
+
+  - first-name: Connor
+    last-name: French
     short: connorfrench
     title: Digital Fellow and Ph.D. Candidate, Biology, The Graduate Center (CUNY)
     website: connor-french.com
@@ -120,8 +130,8 @@ fellows:
     img: connor-french.jpeg
     alumni: false
 
-  - first_name: Param
-    last_name: Ajmera
+  - first-name: Param
+    last-name: Ajmera
     short: paramajmera
     title: Digital Fellow and Ph.D. Candidate, English, The Graduate Center (CUNY)
     website: paramajmera.org
@@ -302,6 +312,326 @@ faculty:
     alumni: true
 
 community-leaders:
+  - first-name: Tatiana
+    last-name: Bryant
+    short: tatianabryant
+    title: Research Librarian for Digital Humanities, History, and African American Studies, UC Irvine
+    bio: "Tatiana Bryant is the Research Librarian for digital humanities, History, and African American Studies within UC Irvine Libraries Digital Scholarship Services department. At UC Irvine she co-leads the Digital Humanities Exchange, which organizes dh programs, trainings, and skill shares for campus community building. She holds an MPA in Public and Nonprofit Policy from New York University, an MS in Information and Library Science from Pratt Institute, and a BA in History from Hampton University. She has taught Black digital humanities, Global Studies, and information literacy courses at the undergraduate level."
+    img: tatiana-bryant.jpg
+    website: 
+    alumni: false
+    institute-short:
+
+  - first-name: Hilary
+    last-name: Huskey
+    short: hilaryhuskey
+    title: Lecturer, North Carolina Central University
+    bio: "Hilary N. Huskey is a Lecturer of Art at North Carolina Central University (NCCU) in Durham, North Carolina, and a former Lecturer of Animation and Game Design at The Art Institute.  She has been teaching undergraduate students in animation, game design, and graphic design for six years.  Along with her teaching duties at NCCU, Huskey has been a co-writer on an upcoming Animation and Game Design concentration.  She leads numerous workshops on campus to help teach a variety of software packages to students.  Huskey frequently collaborates with coworkers to bring shows and events to the local Durham community.  She holds an MFA in Interactive Design and Game Development from Savannah College of Art and Design.  Her thesis explored backstory in game design and how to develop quest models using curiosity to increase player information retention.  Huskey double majored in undergrad, receiving a BA in both Art and Political Science from Duke University in Durham, North Carolina.  Her passion is in education and developing better modalities for delivering information using interactivity."
+    img: hilary-huskey.png
+    website: hilarynicolehuskey.com/
+    alumni: false
+    institute-short: 
+
+  - first-name: Dieyun
+    last-name: Song
+    short: dieyunsong
+    title: PhD Candidate, History, University of Miami 
+    bio: "Dieyun Song is a PhD Candidate in History researches U.S.-Latin American relations and development during the Cold War at the University of Miami (UM). Her dissertation is tentatively titled The Power of Philanthropy: Development, Empire, and Non-State Actors in Cold War Colombia, 1961-1973. It Highlights the Colombian engagements and influence in foreign foundations’ and governments’ interventions in education, mass media, and public health that redirected the trajectories of social and political development. Dieyun is interested in employing interdisciplinary approaches in her research, including oral history, sound studies, and digital humanities. "
+    img: dieyun-song.jpg
+    website: 
+    alumni: false
+    institute-short:
+    
+  - first-name: Lenora
+    last-name: Helm Hammonds
+    short: lenorahelmhammonds
+    title: Associate Professor, Department of Music and Jazz Studies Program, North Carolina Central University 
+    bio: "Chicago IL native, Former U.S. Jazz Ambassador and Fulbright Senior Music Specialist, Lenora Helm Hammonds is a tenured, Associate Professor in the Department of Music and Jazz Studies Program at North Carolina Central University (NCCU).  She teaches undergraduate and graduate courses in vocal jazz performance, ear training and songwriting, directs the NCCU Vocal Jazz Ensemble (12 voices and rhythm section) and has authored a number of academic and student initiatives, including the planning, design and coordination of an NEA-sponsored Teaching Artist Certificate program. Her current digital humanities project is a website in development, GreatArtistsPastandPresent.org. The project is focused on creating a digital library of curated media and research materials on well-known musicians, visual artists, and dancers/choreographers (particularly those with ties to North Carolina), out of which teaching artists could build their own programs and curricula"
+    img: lenora-helm-hammonds.jpg
+    website: LenoraHelm.com
+    alumni: false
+    institute-short:    
+  
+  - first-name: Hillary
+    last-name: Richardson
+    short: hillaryrichardson
+    title: Associate Professor and Coordinator of Undergraduate Research and Information Literacy, Mississippi University for Women
+    bio: "Hillary is an Associate Professor and Coordinator of Undergraduate Research and Information Literacy at the Mississippi University for Women in Columbus, MS. She is has published on information literacy and digital pedagogy, the research practices of humanities scholars, and the intersections of writing and information literacy. She has also worked on 'A Shaky Truce,' a digital public history project detailing the civil rights movement in Starkville, MS, and is currently working on a digital project involving women's letters in 20th century Mississippi."
+    img: hillary-richardson.jpg
+    website: hillaryahrichardson.com/
+    alumni: false
+    institute-short:
+
+  - first-name: Regina
+    last-name: Martin
+    short: reginamartin
+    title: Associate Professor, English and Global Commerce, Denison University
+    bio: "Regina Martin is an associate professor of English and Global Commerce at Denison. Her research interests are British literature 1850-present, Caribbean literature, modernism, economic history and theory, critical theory, and digital humanities. Her book manuscript is entitled 'Finance Capital and Modernism, 1870-1940.' She is a member of a team of faculty, librarians, and educational technologists at Denison who are building a DH minor. "
+    img: regina-martin.png
+    website: 
+    alumni: false
+    institute-short: 
+
+  - first-name: Sydney
+    last-name: Odoi
+    short: sydneyodoi
+    title: Lecturer, Prairie View A&M University
+    bio: "Sydney Odoi is a lecturer at Prairie View A&M University. Sydney has been teaching Spanish for 10 years."
+    img: sydney-odoi.jpg
+    website: 
+    alumni: false
+    institute-short:
+    
+  - first-name: Corey
+    last-name: Clawson
+    short: coreyclawson
+    title: PhD Student, American Studies, Rutgers University, Newark
+    bio: "Corey is an administrative professional at RU-N where he is also a pursuing a PhD in American Studies.  He has lived several lives in higher education: helping undergraduates connect with research opportunities, teaching world literature courses on the short story and exile, planning events, and a range of research projects on a range of topics from fugitive polygamist narratives to the poetry of Gabriela Mistral and Elizabeth Bishop. His primary research project Archivepelago (https://archivepelago.org/) uses archival finding aids to visualize queer networks of influence in the 19th and 20th centuries by mapping the translations, correspondence, and collaborations between gay and lesbian writers and artists."
+    img: corey-clawson.jpg
+    website: coreyclawson.com/
+    alumni: false
+    institute-short:    
+  
+  - first-name: Elaine
+    last-name: Walker
+    short: elainewalker
+    title: Graduate Studies Librarian, Mississippi University for Women
+    bio: "I am the Graduate Studies Librarian at Mississippi University for Women. I teach multidisciplinary library instruction sessions, host workshops for citation management, Graduate School 101, and WordPress, and manage our institutional repository, Athena Commons. I work closely with our university archivist on digitization projects and building collections for the IR. "
+    img: elaine-walker.jpg
+    website: 
+    alumni: false
+    institute-short:
+
+  - first-name: Sumor
+    last-name: Sheppard
+    short: sumorsheppard
+    title: Foreign Language Program Coordinator, Prairie View A&M University 
+    bio: "Dr. S. Ziva Sheppard, Assistant Professor of Spanish and the Foreign Language Program Coordinator. I have interests in OER, decreasing minority and diaspora invisibility in the FL classroom."
+    img: 
+    website: 
+    alumni: false
+    institute-short: 
+
+  - first-name: Joel
+    last-name: Overall
+    short: joeloverall
+    title: Associate Professor, English, Belmont University
+    bio: "Joel Overall (B.S. Abilene Christian University, M.A. Abilene Christian University, Ph.D. Texas Christian University) is Associate Professor of English specializing in digital writing, rhetoric, and design. He is particularly captivated by the intersection between music and persuasion through the fields of Sonic Rhetoric and Kenneth Burke studies. As an undergrad, he majored in Music, Journalism, and Marketing, but his interests in writing propelled him into graduate work in Composition and Rhetoric. These diverse subjects continue to inform his teaching and scholarship. At Belmont, he has taught courses in writing, the history of rhetoric, the art of the essay, and digital literacies while co-leading study abroad trips to Italy and Japan."
+    img: joel-overall.jpg
+    website: joeloverall.com
+    alumni: false
+    institute-short:
+    
+  - first-name: Sarah
+    last-name: Koenig
+    short: sarahkoenig
+    title: Assistant Professor, History, Ramapo College of New Jersey
+    bio: "Sarah E. Koenig is Assistant Professor of History at Ramapo College of New Jersey. She is the chair of the Digital Humanities Committee for the School of Humanities and Global Studies and also serves on the advisory board for Ramapo’s Faculty Resource Center, which supports faculty pedagogical innovation. Her research and teaching explore the intersections of religion, history, race, and memory in the American West. In April 2020, Koenig collaborated with other Ramapo history faculty to create “The Human Side of a Pandemic,” an Omeka collection of student-created oral histories of the Covid-19 pandemic. She is currently working to digitize the photographs and research of historian Penny Colman to form the basis of a new Omeka collection, “Memorializing Women,” documenting the images, histories, and present-day statuses of monuments to women in the United States. She has an M.A.R. in Liturgical Studies from Yale Divinity School/The Yale Institute of Sacred Music and a joint Ph.D. in History and Religious Studies from Yale University. She is the author of Providence and the Invention of American History (Yale University Press, 2021)."
+    img: sarah-koenig.jpg
+    website: 
+    alumni: false
+    institute-short:    
+  
+  - first-name: Krista
+    last-name: White
+    short: kristawhite
+    title: Digital Scholarship and Pedagogies Librarian, John Cotton Dana Library, Rutgers-Newark
+    bio: "Krista White is the Digital Scholarship and Pedagogies Librarian at the John Cotton Dana Library on the Rutgers-Newark campus. Her interests include art history, Haitian culture, art, and religion, Pennsylvania Dutch Powwow and the quilting arts. She received her MLIS from Rutgers University's School of Communication and Information in 2008 with a concentration on digital libraries. She earned her Master of Philosophy in the Anthropology of Religion from Drew University in 2006 and her Master of Arts in Art History in 1996 from the University of Colorado at Boulder. As the Digital Scholarship and Pedagogies Librarian at the Dana Library, Ms. White consults in the area of the use of technology in pedagogy, participates in digital library projects with RUN faculty, and provides research assistance to scholars in anthropology, visual arts, art history, philosophy, religion, theater, computer science, and digital humanities."
+    img: krista-white.jpg
+    website: libraries.rutgers.edu/profile/krista_white
+    alumni: false
+    institute-short:
+
+  - first-name: Mary
+    last-name: Mahoney
+    short: marymahoney
+    title: Digital Scholarship Coordinator, Trinity College
+    bio: "Mary Mahoney is the digital scholarship coordinator at Trinity College where she establishes connections between faculty, students, and staff engaging in digital scholarship, and works to grow digital scholarship capacity and expertise across the college. She is also a historian specializing in histories of bibliotherapy from the United States to the present. She is currently at work on a history that explores episodes of therapeutic reading in nineteenth-century asylums, the trenches of World War I, Graceland, and beyond. Some of her digital work on this project can be found at www.booksasmedicine.com. In her other work, she examines the history of the American Girl franchise as a touchstone of girlhood and popular culture from the 1980s to the present. With her friend and fellow historian Allison Horrocks, she hosts the critically- acclaimed American Girls podcast that rereads the American Girl series book by book. They are also at work on a book exploring the series to be published in 2023."
+    img: mary-mahoney.png
+    website: 
+    alumni: false
+    institute-short: 
+
+  - first-name: Tarika
+    last-name: Sankar
+    short: tarikasankar
+    title: PhD candidate, English literature, the University of Miami
+    bio: "Tarika is a PhD candidate in English literature at the University of Miami. Her research focuses on constructions of Indo-Caribbean identity in the North Atlantic diaspora. Tarika was a graduate research assistant at the WhatEvery1Says Project, a digital humanities and advocacy project analyzing public discourse about the humanities. She is among an emerging cohort of DH scholars at UMiami. Her other research interests include Caribbean literature, feminist studies, queer theory, immigrant literature, and cultural studies. "
+    img: tarika-sankar.jpg
+    website: tarikasankar.github.io/
+    alumni: false
+    institute-short:
+    
+  - first-name: Lyndsay
+    last-name: Bratton
+    short: lyndsaybratton
+    title: Assistant Director for Digital Scholarship, Connecticut College
+    bio: "Lyndsay leads digital scholarship and digital humanities initiatives from the library at Connecticut College. She works with faculty and undergraduate students across the curriculum to support the use of digital tools and methods in their research and scholarship. She holds a PhD in Art History from the University of Maryland, and her research focuses on Czech modernist applied arts and architecture."
+    img: lyndsay-bratton.jpg
+    website: conncoll.edu/information-services/organization--staffing/is-staff-directory/staff-bios/lyndsay-bratton/
+    alumni: false
+    institute-short:    
+
+  - first-name: Marya
+    last-name: McQuirter
+    short: maryamcquirter
+    title: Assistant Professor & Director, Public History Collaborative, Department of History, University of Arizona
+    bio: "Marya curated the dc1968 project, a dh project highlighting art, activism, architecture and everyday life in 1968 in Washington, DC. Her current book project, 'Technochoreographies: Bicycles, Freedoms, Movements,' is a cultural history of mobility and technology in the late 19th century."
+    img: marya-mcquirter.png
+    website: maryamcquirter.com
+    alumni: false
+    institute-short:
+
+  - first-name: Francisco
+    last-name: Lopez-Martin
+    short: franciscolopezmartin
+    title: Associate Professor, Modern Languages, Denison University
+    bio: "I am originally from Huelva, a city located in the south of Spain. I received a PhD. in Literature and History from Universidad de Huelva and a PhD. in Romance Studies (Theory) from Duke University. Since 2010 I teach Spanish literature and language, critical theory and writing at Denison University. My specialty area is 16th and 17th Hispanic Transatlantic Literature and History with emphasis in the representation of time, space and the dynamics of power between America and Spain. I am also interested in European Humanism during the 16th century, hyper-textuality, complexity systems and in Spanish Golden Age Theater. Some of my publications are 'Violencia, neoplatonismo y aristotelismo en La Aurora en Copacabana', 'Definiendo las reglas del juego: Calderón y el espacio virtual' and 'Complejidad e hipertextualidad en el teatro barroco: Calderón y sor Juana'. My book entitled Representaciones del tiempo y construcción de la identidad entre España y America (1580-1700) was published by Universidad de Huelva in October, 2012."
+    img: francisco-lopez-martin.jpg
+    website: 
+    alumni: false
+    institute-short: 
+
+  - first-name: Pamella
+    last-name: Lach
+    short: pamellalach
+    title: Digital Humanities Librarian, San Diego State University
+    bio: "Pamella R. Lach (she/her/hers) is the Digital Humanities Librarian at San Diego State University, which occupies the traditional lands of the Kumeyaay. She is Director of the Library’s Digital Humanities Center (https://library.sdsu.edu/dh) and Co-Director of SDSU’s Digital Humanities Initiative (https://dh.sdsu.edu/). Pam’s work explores how new and emerging technologies transform humanistic scholarship and pedagogy. Her areas of interest include data visualization, folksonomy, user experience design, digital pedagogy, surveillance, critical librarianship, and anti-racist digital humanities. She has a PhD in U.S. Cultural History with an emphasis on gender and film history from the University of North Carolina at Chapel Hill, and a MS in Information Science from UNC’s School of Information and Library Science."
+    img: pamella-lach.jpg
+    website: 
+    alumni: false
+    institute-short:
+    
+  - first-name: David
+    last-name: Gustavsen
+    short: davidgustavsen
+    title: Humanities Librarian, University of Hawai'i
+    bio: "David Gustavsen is a Humanities Librarian at the University of Hawaiʻi at Mānoa Library."
+    img: david-gustavsen.jpg
+    website: 
+    alumni: false
+    institute-short:    
+  
+  - first-name: Christina
+    last-name: Mune
+    short: christinamune
+    title: Associate Dean of Innovation and Resource Management, San Jose State University Library
+    bio: "Christina Mune, MLIS is the Associate Dean of Innovation and Resource Management at San Jose State University’s Dr. Martin Luther King, Jr. Library. She has previously served as an Online Learning and Digital Initiatives Librarian. She is the project director of the new Digital Humanities Center at King Library, currently under construction. Her research and scholarship focuses on engaging virtual learners, digital literacy, and Open Access and OER initiatives. "
+    img: christina-mune.jpg
+    website: 
+    alumni: false
+    institute-short:
+
+  - first-name: Fernando
+    last-name: Esquivel-Suárez
+    short: fernandoesquivelsuarez
+    title: Assistant Professor, English, Spelman College
+    bio: "Fernando Esquivel-Suárez is an Assistant Professor in the Department of English at Spelman College in Atlanta, Georgia. He received an M.A. and a Ph.D. in Latin American Studies from Emory University. His background includes training in cultural studies and philosophy at Universidad Javeriana, in his hometown Bogota – Colombia. His main research interests focus on African American/Latinx relations, overlapping oppression, and solidarity in the context of the War on Drugs in Colombia, Mexico, and the United States. He is currently a fellow at the National Humanities Center where he works on his book titled The Pablo Escobar Mixtape. This project analyzes the War on Drugs and the iconization of Pablo Escobar in African American popular culture. He is also a menber of the Board of Advisors for Freedom University, an organization that offers college-level classes and mentoring to undocumented students who have been denied this right by the State of Georgia."
+    img: fernando-esquivel-suarez.png
+    website: 
+    alumni: false
+    institute-short: 
+
+  - first-name: Nicole
+    last-name: Fox
+    short: nicolefox
+    title: Librarian, Belmont University
+    bio: "I’m a research and instruction librarian at Nashville’s Belmont University. My research interests include information literacy, the interaction between research instruction and writing instruction, and visual literacy. I have a Master’s of Library Science from San Jose State University. "
+    img: nicole-fox.png
+    website: 
+    alumni: false
+    institute-short:
+    
+  - first-name: Tulay
+    last-name: Altin
+    short: tulayaltin
+    title: ESL Adjunct Professor, Union County College, New Jersey
+    bio: "Tulay is an adjunct professor of ESL at Union County College in Elizabeth, New Jersey, where she’s been teaching for six years. She is also pursuing a doctoral degree in Educational Technology Leadership at New Jersey City University, though she is currently on a leave of absence due to the pandemic. Her research interests include digital humanities, mixed reality, and global education. She believes that technological advances will impact all sectors of society, including education, where they can be a lever to drive student engagement and improve learning outcomes. When not teaching, Tulay enjoys visiting museums, libraries and attending seminars at Columbia School of Linguistics. "
+    img: tulay-altin.jpeg
+    website: https://tulayaltiny.wixsite.com/
+    alumni: false
+    institute-short:    
+  
+  - first-name: Sarah
+    last-name: Nakashima
+    short: sarahnakashima
+    title: Humanities Librarian, University of Hawai'i
+    bio: "Sarah Nakashima is a Humanities librarian at the University of Hawaiʻi at Mānoa, from where she received her MLISc and MEd in Learning Design and Technology. She is interested in digital story in the humanities.  "
+    img: 
+    website: 
+    alumni: false
+    institute-short:
+
+  - first-name: Olivia
+    last-name: Quintanilla
+    short: oliviaquintanilla
+    title: Postdoctoral Fellow, Environmental Studies, UC Santa Barbara
+    bio: "Dr. Olivia Quintanilla earned her Ph.D. from the Department of Ethnic Studies at UC San Diego in 2020. Olivia’s family is from Guahan and she’s used her academic opportunities as a Chamoru scholar to research the unique histories and futures of Pacific island life. She is interested in climate justice, marine justice, Pacific underwater ecology, and Indigenous environmental activism. She is co-founder of #DRS OJ Educational Success Consulting that uses Digital Humanities as a tool for personal and professional growth. Olivia will start as a UC President's Postdoctoral Fellow with the Department of Environmental Studies at UC Santa Barbara in the Fall to continue her work on marine justice in Guam. "
+    img: olivia-quintanilla.jpg
+    website: 
+    alumni: false
+    institute-short: 
+
+  - first-name: Christina
+    last-name: Connor
+    short: christinaconnor
+    title: Assessment and Instruction Librarian, Ramapo College of New Jersey
+    bio: "Christina Connor is the Assessment and Instruction Librarian at Ramapo College of NJ, a public liberal arts institution. She received both an M.S. in Information Studies and an M.A. in History from the University at Albany. Her thesis explored the early American book trade and dissemination of information during the eighteenth century.  As a current Ph.D candidate at Drew University concentrating in book history, her research interests focus on textbook history. Recent publications look at student engagement with special collections as well as textbooks as a historiographical teaching tool. At Ramapo, she oversees the care, maintenance and accessibility of the library’s special collection, the American History Textbook Project. In addition, she coordinates and teaches textbook-centered sessions and workshops to history and education students, and has developed lessons and hands-on activities utilizing the collection. In 2010, she co-authored a chapter entitled, 'The American History Textbook Project: The Making of a Student-Centered Special Collection at a Public Liberal Arts College,' ACRL publication Past or Portal: Enhancing Undergraduate Learning through Special Collections and Archives."
+    img: christina-connor.jpg
+    website: 
+    alumni: false
+    institute-short:
+    
+  - first-name: Jeanelle
+    last-name: Horcasitas
+    short: jeanellehorcasitas
+    title: Education Consultant, UC San Diego
+    bio: "Jeanelle Horcasitas received her B.A. in English from UCLA and her Ph.D. in Literature/Cultural Studies from UCSD. She is a proud first-generation woman of color that comes from a working-class and immigrant family. Throughout her academic and professional career, she has been proactive in gaining knowledge about technology and digital tools, particularly with digital humanities; and in turn, providing those same opportunities to grow and learn to students and other community members from historically underrepresented backgrounds. Her dissertation 'Reclaiming the Future: A Speculative Culture Study,' aims to amplify the voices and stories of Black and Latinx authors and filmmakers who use speculative fiction as a tool for social justice to reclaim and re-imagine more inclusive futures. For this reason, she explored free and open-access tutorials online and at her academic institutions to learn more about technology and its value to herself and her community. She is especially invested in learning how to use technology ethically and equitably. She has been involved in various DH projects, research groups and communities, and has even implemented DH for San Diego community college students in her courses. She believes education is the most powerful and transformative when it is available to the wider community, and she hopes to continue strengthening the DH community at San Diego institutions and beyond."
+    img: jeanelle-horcasitas.jpg
+    website: linkedin.com/in/jeanellehorcasitas/
+    alumni: false
+    institute-short:    
+  
+  - first-name: Celeste
+    last-name: Lee
+    short: celestelee
+    title: Assistant Professor, Sociology, Spelman College
+    bio: "Dr. Celeste N. Lee is an Assistant Professor in the Sociology at Spelman College. She teaches courses in Multivariate Analysis, Research Methodology, Race and Ethnic Relations, and Social Inequality. Dr. Lee is an Atlanta native who completed her Ph.D. (with a specialization in Social Inequality and Race and Ethnic Relations) in Sociology at Emory University. As a researcher, Dr. Lee is passionate about and committed to understanding racialization processes. Her research interests lie at the intersections of ideology, institutionalized inequality, and people’s lived experiences with race and racism. Her current work draws upon survey data and statistical analysis to explore the role that nurses play in mitigating/exacerbating racial disparities in healthcare outcomes. Additionally, she serves as a researcher on digital humanities project that takes a comparative approach to exploring/visualizing  racialization processes and the War on Drugs in Atlanta, Georgia and Cali, Columbia. As a teacher, Dr. Lee is dedicated to creating innovative and collaborative learning environments. She promotes educational experiences that introduce students to sociological concepts, research, and data science techniques on a variety of levels in hopes that they will develop analytic skills to evaluate their lived experiences and the world around them. Using an array of pedagogical approaches, Dr. Lee empowers students to engage in a process whereby they witness firsthand the transition of course content from theory to practice, and (hopefully) eventually social change."
+    img: celeste-lee.png
+    website: 
+    alumni: false
+    institute-short:
+
+  - first-name: Zoe
+    last-name: Borovsky
+    short: zoeborovsky
+    title: Digital Research and Scholarship Librarian, UCLA Library
+    bio: "Zoe Borovsky, Ph.D., is librarian for Digital Research and Scholarship at UCLA Library.  She is the liaison for Anthropology and Archaeology as well as the Digital Humanitiies Program--supporting both the minor and the graduate certificate program.  She teaches workshops on network analysis, text-mining and text analysis as well as visualization tools such as Tableau. The local institute she and Tatiana are planning to create an online version of a national directory of African-American newspapers."
+    img: zoe-borovsky.jpg
+    website: 
+    alumni: false
+    institute-short: 
+
+  - first-name: Debbie
+    last-name: Kemp-Jackson
+    short: debbiekempjackson
+    title: ESL Professor, Union County College, New Jersey
+    bio: "I am a professor of ESL at Union County College, a two-year community college located in Elizabeth, New Jersey. I have more than 30 years of teaching ESL in various programs and institutions such as  Rutgers and Princeton, where I have taught ITAs. In addition, I have considerable experience teaching all proficiency levels and all four language skills. My recent interest is helping English Language Learners become more engaged in their local neighborhoods and the larger community by utilizing project-based assignments. This past year has been challenging and this “pandemic experience” has necessitated a change in the way in which I present information to my students. I am looking forward to the chance to push my pedagogy in a new direction and to meet other like-minded educators."
+    img: debbie-kemp-jackson.jpg
+    website: dkjdigitalhumanities.weebly.com/ 
+    alumni: false
+    institute-short:
+    
+  - first-name: Natalie
+    last-name: Hopkinson
+    short: nataliehopkinson
+    title: Associate Professor, Communication, Culture and Media Studies, Howard University
+    bio: "I am Natalie Hopkinson, Associate Professor in the Dept. of Communication, Culture and Media Studies at Howard University. I am a critical-cultural scholar working at the intersection of the arts, history, place and social change. My work is anchored by my roots as an arts writer, ethnographer and educator. I have travelled and researched widely across the U.S., South America, the Caribbean, United Kingdom and Africa. In addition to publishing numerous peer-review academic articles and book chapters, I have published essays for general audiences as a former staff, writer, editor and columnist at the Washington Post, The Root Huffington Post, and a guest contributor to the New York Times Op-Ed section. These publications have spanned the genres of music, theatre, visual art, dance, literary arts, gender, media, education policy, and more.​ My 2007 doctoral dissertation at the University of Maryland-College Park was the second academic publication on go-go Washington, DC.’s indigenous music. The study blended theory and methods spanning the fields of journalism, communications, history, American Studies and ethnomusicology. Since I co-founded the #DontMuteDC movement, a digital activism campaign to prevent the erasure and silencing of Black people and culture in gentrifying Washington, D.C.  in April 2019, I have worked with grassroots activists to co-produce dozens cultural activations involving live music, culinary arts, graphic designers, makers & artisans, and human rights activism, engaging thousands of people in the streets and online. I hope to work on creative, interactive tools for an oral history and archival project underway during the summer of 2021."
+    img: natalie-hopkinson.jpg
+    website: nataliehopkinson.com
+    alumni: false
+    institute-short:    
+
   - first-name: Dianne
     last-name: Fallon
     short: diannefallon

@@ -1,4 +1,5 @@
-url: https://www.dhinstitutes.org # this should also be secured in the .htaccess file
+# url: https://www.dhinstitutes.org
+# this should also be secured in the .htaccess file
 
 sass:
     load_paths:

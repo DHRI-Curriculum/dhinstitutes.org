@@ -8,6 +8,8 @@ settings:
       short: "fellows"
     - title: "Faculty"
       short: "faculty"
+    - title: "Community Leaders"
+      short: "community-leaders"
 
 leadership:
   - first-name: Lisa

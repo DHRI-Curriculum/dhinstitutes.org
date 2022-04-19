@@ -29,3 +29,6 @@
 
 {% assign community_leaders = site.data.people.community-leaders | where: "alumni", "false" %}
 {% assign community_leaders = community_leaders | sort: 'last-name' %}
+
+{% assign community_leaders_alumni = site.data.people.community-leaders | where: "alumni", "true" %}
+{% assign community_leaders_alumni = community_leaders_alumni | sort: 'last-name' %}

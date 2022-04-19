@@ -54,7 +54,7 @@ leadership:
     website: westerling.nu
     bio: "Kalle Westerling is completing a dissertation on the history and aesthetics of male-identified dancers in 20th-century burlesque and 21st-century boylesque. He is also an Instructional Technology Fellow at Macaulay Honors College and Queens College, where he assists faculty and students to link technology and learning in a technology-across-the-curriculum initiative."
     img: kalle-westerling.png
-    alumni: false
+    alumni: true
 
 fellows:
   - first-name: Filipa
@@ -66,7 +66,7 @@ fellows:
     website: filipacalado.com
     bio: "Filipa Calado is a Ph.D. candidate in the English program at the Graduate Center. Her research explores the interface between digital media and queer studies. Her dissertation, 'Queer Tools,' takes a critical look at digital tools like text analysis, text encoding, and digital archiving to see how they work in unexpected ways to study queer literature. As a Digital Fellow, she teaches workshops on Intro to DH Tools, Text Encoding with TEI, Digital Annotation, Introduction to Python, and Web Scraping. As an undergraduate instructor, she has taught English and Latinx Literature at Hunter College and now teaches Writing and Critical Thinking courses at NYU."
     img: filipa-calado.jpg
-    alumni: false
+    alumni: true
 
   - first-name: Olivia
     last-name: Ildefonso
@@ -77,7 +77,7 @@ fellows:
     website: cuny.is/oildefon
     bio: "Olivia Ildefonso is a Ph.D. Student in Earth and Environmental Sciences with a specialization in Human Geography at the Graduate Center (CUNY). She studies the political economy of school segregation. Her research focuses on Long Island, New York. Olivia is a Long Island native and has worked as a racial justice activist on Long Island for the past ten years. She has worked for civil rights organization, ERASE Racism since 2010 and she has served on the board of directors for STRONG Youth since 2013. Olivia is currently a GC Digital Fellow. She specializes in GIS Mapping, website management, and multi-media storytelling. Before becoming a GC Digital Fellow, Olivia was an Adjunct Lecturer at Queens College and a Writing Across the Curriculum (WAC) fellow at John Jay College."
     img: olivia-ildefonso.jpg
-    alumni: false
+    alumni: true
 
   - first-name: Stefano
     last-name: Morello
@@ -88,7 +88,7 @@ fellows:
     website: stefanomorello.com
     bio: "Stefano Morello is a Ph.D. candidate in English. He holds an M.A. in American Literature from the University of Naples \"L'Orientale” and an M.A. in American Studies from the University of Torino.  His academic interests include American Studies, pop culture, poetics, queer theory, and transnational screen cultures. Oh, and punk-rock."
     img: stefano-morello.jpg
-    alumni: false
+    alumni: true
 
   - first-name: Rafael
     last-name: Davis Portela
@@ -99,7 +99,7 @@ fellows:
     website: cuny.is/rdp01
     bio: "Rafael Davis Portela is a Ph.D. student in the History department, where he researches the role of transnational capital in the urban development in Latin America. He is also a member of the Center for Latin American, Caribbean and Latino Studies–CLACLS, and Adjunct Professor at the John Jay College of Criminal Justice, where he teaches courses on Latin American History. He is also into digital tools, and interested in anything related to teaching."
     img: rafael-davis-portela.jpg
-    alumni: false
+    alumni: true
 
   - first-name: Di
     last-name: Yoong
@@ -130,7 +130,7 @@ fellows:
     twitter: frog_phylo
     bio: "Connor French is a Ph.D. candidate in the Biology department. He studies the impact of historical climate change on the spatial distribution of animals, with a focus on reptiles and amphibians in the Brazilian Atlantic Forest. As a GC Digital Fellow, Connor specialized in proselytizing the R programming language, especially in contexts outside of his narrow academic field."
     img: connor-french.jpeg
-    alumni: false
+    alumni: true
 
   - first-name: Param
     last-name: Ajmera

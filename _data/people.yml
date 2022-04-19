@@ -10,6 +10,8 @@ settings:
       short: "faculty"
     - title: "Community Leaders"
       short: "community-leaders"
+    - title: "Alumni Community Leaders"
+      short: "alumni-community-leaders"
 
 leadership:
   - first-name: Lisa
@@ -613,7 +615,8 @@ community-leaders:
     website: 
     alumni: false
     institute-short: 
-
+    
+alumni-community-leader:
   - first-name: Debbie
     last-name: Kemp-Jackson
     short: debbiekempjackson

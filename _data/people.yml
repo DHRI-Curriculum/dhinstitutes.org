@@ -56,7 +56,7 @@ leadership:
     website: westerling.nu
     bio: "Kalle Westerling is completing a dissertation on the history and aesthetics of male-identified dancers in 20th-century burlesque and 21st-century boylesque. He is also an Instructional Technology Fellow at Macaulay Honors College and Queens College, where he assists faculty and students to link technology and learning in a technology-across-the-curriculum initiative."
     img: kalle-westerling.png
-    alumni: true
+    alumni: false
 
 fellows:
   - first-name: Filipa

@@ -12,6 +12,8 @@
       link: /about/media/
     - header: Contact
       link: /about/contact/
+    - header: Local Institutes
+      link: /about/local/
 
 - header: People
   link: /people/
@@ -29,7 +31,7 @@
   #link: /graduate-center/
   link: /graduate-center/schedule/
   items:
-    - header: Past schedule
+    - header: Past schedules
       link: /graduate-center/schedule/
     #- header: Participate
     #  link: /graduate-center/participate/

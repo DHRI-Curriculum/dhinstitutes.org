@@ -111,7 +111,7 @@ fellows:
     website: diyoong.info
     bio: "Di is currently a PhD candidate in Critical Social/Personality Psychology at CUNY, The Graduate Center (GC). They are also a GC Digital Initiatives Digital Fellow. Broadly, their work is on understanding the relationality between systems of oppression and the individual. They are interested in identities as discourses, and the ties between transnationalism and diasporas. Currently, they are working on several projects that is exploring identities as discourses, including in alt-right spaces, K-pop/Hallyu, and the experiences of queer and trans Asian (American) in the US. As a GC Digital Initiatives Digital Fellow, they are also interested in understanding what ethics is within computational social science, digital humanities, and public humanities projects. They are also invested in bridging the gaps of technology literacy, especially within underserved communities."
     img: di-yoong.jpg
-    alumni: false
+    alumni: true
 
   - first-name: Yuxiao
     last-name: Luo
@@ -121,7 +121,7 @@ fellows:
     website: yuxiaoluo.github.io/
     bio: "Yuxiao Luo is a Ph.D. candidate in Business (Information Systems). He studies the dark side of artificial intelligence and its impact on the consumers in e-commerce. He has aslo done some research in the application of machine learning in portfolio management. As a GC Digital Fellow, Yuxiao teaches workshops in the R programming language and its application in predictive modeling. He is also interested in topic modeling and data mining with R. As an undergraduate instructor, he teaches Intro to Stats and Intro to Information Systems at Baruch College, CUNY."
     img: yuxiao-luo.jpg
-    alumni: false
+    alumni: true
 
   - first-name: Connor
     last-name: French

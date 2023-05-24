@@ -362,6 +362,15 @@ display: none;
   color: #7b8a8b !important;
 }
 
+.dep-banner {
+  background-color: rgb(224, 163, 77) !important;
+}
+
+.dep-banner-text {
+  font-size: 2rem !important;
+  color: #080808 !important;
+}
+
 @media (max-width: 576px) {
   .funding-text {
       font-size: 2vh !important;

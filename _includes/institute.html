@@ -85,10 +85,10 @@
         {% endif %}
 
         {% if p.community-leaders %}
-        <div class="col-12 col-xl-4"><h5>Community Leader{% if p.community-leaders.size > 1 %}s{% endif %}</h5></div>
+        <div class="col-12 col-xl-4"><h5>Community Leader{% if p.community-leaders.size >= 1 %}s{% endif %}</h5></div>
         <div class="col-12 col-xl-8">
           {% for short in p.community-leaders %}
-            {% assign _ = community_leaders | where: "short", short %}{% assign person = _[0] %}
+            {% assign _ = site.data.people.community-leaders | where: "short", short %}{% assign person = _[0] %}
             <img src="/assets/images/people/{{ person.img }}" class="img-fluid" alt="Image depicting {{ person['first-name'] }} {{ person['last-name'] }}" />
             <p>{{ person['bio'] }}</p>
             {% if forloop.last %}{% else %}<hr />{% endif %}

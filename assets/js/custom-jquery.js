@@ -85,7 +85,7 @@ $("[aria-controls=pills-leadership]").addClass('active')
 $('#pills-leadership').show()
 
 {% assign all_institutes = site.data._institutes | concat: site.data._institutes-novideo %}
-data = [{% for leader in community_leaders %}{% assign _ = all_institutes | where: "short", leader.institute-short %}{% assign p = _[0] %}{% if p.institute.from == p.institute.to %}{% capture full_date %}{{ p.institute.from | date: "%b %-d, %Y" }}{% endcapture %}{% else %}{% capture from_month %}{{ p.institute.from | date: "%b" }}{% endcapture %}{% capture to_month %}{{ p.institute.to | date: "%b" }}{% endcapture %}{% if from_month == to_month %}{% capture full_date %}{{ p.institute.from | date: "%b %-d" }}-{{ p.institute.to | date: "%-d" }}, {{ p.institute.from | date: "%Y" }}{% endcapture %}{% else %}{% capture full_date %}{{ p.institute.from | date: "%b %-d" }}-{{ p.institute.to | date: "%b %-d" }}, {{ p.institute.from | date: "%Y" }}{% endcapture %}{% endif %}{% endif %}{% assign new_bio = leader.bio | strip_html | split: " " %}{% assign short_bio = new_bio | slice: 0, 50 | join: " " %}{% capture tags %}{% for tag in p.tags %}<span class="badge badge-dark mb-1 mr-1">{{ tag }}</span>{% endfor %}{% endcapture %}{% assign new_text = p.text | strip_html | split: " " %}{% assign short_text = new_text | slice: 0, 80 | join: " " %}
+data = [{% for leader in community_leaders %}{% assign _ = all_institutes | where: "short", leader.institute-short %}{% assign p = _[0] %}{% if p.institute.from == p.institute.to %}{% capture full_date %}{{ p.institute.from | date: "%b %-d, %Y" }}{% endcapture %}{% else %}{% capture from_month %}{{ p.institute.from | date: "%b" }}{% endcapture %}{% capture to_month %}{{ p.institute.to | date: "%b" }}{% endcapture %}{% if from_month == to_month %}{% capture full_date %}{{ p.institute.from | date: "%b %-d" }}-{{ p.institute.to | date: "%-d" }}, {{ p.institute.from | date: "%Y" }}{% endcapture %}{% else %}{% capture full_date %}{{ p.institute.from | date: "%b %-d" }}-{{ p.institute.to | date: "%b %-d" }}, {{ p.institute.from | date: "%Y" }}{% endcapture %}{% endif %}{% endif %}{% assign new_bio = leader.bio | strip_html | split: " " %}{% assign short_bio = new_bio | slice: 0, 150 | join: " " %}{% capture tags %}{% for tag in p.tags %}<span class="badge badge-dark mb-1 mr-1">{{ tag }}</span>{% endfor %}{% endcapture %}{% assign new_text = p.text | strip_html | split: " " %}{% assign short_text = new_text | slice: 0, 80 | join: " " %}
       {
         "institute-short": "{{ leader.institute-short }}",
         "img": "/assets/images/people/{{ leader.img }}",
@@ -103,7 +103,7 @@ data = [{% for leader in community_leaders %}{% assign _ = all_institutes | wher
   ]
   shuffle(data);
 
-  {% for i in (0..2) %}
+  {% for i in (0..4) %}
   $("#leader-{{ i }} #profile-pic").css("background-image", "url('"+data[{{ i }}]['img']+"')");
   $("#leader-{{ i }} #name").html(data[{{ i }}]['leader-name']);
   $("#leader-{{ i }} #text").html(data[{{ i }}]['text']);

@@ -39,22 +39,6 @@ sitemap:
   </div>
 </section>
 
-<section id="about" class="bg-light"><!-- w-100 d-block bg-dark-blue text-white -->
-  <div class="container text-dark">
-    <div class="row justify-content-md-center">
-      <div class="col-12 py-4">
-        <h3>About the Digital Humanities Research Institute</h3>
-      </div>
-      <div class="col-12 col-md-6">
-        <p class="lead">Through seminar-style discussions with <a href="/people/" class="bottom-dashed text-dark">leading scholars in digital humanities</a>, <a href="https://curriculum.dhinstitutes.org/" class="bottom-dashed text-dark">hands-on workshops</a> on core technical competencies, and project development labs, participants in the Digital Humanities Research Institute become familiar with working from the command line, collaborating with git, programming with Python, querying structured data, creating maps, and analyzing texts computationally. Participants also become part of <a href="/network/" class="bottom-dashed text-dark">a growing network of institute leaders</a> by developing their own DHRI based on <a href="https://curriculum.dhinstitutes.org/" class="bottom-dashed text-dark">our open, core curriculum</a> to be led at their home institutions or organizations.</p>
-      </div>
-      {% include get-more-information.html %}
-    </div>
-  </div>
-</section>
-
-
-
 <section class="jumbotron mb-0 shadow-md jumbotron-background-image" id="jumbotron-apply-2020" style="background-position-y: 35% !important"></section>
 
 
@@ -146,46 +130,6 @@ sitemap:
 
 
 
-<section id="join-us" class="jumbotron mb-0 shadow-md">
-  <div class="container">
-    <div class="row text-dark">
-      <div class="col-12">
-        <h1>Opportunity to Join the DHRI Network</h1>
-      </div>
-      <div class="col-12 col-md-6">
-        <p class="lead">
-          In 2021, we will continue expanding the Digital Humanities Research Institutes with a new group of participants. We invite you to participate in an eight-day institute in July 2021 and join our network of more than 30 community leaders of grassroots digital humanities research institutes at universities, libraries, archives, museums, and scholarly organizations across the United States.
-        </p>
-        <p>
-          During the July 2021 workshop, participants will receive intensive training in foundational digital research methods, assistance with planning local digital humanities workshops, and mentorship from past participants. Over the following academic year, participants will develop their own local digital humanities research institutes and contribute reflections on their experiences to a Guide to Leading Digital Humanities Research Institutes.
-        </p>
-        <p>
-          In addition to digital skill training, the DHRI connects participants with mentors and a network of community leaders, supporting participants’ professional growth in their local contexts. Our goal is to expand access to digital humanities training, effectively lowering the barrier to entry that some scholars experience when using digital tools.
-        </p>
-        <hr />
-        <p>Want to see an example of what the schedule will look like? <a href="/graduate-center/schedule/">See last cycle's schedule here</a>.</p>
-        <p>Want to read more about the application process? Take a look at our <a href="/apply/">application</a> page.</p>
-        <hr />
-        <div class="mx-auto text-center mw-75">
-          <p class="lead">Are you interested in joining us in 2022–23?</p>
-          <p><a class="btn btn-success" href="/apply/"><strong>Read more on our application page.</strong></a></p>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 d-flex align-items-center justify-content-center pt-5 pt-sm-0">
-        <div class="d-flex flex-column align-items-center col-11" id="quote-container">
-          <p class="quote-header">how did the dhri benefit previous participants?</p>
-          <p class="quote text-center" id="quote"></p>
-          <p class="pt-4 border-top border-dark" id="quote_by"></p>
-        </div>
-        <div class="d-flex col-1 switchQuote" id="quoteCaret"></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
 <section class="jumbotron mb-0 shadow-md jumbotron-background-image" id="jumbotron-collaboration"></section>
 
 
@@ -195,7 +139,7 @@ sitemap:
 
     <div class="row">
 
-      <div class="col-12 col-md-8">
+      <div class="col-16 col-md-12">
 
         <div class="text-dark text-center">
           <h1>Meet the Community Leaders</h1>
@@ -205,12 +149,12 @@ sitemap:
 
         <div id="carouselLeaders" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
-            {% for i in (0..2) %}
+            {% for item in (0..4) %}
             <li data-target="#carouselLeaders" data-slide-to="{{ i }}" {% if forloop.first %}class="active"{%endif %}></li>
             {% endfor %}
           </ol>
           <div class="carousel-inner">
-            {% for i in (0..2) %}
+            {% for i in (0..4) %}
             <div class="carousel-item{% if forloop.first %} active{%endif %}" id="leader-{{ i }}">
               <div class="position-relative profile-card">
                 <div class="profile-pic" id="profile-pic" style="background-position: center;background-repeat: no-repeat;"></div>
@@ -220,21 +164,7 @@ sitemap:
                   <div class="m-3 p-3">
                     <div class="user-desc" id="desc"></div>
                   </div>
-                  <hr />
-                  <div class="row m-2 p-2">
-                    <div class="col-12 text-center">
-                      <div class="user-desc" id="inst"></div>
-                      <div class="user-desc" id="dates"></div>
-                    </div>
-                  </div>
-                  <div class="row m-2 p-2 pb-5">
-                    <div class="col-12 col-sm-12 col-md-6">
-                      <div class="user-desc" id="text"></div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 pt-sm-4">
-                      <div class="user-desc" id="map"></div>
-                    </div>
-                  </div>
+
               </div>
             </div>
             {% endfor %}
@@ -251,17 +181,7 @@ sitemap:
 
       </div>
 
-      <div class="col-12 col-md-4">
 
-        <div class="text-dark text-center pb-1 pt-md-0 pt-5">
-          <h1 class="pb-0">Follow Us</h1>
-          <p class="small text-muted">Follow our Twitter account for regular updates <a href="https://www.twitter.com/dhinstitutes">@dhinstitutes</a>.</p>
-        </div>
-
-        <div class="d-none d-md-block"><a class="twitter-timeline" data-dnt="true" data-cards="hidden" data-chrome="noheader nofooter" data-tweet-limit="3" href="https://twitter.com/dhinstitutes?ref_src=twsrc%5Etfw">Tweets by dhinstitutes</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-        <div class="d-md-none container"><a class="twitter-timeline" data-dnt="true" data-cards="hidden" data-chrome="noheader nofooter" data-tweet-limit="3" href="https://twitter.com/dhinstitutes?ref_src=twsrc%5Etfw">Tweets by dhinstitutes</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-      </div>
     </div>
   </div>
 

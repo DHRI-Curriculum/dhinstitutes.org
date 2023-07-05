@@ -3,49 +3,29 @@
 
 - header: About
   link: /about/
-  items:
-    - header: Grant History
-      link: /about/grant-history/
-    - header: News
-      link: /about/news/
-    - header: Media
-      link: /about/media/
-    - header: Contact
-      link: /about/contact/
-    - header: Local Institutes
-      link: /about/local/
 
 - header: People
   link: /people/
-  items:
-    - header: Leadership
-      link: /people/leadership/
-    - header: Faculty & Fellows
-      link: /people/faculty-fellows/
-    - header: Community Leaders
-      link: /people/community-leaders/
-    - header: Team Alumni
-      link: /people/alumni/
 
 - header: DHRI@GC
   #link: /graduate-center/
   link: /graduate-center/schedule/
   items:
-    - header: Past schedules
-      link: /graduate-center/schedule/
+    #- header: Past schedules
+    #  link: /graduate-center/schedule/
     #- header: Participate
     #  link: /graduate-center/participate/
 
 - header: Partners
   link: /partners/neh/
   items:
-    - header: National Endowment for the Humanities
-      link: /partners/neh/
+    #- header: National Endowment for the Humanities
+    #  link: /partners/neh/
     #- header: How to become a partner
     #  link: /partners/become-a-partner/
 
 - header: Curricula
-  link: https://curriculum.dhinstitutes.org/
+  link: https://dhri-curriculum.github.io/DHRIFT/
 
-- header: Reports
-  link: /reports/
+- header: Publications and Media
+  link: /publications/

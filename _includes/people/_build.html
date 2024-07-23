@@ -1,0 +1,34 @@
+{% assign settings = site.data.people.settings %}
+
+{% assign fellows_current = site.data.people.fellows | where: "alumni", "false" %}
+{% assign fellows_current = fellows_current | sort: 'last-name' %}
+
+{% assign fellows_alumni = site.data.people.fellows | where: "alumni", "true" %}
+{% assign fellows_alumni = fellows_alumni | sort: 'last-name' %}
+
+
+{% assign leadership_current_short = "ehlo" %}
+{% assign leadership_current = site.data.people.leadership | where: "alumni", "false" %}
+{% assign leadership_current = leadership_current | sort: 'last-name' %}
+
+{% assign leadership_alumni = site.data.people.leadership | where: "alumni", "true" %}
+{% assign leadership_alumni = leadership_alumni | sort: 'last-name' %}
+
+
+{% assign faculty_current = site.data.people.faculty | where: "alumni", "false" %}
+{% assign faculty_current = faculty_current | sort: 'last-name' %}
+
+{% assign faculty_alumni = site.data.people.faculty | where: "alumni", "true" %}
+{% assign faculty_alumni = faculty_alumni | sort: 'last-name' %}
+
+
+{% assign current_team = leadership_current | concat: fellows_current | concat: faculty_current %}
+{% assign current_team = current_team | sort: 'last-name' %}
+
+
+
+{% assign community_leaders = site.data.people.community-leaders | where: "alumni", "false" %}
+{% assign community_leaders = community_leaders | sort: 'last-name' %}
+
+{% assign community_leaders_alumni = site.data.people.community-leaders | where: "alumni", "true" %}
+{% assign community_leaders_alumni = community_leaders_alumni | sort: 'last-name' %}

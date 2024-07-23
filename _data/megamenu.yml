@@ -1,0 +1,31 @@
+#- header: Home
+#  link: /
+
+- header: About
+  link: /about/
+
+- header: People
+  link: /people/
+
+- header: DHRI@GC
+  #link: /graduate-center/
+  link: /graduate-center/schedule/
+  items:
+    #- header: Past schedules
+    #  link: /graduate-center/schedule/
+    #- header: Participate
+    #  link: /graduate-center/participate/
+
+- header: Partners
+  link: /partners/neh/
+  items:
+    #- header: National Endowment for the Humanities
+    #  link: /partners/neh/
+    #- header: How to become a partner
+    #  link: /partners/become-a-partner/
+
+- header: Curricula
+  link: https://dhri-curriculum.github.io/DHRIFT/
+
+- header: Publications and Media
+  link: /publications/

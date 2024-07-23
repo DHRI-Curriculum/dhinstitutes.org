@@ -1,0 +1,317 @@
+  - short: maine-digital-humanities-institute
+    name: ME.Digital Humanities Institute
+    state: ME
+    state-full: Maine
+    tags:
+        - community college
+        - online
+    text: "The ME.Digital Humanities Institute was offered as a free, seven-week, online workshop with the intention of creating a collaborative space for humanities professionals across Maine, who would work with one another while developing digital projects."
+    youtube:
+        shortcode: cqFG_VZGjw4
+        mins: 7
+    transcript: transcripts/Dianne
+    institute:
+        from: 2019-01-22
+        to: 2019-03-08
+        cosponsors:
+            - name:
+              website:
+        website: https://virtual.yccc.edu/MEDigitalHumanitiesInstitute
+        twitter:
+        lat: 47.247586
+        lng: -68.171618
+    community-leaders:
+        - diannefallon
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111635.8352019451!2d-70.59248243022135!3d43.30953420587712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e2a83e1569b925%3A0x495ca36fb5e601fa!2sYork%20County%20Community%20College!5e0!3m2!1sen!2sus!4v1580921355571!5m2!1sen!2sus
+
+  - short: binghamton-digital-humanities-research-institute
+    name: Binghamton DHRI
+    state: NY
+    state-full: New York
+    tags:
+        - public R1
+    text: "The Binghamton Digital Humanities Research Institute was offered as a 4-day intensive workshop for university faculty and graduate students who are interested in the digital humanities. The institute included seminar-type sessions oriented around critical discussion and hands-on workshops that introduced the foundational skills and tools that are central to digital humanities practices. Sessions treated topics such as the command line, data visualization, digital mapping, Python, text analysis, platforms for the digital presentation of research, open access and ethics. The goal for the Institute was to foster a dynamic, robust and generative community of digital humanities researchers and teachers at Binghamton University."
+    youtube:
+        shortcode: l8BEF9h47-Y
+        mins: 12
+    transcript: transcripts/Nancy
+    institute:
+        from: 2019-05-28
+        to: 2019-05-31
+        cosponsors:
+            - name: Binghamton University Libraries
+              website: https://www.binghamton.edu/libraries/services/digitalhumanities-ri.html
+            - name: Center for Learning and Teaching, Binghamton University
+              website:
+            - name: Institute for Advanced Studies in the Humanities, Binghamton University
+              website:
+            - name: The Graduate School, Binghamton University
+              website:
+            - name: Harpur College of Art &amp; Sciences, Binghamton University
+              website:
+            - name: Office of Undergraduate Education, Binghamton University
+              website:
+        website: http://scalar.usc.edu/works/digital-humanities-research-institute/index
+        twitter: BingDHRI
+        lat: -75.9718936
+        lng: 42.0893553
+        workshops:
+            - name: Introduction to DH
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/introduction-to-the-digital-humanities
+            - name: Metadata for the Humanist
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/metadata-for-the-humanist
+            - name: Command Line
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/introduction-to-the-command-line
+            - name: Perspectives on Digital Scholarship
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/the-middle-distance-perspectives-on-digital-scholarship
+            - name: Data and the Humanities
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/data-visualization
+            - name: Data Structuring
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/data-structuring
+            - name: Tableau
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/small-groups-your-data-with-tableau
+            - name: Metadata Schema
+            - name: ArcGIS Online
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/arcgisonline
+            - name: Consult with GIS Facility
+            - name: Georectification
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/georectification
+            - name: ArcGIS Online Advanced
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/small-groups-more-arcgis-online
+            - name: Intro to Python
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/intro-to-python
+            - name: Pandas
+            - name: "Data Cleaning: OpenRefine"
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/data-cleaning-open-refine
+            - name: VR Experience
+            - name: Text Analysis
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/introduction-to-text-analysis
+            - name: Visualizing Text Analysis with Tableau
+            - name: Advanced Python and NLTK
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/nltk
+            - name: DH at Binghamton
+            - name: Platforms for Digital Scholarship
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/platforms-for-digital-scholarship
+            - name: Scalar
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/scalar-workshop
+            - name: Funding Trends
+            - name: Moving Forward with DS and DH
+            - name: Openness, Ethics, and Evaluation
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/openness-ethics-and-evaluation-the-evolving-landscape-of-scholarly-communication-in-the-humanitie
+            - name: Advanced Scalar
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/small-groups-advanced-scalar
+            - name: ESRI Story Maps
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/small-groups-esri-story-maps
+            - name: HTML and CSS
+              url: http://scalar.usc.edu/works/digital-humanities-research-institute/html--and-css
+    community-leaders:
+        - nancyum
+        - amygay
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d132666.7010708259!2d-76.0096826255313!3d42.097273254219786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89daeeb8741e3169%3A0x73e79cf1ee693edf!2sBinghamton%20University!5e0!3m2!1sen!2sus!4v1580921403058!5m2!1sen!2sus
+
+  - short: digital-humanities-research-institute-south-bend
+    name: DHRI South Bend
+    state: IN
+    state-full: Indiana
+    tags:
+        - R1
+        - liberal arts college
+        - co-organized DHRI
+        - institutional collaboration
+        - libraries
+    text: "The University of Notre Dame and Saint Mary’s College, with grant support from Indiana Humanities, collaborated to host a Digital Humanities Research Institute in May 2019. Using the curriculum developed by The Graduate Center, CUNY, they provided 26 participants with the opportunity to gain foundational computing skills that allowed them to advance their own digital projects, assist others in the creation and maintenance of digital research, and/or instruct others in digital methodologies."
+    youtube:
+        shortcode: 54RWltG2jkE
+        mins: 8
+    transcript: transcripts/Dan
+    institute:
+        from: 2019-05-14
+        to: 2019-05-17
+        cosponsors:
+            - name: University of Notre Dame
+              website:
+            - name: Saint Mary’s College
+              website:
+        website: http://dhsouthbend.org/
+        twitter: INdhri
+        lat: -86.244450
+        lng: 41.702616
+        workshops:
+            - name: Databases
+              url: https://github.com/dhsouthbend/databases
+            - name: Twitter API
+              url: https://github.com/dhsouthbend/twitter_api
+            - name: Text Analysis
+              url: https://github.com/dhsouthbend/text-analysis
+            - name: Ethics for Digital Projects and Research
+              url: https://github.com/dhsouthbend/ethics
+            - name: HTML and CSS
+              url: https://github.com/dhsouthbend/html-css
+            - name: Python
+              url: https://github.com/dhsouthbend/python
+            - name: Git and GitHub
+              url: https://github.com/dhsouthbend/git
+            - name: Mapping using QGIS
+              url: https://github.com/dhsouthbend/mapping
+            - name: The Command Line
+              url: https://github.com/dhsouthbend/command-line
+            - name: Installations
+              url: https://github.com/dhsouthbend/install
+    community-leaders:
+        - danieljohnson
+        - sarahnoonan
+    workshop-instructors:
+        - name: Amy Cavender
+          affiliation: Saint Mary's College
+        - name: Ericka Christie
+          affiliation: Loyola University Chicago
+        - name: Alexis Grant
+          affiliation: University of Illinois Chicago
+        - name: Caroline McCraw
+          affiliation: Loyola University Chicago
+        - name: Rebecca Parker
+          affiliation: Loyola University Chicago
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1933368.9364961102!2d-86.35071101653837!3d41.63742406380847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8816cd576bfc35cd%3A0x5a2be3cb659fd9b7!2sUniversity%20of%20Notre%20Dame!5e0!3m2!1sen!2sus!4v1580921463791!5m2!1sen!2sus
+
+  - short: digital-humanities-afrofuturism-workshop
+    name: Digital Humanities Afrofuturism Workshop
+    state: MS
+    state-full: Mississippi
+    tags:
+        - museums
+        - archives
+    text: "The Digital Humanities Afrofuturism Workshop was designed to provide an intensive, community-oriented, and foundational approach to learning technical skills in service of historically African American institutions and affiliated organizations focused on the care, collection, and preservation of Black culture. Advancing digital learning, alliance-building, and resource sharing through highly interactive discussions with leading Digital Humanities scholars and practitioners in Digital Humanities was at the center of the Institute."
+    youtube:
+        shortcode: KZoAod8QZoQ
+        mins: 8.5
+    transcript: transcripts/Missy
+    institute:
+        from: 2019-08-06
+        to: 2019-08-07
+        cosponsors:
+            - name: Association of African American Museums
+              website:
+        website: https://blackmuseums.org/docs/2019_AAAM_Conf_Program.pdf
+        twitter:
+        lat: -90.2085852
+        lng: 32.2968847
+        workshops:
+            - name: What is a Digital Humanist?
+            - name: An Afro-futurist Viewpoint of Digital Humanities
+            - name: Preparing to Launch Your Digitization Project
+            - name: Technology for Community Impact
+            - name: The Revolution Will Be Digitized
+            - name: Funding Futurism
+            - name: Project Advisement Sessions
+    community-leaders:
+        - missymcgee
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d431624.73435110966!2d-90.47328808556533!3d32.31002043097536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86282b7f90741b21%3A0x713cde441f038a0!2sJackson%2C%20MS!5e0!3m2!1sen!2sus!4v1580921510563!5m2!1sen!2sus
+
+  - short: africana-dhi
+    name: Africana DHi 2019
+    state: AZ
+    state-full: Arizona
+    tags:
+        - public R1
+        - online
+    text: "Africana DHi was offered as a three week online workshop between May and June 2019 in association with the Center for Digital Humanities at the University of Arizona. The Africana DHi centered the question: How do we define and implement digital Africana Studies demonstrative of the unique black context for digital usage? Studies in the digital humanities often assume and/or reinforce certain universal frameworks and biases. However, Black cultural practices demonstrate unique epistemologies regarding the digital. Recently, scholars have written extensively on digital hush harbors, Black Twitter, and hashtag activism like #MuteRKelly, #BlackLivesMatter, #SayHerName. During this Institute, participants explored interdisciplinary, digital humanities research and teaching with DH scholars, developed core computational research skills through online workshops, and began developing their own digital humanities projects. When participants completed the workshop, they were invited to share their reflections in a publication of the Spring 2020 Special Issue of <em>Fire!!!</em>, the peer-reviewed digital journal for the Association for the Study of African American Life and History (ASALH)."
+    youtube:
+        shortcode: pH7A6ZOpGNY
+        mins: 6
+    transcript: transcripts/Erika
+    institute:
+        from: 2019-05-28
+        to: 2019-06-11
+        cosponsors:
+            - name: The Center for Digital Humanities at the University of Arizona
+              website:
+            - name: Africana Studies at the University of Arizona
+              website:
+        website: https://africanadhi.com/
+        twitter:
+        lat: -110.9522981
+        lng: 32.2318851
+    community-leaders:
+        - erikagault
+    google-map:
+
+  - short: digital-humanities-research-institute-university-louisville
+    name: Digital Humanities Research Institute at University of Louisville
+    state: KY
+    state-full: Kentucky
+    tags:
+        - public R1
+    text: "University of Louisville's Digital Humanities Research Institute was offered as a two-day residential workshop in the digital humanities. This event provided a space for a diverse set of scholars interested in the digital humanities to practice core skills in storymapping, GIS, machine learning, and NLTK. No prior knowledge was assumed—the goal was not to master but to experience the tools, and to then participate in inventive and capacious discussions that imagine how such a tool might be put to use in the contexts of research, teaching, and service."
+    youtube:
+        shortcode: 6WIjldptjQY
+        mins: 3
+    transcript: transcripts/Fran
+    institute:
+        from: 2019-05-08
+        to: 2019-05-09
+        cosponsors:
+            - name: Commonwealth Center for the Humanities and Society, University of Louisville
+              website: http://louisville.edu/cchs
+            - name: Department of English, University of Louisville
+              website: http://louisville.edu/english/
+            - name: Department of History, University of Louisville
+              website: https://louisville.edu/history/
+            - name: Department of Comparative Humanities, University of Louisville
+              website: https://louisville.edu/humanities
+        website: http://louisville.edu/digital-humanities/projects/dhri
+        twitter:
+        lat: -85.7613734
+        lng: 38.2281135
+    community-leaders:
+        - francesmcdonald
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d275963.2002244585!2d-85.89211506940275!3d38.21662869245374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88690d66685ec4a5%3A0x36287230b1f98953!2sUniversity%20of%20Louisville!5e0!3m2!1sen!2sus!4v1580921552522!5m2!1sen!2sus
+
+  - short: digital-technologies-conference
+    name: Digital Technologies Conference
+    state: MN
+    state-full: Minnesota
+    tags:
+        - private liberal arts college
+    text: "This Digital Humanities Research Institute was organized as the first ever Digital Technologies in the Humanities and Social Sciences Conference at the College of Saint Benedict and Saint John's University. The objectives of the conference were two-fold: (1) to share with interested faculty, staff, and students valuable resources on digital research and learning from the Digital Humanities Research Institute at The Graduate Center, CUNY in June 2018; (2) to create a space for faculty, staff and students to share their experiences working with digital technologies, as well as share insights on how to apply these technologies to enhance teaching excellence."
+    youtube:
+        shortcode: VhHpN-q29no
+        mins: 9
+    transcript: transcripts/Sophia
+    institute:
+        from: 2019-05-28
+        to: 2019-05-28
+        cosponsors:
+            - name: Clemens and Alcuin Libraries, College of Saint Benedict and Saint John's University
+              website:
+            - name: Instructional Technology, Clemens and Alcuin Libraries, College of Saint Benedict and Saint John's University
+              website:
+            - name: Academic Affairs, Clemens and Alcuin Libraries, College of Saint Benedict and Saint John's University
+              website:
+        website:
+        twitter:
+        lat: -94.3964769
+        lng: 45.5813035
+        workshops:
+            - name: Python
+              url:
+            - name: Open Education Resources
+              url:
+            - name: Digital Publishing
+              url:
+            - name: HMML
+              url:
+            - name: Bright Global Futures
+              url:
+            - name: Podcasts
+              url:
+            - name: Digital Artifacts/Museums
+              url:
+            - name: Advanced Canvas
+              url:
+            - name: Finding, Using, and Citing Images
+              url:
+            - name: Analyzing US Trade Patterns
+              url:
+    community-leaders:
+        - sophiageng
+    google-map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d372871.5254281929!2d-94.5495762518642!3d45.542416822294506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b456c611fc43eb%3A0x8bd1eb72ae741514!2sSaint%20John&#39;s%20University!5e0!3m2!1sen!2sus!4v1580921589779!5m2!1sen!2sus

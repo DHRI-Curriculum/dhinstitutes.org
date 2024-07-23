@@ -1,0 +1,12 @@
+header: "Contact DHRI"
+main-text: '<p class="lead">Below, you will find a way to contact us using our email form, and where we are physically located. You should also follow <a href="https://www.twitter.com/dhinstitutes" class="text-light">our Twitter account</a> where we regularly post updates about the project.</a></p>
+            <p class="text-center"><a href="https://twitter.com/dhinstitutes?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @dhinstitutes</a></p>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>'
+address: "365 Fifth Avenue, New York, NY"
+gc-map: true
+gc-map-header: "Find Us"
+gc-map-text: "<p class=\"lead\">Situated at the heart of Manhattan in New York City, adjacent to the Morgan Library and Museum, and only seven short blocks from the New York Public Library’s Stephen A. Schwarzman Building, The Digital Humanities Research Institute's offices are located at The Graduate Center, CUNY.</p>"
+
+email-form: true
+email-form-header: "Email Us"
+email-form-text: ""

@@ -1,0 +1,378 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+small {
+  font-weight: 300 !important;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Titillium Web', serif;
+  font-weight: 400;
+}
+
+.fw-300 {
+  font-weight: 300 !important;
+}
+
+.nav-link-header {
+  font-weight: 600;
+}
+
+.nav-link.active {
+  background-color: $dark-blue !important;
+  color: #fff !important;
+}
+
+.nav-link:focus, .nav-link.active:focus {
+  color: #fff !important;
+}
+
+a.nav-link.active {
+  color: #fff !important;
+}
+
+
+a.nav-link {
+  color: $dark-blue !important;
+}
+
+a.nav-link:hover {
+  color: #fff !important;
+}
+
+
+.apply-button {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+.apply-button:hover {
+  color: #fff !important;
+}
+
+.no-underline {
+  border: none !important;
+  text-decoration: none !important;
+}
+.no-underline:hover {
+  border: none !important;
+  text-decoration: none !important;
+}
+.no-transition:hover {
+  transition: none !important;
+}
+
+
+
+
+// used for our popup on top, if visitors have
+#ie-warning {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+body {
+  background-color: $dark-blue !important;
+
+  &::before {
+  display: block;
+  content: '';
+  height: 72px; /* or whatever */
+  }
+
+}
+
+.nav-link-header {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+
+
+
+/* logos/footer */
+.logo-row {
+  @extend .py-3;
+}
+
+
+.bg-pattern {
+  background-image: url('/assets/images/bg-pattern.png');
+}
+
+.bg-light-blue {
+  background-color: rgba(168, 192, 236, 0.2);
+}
+
+.jumbotron {
+  background-color: rgba(168, 192, 236, 0.2);
+  background-image: url('/assets/images/bg-pattern.png');
+  padding: 1.5rem 1.5rem;
+  border-radius: 0 !important;
+}
+
+.bg-dark-blue {
+  background-color: rgba(39, 49, 66, 1) !important;
+}
+
+.bg-orange {
+  background-color: #ffc107 !important;
+}
+
+.text-orange {
+  color: #ffc107 !important;
+}//  style="color:#ec9521;"
+
+.bg-special-warning {
+  background-color: rgba(220, 53, 69, 0.3);
+}
+
+.bottom-dashed {
+  border-bottom: 1px dashed rgba(39, 49, 66, 0.7);
+}
+
+.bottom-dashed:hover {
+  text-decoration: none;
+}
+
+
+
+
+.instituteDetails {
+  display: none;
+}
+.instituteTranscript {
+display: none;
+}
+
+
+
+.quote {
+  font-family: Vollkorn, serif !important;
+  font-style: italic !important;
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
+}
+.quote b {
+  font-family: Vollkorn, serif !important;
+  font-weight: 700 !important;
+  font-style: italic !important;
+}
+
+
+
+.jumbotron-background-image {
+  min-height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+}
+
+#jumbotron-apply-2020 {
+  background-image: url('/assets/images/2018-dhri/photo-by-kalle-westerling-jpg/introduction-lisa-m-rhody-2.jpg');
+}
+
+#jumbotron-home {
+  background-image: url('/assets/images/2018-dhri/photo-by-kalle-westerling-jpg/introduction-matthew-k-gold.jpg');
+}
+
+#jumbotron-collaboration {
+  background-image: url('/assets/images/2018-dhri/photo-by-kalle-westerling-jpg/collaboration-2.jpg');
+}
+
+#jumbotron-reports {
+  background-image: url('/assets/images/2018-dhri/photo-by-lisa-m-rhody-jpg/stickers.jpg');
+}
+
+#jumbotron-network {
+  background-image: url('/assets/logos/png/02.png');
+}
+
+#about-bg {
+  background-image: url('/assets/images/2018-dhri/photo-by-kalle-westerling-jpg/intro.jpg');
+}
+
+.flexible-background-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+}
+
+
+
+
+
+
+
+
+#press-release-list li:hover {
+  cursor: pointer;
+}
+
+
+.download-image:hover {
+  box-shadow: 0 0 0.4rem 0.1rem rgba(0, 0, 0, 0.1) !important
+}
+
+
+
+
+
+
+
+
+
+
+// Animate
+// thanks to https://startbootstrap.com/snippets/animated-navbar-dropdown/
+
+.animate {
+  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.3s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform:translateY(0rem);
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+
+
+
+
+
+
+#quoteCaret {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('/assets/images/grey-caret-right.svg');
+  background-position: center;
+  min-height: 400px;
+}
+
+#quoteCaret:hover {
+  cursor: pointer;
+}
+
+.quote-header {
+  @extend .quote;
+  @extend .text-center;
+  @extend .pb-3;
+  // @extend .text-light;
+  color: rgba(0,0,0,0.3) !important;
+  max-width: 200px;
+  font-variant: small-caps;
+  font-size: 1.2rem !important;
+}
+
+
+
+
+
+
+.profile-card {
+  width: 80%;
+  padding-top: 100px;
+  margin: 120px auto 50px;
+  background-color: rgba(39, 49, 66, 0.7);
+  color: white;
+  box-shadow: 0 2px 6px -2px rgba(0, 0, 0, 0.26);
+}
+.profile-pic {
+  /* display: false; */
+  position: absolute;
+  /* margin: false; */
+  top: -90px;
+  left: 50%;
+  /* right: false; */
+  /* bottom: false; */
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 180px;
+  width: 180px;
+  border: 10px solid #fff;
+  border-radius: 100%;
+  background-size: cover !important;
+}
+.profile-name-container {
+  margin: 0 auto 10px;
+  /* padding: 10px; */
+  text-align: center;
+}
+.user-name {
+  font-family: 'Titillium Web', serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  /* margin-bottom: 12px; */
+}
+.profile-desc-container {
+  margin: 0 auto 10px;
+  /* padding: 10px; */
+}
+.user-desc {
+  font-family: 'Titillium Web', serif;
+  font-weight: 400 !important;
+  color: rgba(255, 255, 255, 0.75);
+}
+.user-desc a {
+  font-weight: 400 !important;
+}
+
+.funding-text {
+  font-size: 0.9rem !important;
+  color: #7b8a8b !important;
+}
+
+.dep-banner {
+  background-color: rgb(224, 163, 77) !important;
+}
+
+.dep-banner-text {
+  font-size: 2rem !important;
+  color: #080808 !important;
+}
+
+@media (max-width: 576px) {
+  .funding-text {
+      font-size: 2vh !important;
+  }
+}

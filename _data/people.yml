@@ -1,0 +1,797 @@
+# make sure image-directory ends with trailing slash
+settings:
+  image-directory: /assets/images/people/
+  categories:
+    - title: "Leadership"
+      short: "leadership"
+    - title: "Fellows"
+      short: "fellows"
+    - title: "Faculty"
+      short: "faculty"
+    - title: "Community Leaders"
+      short: "community-leaders"
+    - title: "Alumni Community Leaders"
+      short: "alumni-community-leaders"
+
+leadership:
+  - first-name: Lisa
+    last-name: Rhody
+    short: lisarhody
+    title: Project Director, DHRI and Deputy Director of Digital Initiatives at The Graduate Center (CUNY)
+    twitter: lmrhody
+    github: lmrhody
+    website: lisarhody.com
+    bio: "As Director of Digital Fellowship Programs, she leads 3 cohorts of graduate students: the GC Digital Fellows, Program Social Media Fellows, and Videography Fellows who work to extend and improve the critical use of digital technologies in research and teaching. Lisa is on the faculties of the M.A. in Liberal Studies, M.A. in Digital Humanities, and M.S. in Data Analytics and Visualization programs, and serves as Director of Research Projects for the CUNY Academic Commons, an academic social network designed to support faculty initiatives and build community through the use of technology in teaching and learning. Previously, she was Associate Director of Research Projects at the Roy Rosenzweig Center for History and New Media. Lisa holds a Ph.D in English from the University of Maryland, College Park. Her research, which uses computational methods such as text mining and machine learning to explore 21st century poetry, has appeared in the <em>Journal of Digital Humanities</em>, <em>Debates in the Digital Humanities 2016</em>, and <em>PMLA</em>."
+    img: lisa-rhody.png
+    alumni: false
+
+  - first-name: Matthew K.
+    last-name: Gold
+    short: mattgold
+    title: Associate Professor of English and Digital Humanities and Advisor to the Provost for Digital Initiatives, The Graduate Center (CUNY)
+    twitter: mkgold
+    github: mkgold
+    website: mkgold.net
+    bio: "Matthew K. Gold holds teaching appointments in the Ph.D. Program in English, the M.A. Program in Liberal Studies, and the doctoral certificate programs in Interactive Technology and Pedagogy and American Studies. He serves as Advisor to the Provost for Digital Initiatives, Director of the CUNY Academic Commons, Director of the GC Digital Scholarship Lab, and Director of the M.A. Program in Digital Humanities and the M.S. Program in Data Analysis and Visualization. He edited <em>Debates in the Digital Humanities</em> (Minnesota, 2012) and, with Lauren F. Klein (with whom he is co-editor of the <em>Debates in the Digital Humanities</em> book series), recently co-edited <em>Debates in the Digital Humanities</em> 2016 (Minnesota). His collaborative digital humanities projects include Manifold Scholarship (with Doug Armato), Looking for Whitman, Commons In A Box, Social Paper (with Erin Glass), and DH Box (with Stephen Zweibel). He is Vice President/President-Elect of the Association for Computers and the Humanities."
+    img: matt-gold.png
+    alumni: false
+
+  - first-name: Stephen
+    last-name: Zweibel
+    short: stevezweibel
+    title: Digital Scholarship Librarian, The Graduate Center (CUNY)
+    twitter: SteveZweibel
+    github: szweibel
+    website: zweibel.net
+    bio: "Stephen Zweibel supports digital project creation by GC researchers across the disciplines, helps preserve those projects, and supports faculty and students with their data-based research and data management needs. He also coordinates the library’s growing series of workshops on research skills and tools. Steve earned his master’s degree in library and information science from Long Island University in 2010, and received a master’s degree in the Digital Humanities track of the GC’s MALS program. As a MALS student, he built DH Box, a cloud-based computer lab for digital humanities research (including the tools Omeka, NLTK, IPython, R Studio, and Mallet). DH Box won a National Endowment for the Humanities Start-Up grant. Before coming to the Graduate Center, Steve was a visiting lecturer at Hunter College, where he built several useful library tools, including Augur, a web application to track reference question data; a mobile app for the CUNY library catalog; and Know Thy Shelf, a radio frequency identification (RFID)-based library inventory system."
+    img: stephen-zweibel.png
+    alumni: false
+
+  - first-name: Kalle
+    last-name: Westerling
+    short: kallewesterling
+    title: Former Project Coordinator, DHRI and Ph.D. Candidate, Theatre and Performance, The Graduate Center (CUNY)
+    twitter: kallewesterling
+    github: kallewesterling
+    website: westerling.nu
+    bio: "Kalle Westerling is completing a dissertation on the history and aesthetics of male-identified dancers in 20th-century burlesque and 21st-century boylesque. He is also an Instructional Technology Fellow at Macaulay Honors College and Queens College, where he assists faculty and students to link technology and learning in a technology-across-the-curriculum initiative."
+    img: kalle-westerling.png
+    alumni: false
+
+fellows:
+  - first-name: Filipa
+    last-name: Calado
+    short: filipacalado
+    title: DHRI Program Coordinator and Ph.D. Candidate, English (CUNY)
+    twitter: caladoscope
+    github: gofilipa
+    website: filipacalado.com
+    bio: "Filipa Calado is a Ph.D. candidate in the English program at the Graduate Center. Her research explores the interface between digital media and queer studies. Her dissertation, 'Queer Tools,' takes a critical look at digital tools like text analysis, text encoding, and digital archiving to see how they work in unexpected ways to study queer literature. As a Digital Fellow, she teaches workshops on Intro to DH Tools, Text Encoding with TEI, Digital Annotation, Introduction to Python, and Web Scraping. As an undergraduate instructor, she has taught English and Latinx Literature at Hunter College and now teaches Writing and Critical Thinking courses at NYU."
+    img: filipa-calado.jpg
+    alumni: true
+
+  - first-name: Olivia
+    last-name: Ildefonso
+    short: oliviaildefonso
+    title: Digital Fellow and Ph.D. Student, Earth and Environmental Sciences, The Graduate Center (CUNY)
+    twitter: oildefon
+    github: oildefon
+    website: cuny.is/oildefon
+    bio: "Olivia Ildefonso is a Ph.D. Student in Earth and Environmental Sciences with a specialization in Human Geography at the Graduate Center (CUNY). She studies the political economy of school segregation. Her research focuses on Long Island, New York. Olivia is a Long Island native and has worked as a racial justice activist on Long Island for the past ten years. She has worked for civil rights organization, ERASE Racism since 2010 and she has served on the board of directors for STRONG Youth since 2013. Olivia is currently a GC Digital Fellow. She specializes in GIS Mapping, website management, and multi-media storytelling. Before becoming a GC Digital Fellow, Olivia was an Adjunct Lecturer at Queens College and a Writing Across the Curriculum (WAC) fellow at John Jay College."
+    img: olivia-ildefonso.jpg
+    alumni: true
+
+  - first-name: Stefano
+    last-name: Morello
+    short: stefanomorello
+    title: Digital Fellow and Ph.D. Candidate, English (CUNY)
+    twitter: steomor
+    github: smorello87
+    website: stefanomorello.com
+    bio: "Stefano Morello is a Ph.D. candidate in English. He holds an M.A. in American Literature from the University of Naples \"L'Orientale” and an M.A. in American Studies from the University of Torino.  His academic interests include American Studies, pop culture, poetics, queer theory, and transnational screen cultures. Oh, and punk-rock."
+    img: stefano-morello.jpg
+    alumni: true
+
+  - first-name: Rafael
+    last-name: Davis Portela
+    short: rafadavisportela
+    title: Digital Fellow and Ph.D. Student, History, The Graduate Center (CUNY)
+    twitter: davis_portela
+    github: rafadavis
+    website: cuny.is/rdp01
+    bio: "Rafael Davis Portela is a Ph.D. student in the History department, where he researches the role of transnational capital in the urban development in Latin America. He is also a member of the Center for Latin American, Caribbean and Latino Studies–CLACLS, and Adjunct Professor at the John Jay College of Criminal Justice, where he teaches courses on Latin American History. He is also into digital tools, and interested in anything related to teaching."
+    img: rafael-davis-portela.jpg
+    alumni: true
+
+  - first-name: Di
+    last-name: Yoong
+    short: diyoong
+    title: Digital Fellow and Ph.D. Candidate, Critical Social/Personality Psychology, The Graduate Center (CUNY)
+    github: dyoong
+    website: diyoong.info
+    bio: "Di is currently a PhD candidate in Critical Social/Personality Psychology at CUNY, The Graduate Center (GC). They are also a GC Digital Initiatives Digital Fellow. Broadly, their work is on understanding the relationality between systems of oppression and the individual. They are interested in identities as discourses, and the ties between transnationalism and diasporas. Currently, they are working on several projects that is exploring identities as discourses, including in alt-right spaces, K-pop/Hallyu, and the experiences of queer and trans Asian (American) in the US. As a GC Digital Initiatives Digital Fellow, they are also interested in understanding what ethics is within computational social science, digital humanities, and public humanities projects. They are also invested in bridging the gaps of technology literacy, especially within underserved communities."
+    img: di-yoong.jpg
+    alumni: true
+
+  - first-name: Yuxiao
+    last-name: Luo
+    short: yuxiaoluo
+    title: Digital Fellow and Ph.D. Candidate,Business (Information Systems), The Graduate Center (CUNY)
+    github: YuxiaoLuo
+    website: yuxiaoluo.github.io/
+    bio: "Yuxiao Luo is a Ph.D. candidate in Business (Information Systems). He studies the dark side of artificial intelligence and its impact on the consumers in e-commerce. He has aslo done some research in the application of machine learning in portfolio management. As a GC Digital Fellow, Yuxiao teaches workshops in the R programming language and its application in predictive modeling. He is also interested in topic modeling and data mining with R. As an undergraduate instructor, he teaches Intro to Stats and Intro to Information Systems at Baruch College, CUNY."
+    img: yuxiao-luo.jpg
+    alumni: true
+
+  - first-name: Connor
+    last-name: French
+    short: connorfrench
+    title: Digital Fellow and Ph.D. Candidate, Biology, The Graduate Center (CUNY)
+    website: connor-french.com
+    github: connor-french
+    twitter: frog_phylo
+    bio: "Connor French is a Ph.D. candidate in the Biology department. He studies the impact of historical climate change on the spatial distribution of animals, with a focus on reptiles and amphibians in the Brazilian Atlantic Forest. As a GC Digital Fellow, Connor specialized in proselytizing the R programming language, especially in contexts outside of his narrow academic field."
+    img: connor-french.jpeg
+    alumni: true
+
+  - first-name: Param
+    last-name: Ajmera
+    short: paramajmera
+    title: Digital Fellow and Ph.D. Candidate, English, The Graduate Center (CUNY)
+    website: paramajmera.org
+    github: paramajmera
+    twitter: ParamAjmera
+    bio: "Param Ajmera is an English PhD candidate and Digital Fellow at the CUNY Graduate Center. He received his BA in English Literature and Economics from Denison University, and his MA in English as well as a Graduate Certificate in Digital Humanities from Northeastern University. His research interests include Race and Ethnicity Studies, American Studies, and Digital Humanities. Param’s dissertation project is an archival study of the early history of Indian international students in the United States. His research theorizes the experiences of these students to discuss ways of building transnational solidarities against colonialism, racism, and patriarchy. Alongside his dissertation, Param is also developing a website titled Indian Students Abroad that exhibits his archival findings. Param has previously worked on the Women Writers Project, the CERES Exhibit Toolkit, and the Graduate Center Digital Research Institute. He currently serves on the Editorial Collective of The Journal of Interactive Technology and Pedagogy."
+    img: param-ajmera.jpg
+    alumni: true
+
+  - first-name: Jojo
+    last-name: Karlin
+    short: jojokarlin
+    title: Digital Fellow and Ph.D. Candidate, English, The Graduate Center (CUNY)
+    twitter: jojokarlin
+    github: jojokarlin
+    website: jojokarlin.com
+    bio: "Jojo Karlin researches transmissions of memory after periods of rapid technological transformation. Coming from a theater background, Jojo loves the intersection of disciplines, multiple media, and diverse expertises she finds in Digital Humanities. For her first big DH project, she did outreach for TANDEM, a web tool that gathers text and image data, and she now proudly coordinates outreach for DH Box, the GC's NEH-funded DH cloud laboratory. She is a freelance editor for the Tow Center for Digital Journalism at Columbia, and is developing a digital interface for a collection of historical letters. Jojo is deeply interested in digital editions preserving past materiality while exploring new materials."
+    img: jojo-karlin.jpg
+    alumni: true
+
+  - first-name: Patrick
+    last-name: Smyth
+    short: psm
+    title: Research Computing Coordinator, Columbia University and Ph.D. Candidate, English as well as former Digital Fellow, The Graduate Center (CUNY)
+    twitter: psmyth01
+    github: smythp
+    bio: "Patrick Smyth's research focuses on Utopian thought and the history of science in 18th and 19th century British literature. As a digital humanist, Patrick is concerned with digital platforms for research and pedagogy. He is currently a developer on the NEH-funded DH Box, a cloud-based platform for accessing digital humanities tools, and has received a Provost's Digital Innovation grant for an online archive of science fiction works. His most recent publication is “Ebooks and the Digital Paratext: Emerging Trends in the Interpretation of Digital Media” in Examining Paratextual Theory and Its Applications in Digital Culture. Patrick was a 2010 Fulbright Teaching Fellow in Berlin, Germany, and teaches composition and literature at Queens College."
+    img: patrick-smyth.jpg
+    alumni: true
+
+  - first-name: Javier
+    last-name: Otero Peña
+    short: javioteropena
+    title: Digital Fellow and Ph.D. Candidate, Environmental Psychology, The Graduate Center (CUNY)
+    twitter: javo01
+    github: javo0101
+    bio: "Javier Otero Peña is a GC Digital Fellow since 2016 and a member of the Public Space Research Group, and currently works as a research assistant for the PARCS study in the CUNY School for Public Health. His dissertation will study the contextual impacts of park renovations in New York City, and will involve a map analysis using GIS technologies, a mini-ethnography using Qualitative Data Analysis (QDA) software, and natural language analysis of social media posts. Javier’s field research paper studied the politicization of public spaces through a participatory mural in East Harlem. In 2016, he took part in the CUNY-Humboldt University Summer School in Berlin, and in 2017 he participated in the Digital Humanities Research Institute in Victoria University, Canada. He also received the 2017 Provost’s Digital Innovation Grant. Javier holds a Master in Environmental Policies and Sustainable Development, and taught a class on Sustainable Development in Latin America and the Caribbean at the Paris Catholic University. He also studied Urban Planning and Management at UCV, and Sustainable Urban Mobility in Developing Countries (UNITAR). Javier worked as a consultant for the United Nations Environment Programme for three years."
+    img: javier-otero-pena.png
+    alumni: true
+
+  - first-name: Kristen
+    last-name: Hackett
+    short: kristenhackett
+    title: Digital Fellow and Ph.D. Candidate, Environmental Psychology, The Graduate Center (CUNY)
+    twitter: ka_hackett
+    github: hackettka
+    website: kristenhackett.org
+    bio: "Kristen Hackett is a scholar, activist and educator living and working in New York City. She is a Ph.D. Candidate in Environmental Psychology Program at the Graduate Center of the City of New York, a Digital Fellow with the GC Digital Scholarship Lab, a Digital Pedagogy Fellow with the OpenLab at City Tech, a Coordinator of OpenCUNY, and a member of the Executive Committee of the Justice For All Coalition. Her research interests are in housing and community development in NYC, political and social responses to increasing insecurity and precarity and how art and technology can be used in consciousness-raising and resistance efforts and to advocate for community/human-centered policy development. For her dissertation, Kristen is exploring these themes through the lens a proposed rezoning in Long Island City, NY."
+    img: kristen-hackett.png
+    alumni: true
+
+  - first-name: Tom
+    last-name: Ribitzky
+    short: tomribitzky
+    title: Coordinator, Graduate Center Digital Initiatives
+    github: tomribitzky
+    website: cuny.is/tribitzky
+    bio: 
+    img: tom-ribitzky.jpg
+    alumni: true
+
+  - first-name: Patrick
+    last-name: Sweeney
+    short: patricksweeney
+    bio: Patrick Sweeney was a Ph.D. Candidate in Psychology and a Digital Fellow at the Graduate Center, CUNY, while working on the DHRI team. His dissertation traces the historical development of methods for quantifying human experience in psychology, business, and politics; and shows how their entwined histories animate current controversies surrounding the use of personal digital data in research, propaganda, and marketing. He has published on topics including the ethics of social media data in psychological research, media representations of social identities and urban change after trauma, and the theory and praxis of ethics and methods pedagogy. His work as a GC Digital Fellow has focused on workshop development, ethics in digital research, and supporting social media and web tools. He has previously taught at Hunter College, CUNY, and served as a Writing Across the Curriculum fellow at Kingsborough Community College, CUNY.
+    github: pswee001
+    twitter: pswee
+    title: Former Digital Fellow and Ph.D. Candidate, Psychology, The Graduate Center (CUNY)
+    img: patrick-sweeney.png
+    alumni: true
+
+  - first-name: Rachel
+    last-name: Rakov
+    short: rachelrakov
+    title: Former Digital Fellow and Ph.D. in Linguistics
+    bio: Rachel Rakov was a doctoral student in the Linguistics Department, with a focus in Computational Linguistics, when she worked on the DHRI team. Her dissertation research is on using prosody modeling to train computational models that can distinguishing between native and non-native English questions. She has also worked on building tools for automatic language identification, and tools for automatic detection of sarcastic speech. She has presented her research at Interspeech and ASRU. In addition, Rachel has helped develop and teach courses in Python programming and Natural Language Processing for the Computational Linguistics M.A. program at The Graduate Center. She was also a consultant on O\'Reilly book <em>Introduction to Machine Learning</em>, where she provided input on how to make the content of the book more accessible to readers without a math or CS background. Rachel has been an intern with the Speech-Language Technology team at Interactions, and taught at Hunter College.
+    github: rachelrakov
+    twitter: rachelrakov
+    img: rachel-rakov.png
+    alumni: true
+
+  - first-name: Hannah
+    last-name: Aizenman
+    short: hannahaizenman
+    title: Digital Fellow and Ph.D. Candidate, Computer Science, The Graduate Center (CUNY)
+    bio: "Hannah Aizenman was a doctoral student in Computer Science and a Digital Fellow at the Graduate Center, CUNY, while working on the DHRI team. Her research is in using machine learning to make sense of and visualize multivariate spatio-temporal, mostly climate, datasets and the algorithms run on them. At the City College of New York, she taught multiple variants of introduction to programming a and piloted peer led team learning for the Computer Science department. She also teaches data science using Python and mentors high school stunds for the CREST HIRES earth science and remote sensing REU at CCNY. She is an organizer of the New York City Linux User's Group, is on the planning committee for the American Meteorology Society's Python Symposium, and a core contributor to the matplotlib Python visualization library."
+    github: story645
+    twitter: story645
+    img: hannah-aizenman.png
+    alumni: true
+
+  - first-name: Kelsey
+    last-name: Chatlosh
+    short: kelseychatlosh
+    title: Digital Fellow and Ph.D. Candidate, Anthropology, The Graduate Center (CUNY)
+    bio: "Kelsey Chatlosh is a cultural anthropology Ph.D. student and Digital Fellow at the Graduate Center of the City University of New York (CUNY). Her future dissertation research focuses on Afro-Chilean activism for state recognition, territory and alternative discourses of memory and history, and how they are contesting dominant narratives of Chilean history and nationhood. Her work as a Digital Fellow is focused on digital tools and platforms for qualitative research and oral interviews, with an emphasis on ethics, political economy and decolonizing and feminist methods."
+    img: kelsey-chatlosh.jpg
+    alumni: true
+
+faculty:
+  - first-name: Luke
+    last-name: Waltzer
+    short: lukewaltzer
+    title: Director, Teaching and Learning Center, The Graduate Center (CUNY)
+    twitter: lwaltzer
+    website: lukewaltzer.com
+    bio: "Luke Waltzer is the Director of the Teaching and Learning Center at the CUNY Graduate Center, where he supports GC students in their teaching across the CUNY system and beyond, and works on a variety of pedagogy and digital projects. He previously was the director for the Center for Teaching and Learning at Baruch College. He holds a Ph.D. in History from the CUNY Graduate Center, serves as a Community Advisor to the CUNY Academic Commons and on the editorial collective of the Journal of Interactive Technology and Pedagogy, and has contributed essays to Matthew K. Gold's <em>Debates in the Digital Humanities</em> and, with Thomas Harbison, to Jack Dougherty and Kristen Nawrotzki's <em>Writing History in the Digital Age</em>."
+    img: luke-waltzer.jpg
+    alumni: false
+
+  - first-name: Katina
+    last-name: Rogers
+    short: katinarogers
+    title: Director, Programs and Administration, The Futures Initiative, The Graduate Center (CUNY)
+    bio: "Katina Rogers is the Director of Administration and Programs of the Futures Initiative and HASTAC at the Graduate Center, City University of New York. Rogers' work focuses on many aspects of higher education reform, including scholarly communication practices, professionalization and career development, public scholarship, and advocacy for fair labor policies. She previously worked with the Modern Language Association as managing editor of MLA Commons, the MLA’s online platform for collaboration, discussion, and new modes of scholarly publishing. Her study on perceptions of career preparedness, which she conducted as senior research specialist for the Scholarly Communication Institute, provided valuable data on the skillsets and career paths of humanities graduate students. While at SCI, she contributed to the development of the Praxis Network, a multi-institutional and international effort geared toward sharing model programs and experiments in humanities methodological training. Katina is the editor of #Alt-Academy, a digital publication dedicated to exploring the career paths of humanities scholars in and around the academy. She holds a Ph.D. in Comparative Literature from the University of Colorado at Boulder."
+    twitter: katinalynn
+    website: katinarogers.com
+    img: katina-rogers.jpg
+    alumni: false
+
+  - first-name: Jill
+    last-name: Cirasella
+    short: jillcirasella
+    title: Associate Librarian for Public Services and Scholarly Communication at The Graduate Center, CUNY
+    twitter: jillasella
+    website: cuny.is/cirasella
+    bio: "Jill Cirasella is Associate Professor and Associate Librarian for Public Services and Scholarly Communication at the Graduate Center of the City University of New York. In this position, she oversees reference, instruction, outreach, circulation, interlibrary loan, thesis/dissertation services, and scholarly communication initiatives. A vocal advocate of open access (OA), Jill spurred the creation of the CUNY Academic Works repository, and she continues to promote understanding of OA at CUNY and beyond. Her research also centers on OA, including the anxieties surrounding OA dissertations, and she serves on the boards of three OA journals, including the <em>Journal of Librarianship and Scholarly Communication</em>."
+    img: jill-cirasella.png
+    alumni: false
+
+  - first-name: Nicky
+    last-name: Agate
+    short: nickyagate
+    title: Assistant Director of Scholarly Communication and Projects, Columbia University Libraries
+    bio: 'Nicky Agate is the assistant director of scholarly communication and projects at Columbia University, where she leads a team that works on digital humanities initiatives, digital publishing, and the institutional repository. Until February of this year, she was head of digital initiatives at the MLA, where she was responsible for <em>Humanities Commons</em> (hcommons.org)</a>, <em>MLA Commons</em> (mla.hcommons.org), and <em>CORE</em> (hcommons.org/core). She is a co-PI on the <em>HuMetricsHSS</em> initiative (medium.com/tag/humetrics), which seeks to establish a framework for values-based assessment and evaluation in the humanities and social sciences and a founding editor of <em>The Idealis</em>, an overlay journal that promotes quality open-access scholarship about scholarly communications issues (theidealis.org). She serves on the research committee of the Library Publishing Coalition and the editorial board of the <em>Journal of Librarianship and Scholarly Communication</em> (jlsc-pub.org). Nicky holds a Ph.D. in French Literature from NYU and an M.F.A. in Literary Translation from the University of Iowa.'
+    img: nicky-agate.png
+    alumni: true
+
+  - first-name: Patricia
+    last-name: Hswe
+    short: patriciahswe
+    title: Program Officer, Andrew W. Mellon Foundation
+    bio: "Patricia Hswe is the program officer for Scholarly Communications at the Foundation, which she joined in August 2016. In this role she works on a range of grants and initiatives supporting libraries, archives, museums, universities, presses, and other institutions that further the world's collective knowledge of the humanities. Previously, Patricia was digital content strategist and co-department head of Publishing and Curation Services at the Penn State University Libraries and, at the University of Illinois at Urbana-Champaign, program manager for several digital preservation projects funded by the Library of Congress. Originally a Russian literature scholar, she holds a Ph.D. from Yale University in Slavic languages and literatures. She also received an A.B. in Russian language and literature from Mount Holyoke College and an M.S. in library and information science from the University of Illinois. Patricia is currently a member of the Executive Council of the Association for Computers and the Humanities."
+    img: patricia-hswe.png
+    alumni: true
+
+  - first-name: Kelly
+    last-name: Baker Josephs
+    short: kellyjosephs
+    title: Associate Professor of English at York College, CUNY
+    bio: "Kelly Baker Josephs is Associate Professor of English at York College, City University of New York. She specializes in Caribbean literature, with forays into the digital humanities and women's studies. Her book, Disturbers of the Peace: Representations of Insanity in Anglophone Caribbean Literature (University of Virginia Press, 2013), considers the ubiquity of madmen and madwomen in Caribbean literature between 1959 and 1980. She is the editor of <em>sx salon: a small axe</em> literary platform (smallaxe.net/sxsalon), manages <em>The Caribbean Commons</em> website (caribbean.commons.gc.cuny.edu), and co-organizes the annual Caribbean Digital conference (caribbeandigitalnyc.net). Her current book project, <em>Caribbean Articulations: Storytelling in a Digital Age</em>, explores the intersections between new technologies and Caribbean cultural production."
+    img: kelly-josephs.png
+    alumni: true
+
+  - first-name: Shana
+    last-name: Kimball
+    short: shanakimball
+    title: Managing Director of Research, Data & Society
+    bio: 'Shana brings ten years of experience working in higher ed / research settings as an academic publisher, project and people manager, strategist, communicator, and public speaker on open access, alternative academic careers, and more. Most recently, at NYPL Labs, she led the development of a new initiative to engage technologists, scholars, and other digital practitioners in new uses of the Library’s digital collections and data sources, and to host conversations and incubate experimental projects that explore the future of public knowledge.'
+    img: shana-kimball.png
+    alumni: true
+
+  - first-name: Michelle
+    last-name: McSweeney
+    short: michellemcsweeney
+    title: Postdoctoral Fellow at Columbia University’s Center for Spatial Research
+    bio: 'Michelle A. McSweeney is a Research Scholar in the Center for Spatial Research at Columbia University. She is the author of <em>The Pragmatics of Texting: Making Meaning in Messages</em> (Routledge 2018), and co-host of the podcast Subtext (subtextpod.github.io). Her research focuses on digital writing in romantic relationships, particularly how we establish intimacy and trust through text messaging. She uses Natural Language Processing and Machine Learning techniques to identify key features that distinguish romantic from platonic conversations. Recently, she has expanded her research to investigate how politically polarized media outlets discuss politically charged topics such as gun control and immigration, and the linguistic strategies they use to build trust with their audiences. She received her Ph.D. in Linguistics and a certificate in Interactive Technology and Pedagogy from the Graduate Center of the City University of New York in 2016.'
+    img: michelle-mcsweeney.png
+    alumni: true
+
+  - first-name: Julia
+    last-name: Miele Rodas
+    short: juliarodas
+    title: Professor of English at Bronx Community College, CUNY
+    bio: 'Julia Miele Rodas is Professor of English, teaching writing, literature, and disability studies at Bronx Community College. She holds a Ph.D. in English from the CUNY Graduate Center. A disability studies scholar and Victorianist, Julia is co-editor of a collection on disability in Jane Eyre (<em>The Madwoman and the Blindman</em>, The Ohio State University Press, 2012) and co-edit​​or of the <em>Literary Disability Studies</em> book series for Palgrave Macmillan. Her writing has appeared in numerous books and journals, including <em>Victorian Literature &amp; Culture</em>, <em>Dickens Studies Annual</em>, the <em>Victorian Review</em>, the <em>Journal of Literary &amp; Cultural Disability Studies</em>, <em>Disability Studies Quarterly</em>. Her monograph, <em>Autistic Disturbances</em>, is forthcoming from University of Michigan Press.'
+    img: julia-rodas.png
+    website: juliamielerodas.com
+    alumni: true
+
+community-leaders:
+  - first-name: Tatiana
+    last-name: Bryant
+    short: tatianabryant
+    title: Research Librarian for Digital Humanities, History, and African American Studies, UC Irvine
+    bio: "Tatiana Bryant is the Research Librarian for digital humanities, History, and African American Studies within UC Irvine Libraries Digital Scholarship Services department. At UC Irvine she co-leads the Digital Humanities Exchange, which organizes dh programs, trainings, and skill shares for campus community building. She holds an MPA in Public and Nonprofit Policy from New York University, an MS in Information and Library Science from Pratt Institute, and a BA in History from Hampton University. She has taught Black digital humanities, Global Studies, and information literacy courses at the undergraduate level."
+    img: tatiana-bryant.jpg
+    website: 
+    alumni: false
+    institute-short:
+
+  - first-name: Hilary
+    last-name: Huskey
+    short: hilaryhuskey
+    title: Lecturer, North Carolina Central University
+    bio: "Hilary N. Huskey is a Lecturer of Art at North Carolina Central University (NCCU) in Durham, North Carolina, and a former Lecturer of Animation and Game Design at The Art Institute.  She has been teaching undergraduate students in animation, game design, and graphic design for six years.  Along with her teaching duties at NCCU, Huskey has been a co-writer on an upcoming Animation and Game Design concentration.  She leads numerous workshops on campus to help teach a variety of software packages to students.  Huskey frequently collaborates with coworkers to bring shows and events to the local Durham community.  She holds an MFA in Interactive Design and Game Development from Savannah College of Art and Design.  Her thesis explored backstory in game design and how to develop quest models using curiosity to increase player information retention.  Huskey double majored in undergrad, receiving a BA in both Art and Political Science from Duke University in Durham, North Carolina.  Her passion is in education and developing better modalities for delivering information using interactivity."
+    img: hilary-huskey.png
+    website: hilarynicolehuskey.com/
+    alumni: false
+    institute-short: 
+
+  - first-name: Dieyun
+    last-name: Song
+    short: dieyunsong
+    title: PhD Candidate, History, University of Miami 
+    bio: "Dieyun Song is a PhD Candidate in History researches U.S.-Latin American relations and development during the Cold War at the University of Miami (UM). Her dissertation is tentatively titled The Power of Philanthropy: Development, Empire, and Non-State Actors in Cold War Colombia, 1961-1973. It Highlights the Colombian engagements and influence in foreign foundations’ and governments’ interventions in education, mass media, and public health that redirected the trajectories of social and political development. Dieyun is interested in employing interdisciplinary approaches in her research, including oral history, sound studies, and digital humanities. "
+    img: dieyun-song.jpg
+    website: 
+    alumni: false
+    institute-short:
+    
+  - first-name: Lenora
+    last-name: Helm Hammonds
+    short: lenorahelmhammonds
+    title: Associate Professor, Department of Music and Jazz Studies Program, North Carolina Central University 
+    bio: "Chicago IL native, Former U.S. Jazz Ambassador and Fulbright Senior Music Specialist, Lenora Helm Hammonds is a tenured, Associate Professor in the Department of Music and Jazz Studies Program at North Carolina Central University (NCCU).  She teaches undergraduate and graduate courses in vocal jazz performance, ear training and songwriting, directs the NCCU Vocal Jazz Ensemble (12 voices and rhythm section) and has authored a number of academic and student initiatives, including the planning, design and coordination of an NEA-sponsored Teaching Artist Certificate program. Her current digital humanities project is a website in development, GreatArtistsPastandPresent.org. The project is focused on creating a digital library of curated media and research materials on well-known musicians, visual artists, and dancers/choreographers (particularly those with ties to North Carolina), out of which teaching artists could build their own programs and curricula"
+    img: lenora-helm-hammonds.jpg
+    website: LenoraHelm.com
+    alumni: false
+    institute-short:    
+  
+  - first-name: Hillary
+    last-name: Richardson
+    short: hillaryrichardson
+    title: Associate Professor and Coordinator of Undergraduate Research and Information Literacy, Mississippi University for Women
+    bio: "Hillary is an Associate Professor and Coordinator of Undergraduate Research and Information Literacy at the Mississippi University for Women in Columbus, MS. She is has published on information literacy and digital pedagogy, the research practices of humanities scholars, and the intersections of writing and information literacy. She has also worked on 'A Shaky Truce,' a digital public history project detailing the civil rights movement in Starkville, MS, and is currently working on a digital project involving women's letters in 20th century Mississippi."
+    img: hillary-richardson.jpg
+    website: hillaryahrichardson.com/
+    alumni: false
+    institute-short:
+
+  - first-name: Regina
+    last-name: Martin
+    short: reginamartin
+    title: Associate Professor, English and Global Commerce, Denison University
+    bio: "Regina Martin is an associate professor of English and Global Commerce at Denison. Her research interests are British literature 1850-present, Caribbean literature, modernism, economic history and theory, critical theory, and digital humanities. Her book manuscript is entitled 'Finance Capital and Modernism, 1870-1940.' She is a member of a team of faculty, librarians, and educational technologists at Denison who are building a DH minor. "
+    img: regina-martin.png
+    website: 
+    alumni: false
+    institute-short: 
+
+  - first-name: Sydney
+    last-name: Odoi
+    short: sydneyodoi
+    title: Lecturer, Prairie View A&M University
+    bio: "Sydney Odoi is a lecturer at Prairie View A&M University. Sydney has been teaching Spanish for 10 years."
+    img: sydney-odoi.jpg
+    website: 
+    alumni: false
+    institute-short:
+    
+  - first-name: Corey
+    last-name: Clawson
+    short: coreyclawson
+    title: PhD Student, American Studies, Rutgers University, Newark
+    bio: "Corey is an administrative professional at RU-N where he is also a pursuing a PhD in American Studies.  He has lived several lives in higher education: helping undergraduates connect with research opportunities, teaching world literature courses on the short story and exile, planning events, and a range of research projects on a range of topics from fugitive polygamist narratives to the poetry of Gabriela Mistral and Elizabeth Bishop. His primary research project Archivepelago (https://archivepelago.org/) uses archival finding aids to visualize queer networks of influence in the 19th and 20th centuries by mapping the translations, correspondence, and collaborations between gay and lesbian writers and artists."
+    img: corey-clawson.jpg
+    website: coreyclawson.com/
+    alumni: false
+    institute-short:    
+  
+  - first-name: Elaine
+    last-name: Walker
+    short: elainewalker
+    title: Graduate Studies Librarian, Mississippi University for Women
+    bio: "I am the Graduate Studies Librarian at Mississippi University for Women. I teach multidisciplinary library instruction sessions, host workshops for citation management, Graduate School 101, and WordPress, and manage our institutional repository, Athena Commons. I work closely with our university archivist on digitization projects and building collections for the IR. "
+    img: elaine-walker.jpg
+    website: 
+    alumni: false
+    institute-short:
+
+  - first-name: Sumor
+    last-name: Sheppard
+    short: sumorsheppard
+    title: Foreign Language Program Coordinator, Prairie View A&M University 
+    bio: "Dr. S. Ziva Sheppard, Assistant Professor of Spanish and the Foreign Language Program Coordinator. I have interests in OER, decreasing minority and diaspora invisibility in the FL classroom."
+    img: placeholder.png
+    website: 
+    alumni: false
+    institute-short: 
+
+  - first-name: Joel
+    last-name: Overall
+    short: joeloverall
+    title: Associate Professor, English, Belmont University
+    bio: "Joel Overall (B.S. Abilene Christian University, M.A. Abilene Christian University, Ph.D. Texas Christian University) is Associate Professor of English specializing in digital writing, rhetoric, and design. He is particularly captivated by the intersection between music and persuasion through the fields of Sonic Rhetoric and Kenneth Burke studies. As an undergrad, he majored in Music, Journalism, and Marketing, but his interests in writing propelled him into graduate work in Composition and Rhetoric. These diverse subjects continue to inform his teaching and scholarship. At Belmont, he has taught courses in writing, the history of rhetoric, the art of the essay, and digital literacies while co-leading study abroad trips to Italy and Japan."
+    img: joel-overall.jpg
+    website: joeloverall.com
+    alumni: false
+    institute-short:
+    
+  - first-name: Sarah
+    last-name: Koenig
+    short: sarahkoenig
+    title: Assistant Professor, History, Ramapo College of New Jersey
+    bio: "Sarah E. Koenig is Assistant Professor of History at Ramapo College of New Jersey. She is the chair of the Digital Humanities Committee for the School of Humanities and Global Studies and also serves on the advisory board for Ramapo’s Faculty Resource Center, which supports faculty pedagogical innovation. Her research and teaching explore the intersections of religion, history, race, and memory in the American West. In April 2020, Koenig collaborated with other Ramapo history faculty to create “The Human Side of a Pandemic,” an Omeka collection of student-created oral histories of the Covid-19 pandemic. She is currently working to digitize the photographs and research of historian Penny Colman to form the basis of a new Omeka collection, “Memorializing Women,” documenting the images, histories, and present-day statuses of monuments to women in the United States. She has an M.A.R. in Liturgical Studies from Yale Divinity School/The Yale Institute of Sacred Music and a joint Ph.D. in History and Religious Studies from Yale University. She is the author of Providence and the Invention of American History (Yale University Press, 2021)."
+    img: sarah-koenig.jpg
+    website: 
+    alumni: false
+    institute-short:    
+  
+  - first-name: Krista
+    last-name: White
+    short: kristawhite
+    title: Digital Scholarship and Pedagogies Librarian, John Cotton Dana Library, Rutgers-Newark
+    bio: "Krista White is the Digital Scholarship and Pedagogies Librarian at the John Cotton Dana Library on the Rutgers-Newark campus. Her interests include art history, Haitian culture, art, and religion, Pennsylvania Dutch Powwow and the quilting arts. She received her MLIS from Rutgers University's School of Communication and Information in 2008 with a concentration on digital libraries. She earned her Master of Philosophy in the Anthropology of Religion from Drew University in 2006 and her Master of Arts in Art History in 1996 from the University of Colorado at Boulder. As the Digital Scholarship and Pedagogies Librarian at the Dana Library, Ms. White consults in the area of the use of technology in pedagogy, participates in digital library projects with RUN faculty, and provides research assistance to scholars in anthropology, visual arts, art history, philosophy, religion, theater, computer science, and digital humanities."
+    img: krista-white.jpg
+    website: libraries.rutgers.edu/profile/krista_white
+    alumni: false
+    institute-short:
+
+  - first-name: Mary
+    last-name: Mahoney
+    short: marymahoney
+    title: Digital Scholarship Coordinator, Trinity College
+    bio: "Mary Mahoney is the digital scholarship coordinator at Trinity College where she establishes connections between faculty, students, and staff engaging in digital scholarship, and works to grow digital scholarship capacity and expertise across the college. She is also a historian specializing in histories of bibliotherapy from the United States to the present. She is currently at work on a history that explores episodes of therapeutic reading in nineteenth-century asylums, the trenches of World War I, Graceland, and beyond. Some of her digital work on this project can be found at www.booksasmedicine.com. In her other work, she examines the history of the American Girl franchise as a touchstone of girlhood and popular culture from the 1980s to the present. With her friend and fellow historian Allison Horrocks, she hosts the critically- acclaimed American Girls podcast that rereads the American Girl series book by book. They are also at work on a book exploring the series to be published in 2023."
+    img: mary-mahoney.png
+    website: 
+    alumni: false
+    institute-short: 
+
+  - first-name: Tarika
+    last-name: Sankar
+    short: tarikasankar
+    title: PhD candidate, English literature, the University of Miami
+    bio: "Tarika is a PhD candidate in English literature at the University of Miami. Her research focuses on constructions of Indo-Caribbean identity in the North Atlantic diaspora. Tarika was a graduate research assistant at the WhatEvery1Says Project, a digital humanities and advocacy project analyzing public discourse about the humanities. She is among an emerging cohort of DH scholars at UMiami. Her other research interests include Caribbean literature, feminist studies, queer theory, immigrant literature, and cultural studies. "
+    img: tarika-sankar.jpg
+    website: tarikasankar.github.io/
+    alumni: false
+    institute-short:
+    
+  - first-name: Lyndsay
+    last-name: Bratton
+    short: lyndsaybratton
+    title: Assistant Director for Digital Scholarship, Connecticut College
+    bio: "Lyndsay leads digital scholarship and digital humanities initiatives from the library at Connecticut College. She works with faculty and undergraduate students across the curriculum to support the use of digital tools and methods in their research and scholarship. She holds a PhD in Art History from the University of Maryland, and her research focuses on Czech modernist applied arts and architecture."
+    img: lyndsay-bratton.jpg
+    website: conncoll.edu/information-services/organization--staffing/is-staff-directory/staff-bios/lyndsay-bratton/
+    alumni: false
+    institute-short:    
+
+  - first-name: Marya
+    last-name: McQuirter
+    short: maryamcquirter
+    title: Assistant Professor & Director, Public History Collaborative, Department of History, University of Arizona
+    bio: "Marya curated the dc1968 project, a dh project highlighting art, activism, architecture and everyday life in 1968 in Washington, DC. Her current book project, 'Technochoreographies: Bicycles, Freedoms, Movements,' is a cultural history of mobility and technology in the late 19th century."
+    img: marya-mcquirter.png
+    website: maryamcquirter.com
+    alumni: false
+    institute-short:
+
+  - first-name: Francisco
+    last-name: Lopez-Martin
+    short: franciscolopezmartin
+    title: Associate Professor, Modern Languages, Denison University
+    bio: "I am originally from Huelva, a city located in the south of Spain. I received a PhD. in Literature and History from Universidad de Huelva and a PhD. in Romance Studies (Theory) from Duke University. Since 2010 I teach Spanish literature and language, critical theory and writing at Denison University. My specialty area is 16th and 17th Hispanic Transatlantic Literature and History with emphasis in the representation of time, space and the dynamics of power between America and Spain. I am also interested in European Humanism during the 16th century, hyper-textuality, complexity systems and in Spanish Golden Age Theater. Some of my publications are 'Violencia, neoplatonismo y aristotelismo en La Aurora en Copacabana', 'Definiendo las reglas del juego: Calderón y el espacio virtual' and 'Complejidad e hipertextualidad en el teatro barroco: Calderón y sor Juana'. My book entitled Representaciones del tiempo y construcción de la identidad entre España y America (1580-1700) was published by Universidad de Huelva in October, 2012."
+    img: francisco-lopez-martin.jpg
+    website: 
+    alumni: false
+    institute-short: 
+
+  - first-name: Pamella
+    last-name: Lach
+    short: pamellalach
+    title: Digital Humanities Librarian, San Diego State University
+    bio: "Pamella R. Lach (she/her/hers) is the Digital Humanities Librarian at San Diego State University, which occupies the traditional lands of the Kumeyaay. She is Director of the Library’s Digital Humanities Center (https://library.sdsu.edu/dh) and Co-Director of SDSU’s Digital Humanities Initiative (https://dh.sdsu.edu/). Pam’s work explores how new and emerging technologies transform humanistic scholarship and pedagogy. Her areas of interest include data visualization, folksonomy, user experience design, digital pedagogy, surveillance, critical librarianship, and anti-racist digital humanities. She has a PhD in U.S. Cultural History with an emphasis on gender and film history from the University of North Carolina at Chapel Hill, and a MS in Information Science from UNC’s School of Information and Library Science."
+    img: pamella-lach.jpg
+    website: 
+    alumni: false
+    institute-short:
+    
+  - first-name: David
+    last-name: Gustavsen
+    short: davidgustavsen
+    title: Humanities Librarian, University of Hawai'i
+    bio: "David Gustavsen is a Humanities Librarian at the University of Hawaiʻi at Mānoa Library."
+    img: david-gustavsen.jpg
+    website: 
+    alumni: false
+    institute-short:    
+  
+  - first-name: Christina
+    last-name: Mune
+    short: christinamune
+    title: Associate Dean of Innovation and Resource Management, San Jose State University Library
+    bio: "Christina Mune, MLIS is the Associate Dean of Innovation and Resource Management at San Jose State University’s Dr. Martin Luther King, Jr. Library. She has previously served as an Online Learning and Digital Initiatives Librarian. She is the project director of the new Digital Humanities Center at King Library, currently under construction. Her research and scholarship focuses on engaging virtual learners, digital literacy, and Open Access and OER initiatives. "
+    img: christina-mune.jpg
+    website: 
+    alumni: false
+    institute-short:
+
+  - first-name: Fernando
+    last-name: Esquivel-Suárez
+    short: fernandoesquivelsuarez
+    title: Assistant Professor, English, Spelman College
+    bio: "Fernando Esquivel-Suárez is an Assistant Professor in the Department of English at Spelman College in Atlanta, Georgia. He received an M.A. and a Ph.D. in Latin American Studies from Emory University. His background includes training in cultural studies and philosophy at Universidad Javeriana, in his hometown Bogota – Colombia. His main research interests focus on African American/Latinx relations, overlapping oppression, and solidarity in the context of the War on Drugs in Colombia, Mexico, and the United States. He is currently a fellow at the National Humanities Center where he works on his book titled The Pablo Escobar Mixtape. This project analyzes the War on Drugs and the iconization of Pablo Escobar in African American popular culture. He is also a menber of the Board of Advisors for Freedom University, an organization that offers college-level classes and mentoring to undocumented students who have been denied this right by the State of Georgia."
+    img: fernando-esquivel-suarez.png
+    website: 
+    alumni: false
+    institute-short: 
+
+  - first-name: Nicole
+    last-name: Fox
+    short: nicolefox
+    title: Librarian, Belmont University
+    bio: "I’m a research and instruction librarian at Nashville’s Belmont University. My research interests include information literacy, the interaction between research instruction and writing instruction, and visual literacy. I have a Master’s of Library Science from San Jose State University. "
+    img: nicole-fox.png
+    website: 
+    alumni: false
+    institute-short:
+    
+  - first-name: Tulay
+    last-name: Altin
+    short: tulayaltin
+    title: ESL Adjunct Professor, Union County College, New Jersey
+    bio: "Tulay is an adjunct professor of ESL at Union County College in Elizabeth, New Jersey, where she’s been teaching for six years. She is also pursuing a doctoral degree in Educational Technology Leadership at New Jersey City University, though she is currently on a leave of absence due to the pandemic. Her research interests include digital humanities, mixed reality, and global education. She believes that technological advances will impact all sectors of society, including education, where they can be a lever to drive student engagement and improve learning outcomes. When not teaching, Tulay enjoys visiting museums, libraries and attending seminars at Columbia School of Linguistics. "
+    img: tulay-altin.jpeg
+    website: https://tulayaltiny.wixsite.com/
+    alumni: false
+    institute-short:    
+  
+  - first-name: Sarah
+    last-name: Nakashima
+    short: sarahnakashima
+    title: Humanities Librarian, University of Hawai'i
+    bio: "Sarah Nakashima is a Humanities librarian at the University of Hawaiʻi at Mānoa, from where she received her MLISc and MEd in Learning Design and Technology. She is interested in digital story in the humanities.  "
+    img: placeholder.png
+    website: 
+    alumni: false
+    institute-short:
+
+  - first-name: Olivia
+    last-name: Quintanilla
+    short: oliviaquintanilla
+    title: Postdoctoral Fellow, Environmental Studies, UC Santa Barbara
+    bio: "Dr. Olivia Quintanilla earned her Ph.D. from the Department of Ethnic Studies at UC San Diego in 2020. Olivia’s family is from Guahan and she’s used her academic opportunities as a Chamoru scholar to research the unique histories and futures of Pacific island life. She is interested in climate justice, marine justice, Pacific underwater ecology, and Indigenous environmental activism. She is co-founder of #DRS OJ Educational Success Consulting that uses Digital Humanities as a tool for personal and professional growth. Olivia will start as a UC President's Postdoctoral Fellow with the Department of Environmental Studies at UC Santa Barbara in the Fall to continue her work on marine justice in Guam. "
+    img: olivia-quintanilla.jpg
+    website: 
+    alumni: false
+    institute-short: 
+
+  - first-name: Christina
+    last-name: Connor
+    short: christinaconnor
+    title: Assessment and Instruction Librarian, Ramapo College of New Jersey
+    bio: "Christina Connor is the Assessment and Instruction Librarian at Ramapo College of NJ, a public liberal arts institution. She received both an M.S. in Information Studies and an M.A. in History from the University at Albany. Her thesis explored the early American book trade and dissemination of information during the eighteenth century.  As a current Ph.D candidate at Drew University concentrating in book history, her research interests focus on textbook history. Recent publications look at student engagement with special collections as well as textbooks as a historiographical teaching tool. At Ramapo, she oversees the care, maintenance and accessibility of the library’s special collection, the American History Textbook Project. In addition, she coordinates and teaches textbook-centered sessions and workshops to history and education students, and has developed lessons and hands-on activities utilizing the collection. In 2010, she co-authored a chapter entitled, 'The American History Textbook Project: The Making of a Student-Centered Special Collection at a Public Liberal Arts College,' ACRL publication Past or Portal: Enhancing Undergraduate Learning through Special Collections and Archives."
+    img: christina-connor.jpg
+    website: 
+    alumni: false
+    institute-short:
+    
+  - first-name: Jeanelle
+    last-name: Horcasitas
+    short: jeanellehorcasitas
+    title: Education Consultant, UC San Diego
+    bio: "Jeanelle Horcasitas received her B.A. in English from UCLA and her Ph.D. in Literature/Cultural Studies from UCSD. She is a proud first-generation woman of color that comes from a working-class and immigrant family. Throughout her academic and professional career, she has been proactive in gaining knowledge about technology and digital tools, particularly with digital humanities; and in turn, providing those same opportunities to grow and learn to students and other community members from historically underrepresented backgrounds. Her dissertation 'Reclaiming the Future: A Speculative Culture Study,' aims to amplify the voices and stories of Black and Latinx authors and filmmakers who use speculative fiction as a tool for social justice to reclaim and re-imagine more inclusive futures. For this reason, she explored free and open-access tutorials online and at her academic institutions to learn more about technology and its value to herself and her community. She is especially invested in learning how to use technology ethically and equitably. She has been involved in various DH projects, research groups and communities, and has even implemented DH for San Diego community college students in her courses. She believes education is the most powerful and transformative when it is available to the wider community, and she hopes to continue strengthening the DH community at San Diego institutions and beyond."
+    img: jeanelle-horcasitas.jpg
+    website: linkedin.com/in/jeanellehorcasitas/
+    alumni: false
+    institute-short:    
+  
+  - first-name: Celeste
+    last-name: Lee
+    short: celestelee
+    title: Assistant Professor, Sociology, Spelman College
+    bio: "Dr. Celeste N. Lee is an Assistant Professor in the Sociology at Spelman College. She teaches courses in Multivariate Analysis, Research Methodology, Race and Ethnic Relations, and Social Inequality. Dr. Lee is an Atlanta native who completed her Ph.D. (with a specialization in Social Inequality and Race and Ethnic Relations) in Sociology at Emory University. As a researcher, Dr. Lee is passionate about and committed to understanding racialization processes. Her research interests lie at the intersections of ideology, institutionalized inequality, and people’s lived experiences with race and racism. Her current work draws upon survey data and statistical analysis to explore the role that nurses play in mitigating/exacerbating racial disparities in healthcare outcomes. Additionally, she serves as a researcher on digital humanities project that takes a comparative approach to exploring/visualizing  racialization processes and the War on Drugs in Atlanta, Georgia and Cali, Columbia. As a teacher, Dr. Lee is dedicated to creating innovative and collaborative learning environments. She promotes educational experiences that introduce students to sociological concepts, research, and data science techniques on a variety of levels in hopes that they will develop analytic skills to evaluate their lived experiences and the world around them. Using an array of pedagogical approaches, Dr. Lee empowers students to engage in a process whereby they witness firsthand the transition of course content from theory to practice, and (hopefully) eventually social change."
+    img: celeste-lee.png
+    website: 
+    alumni: false
+    institute-short:
+
+  - first-name: Zoe
+    last-name: Borovsky
+    short: zoeborovsky
+    title: Digital Research and Scholarship Librarian, UCLA Library
+    bio: "Zoe Borovsky, Ph.D., is librarian for Digital Research and Scholarship at UCLA Library.  She is the liaison for Anthropology and Archaeology as well as the Digital Humanitiies Program--supporting both the minor and the graduate certificate program.  She teaches workshops on network analysis, text-mining and text analysis as well as visualization tools such as Tableau. The local institute she and Tatiana are planning to create an online version of a national directory of African-American newspapers."
+    img: zoe-borovsky.jpg
+    website: 
+    alumni: false
+    institute-short: 
+    
+  - first-name: Debbie
+    last-name: Kemp-Jackson
+    short: debbiekempjackson
+    title: ESL Professor, Union County College, New Jersey
+    bio: "I am a professor of ESL at Union County College, a two-year community college located in Elizabeth, New Jersey. I have more than 30 years of teaching ESL in various programs and institutions such as  Rutgers and Princeton, where I have taught ITAs. In addition, I have considerable experience teaching all proficiency levels and all four language skills. My recent interest is helping English Language Learners become more engaged in their local neighborhoods and the larger community by utilizing project-based assignments. This past year has been challenging and this “pandemic experience” has necessitated a change in the way in which I present information to my students. I am looking forward to the chance to push my pedagogy in a new direction and to meet other like-minded educators."
+    img: debbie-kemp-jackson.jpg
+    website: dkjdigitalhumanities.weebly.com/ 
+    alumni: false
+    institute-short:
+    
+  - first-name: Natalie
+    last-name: Hopkinson
+    short: nataliehopkinson
+    title: Associate Professor, Communication, Culture and Media Studies, Howard University
+    bio: "I am Natalie Hopkinson, Associate Professor in the Dept. of Communication, Culture and Media Studies at Howard University. I am a critical-cultural scholar working at the intersection of the arts, history, place and social change. My work is anchored by my roots as an arts writer, ethnographer and educator. I have travelled and researched widely across the U.S., South America, the Caribbean, United Kingdom and Africa. In addition to publishing numerous peer-review academic articles and book chapters, I have published essays for general audiences as a former staff, writer, editor and columnist at the Washington Post, The Root Huffington Post, and a guest contributor to the New York Times Op-Ed section. These publications have spanned the genres of music, theatre, visual art, dance, literary arts, gender, media, education policy, and more.​ My 2007 doctoral dissertation at the University of Maryland-College Park was the second academic publication on go-go Washington, DC.’s indigenous music. The study blended theory and methods spanning the fields of journalism, communications, history, American Studies and ethnomusicology. Since I co-founded the #DontMuteDC movement, a digital activism campaign to prevent the erasure and silencing of Black people and culture in gentrifying Washington, D.C.  in April 2019, I have worked with grassroots activists to co-produce dozens cultural activations involving live music, culinary arts, graphic designers, makers & artisans, and human rights activism, engaging thousands of people in the streets and online. I hope to work on creative, interactive tools for an oral history and archival project underway during the summer of 2021."
+    img: natalie-hopkinson.jpg
+    website: nataliehopkinson.com
+    alumni: false
+    institute-short:    
+
+  - first-name: Dianne
+    last-name: Fallon
+    short: diannefallon
+    title: ME.Digital Humanities Institute
+    bio: "Dr. Dianne Fallon is the English Department Chair at York County Community College. Currently, she is involved with integrating more digital tools into English and Humanities classes, both to stimulate interest in humanities subjects and to boost student confidence in using digital technologies. At York County Community College, Dianne teaches a variety of writing courses, including College Composition, Creative Writing and Creative Non-Fiction, as well as Humanities courses such as Multicultural America. In spring 2019, she will teach a new course, \"Witches and War, on the Web\", in which students will investigate the connection between the Salem Witch trials and Abenaki-colonial warfare in Maine, and will develop their own local history research and digital presentation projects."
+    img: dianne-fallon.jpg
+    website: 
+    alumni: true
+    institute-short: maine-digital-humanities-institute
+
+  - first-name: Nancy
+    last-name: Um
+    short: nancyum
+    title: Binghamton DHRI
+    bio: "Nancy Um is Professor in the Department of Art History and co-director of the Middle East and North Africa Studies Program at Binghamton University. Her research explores the Islamic world from the perspective of the coast, with a focus on material, visual, and built culture on the Arabian Peninsula and around the rims of the Red Sea and the Indian Ocean. She is the author of <em>The Merchant Houses of Mocha: Trade and Architecture in an Indian Ocean Port</em> (University of Washington Press, 2009) and <em>Shipped but not Sold: Material Culture and the Social Protocols of Trade during Yemen’s Age of Coffee</em> (University of Hawai’i Press, 2017). She recently co-edited (with Carrie Anderson), \"Coordinates: Digital Mapping and 18th-C Visual, Material and Built Cultures,\" <em>Journal18: a journal of eighteenth-century art and culture</em> (Spring 2018)."
+    img: nancy-um.jpg
+    website: 
+    alumni: true
+    institute-short: binghamton-digital-humanities-research-institute
+    
+  - first-name: Amy
+    last-name: Gay
+    short: amygay
+    title: Binghamton DHRI
+    bio: "Amy Gay recently joined Binghamton University Libraries as their first Digital Scholarship Librarian, where she is leading the implementation of digital scholarship initiatives for the Libraries, works to help strengthen programs related to digital scholarship services, and supports and serves as a resource to faculty developing digital scholarship projects. Before coming to Binghamton University, Amy was part of the National Digital Stewardship Residency (NDSR) D.C. cohort in 2016, which is administered by the Library of Congress and funded by the Institute of Museum and Library Services. During this time, she managed projects at the U.S. Food & Drug Administration that focused on enabling open science, including the creation of a publicly searchable science data catalog for the Office of Science and Engineering Laboratories within the Center for Devices and Radiological Health. She received her MLIS from Syracuse University, and her research interests include primary source literacy, interactive technology and pedagogy, war history and cultural heritage preservation. In her free time, Amy enjoys attending trivia nights, hiking along the Upstate gorges, and trying out local eateries and diners."
+    img: amy-gay.png
+    website: 
+    alumni: true
+    institute-short: binghamton-digital-humanities-research-institute
+    
+  - first-name: Daniel
+    last-name: Johnson
+    short: danieljohnson
+    title: DHRI South Bend
+    bio: "Daniel Johnson is subject specialist for English literature and digital humanities at the University of Notre Dame's Hesburgh Libraries System. He has graduate degrees in English from Wake Forest University (MA) and Princeton University (PhD), where he specialized in literature of the long eighteenth-century."
+    img: daniel-johnson.jpg
+    website: 
+    alumni: true
+    institute-short: digital-humanities-research-institute-south-bend
+    
+  - first-name: Sarah
+    last-name: Noonan
+    short: sarahnoonan
+    title: DHRI South Bend
+    bio: "Sarah Noonan received her Ph.D. in medieval English literature from Washington University in St. Louis. As an Assistant Professor at Saint Mary’s College, she teaches courses in early British literature, book history, and the history of the English language. She is the author of essays on manuscript studies, medieval reading practices, devotional literature, and pedagogical practice. She is currently working on a project entitled “Peripheral Manuscripts” that seeks to assist non-R1, manuscript-holding institutions in digitizing their respective holdings and displaying them in a collective digital repository in order to increase that material’s visibility among the scholarly community."
+    img: sarah-noonan.png
+    website: 
+    alumni: true
+    institute-short: digital-humanities-research-institute-south-bend
+
+  - first-name: Marion
+    last-name: McGee
+    short: missymcgee
+    title: Digital Humanities Afrofuturism Workshop at Association of African American Museums annual conference
+    bio: "Marion “Missy” McGee is a servant leader who believes in creative problem solving through the embrace of failure, experimentation and innovation. Marion is on the Association of African American Museums (AAAM) Board of Directors where she chairs the Communications Committee. She also serves as a Museum Program Specialist in the Office of Strategic Partnerships at the National Museum of African American History and Culture (NMAAHC). She is responsible for the design, implementation and evaluation of key collaborative initiatives, multi-state programs for the only national museum congressionally mandated to strengthen and elevate the profile of African American museums, Historically Black Colleges and Universities, and other institutions promoting the study or appreciation of African American history and African diaspora cultural heritage in the United States. She is currently pursuing a PhD in Leadership and Change to investigate methods of preserving the leadership legacy of Black Museum Movement pioneers. As a scholar-practitioner, Marion is working to identify best practices for advancing, growing and sustaining organizations founded by or on behalf of persons of African descent. Her areas of expertise include long-term strategic planning and prudent financial management through participatory leadership."
+    img: marion-mcgee.png
+    website: 
+    alumni: true
+    institute-short: digital-humanities-afrofuturism-workshop
+    
+  - first-name: Erika
+    last-name: Gault
+    short: erikagault
+    title: Africana DHi 2019
+    bio: "Erika Gault is an Assistant Professor of Africana Studies at the University of Arizona. Erika Gault’s scholarly work focuses on the intersection of religious history, technology, and urban black life in post-industrial America.On the topic of hip hop, religion, and digital ethnography she has delivered and published a number of papers regionally, nationally, and internationally. She is an ordained elder at Elim Christian Fellowship in Buffalo, NY and an award winning slam poet. She is currently working on her first book project titled <em>Being Christian, Doin' Hip Hop: A Digital Ethnography of Black Millennial Christianity</em> and a co-edited volume entitled <em>You Gon' Learn Today: The Aesthetics of Christians in Hip Hop</em>."
+    img: erika-gault.jpg
+    website: 
+    alumni: true
+    institute-short: africana-dhi
+
+  - first-name: Frances
+    last-name: McDonald
+    short: francesmcdonald
+    title: Digital Humanities Research Institute at University of Louisville
+    bio: "Frances McDonald is Assistant Professor of English at the University of Louisville where she works on critical theory and twentieth-century American literature and film. Her current book project examines the textual forms that laughter takes in twentieth-century literature and philosophy. Her work has appeared in <em>American Literature</em>, <em>LA Review of Books</em>, and <em>The Atlantic</em>, among other venues. She is also the co-editor and co-designer of <em>thresholds</em>, an occasional digital zine for creative/critical scholarship."
+    img: fran-mcdonald.jpg
+    website: 
+    alumni: true
+    institute-short: digital-humanities-research-institute-university-louisville
+
+  - first-name: Sophia
+    last-name: Geng
+    short: sophiageng
+    title: Digital Technologies Conference at College of Saint Benedict and Saint John's University
+    bio: "Growing up in Shandong, China, Dr. Sophia Geng obtained her MA from Beijing Foreign Studies University and her Ph.D. from the University of Minnesota-Twin Cities, U.S.A. Dr. Geng’s academic interests lie in oral history, the safeguarding of cultural heritage and East Asian literature. Joining the College of Saint Benedict and Saint John’s University (CSB/SJU) in 2007, Dr. Geng currently is an Associate Professor at the Department of Languages and Cultures. She also served as the Director of the Asian Studies Program from 2013 to 2017. CSB/SJU are two top-ranked liberal arts colleges in Minnesota, U.S.A., that share an integrated academic partnership. With a combined enrollment of 4,000 students, CSB/SJU are the largest liberal arts colleges in the U.S."
+    img: sophia-geng.png
+    website: 
+    alumni: true
+    institute-short: digital-technologies-conference
+
+  - first-name: Alicia
+    last-name: Peaker
+    short: aliciapeaker
+    title: Tri-Co DHRI
+    bio: "Alicia Peaker (PhD, Northeastern University) is the Digital Scholarship Specialist at Bryn Mawr College. Previously, she completed a CLIR/DLF Mellon Postdoctoral Fellowship in the Digital Liberal Arts at Middlebury College. While in graduate school, she served as the Co-Director of <em>Our Marathon: The Boston Bombing Digital Archive</em>, which won an award as the Best DH Project for Public Audiences in 2013. She has also worked as the Project Manager for The Women Writers Project and as the Managing Editor for <em>GradHacker</em>, a collaborative blog published through <em>Inside Higher Ed</em>. Her current research project explores ways of visualizing the botanical worlds of novels."
+    img: alicia-peaker.jpg
+    website: 
+    alumni: true
+    institute-short: tri-co-digital-humanities-research-institute
+
+  - first-name: Rosín
+    last-name: Torres
+    short: rosintorres
+    title: Evangelical Seminary of Puerto Rico DHRI
+    bio: "Rosín Torres-Medina is a Professional Librarian at Juan De Valdes Library of the Evangelical Seminary of Puerto Rico (SEPR) after graduating from the University of Puerto Rico. Her Master's capstone project explored open journals system technology. She has attended continued education workshops in transdisciplinary research, editing scientific journals in electronic format, and technology for online education. She is mostly passionate in collaborating and promoting learning of library resources such as the OPAC, the databases, Mendeley reference manager, digital tools and skills among faculty and students. She is engaged in promoting collaboration and open access projects at the library and regularly participate in workshops and courses around the latest research techniques and enhancement of research and writing skills. Academically, she is interested in Digital Humanities, in the areas of Bible and religion. Her career revolves around technology, as she loves to inspire change as a means for challenge and opportunities. The capacity of libraries to help people achieve their common and academic goals has always been an interest of hers."
+    img: rosa-maria-torres.png
+    website: 
+    alumni: true
+    institute-short: evangelical-seminary-puerto-rico-dhri
+
+  - first-name: Nathan
+    last-name: Kelber
+    short: nathankelber
+    title: Triangle Digital Humanities Institute
+    bio: "Nathan Kelber is the Digital Scholarship Specialist at the University Libraries, University of North Carolina at Chapel Hill. He comes from Detroit where he worked as a professor, public historian, and community organizer. Kelber is most well-known for his work on Detroit 67, a citywide campaign to commemorate the 1967 Detroit Uprising and encourage racial harmony, as well as his other project Network Detroit, a regional digital humanities conference. At UNC, Kelber helps faculty and graduate students with digital projects and serves as a library point of contact for local digital humanities communities and initiatives."
+    img: nathan-kelber.jpg
+    website: 
+    alumni: true
+    institute-short: triangle-digital-humanities-institute
+
+  - first-name: Rico
+    last-name: Chapman
+    short: ricochapman
+    title: Digital Humanities Graduate Course at Clark Atlanta University
+    bio: "Dr. Rico D. Chapman received his PhD in African Studies from Howard University. He is currently an Associate Professor of History at Clark Atlanta University. He also serves as Assistant Dean of the School of Arts and Sciences and Director of the Humanities PhD program. His most recent book is titled <em>Student Resistance to Apartheid at the University of Fort Hare: Freedom Now, A Degree Tomorrow</em> (Lexington, 2016)."
+    img: rico-chapman.jpg
+    website: 
+    alumni: true
+    institute-short: digital-humanities-graduate-course-clark-atlanta-university
+
+  - first-name: Rafia
+    last-name: Mirza
+    short: rafiamirza
+    title: DHRI at SMU
+    bio: "Rafia Mirza is a Humanities Research Librarian at SMU. She received her MSI from the University of Michigan. Her research interests include digital humanities, digital project planning, and issues around labor and community in digital humanities and digital pedagogy."
+    img: rafia-mirza.jpg
+    website: 
+    alumni: true
+    institute-short: digital-humanities-research-institute-southern-methodist-university
+
+  - first-name: Andrea
+    last-name: Davis
+    short: andreadavis
+    title: DHRI@A-State
+    bio: "Andrea Davis is Assistant Professor of Modern European and Digital History at Arkansas State University. Her research examines the urban social movements and memory cultures of twentieth century Spain, and has been supported by the the Fulbright Foundation and the University of California Humanities Network, among others. In addition to her position at the university, Andrea currently serves as the Associate Director of the Spanish Civil War Memory Project: Audiovisual Archive of the Francoist Repression and the book review editor of the <em>Bulletin for Spanish and Portuguese Historical Studies</em>."
+    img: andrea-davis.jpg
+    website: 
+    alumni: true
+    institute-short: dhri-arkansas-state
+
+  - first-name: Alexandra
+    last-name: Sarkozy
+    short: alexandrasarkozy
+    title: Wayne State University DHRI
+    bio: "Alexandra Sarkozy is a science and digital scholarship librarian at Wayne State University in Detroit, MI. She has been working with faculty and librarians to incorporate digital tools into humanities classrooms, and to build digital infrastructure for humanities computing within the library. She is a also a graduate student in American History at Wayne State University. Her research interests include history of medicine, historical mapping, and data sharing and preservation."
+    img: alexandra-sarkozy.jpg
+    website: 
+    alumni: true
+    institute-short: wayne-state-university-digital-humanities-research-institute

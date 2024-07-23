@@ -1,0 +1,19 @@
+header: "DHRI Curricula"
+text: "
+  <p class=\"lead\">Our curricula focus on technical skills and concepts upon which additional technologies and tools rely. Approximately one-third of all sessions at the Institute could be described as foundational: they introduce the command line, version control &amp; data collaboration, data &amp; databases, and Python using flexible, open source technologies that are accessible to the widest possible audience. Our emphasis on fundamental skills demonstrates our commitment to cultivating resilience that empower humanities researchers to become self-teachers and mentors in their own right. While intensive lessons prioritize instrumental outcomes, such as whether students can write for a loop or build a map, our focus is on a longer arc of professional development. While immediate results help pique interest and help scholars see the potential for digital research methods in their own work, confidence in core computational skills and concepts help to develop resilience that lasts beyond a single project or tool's lifespan. Better prepared to approach technology (and technological rhetoric) with a critical eye, scholars comfortable with core computational literacy and a common technical vocabulary are more likely to participate in local communities of practice.</p>
+  <p>Below is a preliminary list of the technical workshops that were offered as part of the DHRI. Workshops build on each other such that successive workshops use skills developed in earlier ones. All participants attend workshops on core skills, then choose which skills they wish to develop further through advanced workshops. Below, we have included the introductory page for each workshop. Click the link below each description to be able to follow along with each workshop, on each particular workshop's GitHub page.</p>
+"
+
+curricula:
+  - command-line
+  - databases
+  - ethics
+  - git
+  - html-css
+  - machine-learning
+  - mapping
+  - omeka
+  - project-lab
+  - python
+  - text-analysis
+  - twitter-api

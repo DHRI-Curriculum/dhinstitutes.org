@@ -1,0 +1,149 @@
+{% include people/_build.html %}
+
+{% assign _ = page.breadcrumbs.last.link | split: "/" %}
+{% assign short = _.last %}
+
+{% assign all_institutes = site.data._institutes | concat: site.data._institutes-novideo %}
+{% assign _ = all_institutes | where: "short", short %}
+{% assign p = _[0] %}
+
+{% if p.institute.from == p.institute.to %}
+{% capture full_date %}{{ p.institute.from | date: "%b %-d, %Y" }}{% endcapture %}
+{% else %}
+{% capture from_month %}{{ p.institute.from | date: "%b" }}{% endcapture %}
+{% capture to_month %}{{ p.institute.to | date: "%b" }}{% endcapture %}
+{% if from_month == to_month %}
+  {% capture full_date %}{{ p.institute.from | date: "%b %-d" }}-{{ p.institute.to | date: "%-d" }}, {{ p.institute.from | date: "%Y" }}{% endcapture %}
+{% else %}
+  {% capture full_date %}{{ p.institute.from | date: "%b %-d" }}-{{ p.institute.to | date: "%b %-d" }}, {{ p.institute.from | date: "%Y" }}{% endcapture %}
+{% endif %}
+{% endif %}
+
+<!-- Jumbotron for larger screens (lg, xl): -->
+<section class="jumbotron mb-0 shadow-md">
+<div class="container text-center text-dark">
+  <div class="row justify-content-md-center flex-column">
+    <h1>{{ p.name }} <small class="text-muted">{{ p.state-full }}</small></h1>
+    {% if full_date.size > 0 %}<h2><small class="text-muted">{{ full_date }}</small></h2>{% endif %}
+    <div>{% for tag in p.tags %}<span class="badge badge-light mx-1">{{ tag }}</span>{% endfor %}</div>
+  </div>
+</div>
+</section>
+
+{% if p.google-map %}
+<iframe src="{{ p.google-map }}" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+{% endif p.google-map %}
+
+
+
+
+{% if p.text.size > 0 %}
+<section id="" class="py-4 bg-dark-blue">
+<div class="container text-white">
+  <p class="lead">{{ p.text }}</p>
+</div>
+</section>
+{% endif %}
+
+<section id="" class="py-4 bg-light">
+<div class="container text-dark">
+  <div class="row">
+    <div class="col-12 col-md-5">
+      <h2>Facts</h2>
+      <div class="row">
+        {% if p.institute.website %}
+        <div class="col-12 col-xl-4"><h5>Website</h5></div>
+        <div class="col-12 col-xl-8"><p>&raquo; <a target="_blank" href="{{ p.institute.website }}">Visit</a> (in a new window)</p></div>
+        {% endif %}
+
+        {% if p.tags %}
+        <div class="col-12 col-xl-4"><h5>Categor{% if p.tags.size > 1 %}ies{% else %}y{% endif %}</h5></div>
+        <div class="col-12 col-xl-8"><p>{% for tag in p.tags %}<span class="badge badge-dark mb-1 mr-1">{{ tag }}</span>{% endfor %}</p></div>
+        {% endif %}
+
+        {% if p.institute.cosponsors %}
+        <div class="col-12 col-xl-4"><h5>Co-sponsor{% if p.institute.cosponsors.size > 1 %}s{% endif %}</h5></div>
+        <div class="col-12 col-xl-8">{% for cosponsor in p.institute.cosponsors %}<p>{% if cosponsor.website.size > 0 %}<a href="{{ cosponsor.website }}" target="_blank" class="text-dark">{% endif %}{{ cosponsor.name }}{% if cosponsor.website.size > 0 %}</a>{% endif %}</p>{% endfor %}</div>
+        {% endif %}
+
+        {% if p.institute.twitter %}
+        <div class="col-12 col-xl-4"><h5>Twitter hashtag</h5></div>
+        <div class="col-12 col-xl-8"><p><a href="https://twitter.com/search?f=tweets&vertical=default&q=%23{{ p.institute.twitter }}&src=typd" target="_blank">#{{ p.institute.twitter }}</a></p></div>
+        {% endif %}
+
+        {% if p.institute.participants %}
+        <div class="col-12 col-xl-4"><h5>Participants</h5></div>
+        <div class="col-12 col-xl-8">
+          <p>Total number: {{ p.institute.participants['number'] }}</p>
+          {% if p.institute.participants['disciplines'] %}
+          <p>Discipline{% if p.institute.participants['disciplines'].size > 1 %}s{% endif %} represented:</p>
+          <ul>
+            {% for discipline in p.institute.participants['disciplines'] %}<li>{{ discipline }}</li>{% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+        {% endif %}
+
+        {% if p.community-leaders %}
+        <div class="col-12 col-xl-4"><h5>Community Leader{% if p.community-leaders.size >= 1 %}s{% endif %}</h5></div>
+        <div class="col-12 col-xl-8">
+          {% for short in p.community-leaders %}
+            {% assign _ = site.data.people.community-leaders | where: "short", short %}{% assign person = _[0] %}
+            <img src="/assets/images/people/{{ person.img }}" class="img-fluid" alt="Image depicting {{ person['first-name'] }} {{ person['last-name'] }}" />
+            <p>{{ person['bio'] }}</p>
+            {% if forloop.last %}{% else %}<hr />{% endif %}
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if p.workshop-instructors %}
+        <div class="col-12 col-xl-4"><h5>Workshop Instructor{% if p.workshop-instructors.size > 1 %}s{% endif %}</h5></div>
+        <div class="col-12 col-xl-8">
+          {% for instructor in p.workshop-instructors %}
+          <p>{{ instructor.name }}, {{ instructor.affiliation }}</p>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if p.institute.workshops %}
+        <div class="col-12 col-xl-4"><h5>Workshop{% if p.institute.workshops.size > 1 %}s{% endif %}</h5></div>
+        <div class="col-12 col-xl-8"><p>{% for workshop in p.institute.workshops %}<span class="badge badge-dark mb-1 mr-1 fw-300" style="font-size: 0.9rem;">{% if workshop.url.size > 0 %}<i class="fas fa-code-branch"></i> <a href="{{ workshop.url }}" target="_blank" class="text-light">{% endif %}{{ workshop.name }}{% if workshop.url.size > 0 %}</a>{% endif %}</span>{% endfor %}</p></div>
+        {% endif %}
+
+      </div>
+    </div>
+
+    <div class="col-12 col-md-7">
+      {% if p.youtube %}
+      <h2>Video <small class="text-muted">{{ p.youtube.mins }} minutes</small></h2>
+      <div class="row">
+        <div class="col-12">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{p.youtube.shortcode}}?rel=0" allowfullscreen></iframe>
+          </div>
+        </div>
+        {% if p.transcript %}
+        <div class="col-12 mt-2">
+          <h5>Transcript</h5>
+          <div id="transcript">{% include _{{ p.transcript }} %}</div>
+        </div>
+        {% endif %}
+      </div>
+      
+      {% else %}
+      <div class="row">
+        <div class="col-12">
+          <img src="{{ p.image }}" alt="{{ p.image-alt }}" class="img-fluid" />
+        </div>
+        <div class="col-12">
+          {% if p.image-credit %}<p style="line-height:1.2em !important;"><small class="text-muted">{{ p.image-credit }}</small></p>{% endif %}
+        </div>
+      </div>
+      
+      {% endif %}
+    </div>
+
+
+  </div>
+</div>
+</section>

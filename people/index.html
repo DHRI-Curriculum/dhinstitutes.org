@@ -1,0 +1,75 @@
+---
+title: "Digital Humanities Research Institute"
+title_short: "DH Research Institute"
+breadcrumbs:
+  - label: "People"
+    link: "/people/"
+---
+
+{% include header.html %}
+{% include nav.html %}
+{% include people/_build.html %}
+
+
+<section id="" class="bg-white">
+  <div class="container pt-4">
+
+    <ul class="nav nav-pills mb-3" id="people-pills-tab" role="tablist">
+      {% for x in site.data.people.settings.categories %}
+        <li class="nav-item">
+          <a class="nav-link" id="pills-{{ x.short }}-tab" data-toggle="pill" href="#{{ x.short }}" role="tab" aria-controls="pills-{{ x.short }}" aria-selected="false">{{ x. title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <div class="tab-content" id="pills-tabContent">
+      <!-- Leadership -->
+      <div class="tab-pane text-dark" id="pills-leadership" role="tabpanel" aria-labelledby="pills-leadership-tab">
+        <div class="row">
+          {% for person in leadership_current %}
+              {% include people/_card.html person=person %}
+          {% endfor %}
+        </div>
+      </div>
+
+      <!-- Fellows -->
+      <div class="tab-pane text-dark" id="pills-fellows" role="tabpanel" aria-labelledby="pills-fellows-tab">
+        <div class="row">
+          {% for person in fellows_current %}
+            {% include people/_card.html person=person %}
+          {% endfor %}
+        </div>
+      </div>
+
+      <!-- Faculty -->
+      <div class="tab-pane text-dark" id="pills-faculty" role="tabpanel" aria-labelledby="pills-faculty-tab">
+        <div class="row">
+          {% for person in faculty_current %}
+            {% include people/_card.html person=person %}
+          {% endfor %}
+        </div>
+      </div>
+      
+      <!-- Community Leaders -->
+      <div class="tab-pane text-dark" id="pills-community-leaders" role="tabpanel" aria-labelledby="pills-community-leaders-tab">
+        <div class="row">
+          {% for person in community_leaders %}
+            {% include people/_card.html person=person %}
+          {% endfor %}
+        </div>
+      </div>
+      
+      <!-- Alumni Community Leaders -->
+      <div class="tab-pane text-dark" id="pills-alumni-community-leaders" role="tabpanel" aria-labelledby="pills-alumni-community-leaders-tab">
+        <div class="row">
+          {% for person in community_leaders_alumni %}
+            {% include people/_card.html person=person %}
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{% include footer.html %}

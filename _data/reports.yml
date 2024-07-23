@@ -1,0 +1,16 @@
+page-info:
+  header: "Reports"
+  text: ""
+
+reports:
+  - title: "Expanding Communities of Practice: Digital Humanities Research Institute"
+    description: "Final Report for the grant cycle 2017–2019."
+    published: 2020-01-01
+    file: /assets/reports/expanding-communities-of-practice-digital-humanities-research-institute-final-report.pdf
+    preview: /assets/reports/expanding-communities-of-practice-digital-humanities-research-institute-final-report-preview.png
+  - title: "ACH 2019 Presentation"
+    description: ""
+    published: 2019-07-10
+    file: http://ach.dhinstitutes.org/
+    preview: /assets/reports/ach-preview.png
+    button: "Go to site"

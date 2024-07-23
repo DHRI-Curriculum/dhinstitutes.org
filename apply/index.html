@@ -1,0 +1,144 @@
+---
+title: "Digital Humanities Research Institute"
+title_short: "DH Research Institute"
+application-page: true
+breadcrumbs:
+  - label: "Apply to DHRI"
+    link: "/apply/"
+---
+
+{% include header.html %}
+{% include nav.html %}
+
+
+
+
+<section class="jumbotron mb-0 shadow-lg jumbotron-background-image" id="jumbotron-home" style="background-position-y: 35% !important;"></section>
+
+
+
+{% include apply-now.html %}
+
+<section class="bg-light py-5">
+  <div class="container text-dark">
+    <div class="row">
+      {% for section in site.data.apply-2021.sections %}
+        <section id="" class="col-xs-12 col-sm-{{ section.col }}">
+            {% if section.icon %}<div class="h1"><i class="text-center text-muted fas {{ section.icon }}"></i></div>{% endif %}
+            <h2 style="{% if section.small-header %}min-height:7rem;{% endif %}{% if section.color %}color:{{section.color}};{% endif %}">{% if section.small-header %}<small><strong class="text-muted">{{ section.small-header }}</strong></small><br />{% endif %}{{ section.header }}</h2>
+            <p>{{ section.text }}</p>
+        </section>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="py-4">
+  <div class="container text-white">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-orange">What is needed to apply?</h2>
+        
+        <h4 class="text-orange">1. Application form</h3>
+        <p class="lead">To apply, both applicants should complete <a href="http://bit.ly/apply-to-dhri-2021" target="_blank" class="text-white border-bottom text-decoration-none"><strong>a single application form</strong></a>. If you want to prepare your application before entering the information into the form, you can use <a href="/assets/pdf/application-preparation-sheet-2021.pdf" target="_blank" class="text-white border-bottom text-decoration-none">the Application Preparation Sheet</a> for this year's applications to ready your answers.</p>
+        
+        <h4 class="text-orange">2. A CV/resume (2 pages maximum)</h3>
+        <p class="lead">We request a CV/resume from each applicant in order to better understand where you are situated within your institution as well as in your larger field of research and digital humanities (if at all).</p>
+        <p><em>Submitting the application will require you uploading a CV/resume of maximum 2 pages.</em></p>
+        
+        <h4 class="text-orange">3. A personal statement (500 words maximum)</h3>
+        <p class="lead">We request a personal statement from each applicant in order to better understand where you are situated within your institution as well as in your larger field of research and digital humanities (if at all).</p>
+        <p><em>Submitting the application will require you uploading a personal statement of maximum 500 words.</em></p>
+        
+        <h4 class="text-orange">4. A plan for collaboration (750 words maximum)</h3>
+        <p class="lead">We request a plan for collaboration from you both as co-applicants detailing how you as co-applicants will work together to learn during the week long summer institute and then collaborate to lead a local Digital Humanities Research Institute of your own locally.</p>
+        <p>Your plan should describe the need and/or interest at your institution(s) or organization(s) for digital humanities skill development through a local version of the DHRI, the approximate timing of your institute, a possible format (whether it would be hybrid, in person, or remote), and the opportunities and challenges to digital humanities community building that your community faces. Why would participation in the 2021 DHRI be helpful to you both in building a local DH community of practice?</p>
+        <p><em>Submitting the application will require you uploading a plan for collaboration of maximum 750 words (or approximately 3 double-spaced pages).</em></p>
+
+        <h4 class="text-orange">5. A letter of support</h3>
+        <p class="lead">We require a letter of support from a group, organization, or institution stating they will support your efforts to run a Digital Humanities Research Institute.</p>
+        <p>Support does not have to be financial. It should simply recognize that your activities are recognized and welcomed by the organization.</p>
+        <p><em>Submitting the application will require you to upload one letter of support per application (even if applicants are from 2 different institutions).</em></p>
+        <p>Note that letters of support may be uploaded or emailed to <a href="mailto:info@dhinstitutes.org">info@dhinstitutes.org</a> before 5pm (ET), May 28.</p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-orange py-4" style="background: url('/assets/images/bg-pattern.png')">
+  <div class="container-fluid">
+    <div class="text-center w-100 text-dark">
+      <p class="lead m-0 font-weight-bold">Applications are due {{ site.data.apply-2021.due-date | date: "%A, %B %e, %Y" }}.</p>
+      <p class="mt-2"><a href="{{ site.data.apply-2021.link }}" target="_blank" class="btn btn-danger">Go to the application form</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-light py-4">
+  <div class="container text-dark">
+    <div class="row">
+      <div class="col-12 col-md-3">
+        <h2 class="text-orange">Evaluation of Applications</h2>
+      </div>
+      <div class="col-12 col-md-9">
+        <p class="lead">Applications will be evaluated according to the following criteria:</p>
+        <ul>
+          <li>Commitment to attending all 8 days of the July 2021 DHRI and the virtual follow-ups throughout the year.</li>
+          <li>Demonstrated interest in and responsibility for “digital humanities community building.” (This can be through a regional digital humanities group as a volunteer, as a post-doc in a university library, a visiting scholar at a liberal arts college, a faculty member creating a DH reading group, a curator or archivist at a historical society, library, or other humanities-oriented organization. Position title is not important. What is important is your ability to explain your responsibility or interest in building communities of DH practice.)</li>
+          <li>Interest in helping to build a network of institute leaders through sharing of curricular materials and engaging in online community-support.</li>
+          <li>Clarity of the personal and institutional opportunities and needs for your local DHRI.</li>
+          <li>An articulation of a DH project idea that you find interesting and would like to pursue or have already begun.</li>
+          <li>Willingness to work through challenges to learn technical skills independently.</li>
+          <li>Priority consideration will be given to those who previously applied for the DHRI in March 2020. </li>
+        </ul>
+        <p>We are looking for participants who represent diverse DH areas of interest (disciplines, methods, project-types), who work at a wide range of institutional types (universities, community colleges, libraries, archives, museums, historical associations), and who reflect an array of professional roles from graduate students to experienced faculty to librarians, administrators, museum curators, archivists and more. We are particularly eager to receive applications from those who represent a range of lived experiences.</p>
+        <p>Ideal participants will be able to demonstrate strong communication and collaboration skills and a willingness to confront and overcome frustration. No previous technical experience is required. Applications will not be evaluated based on familiarity with existing technologies, though we are happy to hear about your aspirations and the skills you would like to develop for future work.</p>
+        <p>Applications must be received by {{ site.data.apply-2021.due-date | date: "%B %e, %Y" }}.</p>
+        <p>Questions and comments can be directed to <a href="mailto:info@dhinstitutes.org">info@dhinstitutes.org</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-4">
+  <div class="container text-white">
+    <div class="row">
+      <div class="col-12">
+        <p class="p-0 m-0"><strong>A note on eligibility</strong>: We are unable to accept applications from individuals outside of the United States and U.S. territories at this time. In order to be accepted into this year's program, you must be able to receive compensation for services rendered in the U.S. To receive the designated stipend, we are required to provide the CUNY Research Foundation with (1) a U.S. social security number or an Individual Taxpayer ID (ITIN), and (2) a routing number and an account number to a U.S. bank. If you are unable to provide this information, we are not able to accept you into the program.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-4 bg-orange">
+  <div class="container text-dark">
+    <div class="row">
+      <div class="col-12">
+        <div class="row">
+            <div class="col-xs-12 col-sm-2">
+              <h2>FAQ</h2>
+            </div>
+            <div class="col-xs-12 col-sm-10">
+              <div class="accordion" id="faq">
+
+                {% for qa in site.data.apply-2021-faq %}
+                <div class="card">
+                    <div class="card-header" id="heading{{ forloop.index }}"><h2 class="mb-0"><button class="pl-0 text-left text-dark btn btn-link no-underline w-100 {% if qa.has_link %}{% else %}stretched-link{% endif %}" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="{% if forloop.index == 1 %}true{% else %}false{% endif %}" aria-controls="#collapse{{ forloop.index }}"><p class="lead mb-0">Q: {{ qa.q1 }}</p></button></h2></div>              
+                    <div id="collapse{{ forloop.index }}" class="collapse {% if forloop.index == 100 %}show{% endif %}" aria-labelledby="heading{{ forloop.index }}" data-parent="#faq">
+                      <div class="card-body text-dark">{{ qa.a }}</div>
+                    </div>
+
+                </div>
+                {% endfor %}
+
+              </div>
+            </div>
+        </div><!--/row-->
+    </div>
+  </div>
+</section>
+
+
+{% include footer.html %}

@@ -1,0 +1,77 @@
+due-date: 2021-05-21
+link: http://bit.ly/apply-to-dhri-2021
+
+sections:
+  - header: "Join us in 2021!"
+    color: "#ec9521"
+    text: '
+    <p class="lead"><strong>The Digital Humanities Research Institute (DHRI) is a virtual workshop hosted by GC Digital Initiatives at the CUNY Graduate Center which will take place online from July 6-15, 2021. The DHRI is supported by an Institutes in Advanced Topics in the Digital Humanities grant and supplemental CARES Act funding from the National Endowment for the Humanities (NEH).</strong></p>
+    <p>Applications must be received by May 21, 2021. More information and application materials can be found on this page.</p>
+    '
+    col: 12
+  - header: 'Program Description'
+    color: "#ec9521"
+    text: '
+      <p>Originally planned as an in-person workshop, DHRI has redesigned its curricula and pedagogical approach for a hybrid combination of online in-person and self-directed digital skills workshops. DHRI’s 2021 format includes eight, intensive days of foundational digital skill workshops online and the opportunity to connect to a growing network of institute leaders during monthly meetings throughout the academic year. Those interested must apply with a partner or co-applicant who is either located at the same institution or at a nearby or partner institution. Applicants will be accepted in pairs and asked to serve as accountability partners as they learn together.</p>
+      <p>During the following academic year, each pair of applicants are expected to lead a local digital humanities institute at their home campus (or campuses). These can be in-person, remote, or hybrid. For more information about the institutes previous DHRI applicants have run, see our <a href="https://www.dhinstitutes.org/network">Network</a> page.</p>
+    '
+    col: 12
+  - header: "What to Expect?"
+    color: "#ec9521"
+    text: '
+          <p class="lead">This program is designed for those who want to learn foundational technical skills that will help them to grow in their own digital humanities projects and support their local communities of DH practice. During the July DHRI, you will learn to:</p>
+          <ul>
+            <li>work from the command line</li>
+            <li>manage and share data with git and GitHub</li>
+            <li>recognize the practical, ethical, and cultural challenges working with data presents</li>
+            <li>create and modify websites with HTML and CSS</li>
+            <li>begin writing simple scripts with Python to automate tasks</li>
+            <li>analyze texts with Python and NLTK</li>
+            <li>and create maps with QGIS.</li>
+          </ul>
+          '
+    col: 12
+  - header: 'Program Structure'
+    color: "#ec9521"
+    text: '
+    <p>Our digital skill workshop sessions will be 8-days long (Tuesday, July 6–Friday, July 9 and Monday, July 12–Thursday, July 15) and meet daily between 11am and 5pm (ET). The schedule includes a combination of in-person and self-guided activities during scheduled 60–90 minute blocks of time. Applicants should plan to be present for all sessions.</p>
+    <p>Applicants are required to apply with one other person (either from your own institution or one nearby) with whom you’ll learn skills and develop your own local version of DHRI based on our open, core curriculum. Successful applicants will receive:</p>
+    <ul>
+      <li>$1,800 stipends each upon completion of the July 2021 online institute,</li> 
+      <li>$500 stipends each after successfully leading a local institute,</li>
+      <li>20 hours of support (per team) from DHRI staff and community members during the 2021–2022 academic year as you develop your local institute.</li>
+    </ul>
+    '
+    col: 12
+
+
+
+
+application-questions:
+  - header: "Required personal information"
+    details-requested: "Full name, email address, phone number, mailing address (in the U.S.)."
+    why: "Collecting all this information makes it easier for us to make sure that your submission is legitimate as well as ensure that we have all of your information immediately available if you are selected and we need to set up stipend payments etc. to you."
+  - header: "Voluntary personal information"
+    details-requested: "Gender identity, pronouns, ethnic origin."
+    why: "We want to make sure that we address you in a manner is respectful and that feels authentic to you and your lived experience. It also aids our efforts to support diversity, equity, and inclusion. We have based this demographic section on work done by the HumetricsHSS (http://humetricshss.org/) project, which included studying industry best practices and surveying peers of various identities. We are continuing to work on and refine the choices and welcome your commentary and feedback—especially any observations you may have on how to improve these question-and-answer options for future applications."
+  - header: "Communication evaluation"
+    details-requested: "A selection of options about where you heard about DHRI."
+    why: "We want to know (approximately) what percentages of our applicants heard about the application from which source, in order to better evaluate our communication strategies and make sure, for future projects, that we know how to best communicate our application and any other information about the Institute."
+  - header: "Institutional/organizational affiliation and position"
+    details-requested: "Your job title, professional role, or the nature of your relationship with the local DH organization where you intend to run a future DHRI."
+    why: "Since we are looking to put together a diverse cross-section of humanities professionals, we want to make sure that we fully understand what your job entails at the relevant organization for the DHRI. You are asked to fill out a long answer text field with this information, so try to keep it longer than only your title."
+  - header: "Professional role"
+    details-requested: "Your current professional role, especially relating to community building, pedagogy, mentoring, research, technical support, or administration; or, a description of the role you would like to grow into using the skills learned at DHRI."
+    why: "The questions in this section are to make sure that we are drawing from a diverse range of professional experiences and from a similarly diverse range of organization or institutional types."
+  - header: "Benefit to your research"
+    details-requested: "Your research interests as well as a description of how your participation in DHRI will benefit your personal research and professional goals."
+    why: "We want to have a good sense of the kind of digital projects you might be interested in working on and how we can help you achieve those with your participation in the DHRI."
+  - header: "Institutional affiliation"
+    details-requested: "A description of the institutional need and/or interest for a week-long institute to promote foundational technical learning, and a description of your orientation towards that need and how you will be able to identify collaborators and lead participants through a Digital Humanities Research Institute in 2021-2022."
+    why: "We want to make sure that you have a community who is interested in and committed to supporting your efforts to run a local DHRI."
+  - header: "Group dynamics"
+    details-requested: "A description of a technical problem that you once ran into and how you overcame it, as well as what type of role you feel most comfortable taking on when working in a group."
+    why: "We ask those two questions to make sure that we gauge where you are standing in terms of collaborating in a larger group as well as what your current approach is to solving technical issues. The DHRI model is built on a particular pedagogical idea and in order for us to be able to evaluate whether our pedagogical model works, we want to see what your response is to this question in advance of participation in the DHRI."
+  - header: "Commitment to DHRI"
+    details-requested: "Commitment to all days of the DHRI in July 2021."
+    why: "DHRI participants are expected to commit to the full 8-day experience from July 6–9 and 12-15, 2021 and to actively participate in the in-person and self-guided activities during scheduled 60–90 minute blocks of time. If, for some reason, you have a scheduling conflict, we want to make sure we know about it as early as possible."
